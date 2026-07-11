@@ -17,7 +17,7 @@ $connPemasangan = getDbConnection('pemasangan');
 $connUmum = getDbConnection('umum');
 
 $paketArray = [];
-$resPaket = $connUmum->query("SELECT * FROM paket ORDER BY id_paket ASC");
+$resPaket = $connUmum->query("SELECT * FROM jaringan_paket ORDER BY id_paket ASC");
 if ($resPaket) {
     while ($rowPaket = $resPaket->fetch_assoc()) {
         $paketArray[$rowPaket['id_paket']] = $rowPaket;
@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_aktivasi'])) {
         exit;
     }
 
-    $stmt = $connPemasangan->prepare("UPDATE pemasangan SET userppp=?, passwordppp=?, vlan=?, paket=?, status=?, last_updated_by=? WHERE id=?");
+    $stmt = $connPemasangan->prepare("UPDATE pelanggan_instalasi SET userppp=?, passwordppp=?, vlan=?, paket=?, status=?, last_updated_by=? WHERE id=?");
     if ($stmt) {
         $stmt->bind_param("ssssssi", $userPpp, $passwordPpp, $vlan, $paket, $status, $lastUpdatedBy, $id);
         $stmt->execute();
@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_aktivasi'])) {
 
             // --- START WhatsApp Notification Integration ---
             // Fetch the updated customer data for the WhatsApp message
-            $stmtFetch = $connPemasangan->prepare("SELECT * FROM pemasangan WHERE id = ?");
+            $stmtFetch = $connPemasangan->prepare("SELECT * FROM pelanggan_instalasi WHERE id = ?");
             if ($stmtFetch) {
                 $stmtFetch->bind_param("i", $id);
                 $stmtFetch->execute();
@@ -173,7 +173,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_aktivasi'])) {
     exit;
 }
 
-$sql = "SELECT * FROM pemasangan WHERE status='belum diproses' ORDER BY tanggal DESC";
+$sql = "SELECT * FROM pelanggan_instalasi WHERE status='belum diproses' ORDER BY tanggal DESC";
 $result = $connPemasangan->query($sql);
 if (!$result) {
     error_log("Error fetching 'belum diproses' data: " . $connPemasangan->error);

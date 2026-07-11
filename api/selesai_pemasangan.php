@@ -43,7 +43,7 @@ try {
     // =====================================================
     // 1. UPDATE STATUS FINAL
     // =====================================================
-    $stmt_finish = $conn_pemasangan->prepare("UPDATE pemasangan SET status='selesai' WHERE id=?");
+    $stmt_finish = $conn_pemasangan->prepare("UPDATE pelanggan_instalasi SET status='selesai' WHERE id=?");
     $stmt_finish->bind_param("i", $id);
     if (!$stmt_finish->execute()) throw new Exception("Gagal update status database.");
     $stmt_finish->close();
@@ -54,7 +54,7 @@ try {
     $query_detail = "SELECT 
         pop AS nama_pop, nama, paket, alamat, userppp, passwordppp, vlan, 
         modem AS id_modem_pemasangan, teknisi, url_maps, ktp, telp, email, marketing 
-        FROM pemasangan WHERE id = ?";
+        FROM pelanggan_instalasi WHERE id = ?";
         
     $stmt_get = $conn_pemasangan->prepare($query_detail);
     $stmt_get->bind_param("i", $id);
@@ -73,7 +73,7 @@ try {
 
     // Cek Paket
     if ($paket) {
-        $stmt_paket = $conn_umum->prepare("SELECT nama_paket, kecepatan, harga FROM paket WHERE id_paket=?");
+        $stmt_paket = $conn_umum->prepare("SELECT nama_paket, kecepatan, harga FROM jaringan_paket WHERE id_paket=?");
         $stmt_paket->bind_param("i", $paket);
         $stmt_paket->execute();
         $res_paket = $stmt_paket->get_result()->fetch_assoc();
@@ -87,7 +87,7 @@ try {
 
     // Cek Modem
     if ($id_modem_pemasangan) {
-        $stmt_modem = $conn_umum->prepare("SELECT serial_number, model, merk, lokasi_penyimpanan FROM modem WHERE id_modem=?");
+        $stmt_modem = $conn_umum->prepare("SELECT serial_number, model, merk, lokasi_penyimpanan FROM jaringan_modem WHERE id_modem=?");
         $stmt_modem->bind_param("i", $id_modem_pemasangan);
         $stmt_modem->execute();
         $res_modem = $stmt_modem->get_result()->fetch_assoc();

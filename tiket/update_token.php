@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
@@ -50,7 +51,7 @@ $db_pass = "Admionkevin99";
 $db_name = "u272457353_umumdata";
 
 // Koneksi database
-$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
+$conn = getErpDbConnection();
 
 if ($conn->connect_error) {
     http_response_code(500);
@@ -66,7 +67,7 @@ $conn->set_charset('utf8mb4');
 // LANGKAH DEBUGGING: CHECK KEBERADAAN NAMA SEBELUM UPDATE
 // FIX: MENGGUNAKAN COLUMN USERNAME UNTUK PENCARIAN
 // =================================================================
-$check_sql = "SELECT COUNT(*) FROM karyawan WHERE LOWER(username)=LOWER(?)"; // <-- FIX: Menggunakan 'username'
+$check_sql = "SELECT COUNT(*) FROM hr_karyawan WHERE LOWER(username)=LOWER(?)"; // <-- FIX: Menggunakan 'username'
 $check_stmt = $conn->prepare($check_sql);
 $check_stmt->bind_param("s", $nama_karyawan); // $nama_karyawan sekarang adalah username
 $check_stmt->execute();
@@ -87,7 +88,7 @@ custom_log("Username ditemukan. Melanjutkan update...");
 
 
 // Update fcm_token di tabel karyawan menggunakan prepared statement
-$sql = "UPDATE karyawan SET fcm_token=? WHERE LOWER(username)=LOWER(?)"; // <-- FIX: Menggunakan 'username'
+$sql = "UPDATE hr_karyawan SET fcm_token=? WHERE LOWER(username)=LOWER(?)"; // <-- FIX: Menggunakan 'username'
 $stmt = $conn->prepare($sql);
 
 if ($stmt === false) {

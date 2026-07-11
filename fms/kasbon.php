@@ -27,16 +27,16 @@ if (in_array($divisi_login, $approver_divisi)) {
     // Jika user adalah approver, tampilkan semua kasbon
     $stmt = $conn_bbm->prepare("
         SELECT k.*, u.nama, u.divisi 
-        FROM kasbon k 
-        JOIN karyawan u ON k.id_karyawan = u.id 
+        FROM keu_kasbon k 
+        JOIN hr_karyawan u ON k.id_karyawan = u.id 
         ORDER BY k.tanggal_dibuat DESC
     ");
 } else {
     // Jika bukan, tampilkan hanya kasbon milik sendiri
     $stmt = $conn_bbm->prepare("
         SELECT k.*, u.nama, u.divisi 
-        FROM kasbon k 
-        JOIN karyawan u ON k.id_karyawan = u.id 
+        FROM keu_kasbon k 
+        JOIN hr_karyawan u ON k.id_karyawan = u.id 
         WHERE k.id_karyawan = ? 
         ORDER BY k.tanggal_dibuat DESC
     ");

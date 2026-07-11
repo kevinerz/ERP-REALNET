@@ -1,13 +1,5 @@
 <?php
-$servername = "localhost";
-$username   = "u272457353_kevinsamsung99";
-$password   = "Admionkevin99";
-$database   = "u272457353_umumdata";
-
-$conn = new mysqli($servername, $username, $password, $database);
+// Dimigrasikan ke koneksi terpusat (dulu konek langsung ke u272457353_umumdata)
+require_once __DIR__ . '/../../config/database.php';
+$conn = getErpDbConnection();
 $conn->set_charset("utf8mb4");
-
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
-?>

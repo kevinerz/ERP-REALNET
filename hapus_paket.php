@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -18,7 +19,7 @@ if (isset($_GET["id"])) {
     $id_paket = mysqli_real_escape_string($conn, $_GET["id"]);
 
     // Query untuk menghapus data
-    $sql = "DELETE FROM paket WHERE id_paket=?";
+    $sql = "DELETE FROM jaringan_paket WHERE id_paket=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $id_paket);
 

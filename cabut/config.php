@@ -1,4 +1,6 @@
 <?php
+// CATATAN: Database `u272457353_cabut` BELUM dikonsolidasi ke erprealnet
+// (belum ada skema/dump-nya). File ini sengaja TIDAK diubah.
 // config.php
 
 $DB_HOST = 'localhost'; // biasanya 'localhost', kalau pakai hosting cek dokumentasi

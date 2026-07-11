@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($username) || empty($password)) {
         $error_message = 'Username dan Password tidak boleh kosong.';
     } else {
-        $stmt = $conn_bbm->prepare("SELECT id, nama, username, password, divisi FROM karyawan WHERE username = ?");
+        $stmt = $conn_bbm->prepare("SELECT id, nama, username, password, divisi FROM hr_karyawan WHERE username = ?");
         $stmt->bind_param("s", $username);
         $stmt->execute();
         $result = $stmt->get_result();

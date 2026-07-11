@@ -244,13 +244,13 @@ try {
     $connMarketing  = db_connect(DB_HOST, DB_USER_MARKETING,  DB_PASS_MARKETING,  DB_NAME_MARKETING,  "marketing");
 
     // POP
-    $resPop = $connPemasangan->query("SELECT id, name FROM pop ORDER BY name ASC");
+    $resPop = $connPemasangan->query("SELECT id, name FROM jaringan_pop ORDER BY name ASC");
     if ($resPop) {
         while ($row = $resPop->fetch_assoc()) $pops[] = $row;
     }
 
     // Paket
-    $resPaket = $connUmumData->query("SELECT id_paket, nama_paket, harga, kecepatan FROM paket ORDER BY nama_paket ASC");
+    $resPaket = $connUmumData->query("SELECT id_paket, nama_paket, harga, kecepatan FROM jaringan_paket ORDER BY nama_paket ASC");
     if ($resPaket) {
         while ($row = $resPaket->fetch_assoc()) $pakets[] = $row;
     }
@@ -372,7 +372,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $connPemasangan && $connUmumData &&
 
     $namaPop = '';
     if (empty($alertMessage)) {
-        $stmt = $connPemasangan->prepare("SELECT name FROM pop WHERE id = ?");
+        $stmt = $connPemasangan->prepare("SELECT name FROM jaringan_pop WHERE id = ?");
         if ($stmt) {
             $stmt->bind_param("i", $popId);
             $stmt->execute();
@@ -395,7 +395,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $connPemasangan && $connUmumData &&
             $vlan = ''; $sn = ''; $odp = ''; $teknisi = '';
 
             $stmt = $connPemasangan->prepare("
-                INSERT INTO pemasangan
+                INSERT INTO pelanggan_instalasi
                     (nama, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing, tanggal, status)
                 VALUES
                     (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -420,7 +420,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $connPemasangan && $connUmumData &&
 
     if (empty($alertMessage) && $pemasanganId) {
         $namaPaket = '-'; $hargaPaket = 0; $kecepatan = '-';
-        $stmtP = $connUmumData->prepare("SELECT nama_paket, harga, kecepatan FROM paket WHERE id_paket = ?");
+        $stmtP = $connUmumData->prepare("SELECT nama_paket, harga, kecepatan FROM jaringan_paket WHERE id_paket = ?");
         if ($stmtP) {
             $stmtP->bind_param("i", $idPaket);
             $stmtP->execute();

@@ -6,7 +6,7 @@ hanyaAdmin();
 require_once "core/db.php";
 
 $id = $_GET['id'];
-$conn->query("DELETE FROM modem WHERE id_modem=$id");
+$conn->query("DELETE FROM jaringan_modem WHERE id_modem=$id");
 
 header("Location: index.php");
 exit;

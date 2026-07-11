@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_tiket_helpdesk";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Periksa koneksi
 if ($conn->connect_error) {
@@ -18,7 +19,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $id = $_GET['id'];
 
     // Query untuk menghapus tiket berdasarkan ID
-    $query = "DELETE FROM tiket WHERE id = ?";
+    $query = "DELETE FROM tiket_gangguan WHERE id = ?";
     
     // Menggunakan prepared statement untuk menghindari SQL injection
     if ($stmt = $conn->prepare($query)) {

@@ -1,82 +1,34 @@
 <?php
 /**
  * db_config.php
- * File Konfigurasi Database dan API
- * Versi Final & Robust
+ * Dimigrasikan: dulu 'pemasangan' dan 'umum' adalah 2 database berbeda
+ * dengan kredensial masing-masing. Sekarang keduanya sudah digabung jadi
+ * satu database `erprealnet`, jadi getDbConnection() mengembalikan koneksi
+ * yang sama untuk kedua tipe. Nama & signature fungsi dipertahankan supaya
+ * pemanggil lama (prosesaktivasi.php, selesai_aktivasi.php,
+ * aktivasi_pelanggan1.php) tidak perlu diubah.
  */
 
-// ===========================================
-// KONFIGURASI DATABASE
-// ===========================================
-
-// --- Konfigurasi DB Pemasangan ---
-define('DB_HOST_PEMASANGAN', 'localhost');
-define('DB_USER_PEMASANGAN', 'u272457353_kevinsamsung9');
-define('DB_PASS_PEMASANGAN', 'Admionkevin99');
-define('DB_NAME_PEMASANGAN', 'u272457353_db_pemasangan');
-
-// --- Konfigurasi DB Umum ---
-define('DB_HOST_UMUM', 'localhost');
-define('DB_USER_UMUM', 'u272457353_kevinsamsung99');
-define('DB_PASS_UMUM', 'Admionkevin99');
-define('DB_NAME_UMUM', 'u272457353_umumdata');
+require_once __DIR__ . '/config/database.php';
 
 // ===========================================
 // KONFIGURASI API (WhatsApp Notifikasi)
 // ===========================================
 define('STARSENDER_API_URL', 'https://api.starsender.online/api/send');
-define('STARSENDER_API_TOKEN', 'e9c50247-3b8d-4cd8-924a-024a4d2b3124');
-
-// ===========================================
-// FUNGSI KONEKSI DATABASE
-// ===========================================
+define('STARSENDER_API_TOKEN', env('WA_API_TOKEN_CUSTOMER', ''));
 
 /**
  * Mendapatkan koneksi ke database berdasarkan tipe.
- * Menggunakan die() dengan pesan user-friendly saat koneksi gagal.
+ * 'pemasangan' dan 'umum' sekarang menunjuk ke database yang sama
+ * (erprealnet), dipertahankan sebagai parameter untuk kompatibilitas kode lama.
  *
  * @param string $dbType 'pemasangan' atau 'umum'
- * @return mysqli|null Objek koneksi mysqli
+ * @return mysqli|null
  */
 function getDbConnection($dbType) {
-    
-    $host = '';
-    $user = '';
-    $pass = '';
-    $name = '';
-    $dbNameDisplay = '';
-
-    if ($dbType === 'pemasangan') {
-        $host = DB_HOST_PEMASANGAN;
-        $user = DB_USER_PEMASANGAN;
-        $pass = DB_PASS_PEMASANGAN;
-        $name = DB_NAME_PEMASANGAN;
-        $dbNameDisplay = 'Pemasangan';
-    } elseif ($dbType === 'umum') {
-        $host = DB_HOST_UMUM;
-        $user = DB_USER_UMUM;
-        $pass = DB_PASS_UMUM;
-        $name = DB_NAME_UMUM;
-        $dbNameDisplay = 'Umum';
-    } else {
-        // Log error developer jika tipe DB tidak valid
-        error_log("Invalid database type specified: $dbType");
-        return null;
+    if ($dbType === 'pemasangan' || $dbType === 'umum') {
+        return getErpDbConnection();
     }
-
-    $conn = new mysqli($host, $user, $pass, $name);
-
-    if ($conn->connect_error) {
-        // Logging error di server log (lebih aman di production)
-        error_log("Database connection failed for $dbNameDisplay: " . $conn->connect_error);
-        
-        // Pesan yang ramah pengguna
-        die("Koneksi database **$dbNameDisplay** gagal. Mohon hubungi Administrator."); 
-    }
-    
-    // Set character set agar mendukung semua karakter, termasuk emoji
-    $conn->set_charset("utf8mb4"); 
-    
-    return $conn;
+    error_log("Invalid database type specified: $dbType");
+    return null;
 }
-?>

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 $dashboard_divisi = ['Admin', 'IT', 'Manager', 'SPV Teknis', 'Finance'];
@@ -14,7 +15,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -22,7 +23,7 @@ if ($conn->connect_error) {
 }
 
 // Menampilkan data ODP
-$sql = "SELECT * FROM ODP";
+$sql = "SELECT * FROM jaringan_odp";
 $result = $conn->query($sql);
 
 // Include the navbar

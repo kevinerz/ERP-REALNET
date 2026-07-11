@@ -18,8 +18,8 @@ $nama     = $_SESSION['nama'];
 // Ambil SEMUA kasbon untuk SIAPAPUN yang login
 $stmt = $conn->prepare("
     SELECT k.*, u.nama, u.divisi 
-    FROM kasbon k 
-    JOIN karyawan u ON k.id_karyawan = u.id 
+    FROM keu_kasbon k 
+    JOIN hr_karyawan u ON k.id_karyawan = u.id 
     ORDER BY k.tanggal_dibuat DESC
 ");
 $stmt->execute();

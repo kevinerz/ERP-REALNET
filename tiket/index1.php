@@ -31,7 +31,7 @@ try {
 // Ambil data POP
 $pops = [];
 if ($connPemasangan) {
-    $queryPop = "SELECT id, name FROM pop ORDER BY name ASC";
+    $queryPop = "SELECT id, name FROM jaringan_pop ORDER BY name ASC";
     $resultPop = $connPemasangan->query($queryPop);
     if ($resultPop) {
         while ($row = $resultPop->fetch_assoc()) {
@@ -50,7 +50,7 @@ if ($connPemasangan) {
 // Ambil data paket
 $pakets = [];
 if ($connUmumData) {
-    $queryPaket = "SELECT id_paket, nama_paket, harga, kecepatan FROM paket ORDER BY nama_paket ASC";
+    $queryPaket = "SELECT id_paket, nama_paket, harga, kecepatan FROM jaringan_paket ORDER BY nama_paket ASC";
     $resultPaket = $connUmumData->query($queryPaket);
     if ($resultPaket) {
         while ($row = $resultPaket->fetch_assoc()) {
@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $namaPop = null;
     if (empty($alertMessage)) {
         // Get POP name
-        $stmtPop = $connPemasangan->prepare("SELECT name FROM pop WHERE id = ?");
+        $stmtPop = $connPemasangan->prepare("SELECT name FROM jaringan_pop WHERE id = ?");
         $stmtPop->bind_param("i", $popId);
         $stmtPop->execute();
         $resPop = $stmtPop->get_result()->fetch_assoc();
@@ -147,7 +147,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($alertMessage)) {
         // Insert into pemasangan table
         $stmt = $connPemasangan->prepare("
-            INSERT INTO pemasangan
+            INSERT INTO pelanggan_instalasi
                 (nama, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing)
             VALUES
                 (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -180,7 +180,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (empty($alertMessage) && $pemasanganId) {
         // Query package details
-        $stmtP = $connUmumData->prepare("SELECT nama_paket, harga, kecepatan FROM paket WHERE id_paket = ?");
+        $stmtP = $connUmumData->prepare("SELECT nama_paket, harga, kecepatan FROM jaringan_paket WHERE id_paket = ?");
         $stmtP->bind_param("i", $idPaket);
         $stmtP->execute();
         $det = $stmtP->get_result()->fetch_assoc();

@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
         }
 
         $stmt = $conn_utama->prepare("
-            INSERT INTO tiket 
+            INSERT INTO tiket_gangguan 
             (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat)
             VALUES (?, ?, ?, ?, ?, ?, ?)
         ");

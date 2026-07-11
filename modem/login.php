@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = $_POST['username'];
     $pass = $_POST['password'];
 
-    $q = $conn->prepare("SELECT * FROM karyawan WHERE username=? AND password=? LIMIT 1");
+    $q = $conn->prepare("SELECT * FROM hr_karyawan WHERE username=? AND password=? LIMIT 1");
     $q->bind_param("ss", $user, $pass);
     $q->execute();
     $res = $q->get_result();

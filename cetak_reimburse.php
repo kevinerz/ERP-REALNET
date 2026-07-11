@@ -1,8 +1,9 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 require_once 'libraries/dompdf/autoload.inc.php';
 use Dompdf\Dompdf;
 
-$conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
 // Ambil filter periode
@@ -22,7 +23,7 @@ if ($tanggal_awal && $tanggal_akhir) {
 $where = !empty($where_conditions) ? implode(' AND ', $where_conditions) : '1';
 
 $query = "SELECT id, nama_pengaju, tanggal, tujuan, liter, total, catatan 
-          FROM reimburse_bbm 
+          FROM keu_reimburse_bbm 
           WHERE $where 
           ORDER BY nama_pengaju ASC, tanggal DESC";
 $data = $conn->query($query);

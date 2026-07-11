@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -25,7 +26,7 @@ if (isset($_GET["edit"])) {
     $id_paket = mysqli_real_escape_string($conn, $_GET["edit"]);
 
     // Mengambil data paket berdasarkan ID
-    $sql_select = "SELECT id_paket, nama_paket, kecepatan, deskripsi, harga FROM paket WHERE id_paket = ?";
+    $sql_select = "SELECT id_paket, nama_paket, kecepatan, deskripsi, harga FROM jaringan_paket WHERE id_paket = ?";
     $stmt_select = $conn->prepare($sql_select);
     $stmt_select->bind_param("i", $id_paket);
     $stmt_select->execute();
@@ -51,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["id_paket_edit"])) {
     $deskripsi_edit = mysqli_real_escape_string($conn, $_POST["deskripsi"]);
     $harga_edit = mysqli_real_escape_string($conn, $_POST["harga"]);
 
-    $sql_update = "UPDATE paket SET nama_paket=?, kecepatan=?, deskripsi=?, harga=? WHERE id_paket=?";
+    $sql_update = "UPDATE jaringan_paket SET nama_paket=?, kecepatan=?, deskripsi=?, harga=? WHERE id_paket=?";
     $stmt_update = $conn->prepare($sql_update);
     $stmt_update->bind_param("sssii", $nama_paket_edit, $kecepatan_edit, $deskripsi_edit, $harga_edit, $id_paket_edit);
 

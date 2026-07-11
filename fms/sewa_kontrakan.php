@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $keterangan      = $_POST['keterangan'];
 
     // Gunakan prepared statement untuk keamanan
-    $stmt = $conn->prepare("INSERT INTO pembayaran_sewa (nama_kontrakan, lokasi, alamat, periode_sewa, tanggal_bayar, biaya_per_bulan, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO keu_pembayaran_sewa (nama_kontrakan, lokasi, alamat, periode_sewa, tanggal_bayar, biaya_per_bulan, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sssssds", $nama_kontrakan, $lokasi, $alamat, $periode_sewa, $tanggal_bayar, $biaya_per_bulan, $keterangan);
 
     if ($stmt->execute()) {
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Ambil daftar nama kontrakan yang sudah ada untuk saran input
 $kontrakan_list = [];
-$query_kontrakan = $conn->query("SELECT DISTINCT nama_kontrakan FROM pembayaran_sewa ORDER BY nama_kontrakan ASC");
+$query_kontrakan = $conn->query("SELECT DISTINCT nama_kontrakan FROM keu_pembayaran_sewa ORDER BY nama_kontrakan ASC");
 if ($query_kontrakan) {
     while($k_row = $query_kontrakan->fetch_assoc()) {
         $kontrakan_list[] = $k_row['nama_kontrakan'];
@@ -110,7 +110,7 @@ if ($query_kontrakan) {
             <tbody>
                 <?php
                 // Query untuk mengambil data riwayat
-                $result = $conn->query("SELECT * FROM pembayaran_sewa ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
+                $result = $conn->query("SELECT * FROM keu_pembayaran_sewa ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
                 $no = 1;
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {

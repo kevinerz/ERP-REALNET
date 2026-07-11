@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $new_status = 'ditolak';
         $catatan_text = "\nDitolak oleh $divisi: $catatan";
     }
-    $stmt = $conn->prepare("UPDATE kasbon SET status = ?, catatan = CONCAT(IFNULL(catatan,''), ?) WHERE id = ?");
+    $stmt = $conn->prepare("UPDATE keu_kasbon SET status = ?, catatan = CONCAT(IFNULL(catatan,''), ?) WHERE id = ?");
     $stmt->bind_param("ssi", $new_status, $catatan_text, $kasbon_id);
     $stmt->execute();
     echo "<script>alert('Kasbon diperbarui.'); window.location='approval_kasbon.php';</script>";
@@ -50,8 +50,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // Ambil data kasbon
 $stmt = $conn->prepare("
     SELECT k.*, u.nama, u.divisi
-    FROM kasbon k
-    JOIN karyawan u ON k.id_karyawan = u.id
+    FROM keu_kasbon k
+    JOIN hr_karyawan u ON k.id_karyawan = u.id
     WHERE k.status = ?
     ORDER BY k.tanggal_dibuat DESC
 ");

@@ -15,7 +15,7 @@ $paket_in_clause = implode(',', $id_paket_valid);
 
 // Ambil daftar SEMUA PIC (marketing) yang ada untuk mengisi dropdown
 $daftar_pic = [];
-$query_pic = $conn_pasang->query("SELECT DISTINCT marketing FROM pemasangan WHERE marketing IS NOT NULL AND marketing != '' ORDER BY marketing ASC");
+$query_pic = $conn_pasang->query("SELECT DISTINCT marketing FROM pelanggan_instalasi WHERE marketing IS NOT NULL AND marketing != '' ORDER BY marketing ASC");
 while ($pic_row = $query_pic->fetch_assoc()) {
     $daftar_pic[] = $pic_row['marketing'];
 }
@@ -58,7 +58,7 @@ $paket_filter = isset($_GET['paket_filter']) ? (int)$_GET['paket_filter'] : 0;
                 <option value="0">-- Tampilkan Semua Paket Khusus --</option>
                 <?php 
                     $daftar_paket_filter = [];
-                    $query_paket_filter = $conn_bbm->query("SELECT id_paket, nama_paket FROM paket WHERE id_paket IN ($paket_in_clause) ORDER BY nama_paket ASC");
+                    $query_paket_filter = $conn_bbm->query("SELECT id_paket, nama_paket FROM jaringan_paket WHERE id_paket IN ($paket_in_clause) ORDER BY nama_paket ASC");
                     while($paket_row_filter = $query_paket_filter->fetch_assoc()){
                         $daftar_paket_filter[] = $paket_row_filter;
                     }
@@ -95,7 +95,7 @@ $paket_filter = isset($_GET['paket_filter']) ? (int)$_GET['paket_filter'] : 0;
                 // Logika query untuk tabel ini tidak berubah, kita tampilkan saja di sini agar lengkap
                 $where = "status IN ('selesai','on') AND paket IN ($paket_in_clause)";
                 if ($paket_filter > 0) { $where .= " AND paket = " . $paket_filter; }
-                $sql = "SELECT * FROM pemasangan WHERE $where ORDER BY tanggal DESC";
+                $sql = "SELECT * FROM pelanggan_instalasi WHERE $where ORDER BY tanggal DESC";
                 $result = $conn_pasang->query($sql);
                 $paket_map = [];
                 foreach ($daftar_paket_filter as $paket) { $paket_map[$paket['id_paket']] = $paket['nama_paket']; }

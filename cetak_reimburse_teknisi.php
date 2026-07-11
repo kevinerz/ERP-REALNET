@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
@@ -15,11 +16,11 @@ $host_pemasangan = "localhost";
 $user_pemasangan = "u272457353_kevinsamsung9";
 $pass_pemasangan = "Admionkevin99";
 $db_pemasangan = "u272457353_db_pemasangan";
-$conn = new mysqli($host_pemasangan, $user_pemasangan, $pass_pemasangan, $db_pemasangan);
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
 // Ambil data pemasangan
-$stmt = $conn->prepare("SELECT * FROM pemasangan WHERE id=?");
+$stmt = $conn->prepare("SELECT * FROM pelanggan_instalasi WHERE id=?");
 $stmt->bind_param("i", $id);
 $stmt->execute();
 $result = $stmt->get_result();
@@ -49,12 +50,12 @@ $host_umum = "localhost";
 $user_umum = "u272457353_kevinsamsung99";
 $pass_umum = "Admionkevin99";
 $db_umum   = "u272457353_umumdata";
-$conn_umum = new mysqli($host_umum, $user_umum, $pass_umum, $db_umum);
+$conn_umum = getErpDbConnection();
 
 $paket_label = $row['paket'];
 if (!$conn_umum->connect_error) {
     $paket_id = intval($row['paket']);
-    $rp = $conn_umum->query("SELECT * FROM paket WHERE id_paket='$paket_id' LIMIT 1");
+    $rp = $conn_umum->query("SELECT * FROM jaringan_paket WHERE id_paket='$paket_id' LIMIT 1");
     if ($paket = $rp->fetch_assoc()) {
         $paket_label = htmlspecialchars($paket['nama_paket']) . ' (' . htmlspecialchars($paket['kecepatan']) . ') - Rp ' . number_format($paket['harga'],0,',','.');
     }
@@ -64,7 +65,7 @@ if (!$conn_umum->connect_error) {
 $serial_number_modem = '-';
 if (!$conn_umum->connect_error) {
     $modem_id = intval($row['modem']);
-    $modem_query = $conn_umum->query("SELECT serial_number FROM modem WHERE id_modem='$modem_id' LIMIT 1");
+    $modem_query = $conn_umum->query("SELECT serial_number FROM jaringan_modem WHERE id_modem='$modem_id' LIMIT 1");
     if ($modem_data = $modem_query->fetch_assoc()) {
         $serial_number_modem = htmlspecialchars($modem_data['serial_number']);
     }

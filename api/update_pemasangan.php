@@ -63,7 +63,7 @@ try {
     // 1. Ambil info lama (untuk cek ganti modem & nama pelanggan)
     $stmt_old = $conn_pemasangan->prepare("
         SELECT modem, dropcore, nama 
-        FROM pemasangan 
+        FROM pelanggan_instalasi 
         WHERE id = ?
         LIMIT 1
     ");
@@ -82,7 +82,7 @@ try {
 
     // 2. Update Data Teknis di Tabel Pemasangan
     $stmt_update = $conn_pemasangan->prepare("
-        UPDATE pemasangan 
+        UPDATE pelanggan_instalasi 
         SET 
             odp      = ?,
             vlan     = ?,
@@ -105,7 +105,7 @@ try {
     //    Catatan: modem yang dipilih dari form status-nya 'dibawa',
     //    jadi jangan batasi hanya 'tersedia' saja.
     $stmt_modem_new = $conn_umum->prepare("
-        UPDATE modem 
+        UPDATE jaringan_modem 
         SET 
             status = 'dipasang',
             lokasi_penyimpanan = ?
@@ -128,7 +128,7 @@ try {
     // 4. Jika ganti modem, kembalikan modem lama jadi 'tersedia'
     if ($old_modem_id > 0 && $old_modem_id != $modem_id) {
         $stmt_reset = $conn_umum->prepare("
-            UPDATE modem 
+            UPDATE jaringan_modem 
             SET status='tersedia', lokasi_penyimpanan='' 
             WHERE id_modem = ?
         ");
@@ -147,7 +147,7 @@ try {
     /*
     // Dropcore baru
     $stmt_dc_new = $conn_umum->prepare("
-        UPDATE kabel_dropcore 
+        UPDATE jaringan_kabel_dropcore 
         SET status='terpakai', lokasi_penyimpanan=? 
         WHERE id_kabel_dropcore = ? AND status='tersedia'
     ");
@@ -160,7 +160,7 @@ try {
     // Dropcore lama bila beda
     if ($old_dropcore_id > 0 && $old_dropcore_id != $dropcore_id) {
         $stmt_dc_reset = $conn_umum->prepare("
-            UPDATE kabel_dropcore 
+            UPDATE jaringan_kabel_dropcore 
             SET status='tersedia', lokasi_penyimpanan='' 
             WHERE id_kabel_dropcore = ?
         ");

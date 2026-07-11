@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // jadwal_libur_today.php
 header('Content-Type: application/json; charset=utf-8');
 
@@ -9,7 +10,7 @@ define('DB_USER_UMUMDATA', 'u272457353_kevinsamsung99');
 define('DB_PASS_UMUMDATA', 'Admionkevin99');
 define('DB_NAME_UMUMDATA', 'u272457353_umumdata');
 
-$mysqli = new mysqli(DB_HOST_UMUMDATA, DB_USER_UMUMDATA, DB_PASS_UMUMDATA, DB_NAME_UMUMDATA);
+$mysqli = getErpDbConnection();
 if ($mysqli->connect_error) {
     http_response_code(500);
     echo json_encode([
@@ -43,8 +44,8 @@ $tanggal = date('Y-m-d');
 // Ambil daftar karyawan libur hari ini
 $sql = "
     SELECT k.nama, k.divisi, k.jabatan
-    FROM jadwal_libur jl
-    JOIN karyawan k ON k.id = jl.id_karyawan
+    FROM hr_jadwal_libur jl
+    JOIN hr_karyawan k ON k.id = jl.id_karyawan
     WHERE jl.hari = ?
     ORDER BY k.nama ASC
 ";

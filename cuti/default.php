@@ -9,7 +9,7 @@ $success = null;
 
 // Ambil SEMUA data karyawan
 $karyawan = $pdo->query("SELECT id, nama, nik, divisi, jabatan 
-                         FROM karyawan 
+                         FROM hr_karyawan 
                          ORDER BY nama ASC")->fetchAll();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (!$errors) {
-        $stmt = $pdo->prepare("SELECT id FROM karyawan WHERE id = ? LIMIT 1");
+        $stmt = $pdo->prepare("SELECT id FROM hr_karyawan WHERE id = ? LIMIT 1");
         $stmt->execute([$id_karyawan]);
         if (!$stmt->fetch()) $errors[] = "Karyawan tidak ditemukan.";
     }
@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (!$errors) {
         $stmt = $pdo->prepare("
-            INSERT INTO cuti
+            INSERT INTO hr_cuti
             (id_karyawan, jenis_cuti, tanggal_mulai, tanggal_selesai, jumlah_hari,
              alasan, alamat_selama_cuti, kontak_darurat, lampiran, status)
             VALUES

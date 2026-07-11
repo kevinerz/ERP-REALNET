@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // File: tambah_karyawan.php (UPDATED: GAJI POKOK + TUNJANGAN)
 
 ini_set('display_errors', 1);
@@ -18,7 +19,7 @@ $error_message   = '';
 // =============================
 // KONEKSI
 // =============================
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . htmlspecialchars($conn->connect_error, ENT_QUOTES, 'UTF-8'));
 }
@@ -128,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_add'])) {
         // SIMPAN KE DATABASE (SESUIKAN KOLOM BARU)
         // =============================
         $sql = "
-            INSERT INTO karyawan
+            INSERT INTO hr_karyawan
             (
                 nama,
                 nik,

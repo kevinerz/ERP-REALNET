@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi Awal
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
@@ -20,7 +21,7 @@ $connUmumData = null; // Initialize to null
 
 try {
     // Koneksi database pemasangan
-    $connPemasangan = new mysqli("localhost", "u272457353_kevinsamsung9", "Admionkevin99", "u272457353_db_pemasangan");
+    $connPemasangan = getErpDbConnection();
     if ($connPemasangan->connect_error) {
         // Log the error but don't die immediately.
         // The script can still try to display the form even if DB connection fails.
@@ -28,7 +29,7 @@ try {
     }
 
     // Koneksi database umumdata
-    $connUmumData = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+    $connUmumData = getErpDbConnection();
     if ($connUmumData->connect_error) {
         throw new Exception("Koneksi ke database umumdata gagal: " . $connUmumData->connect_error);
     }
@@ -46,7 +47,7 @@ try {
 // Ambil data POP
 $pops = [];
 if ($connPemasangan) { // <-- ADD THIS CHECK
-    $queryPop = "SELECT id, name FROM pop ORDER BY name ASC";
+    $queryPop = "SELECT id, name FROM jaringan_pop ORDER BY name ASC";
     $resultPop = $connPemasangan->query($queryPop);
     if ($resultPop) {
         while ($row = $resultPop->fetch_assoc()) {
@@ -66,7 +67,7 @@ if ($connPemasangan) { // <-- ADD THIS CHECK
 // Ambil data paket
 $pakets = [];
 if ($connUmumData) { // <-- ADD THIS CHECK
-    $queryPaket = "SELECT id_paket, nama_paket, harga, kecepatan FROM paket ORDER BY nama_paket ASC";
+    $queryPaket = "SELECT id_paket, nama_paket, harga, kecepatan FROM jaringan_paket ORDER BY nama_paket ASC";
     $resultPaket = $connUmumData->query($queryPaket);
     if ($resultPaket) {
         while ($row = $resultPaket->fetch_assoc()) {
@@ -147,7 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $namaPop = null;
     if (empty($alertMessage)) {
         // Ambil nama POP (tetap sama)
-        $stmtPop = $connPemasangan->prepare("SELECT name FROM pop WHERE id = ?");
+        $stmtPop = $connPemasangan->prepare("SELECT name FROM jaringan_pop WHERE id = ?");
         $stmtPop->bind_param("i", $popId);
         $stmtPop->execute();
         $resPop = $stmtPop->get_result()->fetch_assoc();
@@ -162,7 +163,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($alertMessage)) {
         // Insert ke tabel pemasangan (tetap sama)
         $stmt = $connPemasangan->prepare("
-            INSERT INTO pemasangan
+            INSERT INTO pelanggan_instalasi
                 (nama, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing)
             VALUES
                 (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -193,7 +194,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (empty($alertMessage)) {
         // Query detail paket (tetap sama)
-        $stmtP = $connUmumData->prepare("SELECT nama_paket, harga, kecepatan FROM paket WHERE id_paket = ?");
+        $stmtP = $connUmumData->prepare("SELECT nama_paket, harga, kecepatan FROM jaringan_paket WHERE id_paket = ?");
         $stmtP->bind_param("i", $idPaket);
         $stmtP->execute();
         $det = $stmtP->get_result()->fetch_assoc();

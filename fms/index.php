@@ -13,8 +13,8 @@ date_default_timezone_set('Asia/Jakarta');
 // 1. Ambil Ringkasan Total (Pemasukan, Pengeluaran, Saldo)
 $sql_summary = "
     SELECT 
-        (SELECT SUM(jumlah) FROM pemasukan) as total_pemasukan,
-        (SELECT SUM(jumlah) FROM pengeluaran) as total_pengeluaran
+        (SELECT SUM(jumlah) FROM keu_pemasukan) as total_pemasukan,
+        (SELECT SUM(jumlah) FROM keu_pengeluaran) as total_pengeluaran
 ";
 $data = $conn->query($sql_summary)->fetch_assoc();
 
@@ -34,8 +34,8 @@ for ($i = 1; $i <= 12; $i++) {
     $m = str_pad($i, 2, "0", STR_PAD_LEFT);
     $y = date('Y');
     
-    $res_in = $conn->query("SELECT SUM(jumlah) as total FROM pemasukan WHERE tanggal LIKE '$y-$m-%'")->fetch_assoc();
-    $res_out = $conn->query("SELECT SUM(jumlah) as total FROM pengeluaran WHERE tanggal LIKE '$y-$m-%'")->fetch_assoc();
+    $res_in = $conn->query("SELECT SUM(jumlah) as total FROM keu_pemasukan WHERE tanggal LIKE '$y-$m-%'")->fetch_assoc();
+    $res_out = $conn->query("SELECT SUM(jumlah) as total FROM keu_pengeluaran WHERE tanggal LIKE '$y-$m-%'")->fetch_assoc();
     
     $chart_pemasukan[] = $res_in['total'] ?? 0;
     $chart_pengeluaran[] = $res_out['total'] ?? 0;

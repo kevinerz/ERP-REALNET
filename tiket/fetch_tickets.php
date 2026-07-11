@@ -1,8 +1,9 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // File: fetch_tickets.php
 header('Content-Type: application/json');
 
-$db = new mysqli("localhost", "u272457353_kevinsamsung", "Admionkevin99", "u272457353_tiket_helpdesk");
+$db = getErpDbConnection();
 if ($db->connect_error) {
     echo json_encode([]);
     exit;

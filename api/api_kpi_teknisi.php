@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // Set header untuk JSON dan izinkan akses lintas domain
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
@@ -26,19 +27,19 @@ $pass_tiket = 'Admionkevin99';
 $db_tiket   = 'u272457353_tiket_helpdesk';
 
 // Koneksi
-$conn_umum = @new mysqli($host, $user_umum, $pass_umum, $db_umum);
+$conn_umum = @getErpDbConnection();
 if ($conn_umum->connect_error) {
     echo json_encode(['status' => 'error', 'message' => 'DB_ERROR: Koneksi Umum Gagal.']);
     exit();
 }
 
-$conn_pasang = @new mysqli($host, $user_pasang, $pass_pasang, $db_pasang);
+$conn_pasang = @getErpDbConnection();
 if ($conn_pasang->connect_error) {
     echo json_encode(['status' => 'error', 'message' => 'DB_ERROR: Koneksi Pemasangan Gagal.']);
     exit();
 }
 
-$conn_tiket = @new mysqli($host, $user_tiket, $pass_tiket, $db_tiket);
+$conn_tiket = @getErpDbConnection();
 if ($conn_tiket->connect_error) {
     echo json_encode(['status' => 'error', 'message' => 'DB_ERROR: Koneksi Tiket Gagal.']);
     exit();
@@ -77,7 +78,7 @@ $bulan = str_pad((int)$bulan, 2, '0', STR_PAD_LEFT);
 $username_safe = $conn_umum->real_escape_string(trim($username_input));
 
 $sql_user = "SELECT id, nama, username, gaji, jabatan, avatar 
-             FROM karyawan 
+             FROM hr_karyawan 
              WHERE username = '$username_safe' 
              LIMIT 1";
 $karyawan = $conn_umum->query($sql_user)->fetch_assoc();
@@ -108,7 +109,7 @@ $safe_user_pasang = $conn_pasang->real_escape_string($username_safe);
 
 // 1. DATA KASBON (Filter by ID)
 $q1 = "SELECT SUM(jumlah) as val 
-       FROM kasbon 
+       FROM keu_kasbon 
        WHERE id_karyawan = '$id_teknisi' 
          AND MONTH(tanggal) = '$bulan' 
          AND YEAR(tanggal) = '$tahun' 
@@ -117,7 +118,7 @@ $d_kasbon = $conn_umum->query($q1)->fetch_assoc();
 
 // 2. DATA BBM (Filter by NAMA LENGKAP)
 $q2 = "SELECT SUM(liter) as vol, SUM(total) as uang 
-       FROM reimburse_bbm 
+       FROM keu_reimburse_bbm 
        WHERE nama_pengaju LIKE '%$safe_nama_umum%' 
          AND MONTH(tanggal) = '$bulan' 
          AND YEAR(tanggal) = '$tahun'";
@@ -126,7 +127,7 @@ $d_bbm = $conn_umum->query($q2)->fetch_assoc();
 // 3. DATA PEMASANGAN (Filter by USERNAME)
 $q3 = "SELECT COUNT(*) as total, 
               SUM(CASE WHEN status IN ('Done','Selesai','Finished','Sukses') THEN 1 ELSE 0 END) as done 
-       FROM pemasangan 
+       FROM pelanggan_instalasi 
        WHERE teknisi LIKE '%$safe_user_pasang%' 
          AND MONTH(tanggal) = '$bulan' 
          AND YEAR(tanggal) = '$tahun'";
@@ -135,7 +136,7 @@ $d_pasang = $conn_pasang->query($q3)->fetch_assoc();
 // 4. DATA TIKET (Filter by NAMA LENGKAP)
 $q4 = "SELECT COUNT(*) as total, 
               SUM(CASE WHEN status IN ('Closed','Selesai','Close','Done') THEN 1 ELSE 0 END) as done 
-       FROM tiket 
+       FROM tiket_gangguan 
        WHERE teknisi LIKE '%$safe_nama_tiket%' 
          AND MONTH(tanggal_dibuat) = '$bulan' 
          AND YEAR(tanggal_dibuat) = '$tahun'";
@@ -145,7 +146,7 @@ $d_tiket = $conn_tiket->query($q4)->fetch_assoc();
 
 // A. Rincian Pemasangan Selesai
 $q_detail_pasang = "SELECT nama, alamat, tanggal, status 
-                    FROM pemasangan 
+                    FROM pelanggan_instalasi 
                     WHERE teknisi LIKE '%$safe_user_pasang%' 
                       AND MONTH(tanggal) = '$bulan' 
                       AND YEAR(tanggal) = '$tahun'
@@ -166,7 +167,7 @@ if ($r_pasang && $r_pasang->num_rows > 0) {
 
 // B. Rincian Tiket Selesai
 $q_detail_tiket = "SELECT nama_pelanggan, alamat, tanggal_selesai, status 
-                   FROM tiket 
+                   FROM tiket_gangguan 
                    WHERE teknisi LIKE '%$safe_nama_tiket%' 
                      AND MONTH(tanggal_dibuat) = '$bulan' 
                      AND YEAR(tanggal_dibuat) = '$tahun'
@@ -187,7 +188,7 @@ if ($r_tiket && $r_tiket->num_rows > 0) {
 
 // C. Rincian BBM
 $q_detail_bbm = "SELECT tanggal, liter, total, status_keuangan 
-                 FROM reimburse_bbm 
+                 FROM keu_reimburse_bbm 
                  WHERE nama_pengaju LIKE '%$safe_nama_umum%' 
                    AND MONTH(tanggal) = '$bulan' 
                    AND YEAR(tanggal) = '$tahun'
@@ -207,7 +208,7 @@ if ($r_bbm && $r_bbm->num_rows > 0) {
 
 // D. Rincian Kasbon Outstanding
 $q_detail_kasbon = "SELECT tanggal, jumlah, status 
-                    FROM kasbon 
+                    FROM keu_kasbon 
                     WHERE id_karyawan = '$id_teknisi' 
                       AND MONTH(tanggal) = '$bulan' 
                       AND YEAR(tanggal) = '$tahun'

@@ -5,9 +5,9 @@ hanyaAdmin();
 require_once "core/db.php";
 
 include "partials/header.php";
-$data = $conn->query("SELECT l.*, m.serial_number, k.nama FROM modem_log l
-LEFT JOIN modem m ON l.id_modem=m.id_modem
-LEFT JOIN karyawan k ON l.id_karyawan=k.id
+$data = $conn->query("SELECT l.*, m.serial_number, k.nama FROM jaringan_modem_log l
+LEFT JOIN jaringan_modem m ON l.id_modem=m.id_modem
+LEFT JOIN hr_karyawan k ON l.id_karyawan=k.id
 ORDER BY l.id_log DESC");
 ?>
 

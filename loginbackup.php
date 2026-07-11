@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 ini_set('display_errors', 1);
@@ -11,7 +12,7 @@ define('DB_USERNAME', 'u272457353_kevinsamsung99');
 define('DB_PASSWORD', 'Admionkevin99');
 define('DB_NAME', 'u272457353_umumdata');
 
-$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
@@ -31,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = trim($_POST['username']);
     $pass = trim($_POST['password']);
 
-    $stmt = $conn->prepare("SELECT * FROM karyawan WHERE username = ?");
+    $stmt = $conn->prepare("SELECT * FROM hr_karyawan WHERE username = ?");
     $stmt->bind_param("s", $user);
     $stmt->execute();
     $result = $stmt->get_result();

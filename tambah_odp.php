@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -26,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $redaman_output = $_POST['redaman_output'];
     $nama_pop = $_POST['nama_pop'];
 
-    $sql = "INSERT INTO ODP (ODP_ID, Nama_ODP, Lokasi, Kapasitas_Port, Kapasitas_Terpakai, Status, Tanggal_Instalasi, Latitude, Longitude, Redaman_Output, Nama_POP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO jaringan_odp (ODP_ID, Nama_ODP, Lokasi, Kapasitas_Port, Kapasitas_Terpakai, Status, Tanggal_Instalasi, Latitude, Longitude, Redaman_Output, Nama_POP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sssiissssss", $odp_id, $nama_odp, $lokasi, $kapasitas_port, $kapasitas_terpakai, $status, $tanggal_instalasi, $latitude, $longitude, $redaman_output, $nama_pop);
 

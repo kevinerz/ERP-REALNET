@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,14 +7,14 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM Aset";
+$sql = "SELECT * FROM aset_master";
 $result = $conn->query($sql);
 
 include('navbar.php');

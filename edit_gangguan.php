@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_tiket_helpdesk";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
@@ -23,7 +24,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     $id = intval($_GET['id']); // Pastikan ID adalah integer untuk keamanan
 
     // Ambil data tiket berdasarkan ID
-    $stmt = $conn->prepare("SELECT * FROM tiket WHERE id = ?");
+    $stmt = $conn->prepare("SELECT * FROM tiket_gangguan WHERE id = ?");
     $stmt->bind_param("i", $id);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -63,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
         // pastikan tanggal_selesai di-reset ke NULL di database jika sebelumnya ada nilai.
         // Anda mungkin perlu mengambil nilai yang ada dari DB terlebih dahulu jika ingin mempertahankan tanggal_selesai jika status berubah kembali ke 'selesai'
         // Untuk kesederhanaan, kita akan reset ke NULL jika status tidak 'selesai'
-        $stmt_check_status = $conn->prepare("SELECT status, tanggal_selesai FROM tiket WHERE id = ?");
+        $stmt_check_status = $conn->prepare("SELECT status, tanggal_selesai FROM tiket_gangguan WHERE id = ?");
         $stmt_check_status->bind_param("i", $id);
         $stmt_check_status->execute();
         $result_check = $stmt_check_status->get_result();
@@ -81,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
 
 
     // Query untuk update data
-    $sql = "UPDATE tiket SET
+    $sql = "UPDATE tiket_gangguan SET
                 nama_pelanggan = ?,
                 alamat = ?,
                 pop = ?,
@@ -108,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
         $message = "Tiket berhasil diperbarui!";
         $message_type = "success";
         // Refresh data tiket setelah update untuk menampilkan perubahan
-        $stmt_refresh = $conn->prepare("SELECT * FROM tiket WHERE id = ?");
+        $stmt_refresh = $conn->prepare("SELECT * FROM tiket_gangguan WHERE id = ?");
         $stmt_refresh->bind_param("i", $id);
         $stmt_refresh->execute();
         $result_refresh = $stmt_refresh->get_result();
@@ -128,7 +129,7 @@ if (!$ticket && $message_type === '') {
 }
 
 // Ambil daftar POP unik untuk dropdown (jika diperlukan untuk input POP)
-$query_all_pop = "SELECT DISTINCT pop FROM tiket ORDER BY pop ASC";
+$query_all_pop = "SELECT DISTINCT pop FROM tiket_gangguan ORDER BY pop ASC";
 $result_all_pop = $conn->query($query_all_pop);
 $all_pops = [];
 while ($row_pop = $result_all_pop->fetch_assoc()) {

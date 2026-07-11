@@ -18,8 +18,8 @@ require_once $tcpdfPath;
 // ── Ambil Data Spesifik ────────────────────────────────────────────
 $stmt = $pdo->prepare("
     SELECT c.*, k.nama, k.nik, k.divisi, k.jabatan
-    FROM cuti c
-    JOIN karyawan k ON k.id = c.id_karyawan
+    FROM hr_cuti c
+    JOIN hr_karyawan k ON k.id = c.id_karyawan
     WHERE c.id_cuti = ?
 ");
 $stmt->execute([$id_cuti]);

@@ -27,7 +27,7 @@ if (!$connPemasangan || !$connUmum) {
 }
 
 $paketArray = [];
-$resPaket = $connUmum->query("SELECT * FROM paket ORDER BY id_paket ASC");
+$resPaket = $connUmum->query("SELECT * FROM jaringan_paket ORDER BY id_paket ASC");
 if ($resPaket) {
     while ($rowPaket = $resPaket->fetch_assoc()) {
         $paketArray[$rowPaket['id_paket']] = $rowPaket;
@@ -36,7 +36,7 @@ if ($resPaket) {
 }
 
 $popList = [];
-$resPop = $connPemasangan->query("SELECT DISTINCT pop FROM pemasangan WHERE pop IS NOT NULL AND pop != '' ORDER BY pop ASC");
+$resPop = $connPemasangan->query("SELECT DISTINCT pop FROM pelanggan_instalasi WHERE pop IS NOT NULL AND pop != '' ORDER BY pop ASC");
 if ($resPop) {
     while ($r = $resPop->fetch_assoc()) { $popList[] = $r['pop']; }
     $resPop->free();
@@ -50,7 +50,7 @@ $sortCol     = isset($_GET['sort']) && in_array($_GET['sort'], $allowedSort) ? $
 $sortDir     = isset($_GET['dir'])  && $_GET['dir'] === 'asc' ? 'ASC' : 'DESC';
 $nextDir     = $sortDir === 'DESC' ? 'asc' : 'desc';
 
-$sql = "SELECT * FROM pemasangan WHERE status = 'aktivasi'";
+$sql = "SELECT * FROM pelanggan_instalasi WHERE status = 'aktivasi'";
 $params = []; $types = '';
 if ($filterPop !== '') { $sql .= " AND pop = ?"; $params[] = $filterPop; $types .= 's'; }
 $sql .= " ORDER BY {$sortCol} {$sortDir}";

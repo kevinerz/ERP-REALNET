@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Set the content type to JSON and allow cross-origin requests (CORS)
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *'); // Allows any domain to access this API
@@ -12,7 +13,7 @@ $user = 'u272457353_kevinsamsung99';
 $pass = 'Admionkevin99'; // Note: Storing passwords in code is risky. Consider environment variables.
 $dbname = 'u272457353_umumdata';
 
-$conn = new mysqli($host, $user, $pass, $dbname);
+$conn = getErpDbConnection();
 
 // Check for a connection error
 if ($conn->connect_error) {
@@ -48,7 +49,7 @@ if ($username === '' || $password === '') {
 // --- User Authentication ---
 try {
     // Prepare the SQL statement to prevent SQL injection
-    $stmt = $conn->prepare("SELECT nama, password, divisi FROM karyawan WHERE username = ?");
+    $stmt = $conn->prepare("SELECT nama, password, divisi FROM hr_karyawan WHERE username = ?");
     if ($stmt === false) {
         throw new Exception('Failed to prepare statement: ' . $conn->error);
     }

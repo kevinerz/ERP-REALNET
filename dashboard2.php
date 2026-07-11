@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 if (!isset($_SESSION['username']) || !isset($_SESSION['nama'])) {
     header('Location: login.php');
@@ -12,7 +13,7 @@ $servername_pemasangan = "localhost";
 $username_pemasangan = "u272457353_kevinsamsung9";
 $password_pemasangan = "Admionkevin99";
 $database_pemasangan = "u272457353_db_pemasangan";
-$conn_pemasangan = new mysqli($servername_pemasangan, $username_pemasangan, $password_pemasangan, $database_pemasangan);
+$conn_pemasangan = getErpDbConnection();
 if ($conn_pemasangan->connect_error) { die("Koneksi gagal (db pemasangan): " . $conn_pemasangan->connect_error); }
 
 // Koneksi DB gangguan (tiket_helpdesk)
@@ -20,7 +21,7 @@ $host_utama = 'localhost';
 $username_utama = 'u272457353_kevinsamsung';
 $password_utama = 'Admionkevin99';
 $database_utama = 'u272457353_tiket_helpdesk';
-$conn_gangguan = new mysqli($host_utama, $username_utama, $password_utama, $database_utama);
+$conn_gangguan = getErpDbConnection();
 if ($conn_gangguan->connect_error) { die("Koneksi gagal (db gangguan): " . $conn_gangguan->connect_error); }
 
 // Koneksi DB modem (umumdata)
@@ -28,7 +29,7 @@ $host_modem = 'localhost';
 $username_modem = 'u272457353_kevinsamsung99';
 $password_modem = 'Admionkevin99';
 $database_modem = 'u272457353_umumdata';
-$conn_modem = new mysqli($host_modem, $username_modem, $password_modem, $database_modem);
+$conn_modem = getErpDbConnection();
 if ($conn_modem->connect_error) { die("Koneksi gagal (db modem): " . $conn_modem->connect_error); }
 
 // Fungsi ambil jumlah per status
@@ -43,22 +44,22 @@ function getCount($conn, $tabel, $status_col, $status_val) {
 }
 
 // --- Statistik Pemasangan ---
-$pemasangan_selesai = getCount($conn_pemasangan, "pemasangan", "status", "selesai");
-$pemasangan_aktivasi = getCount($conn_pemasangan, "pemasangan", "status", "aktivasi");
-$pemasangan_belum_proses = getCount($conn_pemasangan, "pemasangan", "status", "belum diproses");
+$pemasangan_selesai = getCount($conn_pemasangan, "pelanggan_instalasi", "status", "selesai");
+$pemasangan_aktivasi = getCount($conn_pemasangan, "pelanggan_instalasi", "status", "aktivasi");
+$pemasangan_belum_proses = getCount($conn_pemasangan, "pelanggan_instalasi", "status", "belum diproses");
 // Note: $pemasangan_selesai is calculated twice, but doesn't affect the final value.
 
 $fee_pasang = 100000 * $pemasangan_selesai;
 $fee_marketing = 50000 * $pemasangan_selesai;
 
 // --- Statistik Gangguan ---
-$gangguan_selesai = getCount($conn_gangguan, "tiket", "status", "selesai");
-$gangguan_belum_kerja = getCount($conn_gangguan, "tiket", "status", "belum dikerjakan");
-$gangguan_diproses = getCount($conn_gangguan, "tiket", "status", "di proses");
+$gangguan_selesai = getCount($conn_gangguan, "tiket_gangguan", "status", "selesai");
+$gangguan_belum_kerja = getCount($conn_gangguan, "tiket_gangguan", "status", "belum dikerjakan");
+$gangguan_diproses = getCount($conn_gangguan, "tiket_gangguan", "status", "di proses");
 
 // --- Statistik Modem per status ---
 function getModemCount($conn_modem, $status) {
-    $sql = "SELECT COUNT(*) as total FROM modem WHERE status=?";
+    $sql = "SELECT COUNT(*) as total FROM jaringan_modem WHERE status=?";
     $stmt = $conn_modem->prepare($sql);
     $stmt->bind_param("s", $status);
     $stmt->execute();
@@ -73,7 +74,7 @@ $totalModemRusak = getModemCount($conn_modem, 'rusak');
 
 // Statistik Total Nominal BBM (Ini tetap menampilkan total keseluruhan, termasuk yang selesai)
 $total_bbm = 0;
-$sql_bbm = "SELECT SUM(total) as total_bbm FROM reimburse_bbm";
+$sql_bbm = "SELECT SUM(total) as total_bbm FROM keu_reimburse_bbm";
 $res_bbm = $conn_modem->query($sql_bbm);
 if ($res_bbm && $row = $res_bbm->fetch_assoc()) {
     $total_bbm = $row['total_bbm'] ?: 0;
@@ -81,7 +82,7 @@ if ($res_bbm && $row = $res_bbm->fetch_assoc()) {
 
 // Statistik Total Liter BBM (Ini tetap menampilkan total keseluruhan, termasuk yang selesai)
 $total_liter_bbm = 0;
-$sql_liter_bbm = "SELECT SUM(liter) as total_liter_bbm FROM reimburse_bbm";
+$sql_liter_bbm = "SELECT SUM(liter) as total_liter_bbm FROM keu_reimburse_bbm";
 $res_liter_bbm = $conn_modem->query($sql_liter_bbm);
 if ($res_liter_bbm && $row = $res_liter_bbm->fetch_assoc()) {
     $total_liter_bbm = $row['total_liter_bbm'] ?: 0;
@@ -90,13 +91,13 @@ if ($res_liter_bbm && $row = $res_liter_bbm->fetch_assoc()) {
 // Statistik BBM sudah dicairkan (status_keuangan = 'Disetujui' atau 'Selesai' jika itu definisi dicairkan Anda)
 // Saat ini menggunakan 'Disetujui', yang konsisten dengan alur finance Anda
 $total_bbm_cair = 0;
-$sql_bbm_cair = "SELECT SUM(total) as total_bbm_cair FROM reimburse_bbm WHERE status_keuangan='Disetujui'";
+$sql_bbm_cair = "SELECT SUM(total) as total_bbm_cair FROM keu_reimburse_bbm WHERE status_keuangan='Disetujui'";
 $res_bbm_cair = $conn_modem->query($sql_bbm_cair);
 if ($res_bbm_cair && $row = $res_bbm_cair->fetch_assoc()) {
     $total_bbm_cair = $row['total_bbm_cair'] ?: 0;
 }
 $total_liter_bbm_cair = 0;
-$sql_liter_bbm_cair = "SELECT SUM(liter) as total_liter_bbm_cair FROM reimburse_bbm WHERE status_keuangan='Disetujui'";
+$sql_liter_bbm_cair = "SELECT SUM(liter) as total_liter_bbm_cair FROM keu_reimburse_bbm WHERE status_keuangan='Disetujui'";
 $res_liter_bbm_cair = $conn_modem->query($sql_liter_bbm_cair);
 if ($res_liter_bbm_cair && $row = $res_liter_bbm_cair->fetch_assoc()) {
     $total_liter_bbm_cair = $row['total_liter_bbm_cair'] ?: 0;
@@ -105,7 +106,7 @@ if ($res_liter_bbm_cair && $row = $res_liter_bbm_cair->fetch_assoc()) {
 // --- PERUBAHAN UTAMA: Fungsi getBBMTotalByPengaju yang Disesuaikan ---
 // Hanya menghitung total BBM untuk entri yang status_keuangan-nya BUKAN 'Selesai'
 function getBBMTotalByPengaju($conn, $nama_pengaju) {
-    $stmt = $conn->prepare("SELECT SUM(total) as total_bbm, SUM(liter) as total_liter FROM reimburse_bbm WHERE nama_pengaju=? AND status_keuangan != 'Selesai'");
+    $stmt = $conn->prepare("SELECT SUM(total) as total_bbm, SUM(liter) as total_liter FROM keu_reimburse_bbm WHERE nama_pengaju=? AND status_keuangan != 'Selesai'");
     $stmt->bind_param("s", $nama_pengaju);
     $stmt->execute();
     $stmt->bind_result($total_bbm, $total_liter);
@@ -125,7 +126,7 @@ $bbm_admin = getBBMTotalByPengaju($conn_modem, 'SITI ROBIATUL ADAWIYAH');
 
 // Statistik Total Nominal Kasbon Selesai
 $total_kasbon_selesai = 0;
-$sql = "SELECT SUM(jumlah) as total_kasbon_selesai FROM kasbon WHERE status='selesai'";
+$sql = "SELECT SUM(jumlah) as total_kasbon_selesai FROM keu_kasbon WHERE status='selesai'";
 $res = $conn_modem->query($sql);
 if ($res && $row = $res->fetch_assoc()) {
     $total_kasbon_selesai = $row['total_kasbon_selesai'] ?: 0;

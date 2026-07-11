@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // submit_tiket.php - menerima input POST dari AI/webhook dan simpan ke database tiket
 
 date_default_timezone_set("Asia/Jakarta");
@@ -8,7 +9,7 @@ $username   = "u272457353_kevinsamsung";
 $password   = "Admionkevin99";
 $dbname     = "u272457353_tiket_helpdesk";
 
-$db = new mysqli($servername, $username, $password, $dbname);
+$db = getErpDbConnection();
 if ($db->connect_error) die("Koneksi gagal: " . $db->connect_error);
 
 $nama      = $_POST['nama'] ?? '';

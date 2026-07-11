@@ -22,7 +22,7 @@ include('konfig.php');
 // jangan include navbar di sini, tapi di dalam <body>
 
 // Ambil daftar POP unik untuk filter awal
-$query_pop   = "SELECT DISTINCT pop FROM tiket ORDER BY pop ASC";
+$query_pop   = "SELECT DISTINCT pop FROM tiket_gangguan ORDER BY pop ASC";
 $result_pop  = $conn->query($query_pop);
 $daftar_pop  = [];
 while ($row = $result_pop->fetch_assoc()) {
@@ -35,7 +35,7 @@ $stats_query = "SELECT
     SUM(CASE WHEN status = 'belum dikerjakan' THEN 1 ELSE 0 END) as belum_dikerjakan,
     SUM(CASE WHEN status = 'di proses' THEN 1 ELSE 0 END) as di_proses,
     SUM(CASE WHEN status = 'selesai' THEN 1 ELSE 0 END) as selesai
-FROM tiket";
+FROM tiket_gangguan";
 $stats = $conn->query($stats_query)->fetch_assoc();
 ?>
 <!DOCTYPE html>

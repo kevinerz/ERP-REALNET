@@ -65,7 +65,7 @@ function getKaryawanByNik(mysqli $conn_bbm, string $nik): ?array {
                 COALESCE(gaji_pokok,0) AS gaji_pokok,
                 COALESCE(tunjangan_jabatan,0) AS tunjangan_jabatan,
                 COALESCE(tunjangan_operasional,0) AS tunjangan_operasional
-            FROM karyawan
+            FROM hr_karyawan
             WHERE nik = ? LIMIT 1";
     $stmt = @$conn_bbm->prepare($sql);
     if (!$stmt) return null;
@@ -92,7 +92,7 @@ if ($token !== '' && !preg_match('/^[a-f0-9]{32,64}$/i', $token)) { http_respons
 if ($token !== '') {
     $sqlSlip = "SELECT id, public_token, karyawan_nik, nama_karyawan, tanggal_bayar, gaji_pokok, bonus, potongan, total_dibayar,
                        nama_bank, no_rekening, nama_rekening, keterangan
-                FROM slip_gaji
+                FROM hr_slip_gaji
                 WHERE public_token = ?
                 LIMIT 1";
     $stmt = $conn->prepare($sqlSlip);
@@ -101,7 +101,7 @@ if ($token !== '') {
 } else {
     $sqlSlip = "SELECT id, public_token, karyawan_nik, nama_karyawan, tanggal_bayar, gaji_pokok, bonus, potongan, total_dibayar,
                        nama_bank, no_rekening, nama_rekening, keterangan
-                FROM slip_gaji
+                FROM hr_slip_gaji
                 WHERE id = ?
                 LIMIT 1";
     $stmt = $conn->prepare($sqlSlip);
@@ -118,7 +118,7 @@ $stmt->close();
 // Auto-generate token untuk slip lama yang belum punya token
 if (empty($slip['public_token'])) {
     $newToken = makePublicToken();
-    $upd = $conn->prepare("UPDATE slip_gaji SET public_token=? WHERE id=? LIMIT 1");
+    $upd = $conn->prepare("UPDATE hr_slip_gaji SET public_token=? WHERE id=? LIMIT 1");
     if ($upd) {
         $sid = (int)$slip['id'];
         $upd->bind_param("si", $newToken, $sid);

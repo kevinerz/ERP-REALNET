@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // modem_input.php
 
 // --- KONFIGURASI DATABASE ---
@@ -8,7 +9,7 @@ $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
 // Buat koneksi
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     http_response_code(500);
     die(json_encode(['error' => 'Koneksi DB gagal']));
@@ -25,7 +26,7 @@ if (isset($_GET['barcode'])) {
     $sql = "
       SELECT id_modem, serial_number, mac_address, model, merk,
              status, tanggal_masuk, keterangan, lokasi_penyimpanan
-      FROM modem
+      FROM jaringan_modem
       WHERE serial_number = '$barcode'
          OR mac_address   = '$barcode'
          OR id_modem      = '$barcode'

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -30,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = '<div class="alert alert-danger">Serial Number harus diisi.</div>';
     } else {
         // Cek apakah Serial Number sudah ada
-        $stmt_check = $conn->prepare("SELECT serial_number FROM modem WHERE serial_number = ?");
+        $stmt_check = $conn->prepare("SELECT serial_number FROM jaringan_modem WHERE serial_number = ?");
         $stmt_check->bind_param("s", $serial_number);
         $stmt_check->execute();
         $stmt_check->store_result();
@@ -39,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $message = '<div class="alert alert-danger">Serial Number sudah terdaftar.</div>';
         } else {
             // Siapkan query SQL untuk menyimpan data
-            $stmt = $conn->prepare("INSERT INTO modem (serial_number, mac_address, model, merk, status, tanggal_masuk, keterangan, lokasi_penyimpanan) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO jaringan_modem (serial_number, mac_address, model, merk, status, tanggal_masuk, keterangan, lokasi_penyimpanan) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
             $stmt->bind_param("ssssssss", $serial_number, $mac_address, $model, $merk, $status, $tanggal_masuk, $keterangan, $lokasi_penyimpanan);
 
             if ($stmt->execute()) {

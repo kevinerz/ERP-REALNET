@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // index_dashboard.php
 
 // Konfigurasi database (samakan dengan yang lain)
@@ -7,18 +8,18 @@ $username     = "u272457353_kevinsamsung";
 $password     = "Admionkevin99";
 $database     = "u272457353_tiket_helpdesk";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
 // 1. Total tiket
-$totalQ    = "SELECT COUNT(*) AS total FROM tiket";
+$totalQ    = "SELECT COUNT(*) AS total FROM tiket_gangguan";
 $total     = (int)$conn->query($totalQ)->fetch_assoc()['total'];
 
 // 2. Jumlah per status
 $statusQ   = "SELECT status, COUNT(*) AS jumlah 
-              FROM tiket 
+              FROM tiket_gangguan 
               GROUP BY status";
 $statusRes = $conn->query($statusQ);
 $statusData = [];
@@ -28,7 +29,7 @@ while ($r = $statusRes->fetch_assoc()) {
 
 // 3. Jumlah per POP
 $popQ      = "SELECT pop, COUNT(*) AS jumlah 
-              FROM tiket 
+              FROM tiket_gangguan 
               GROUP BY pop 
               ORDER BY pop";
 $popRes    = $conn->query($popQ);

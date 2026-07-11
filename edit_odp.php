@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -15,7 +16,7 @@ if ($conn->connect_error) {
 
 if (isset($_GET['edit'])) {
     $odp_id = $_GET['edit'];
-    $sql = "SELECT * FROM ODP WHERE ODP_ID = ?";
+    $sql = "SELECT * FROM jaringan_odp WHERE ODP_ID = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $odp_id);
     $stmt->execute();
@@ -43,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $redaman_output = $_POST['redaman_output'];
     $nama_pop = $_POST['nama_pop'];
 
-    $sql = "UPDATE ODP SET Nama_ODP = ?, Lokasi = ?, Kapasitas_Port = ?, Kapasitas_Terpakai = ?, Status = ?, Tanggal_Instalasi = ?, Latitude = ?, Longitude = ?, Redaman_Output = ?, Nama_POP = ? WHERE ODP_ID = ?";
+    $sql = "UPDATE jaringan_odp SET Nama_ODP = ?, Lokasi = ?, Kapasitas_Port = ?, Kapasitas_Terpakai = ?, Status = ?, Tanggal_Instalasi = ?, Latitude = ?, Longitude = ?, Redaman_Output = ?, Nama_POP = ? WHERE ODP_ID = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sssiissssss", $nama_odp, $lokasi, $kapasitas_port, $kapasitas_terpakai, $status, $tanggal_instalasi, $latitude, $longitude, $redaman_output, $nama_pop, $odp_id);
 

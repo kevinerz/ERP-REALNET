@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 $dashboard_divisi = ['Admin', 'IT', 'Manager', 'SPV Teknis', 'Finance'];
@@ -19,7 +20,7 @@ $username   = "u272457353_kevinsamsung99";
 $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi Gagal: " . $conn->connect_error);
 }
@@ -34,7 +35,7 @@ $sql = "SELECT
             status_aktif, divisi, jabatan, tipe_petugas, id_pop_penempatan,
             gaji_pokok, tunjangan_jabatan, tunjangan_operasional,
             bank, rekening, created_at, username, password, fcm_token
-        FROM karyawan
+        FROM hr_karyawan
         ORDER BY created_at DESC";
 
 $result = $conn->query($sql);

@@ -5,6 +5,7 @@
 // ============================================================================
 
 declare(strict_types=1);
+require_once __DIR__ . '/../config/database.php';
 ini_set('display_errors', '0');
 error_reporting(E_ALL);
 
@@ -94,7 +95,7 @@ $username   = "u272457353_kevinsamsung";
 $password   = "Admionkevin99";
 $dbname     = "u272457353_tiket_helpdesk";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     file_put_contents(
         "last_error.txt",
@@ -111,7 +112,7 @@ $conn->set_charset('utf8mb4');
 // ============================================================================
 // UPDATE STATUS TIKET
 // ============================================================================
-$sql_update = "UPDATE tiket 
+$sql_update = "UPDATE tiket_gangguan 
                SET status = ?, teknisi = ? $tgl_update_sql
                WHERE id = ?";
 $stmt = $conn->prepare($sql_update);
@@ -148,7 +149,7 @@ $stmt->close();
 // AMBIL DETAIL TIKET UNTUK NOTIFIKASI
 // ============================================================================
 $sql_select = "SELECT nama_pelanggan, alamat, keluhan, whatsapp, pop
-               FROM tiket
+               FROM tiket_gangguan
                WHERE id = ?
                LIMIT 1";
 $stmt = $conn->prepare($sql_select);

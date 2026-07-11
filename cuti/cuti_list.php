@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['aksi'], $_POST['id_cu
     if ($aksi === 'tolak')   $newStatus = 'Ditolak';
 
     if ($id > 0 && $newStatus) {
-        $stmt = $pdo->prepare("UPDATE cuti SET status = ?, catatan_atasan = ? WHERE id_cuti = ?");
+        $stmt = $pdo->prepare("UPDATE hr_cuti SET status = ?, catatan_atasan = ? WHERE id_cuti = ?");
         $stmt->execute([$newStatus, ($catatan !== '' ? $catatan : null), $id]);
     }
     header("Location: cuti_list.php");
@@ -32,8 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['aksi'], $_POST['id_cu
 // ── Ambil data ──────────────────────────────────────────────────────
 $rows = $pdo->query("
     SELECT c.*, k.nama, k.nik, k.divisi, k.jabatan
-    FROM cuti c
-    JOIN karyawan k ON k.id = c.id_karyawan
+    FROM hr_cuti c
+    JOIN hr_karyawan k ON k.id = c.id_karyawan
     ORDER BY c.id_cuti DESC
 ")->fetchAll(PDO::FETCH_ASSOC);
 

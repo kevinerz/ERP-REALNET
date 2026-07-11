@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 // Inisialisasi variabel sesi
@@ -23,12 +24,12 @@ $conn_pemasangan = null;
 $conn_umum = null;
 
 try {
-    $conn_pemasangan = new mysqli("localhost", "u272457353_kevinsamsung9", "Admionkevin99", "u272457353_db_pemasangan");
+    $conn_pemasangan = getErpDbConnection();
     if ($conn_pemasangan->connect_error) {
         throw new Exception("Koneksi ke database pemasangan gagal: " . $conn_pemasangan->connect_error);
     }
 
-    $conn_umum = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+    $conn_umum = getErpDbConnection();
     if ($conn_umum->connect_error) {
         throw new Exception("Koneksi ke database umum gagal: " . $conn_umum->connect_error);
     }
@@ -70,7 +71,7 @@ $types .= "ss";
 $where_sql = $where ? "WHERE " . implode(" AND ", $where) : "";
 
 // Query untuk menghitung total baris
-$sql_count = "SELECT COUNT(*) AS total FROM pemasangan $where_sql";
+$sql_count = "SELECT COUNT(*) AS total FROM pelanggan_instalasi $where_sql";
 $stmt_count = $conn_pemasangan->prepare($sql_count);
 if ($params) {
     $stmt_count->bind_param($types, ...$params);
@@ -82,7 +83,7 @@ $total_pages = max(1, ceil($total_rows / $rows_per_page));
 
 // Query untuk mengambil data pemasangan
 $sql_data = "SELECT id, nama, user, userppp, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing, tanggal, status, modem, dropcore, passwordppp
-             FROM pemasangan $where_sql ORDER BY tanggal DESC LIMIT ?, ?";
+             FROM pelanggan_instalasi $where_sql ORDER BY tanggal DESC LIMIT ?, ?";
 
 $params2 = $params;
 $types2 = $types . "ii";
@@ -99,7 +100,7 @@ $result = $stmt->get_result();
 
 // Mengambil daftar ODP
 $ODP_LIST = [];
-$res_odp = $conn_umum->query("SELECT DISTINCT nama_odp FROM ODP ORDER BY nama_odp ASC");
+$res_odp = $conn_umum->query("SELECT DISTINCT nama_odp FROM jaringan_odp ORDER BY nama_odp ASC");
 if ($res_odp) {
     while ($d = $res_odp->fetch_assoc()) {
         $ODP_LIST[] = $d['nama_odp'];
@@ -112,7 +113,7 @@ $MODEM_LIST = [];
 if ($lokasi_user) {
     $stmt_modem = $conn_umum->prepare(
         "SELECT id_modem AS id, serial_number, model, merk
-         FROM modem
+         FROM jaringan_modem
          WHERE status = 'tersedia'
          AND lokasi_penyimpanan = ?"
     );
@@ -129,7 +130,7 @@ if ($lokasi_user) {
 
 // Mengambil daftar Dropcore
 $DROPCORE_LIST = [];
-$res_dropcore = $conn_umum->query("SELECT id_kabel_dropcore AS id, kode_kabel, panjang_meter FROM kabel_dropcore WHERE status = 'tersedia'");
+$res_dropcore = $conn_umum->query("SELECT id_kabel_dropcore AS id, kode_kabel, panjang_meter FROM jaringan_kabel_dropcore WHERE status = 'tersedia'");
 if ($res_dropcore) {
     while ($d = $res_dropcore->fetch_assoc()) {
         $DROPCORE_LIST[] = $d;
@@ -138,7 +139,7 @@ if ($res_dropcore) {
 
 // Mengambil daftar Teknisi
 $TEKNISI_LIST = [];
-$res_teknisi = $conn_umum->query("SELECT username, divisi FROM karyawan WHERE divisi IN ('Teknisi','Leader Area') ORDER BY divisi, username ASC");
+$res_teknisi = $conn_umum->query("SELECT username, divisi FROM hr_karyawan WHERE divisi IN ('Teknisi','Leader Area') ORDER BY divisi, username ASC");
 if ($res_teknisi) {
     while ($d = $res_teknisi->fetch_assoc()) {
         $TEKNISI_LIST[] = $d;

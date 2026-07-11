@@ -12,7 +12,7 @@ if ($id === 0) {
 }
 
 // 2. Ambil data pengajuan dari database FMS (via $conn)
-$stmt = $conn->prepare("SELECT * FROM pengajuan_aset WHERE id = ? AND status_pembayaran = 'Sudah Bayar'");
+$stmt = $conn->prepare("SELECT * FROM keu_pengajuan_pembelian_aset WHERE id = ? AND status_pembayaran = 'Sudah Bayar'");
 $stmt->bind_param("i", $id);
 $stmt->execute();
 $result = $stmt->get_result();

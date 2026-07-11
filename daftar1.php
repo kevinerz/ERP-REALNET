@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Set the default timezone to Asia/Jakarta (WIB)
 date_default_timezone_set('Asia/Jakarta');
 
@@ -9,13 +10,13 @@ $password = "Admionkevin99";
 $database = "u272457353_db_pemasangan";
 
 // Buat koneksi ke database pemasangan
-$conn_pemasangan = new mysqli($servername, $username, $password, $database);
+$conn_pemasangan = getErpDbConnection();
 if ($conn_pemasangan->connect_error) {
     die("Koneksi ke database pemasangan gagal: " . $conn_pemasangan->connect_error);
 }
 
 // Ambil data POP
-$query_pop = "SELECT id, name FROM pop ORDER BY name ASC";
+$query_pop = "SELECT id, name FROM jaringan_pop ORDER BY name ASC";
 $result_pop = $conn_pemasangan->query($query_pop);
 if (!$result_pop) {
     die("Gagal mengambil data POP: " . $conn_pemasangan->error);
@@ -27,13 +28,13 @@ $username_umumdata = "u272457353_kevinsamsung99";
 $password_umumdata = "Admionkevin99";
 $database_umumdata = "u272457353_umumdata";
 
-$conn_umumdata = new mysqli($servername_umumdata, $username_umumdata, $password_umumdata, $database_umumdata);
+$conn_umumdata = getErpDbConnection();
 if ($conn_umumdata->connect_error) {
     die("Koneksi ke database umumdata gagal: " . $conn_umumdata->connect_error);
 }
 
 // Ambil data paket
-$query_paket = "SELECT id_paket, nama_paket, harga, kecepatan FROM paket ORDER BY nama_paket ASC";
+$query_paket = "SELECT id_paket, nama_paket, harga, kecepatan FROM jaringan_paket ORDER BY nama_paket ASC";
 $result_paket = $conn_umumdata->query($query_paket);
 if (!$result_paket) {
     die("Gagal mengambil data paket: " . $conn_umumdata->error);
@@ -80,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Dapatkan nama POP
-    $stmt_pop = $conn_pemasangan->prepare("SELECT name FROM pop WHERE id = ?");
+    $stmt_pop = $conn_pemasangan->prepare("SELECT name FROM jaringan_pop WHERE id = ?");
     $stmt_pop->bind_param("i", $pop_id);
     $stmt_pop->execute();
     $res_pop = $stmt_pop->get_result()->fetch_assoc();
@@ -94,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Insert ke tabel pemasangan (tanpa kolom user)
     $stmt = $conn_pemasangan->prepare("
-        INSERT INTO pemasangan
+        INSERT INTO pelanggan_instalasi
             (nama, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing)
         VALUES
             (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -125,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 
     // Ambil detail paket untuk notifikasi
-    $stmt_p = $conn_umumdata->prepare("SELECT nama_paket, harga, kecepatan FROM paket WHERE id_paket = ?");
+    $stmt_p = $conn_umumdata->prepare("SELECT nama_paket, harga, kecepatan FROM jaringan_paket WHERE id_paket = ?");
     $stmt_p->bind_param("i", $paket_id);
     $stmt_p->execute();
     $det = $stmt_p->get_result()->fetch_assoc();

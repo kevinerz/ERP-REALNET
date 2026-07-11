@@ -1,10 +1,11 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 session_start();
 
 // Jika form disubmit
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Koneksi database
-    $conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+    $conn = getErpDbConnection();
     if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
     // Ambil dan rapikan input
@@ -12,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = trim($_POST['password']);
 
     // Cek login
-    $stmt = $conn->prepare("SELECT * FROM karyawan WHERE LOWER(username) = ? AND password = ?");
+    $stmt = $conn->prepare("SELECT * FROM hr_karyawan WHERE LOWER(username) = ? AND password = ?");
     $stmt->bind_param("ss", $username, $password);
     $stmt->execute();
     $result = $stmt->get_result();

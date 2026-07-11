@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $keterangan      = $_POST['keterangan'];
 
     // Gunakan prepared statement untuk keamanan
-    $stmt = $conn->prepare("INSERT INTO biaya_listrik (lokasi, jenis_pembayaran, nomor_referensi, tanggal_bayar, biaya, keterangan) VALUES (?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO keu_biaya_listrik (lokasi, jenis_pembayaran, nomor_referensi, tanggal_bayar, biaya, keterangan) VALUES (?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("ssssds", $lokasi, $jenis_pembayaran, $nomor_referensi, $tanggal_bayar, $biaya, $keterangan);
 
     if ($stmt->execute()) {
@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <tbody>
                 <?php
                 // Query untuk mengambil data riwayat
-                $result = $conn->query("SELECT * FROM biaya_listrik ORDER BY tanggal_bayar DESC, id DESC");
+                $result = $conn->query("SELECT * FROM keu_biaya_listrik ORDER BY tanggal_bayar DESC, id DESC");
                 $no = 1;
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {

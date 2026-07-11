@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // ==========================================
 // AKTIVASI PELANGGAN - TECH DASHBOARD MODE
 // ==========================================
@@ -16,9 +17,9 @@ define('STARSENDER_API_TOKEN', 'e9c50247-3b8d-4cd8-924a-024a4d2b3124');
 
 function getDbConnection($dbName) {
     if ($dbName === 'pemasangan') {
-        $conn = new mysqli("localhost", "u272457353_kevinsamsung9", "Admionkevin99", "u272457353_db_pemasangan");
+        $conn = getErpDbConnection();
     } elseif ($dbName === 'umum') {
-        $conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+        $conn = getErpDbConnection();
     }
     
     if (isset($conn) && $conn->connect_error) {
@@ -128,7 +129,7 @@ $connUmum       = getDbConnection('umum');
 
 // Load Data Paket
 $paketArray = [];
-$resPaket   = $connUmum->query("SELECT * FROM paket ORDER BY harga ASC");
+$resPaket   = $connUmum->query("SELECT * FROM jaringan_paket ORDER BY harga ASC");
 while ($row = $resPaket->fetch_assoc()) {
     $paketArray[$row['id_paket']] = $row;
 }
@@ -137,7 +138,7 @@ while ($row = $resPaket->fetch_assoc()) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_data'])) {
     $id = filter_var($_POST['id_hapus'], FILTER_VALIDATE_INT);
     if ($id) {
-        $stmt = $connPemasangan->prepare("DELETE FROM pemasangan WHERE id=?");
+        $stmt = $connPemasangan->prepare("DELETE FROM pelanggan_instalasi WHERE id=?");
         $stmt->bind_param("i", $id);
         $stmt->execute();
         $stmt->close();
@@ -151,7 +152,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_data'])) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['cancel_aktivasi'])) {
     $id = filter_var($_POST['id_aktivasi'], FILTER_VALIDATE_INT);
     if ($id) {
-        $stmt = $connPemasangan->prepare("UPDATE pemasangan SET status='disimpan', last_updated_by='Admin' WHERE id=?");
+        $stmt = $connPemasangan->prepare("UPDATE pelanggan_instalasi SET status='disimpan', last_updated_by='Admin' WHERE id=?");
         $stmt->bind_param("i", $id);
         $stmt->execute();
         set_notification("Data pelanggan disimpan (Pending).", "warning");
@@ -169,12 +170,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['do_activate'])) {
     $pkt  = filter_var($_POST['paket'], FILTER_VALIDATE_INT);
 
     if ($id && $user && $pass && $vlan && $pkt) {
-        $stmt = $connPemasangan->prepare("UPDATE pemasangan SET userppp=?, passwordppp=?, vlan=?, paket=?, status='aktivasi', last_updated_by='Admin' WHERE id=?");
+        $stmt = $connPemasangan->prepare("UPDATE pelanggan_instalasi SET userppp=?, passwordppp=?, vlan=?, paket=?, status='aktivasi', last_updated_by='Admin' WHERE id=?");
         $stmt->bind_param("ssssi", $user, $pass, $vlan, $pkt, $id);
         
         if ($stmt->execute()) {
             set_notification("✅ Aktivasi Sukses! Notifikasi dikirim ke Group.", "success");
-            $resCust  = $connPemasangan->query("SELECT * FROM pemasangan WHERE id=$id");
+            $resCust  = $connPemasangan->query("SELECT * FROM pelanggan_instalasi WHERE id=$id");
             $custData = $resCust->fetch_assoc();
             $pktData  = $paketArray[$pkt] ?? [];
             sendWhatsAppNotification($custData, $pktData);
@@ -215,18 +216,18 @@ if ($searchQuery !== '') {
 }
 
 if (count($params) > 0) {
-    $stmtList = $connPemasangan->prepare("SELECT * FROM pemasangan $where ORDER BY id DESC");
+    $stmtList = $connPemasangan->prepare("SELECT * FROM pelanggan_instalasi $where ORDER BY id DESC");
     $stmtList->bind_param($types, ...$params);
     $stmtList->execute();
     $resultList = $stmtList->get_result();
 } else {
-    $resultList = $connPemasangan->query("SELECT * FROM pemasangan $where ORDER BY id DESC");
+    $resultList = $connPemasangan->query("SELECT * FROM pelanggan_instalasi $where ORDER BY id DESC");
 }
 $totalQueue = $resultList->num_rows;
 
 // Ambil list POP untuk dropdown filter
 $popList    = [];
-$resPopList = $connPemasangan->query("SELECT DISTINCT pop FROM pemasangan WHERE status='belum diproses' AND pop IS NOT NULL AND pop != '' ORDER BY pop ASC");
+$resPopList = $connPemasangan->query("SELECT DISTINCT pop FROM pelanggan_instalasi WHERE status='belum diproses' AND pop IS NOT NULL AND pop != '' ORDER BY pop ASC");
 while ($rp = $resPopList->fetch_assoc()) $popList[] = $rp['pop'];
 
 // Helper highlight search — didefinisikan sekali di sini, bukan di dalam loop

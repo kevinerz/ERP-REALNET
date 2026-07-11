@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 $dashboard_divisi = ['Admin', 'IT', 'Manager', 'SPV Teknis', 'Finance'];
@@ -17,7 +18,7 @@ $username   = "u272457353_kevinsamsung99";
 $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
@@ -62,7 +63,7 @@ function log_activity($conn, $action, $detail, $sn = null) {
     }
 
     $stmt = $conn->prepare("
-        INSERT INTO modem_logging (username, action, sn_lama, sn_baru, waktu)
+        INSERT INTO jaringan_modem_logging (username, action, sn_lama, sn_baru, waktu)
         VALUES (?, ?, ?, ?, NOW())
     ");
     if ($stmt) {
@@ -81,7 +82,7 @@ if (isset($_GET['ajax'])) {
     // Detail modem by ID
     if ($_GET['ajax'] === 'get_modem') {
         $id  = (int)($_GET['id'] ?? 0);
-        $res = $conn->query("SELECT * FROM modem WHERE id_modem = {$id}");
+        $res = $conn->query("SELECT * FROM jaringan_modem WHERE id_modem = {$id}");
         $row = $res ? $res->fetch_assoc() : null;
         echo json_encode($row ?: []);
         exit;
@@ -92,7 +93,7 @@ if (isset($_GET['ajax'])) {
         $teknisi = $conn->real_escape_string($_GET['teknisi'] ?? '');
         $res     = $conn->query("
             SELECT * 
-            FROM modem 
+            FROM jaringan_modem 
             WHERE LOWER(lokasi_penyimpanan) = LOWER('{$teknisi}')
             ORDER BY serial_number
         ");
@@ -111,7 +112,7 @@ if (isset($_GET['ajax'])) {
         $q   = $conn->real_escape_string($_GET['q'] ?? '');
         $res = $conn->query("
             SELECT serial_number, model, merk 
-            FROM modem 
+            FROM jaringan_modem 
             WHERE serial_number LIKE '%{$q}%' 
                OR model LIKE '%{$q}%' 
                OR merk LIKE '%{$q}%'
@@ -180,7 +181,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'export_excel') {
 
     echo "NO\tSERIAL NUMBER\tMODEL\tMERK\tSTATUS\tTANGGAL MASUK\tLOKASI\n";
 
-    $export_query = $conn->query("SELECT * FROM modem {$where_sql} ORDER BY tanggal_masuk DESC");
+    $export_query = $conn->query("SELECT * FROM jaringan_modem {$where_sql} ORDER BY tanggal_masuk DESC");
     $no = 1;
     if ($export_query) {
         while ($row = $export_query->fetch_assoc()) {
@@ -215,7 +216,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             flash('error', 'Serial Number wajib diisi');
         } else {
             // Cek SN duplikat
-            $check = $conn->prepare("SELECT id_modem FROM modem WHERE serial_number = ? AND id_modem != ?");
+            $check = $conn->prepare("SELECT id_modem FROM jaringan_modem WHERE serial_number = ? AND id_modem != ?");
             $check->bind_param("si", $sn, $id);
             $check->execute();
             $check->store_result();
@@ -226,7 +227,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if ($id > 0) {
                     // Update
                     $stmt = $conn->prepare("
-                        UPDATE modem 
+                        UPDATE jaringan_modem 
                         SET serial_number = ?, 
                             model          = ?, 
                             merk           = ?, 
@@ -243,7 +244,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     // Insert
                     $stmt = $conn->prepare("
-                        INSERT INTO modem (serial_number, model, merk, status, tanggal_masuk, lokasi_penyimpanan)
+                        INSERT INTO jaringan_modem (serial_number, model, merk, status, tanggal_masuk, lokasi_penyimpanan)
                         VALUES (?, ?, ?, ?, CURDATE(), ?)
                     ");
                     $stmt->bind_param("sssss", $sn, $model, $merk, $status, $lokasi);
@@ -266,12 +267,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $id = (int)($_POST['id'] ?? 0);
         $sn = '';
 
-        $q = $conn->query("SELECT serial_number FROM modem WHERE id_modem = {$id}");
+        $q = $conn->query("SELECT serial_number FROM jaringan_modem WHERE id_modem = {$id}");
         if ($q && $r = $q->fetch_assoc()) {
             $sn = $r['serial_number'];
         }
 
-        $conn->query("DELETE FROM modem WHERE id_modem = {$id}");
+        $conn->query("DELETE FROM jaringan_modem WHERE id_modem = {$id}");
         log_activity($conn, 'DELETE', "Deleted modem: {$sn}", $sn);
         flash('success', "Modem {$sn} berhasil dihapus");
 
@@ -284,18 +285,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // DATA UTAMA UNTUK TAMPILAN
 // =========================
 $stats = [
-    'total'    => $conn->query("SELECT COUNT(*) j FROM modem")->fetch_assoc()['j'] ?? 0,
-    'ready'    => $conn->query("SELECT COUNT(*) j FROM modem WHERE status = 'ready'")->fetch_assoc()['j'] ?? 0,
-    'dipasang' => $conn->query("SELECT COUNT(*) j FROM modem WHERE status = 'dipasang'")->fetch_assoc()['j'] ?? 0,
-    'rusak'    => $conn->query("SELECT COUNT(*) j FROM modem WHERE status = 'rusak'")->fetch_assoc()['j'] ?? 0,
-    'gudang'   => $conn->query("SELECT COUNT(*) j FROM modem WHERE LOWER(lokasi_penyimpanan) LIKE '%gudang%'")->fetch_assoc()['j'] ?? 0
+    'total'    => $conn->query("SELECT COUNT(*) j FROM jaringan_modem")->fetch_assoc()['j'] ?? 0,
+    'ready'    => $conn->query("SELECT COUNT(*) j FROM jaringan_modem WHERE status = 'ready'")->fetch_assoc()['j'] ?? 0,
+    'dipasang' => $conn->query("SELECT COUNT(*) j FROM jaringan_modem WHERE status = 'dipasang'")->fetch_assoc()['j'] ?? 0,
+    'rusak'    => $conn->query("SELECT COUNT(*) j FROM jaringan_modem WHERE status = 'rusak'")->fetch_assoc()['j'] ?? 0,
+    'gudang'   => $conn->query("SELECT COUNT(*) j FROM jaringan_modem WHERE LOWER(lokasi_penyimpanan) LIKE '%gudang%'")->fetch_assoc()['j'] ?? 0
 ];
 
 // Modem per teknisi (lokasi = nama/username)
 $teknisi_stats = $conn->query("
     SELECT k.nama, k.username, COUNT(m.id_modem) total
-    FROM karyawan k
-    LEFT JOIN modem m 
+    FROM hr_karyawan k
+    LEFT JOIN jaringan_modem m 
         ON LOWER(m.lokasi_penyimpanan) IN (LOWER(k.nama), LOWER(k.username))
     GROUP BY k.id
     HAVING total > 0
@@ -307,12 +308,12 @@ $limit  = 15;
 $page   = max(1, (int)($_GET['page'] ?? 1));
 $offset = ($page - 1) * $limit;
 
-$total_rows  = $conn->query("SELECT COUNT(*) j FROM modem {$where_sql}")->fetch_assoc()['j'] ?? 0;
+$total_rows  = $conn->query("SELECT COUNT(*) j FROM jaringan_modem {$where_sql}")->fetch_assoc()['j'] ?? 0;
 $total_pages = max(1, (int)ceil($total_rows / $limit));
 
 $modems = $conn->query("
     SELECT * 
-    FROM modem 
+    FROM jaringan_modem 
     {$where_sql}
     ORDER BY tanggal_masuk DESC 
     LIMIT {$offset}, {$limit}
@@ -320,7 +321,7 @@ $modems = $conn->query("
 
 $recent_logs = $conn->query("
     SELECT * 
-    FROM modem_logging 
+    FROM jaringan_modem_logging 
     ORDER BY waktu DESC 
     LIMIT 30
 ");

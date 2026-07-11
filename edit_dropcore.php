@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -22,7 +23,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $id_dropcore = $_GET['id'];
 
     // Ambil data dropcore berdasarkan ID
-    $stmt_select = $conn->prepare("SELECT * FROM kabel_dropcore WHERE id_kabel_dropcore = ?");
+    $stmt_select = $conn->prepare("SELECT * FROM jaringan_kabel_dropcore WHERE id_kabel_dropcore = ?");
     $stmt_select->bind_param("i", $id_dropcore);
     $stmt_select->execute();
     $result = $stmt_select->get_result();
@@ -53,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id_kabel_dropcore_upda
         $message = '<div class="alert alert-danger">Kode Kabel harus diisi.</div>';
     } else {
         // Cek apakah Kode Kabel sudah ada untuk kabel dropcore lain
-        $stmt_check = $conn->prepare("SELECT kode_kabel FROM kabel_dropcore WHERE kode_kabel = ? AND id_kabel_dropcore != ?");
+        $stmt_check = $conn->prepare("SELECT kode_kabel FROM jaringan_kabel_dropcore WHERE kode_kabel = ? AND id_kabel_dropcore != ?");
         $stmt_check->bind_param("si", $kode_kabel, $id_kabel_dropcore_update);
         $stmt_check->execute();
         $stmt_check->store_result();
@@ -62,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id_kabel_dropcore_upda
             $message = '<div class="alert alert-danger">Kode Kabel sudah terdaftar untuk kabel dropcore lain.</div>';
         } else {
             // Siapkan query SQL untuk update data
-            $stmt_update = $conn->prepare("UPDATE kabel_dropcore SET kode_kabel=?, panjang_meter=?, jenis=?, status=?, tanggal_masuk=?, keterangan=?, lokasi_penyimpanan=? WHERE id_kabel_dropcore=?");
+            $stmt_update = $conn->prepare("UPDATE jaringan_kabel_dropcore SET kode_kabel=?, panjang_meter=?, jenis=?, status=?, tanggal_masuk=?, keterangan=?, lokasi_penyimpanan=? WHERE id_kabel_dropcore=?");
             $stmt_update->bind_param("sdsssssi", $kode_kabel, $panjang_meter, $jenis, $status, $tanggal_masuk, $keterangan, $lokasi_penyimpanan, $id_kabel_dropcore_update);
 
             if ($stmt_update->execute()) {

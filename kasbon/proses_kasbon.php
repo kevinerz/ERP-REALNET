@@ -79,7 +79,7 @@ function sendWaStarsender($nomor, $pesan) {
  * ========================= */
 $username = $_SESSION['username'];
 
-$get_id = $conn->prepare("SELECT id, divisi, no_telp FROM karyawan WHERE username = ?");
+$get_id = $conn->prepare("SELECT id, divisi, no_telp FROM hr_karyawan WHERE username = ?");
 $get_id->bind_param("s", $username);
 $get_id->execute();
 $result = $get_id->get_result();
@@ -131,7 +131,7 @@ switch ($divisi_pengaju) {
 /* =========================
  * INSERT KE TABEL KASBON
  * ========================= */
-$sql = "INSERT INTO kasbon (id_karyawan, tanggal, jumlah, keperluan, status)
+$sql = "INSERT INTO keu_kasbon (id_karyawan, tanggal, jumlah, keperluan, status)
         VALUES (?, ?, ?, ?, ?)";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("issss", $id_karyawan, $tanggal, $jumlah, $keperluan, $status);

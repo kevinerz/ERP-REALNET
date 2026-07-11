@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -55,11 +56,11 @@ function sendWaStarSender($to, $body) {
 // ──────────────────────────────────────
 // 2. Koneksi Database
 // ──────────────────────────────────────
-$mysqlP = new mysqli("localhost", "u272457353_kevinsamsung9", "Admionkevin99", "u272457353_db_pemasangan");
+$mysqlP = getErpDbConnection();
 if ($mysqlP->connect_error) {
     die(json_encode(['success'=>false,'message'=>'DB pemasangan gagal: '.$mysqlP->connect_error]));
 }
-$mysqlU = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$mysqlU = getErpDbConnection();
 if ($mysqlU->connect_error) {
     die(json_encode(['success'=>false,'message'=>'DB umum gagal: '.$mysqlU->connect_error]));
 }
@@ -96,7 +97,7 @@ if ($action === 'diproses') {
     $dropcore_id = isset($_POST['dropcore']) && $_POST['dropcore'] !== '' ? (int)$_POST['dropcore'] : null;
 
     // Ambil data pelanggan
-    $stmt = $mysqlP->prepare("SELECT nama, telp, pop FROM pemasangan WHERE id=?");
+    $stmt = $mysqlP->prepare("SELECT nama, telp, pop FROM pelanggan_instalasi WHERE id=?");
     $stmt->bind_param("i", $id);
     $stmt->execute();
     $stmt->bind_result($nama, $telp, $pop);
@@ -110,7 +111,7 @@ if ($action === 'diproses') {
 
     // Update pemasangan
     $u = $mysqlP->prepare(
-        "UPDATE pemasangan 
+        "UPDATE pelanggan_instalasi 
          SET vlan=?, sn=?, odp=?, teknisi=?, modem=?, dropcore=?, status='di proses', last_updated_by=? 
          WHERE id=?"
     );
@@ -130,13 +131,13 @@ if ($action === 'diproses') {
     // Update status modem (jika ada)
     $ok2 = true; $ok3 = true;
     if ($modem_id) {
-        $m = $mysqlU->prepare("UPDATE modem SET status='dipasang',lokasi_penyimpanan=? WHERE id_modem=?");
+        $m = $mysqlU->prepare("UPDATE jaringan_modem SET status='dipasang',lokasi_penyimpanan=? WHERE id_modem=?");
         $m->bind_param("si", $nama, $modem_id);
         $ok2 = $m->execute();
         $m->close();
     }
     if ($dropcore_id) {
-        $d = $mysqlU->prepare("UPDATE kabel_dropcore SET status='digunakan',lokasi_penyimpanan=? WHERE id_kabel_dropcore=?");
+        $d = $mysqlU->prepare("UPDATE jaringan_kabel_dropcore SET status='digunakan',lokasi_penyimpanan=? WHERE id_kabel_dropcore=?");
         $d->bind_param("si", $nama, $dropcore_id);
         $ok3 = $d->execute();
         $d->close();
@@ -155,13 +156,13 @@ if ($action === 'diproses') {
     }
 
 } elseif ($action === 'selesai') {
-    $s = $mysqlP->prepare("UPDATE pemasangan SET status='selesai' WHERE id=?");
+    $s = $mysqlP->prepare("UPDATE pelanggan_instalasi SET status='selesai' WHERE id=?");
     $s->bind_param("i", $id);
     $ok = $s->execute();
     $s->close();
 
     if ($ok) {
-        $s2 = $mysqlP->prepare("SELECT nama, telp, pop FROM pemasangan WHERE id=?");
+        $s2 = $mysqlP->prepare("SELECT nama, telp, pop FROM pelanggan_instalasi WHERE id=?");
         $s2->bind_param("i", $id);
         $s2->execute();
         $s2->bind_result($nama, $telp, $pop);

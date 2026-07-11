@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung9";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_db_pemasangan";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Periksa koneksi
 if ($conn->connect_error) {
@@ -17,7 +18,7 @@ include('navbar.php');
 // Fungsi untuk menambah POP baru
 if (isset($_POST['add_pop'])) {
     $pop_name = $_POST['pop_name'];
-    $query = "INSERT INTO pop (name) VALUES ('$pop_name')";
+    $query = "INSERT INTO jaringan_pop (name) VALUES ('$pop_name')";
     $conn->query($query);
     header("Location: pop.php");
 }
@@ -25,13 +26,13 @@ if (isset($_POST['add_pop'])) {
 // Fungsi untuk menghapus POP
 if (isset($_GET['delete'])) {
     $pop_id = $_GET['delete'];
-    $query = "DELETE FROM pop WHERE id = $pop_id";
+    $query = "DELETE FROM jaringan_pop WHERE id = $pop_id";
     $conn->query($query);
     header("Location: pop.php");
 }
 
 // Ambil semua POP
-$query = "SELECT * FROM pop ORDER BY name ASC";
+$query = "SELECT * FROM jaringan_pop ORDER BY name ASC";
 $result = $conn->query($query);
 ?>
 

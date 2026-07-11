@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
@@ -15,10 +16,10 @@ $servername = "localhost";
 $username = "u272457353_kevinsamsung9";
 $password = "Admionkevin99";
 $database = "u272457353_db_pemasangan";
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("DB error");
 
-$stmt = $conn->prepare("SELECT * FROM pemasangan WHERE id=?");
+$stmt = $conn->prepare("SELECT * FROM pelanggan_instalasi WHERE id=?");
 $stmt->bind_param("i", $id);
 $stmt->execute();
 $result = $stmt->get_result();
@@ -28,9 +29,9 @@ $row = $result->fetch_assoc();
 
 // Data paket
 $paket_label = $row['paket'];
-$conn_umum = new mysqli($servername, "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$conn_umum = getErpDbConnection();
 if (!$conn_umum->connect_error) {
-    $rp = $conn_umum->query("SELECT * FROM paket WHERE id_paket='".intval($row['paket'])."'");
+    $rp = $conn_umum->query("SELECT * FROM jaringan_paket WHERE id_paket='".intval($row['paket'])."'");
     if ($paket = $rp->fetch_assoc()) {
         $paket_label = htmlspecialchars($paket['nama_paket']) . ' (' . htmlspecialchars($paket['kecepatan']) . ') - Rp ' . number_format($paket['harga'],0,',','.');
     }

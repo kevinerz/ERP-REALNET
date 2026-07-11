@@ -1,5 +1,6 @@
 <?php
-$conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+require_once __DIR__ . '/../config/database.php';
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
 // Ambil data dari form
@@ -33,7 +34,7 @@ if (isset($_FILES['nota']) && $_FILES['nota']['error'] === 0) {
 }
 
 // Simpan ke database
-$stmt = $conn->prepare("INSERT INTO reimburse_bbm (nama_pengaju, tanggal, tujuan, liter, total, catatan, foto_nota) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO keu_reimburse_bbm (nama_pengaju, tanggal, tujuan, liter, total, catatan, foto_nota) VALUES (?, ?, ?, ?, ?, ?, ?)");
 $stmt->bind_param("sssddss", $nama, $tgl, $tujuan, $liter, $total, $catatan, $filePath);
 
 if ($stmt->execute()) {

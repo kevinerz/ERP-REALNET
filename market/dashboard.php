@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // --- 1. KONEKSI DB MITRA (Lokal) ---
 require_once 'koneksi.php';
 
@@ -8,7 +9,7 @@ $db_user_pasang = 'u272457353_kevinsamsung9';
 $db_pass_pasang = 'Admionkevin99'; 
 $db_name_pasang = 'u272457353_db_pemasangan';
 
-$conn_pasang = new mysqli($db_host_pasang, $db_user_pasang, $db_pass_pasang, $db_name_pasang);
+$conn_pasang = getErpDbConnection();
 
 // Array penampung statistik
 $stats_pelanggan = []; // Format: ['Nama Mitra' => Jumlah Pelanggan]
@@ -17,7 +18,7 @@ $top_mitra_arr = [];
 
 if (!$conn_pasang->connect_error) {
     // A. Ambil Jumlah Pelanggan per Marketing
-    $sql_stats = "SELECT marketing, COUNT(*) as total FROM pemasangan GROUP BY marketing ORDER BY total DESC";
+    $sql_stats = "SELECT marketing, COUNT(*) as total FROM pelanggan_instalasi GROUP BY marketing ORDER BY total DESC";
     $res_stats = $conn_pasang->query($sql_stats);
     
     if ($res_stats) {

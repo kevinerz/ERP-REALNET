@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // action_ai.php
 header('Content-Type: application/json');
 
@@ -36,7 +37,7 @@ if (!isset($_POST['action']) || !isset($_POST['ai_id'])) {
     exit;
 }
 
-$db = new mysqli("localhost", "u272457353_kevinsamsung", "Admionkevin99", "u272457353_tiket_helpdesk");
+$db = getErpDbConnection();
 if ($db->connect_error) {
     echo json_encode(['status' => 'error', 'message' => 'Koneksi database gagal.']);
     exit;
@@ -74,7 +75,7 @@ elseif ($action === 'process') {
     }
 
     // 1. Simpan ke tabel tiket utama
-    $stmt = $db->prepare("INSERT INTO tiket (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $db->prepare("INSERT INTO tiket_gangguan (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat) VALUES (?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sssssss", $nama, $alamat, $whatsapp, $pop, $keluhan, $maps_url, $now);
     $stmt->execute();
     $insert_success = $stmt->affected_rows > 0;

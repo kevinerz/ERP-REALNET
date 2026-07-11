@@ -26,8 +26,8 @@ $rows = $pdo->query("
     SELECT c.id_cuti, c.jenis_cuti, c.tanggal_mulai, c.tanggal_selesai,
            c.jumlah_hari, c.alasan, c.status, c.catatan_atasan,
            k.nama, k.nik, k.divisi, k.jabatan
-    FROM cuti c
-    JOIN karyawan k ON k.id = c.id_karyawan
+    FROM hr_cuti c
+    JOIN hr_karyawan k ON k.id = c.id_karyawan
     ORDER BY c.id_cuti DESC
 ")->fetchAll(PDO::FETCH_ASSOC);
 

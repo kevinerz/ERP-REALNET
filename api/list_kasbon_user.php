@@ -52,8 +52,8 @@ $sql = "
         kb.jumlah,
         kb.keperluan,
         kb.status
-    FROM kasbon kb
-    INNER JOIN karyawan k ON kb.id_karyawan = k.id
+    FROM keu_kasbon kb
+    INNER JOIN hr_karyawan k ON kb.id_karyawan = k.id
     WHERE LOWER(k.nama) = LOWER(?) 
        OR LOWER(k.username) = LOWER(?)
     ORDER BY kb.tanggal DESC, kb.id DESC

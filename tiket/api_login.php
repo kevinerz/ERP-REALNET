@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // ===== HEADER & CORS =====
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
@@ -17,7 +18,7 @@ $user   = 'u272457353_kevinsamsung99';
 $pass   = 'Admionkevin99';
 $dbname = 'u272457353_umumdata';
 
-$conn = new mysqli($host, $user, $pass, $dbname);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -59,7 +60,7 @@ if ($username === '' || $password === '') {
 // ===== AUTHENTICATION (PLAINTEXT) =====
 try {
     // Ambil data user
-    $stmt = $conn->prepare("SELECT nama, username, password, divisi FROM karyawan WHERE username = ?");
+    $stmt = $conn->prepare("SELECT nama, username, password, divisi FROM hr_karyawan WHERE username = ?");
     if ($stmt === false) {
         throw new Exception('Failed to prepare statement: ' . $conn->error);
     }

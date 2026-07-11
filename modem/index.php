@@ -6,11 +6,11 @@ include "partials/header.php";
 
 // Statistik
 $stat = [];
-$q = $conn->query("SELECT lokasi_penyimpanan, COUNT(*) AS total FROM modem GROUP BY lokasi_penyimpanan");
+$q = $conn->query("SELECT lokasi_penyimpanan, COUNT(*) AS total FROM jaringan_modem GROUP BY lokasi_penyimpanan");
 while($r = $q->fetch_assoc()) $stat[] = $r;
 
 // Data modem
-$data = $conn->query("SELECT * FROM modem ORDER BY id_modem DESC");
+$data = $conn->query("SELECT * FROM jaringan_modem ORDER BY id_modem DESC");
 ?>
 
 <div class="container">
@@ -67,7 +67,7 @@ $data = $conn->query("SELECT * FROM modem ORDER BY id_modem DESC");
     <?php
     if($m['id_karyawan_keluar']){
         $id = $m['id_karyawan_keluar'];
-        $u = $conn->query("SELECT nama FROM karyawan WHERE id=$id")->fetch_assoc();
+        $u = $conn->query("SELECT nama FROM hr_karyawan WHERE id=$id")->fetch_assoc();
         echo "<b>".$u['nama']."</b>";
     } else echo "-";
     ?>

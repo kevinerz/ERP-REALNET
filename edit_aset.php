@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -17,7 +18,7 @@ if ($conn->connect_error) {
 $id = $_GET['edit'];
 
 // Ambil data aset dari database
-$sql = "SELECT * FROM Aset WHERE ID_Aset = ?";
+$sql = "SELECT * FROM aset_master WHERE ID_Aset = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $id);
 $stmt->execute();
@@ -36,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $kondisi = $_POST['kondisi'];
     $lokasi = $_POST['lokasi'];
 
-    $sql = "UPDATE Aset SET Nama_Aset = ?, Jenis_Aset = ?, Merk = ?, Model = ?, Serial_Number = ?, Tanggal_Pembelian = ?, Harga_Pembelian = ?, Kondisi = ?, Lokasi = ? WHERE ID_Aset = ?";
+    $sql = "UPDATE aset_master SET Nama_Aset = ?, Jenis_Aset = ?, Merk = ?, Model = ?, Serial_Number = ?, Tanggal_Pembelian = ?, Harga_Pembelian = ?, Kondisi = ?, Lokasi = ? WHERE ID_Aset = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssssssdssi", $nama_aset, $jenis_aset, $merk, $model, $serial_number, $tanggal_pembelian, $harga_pembelian, $kondisi, $lokasi, $id);
 
@@ -75,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // ... kueri UPDATE (termasuk kolom Foto) ...
-    $sql = "UPDATE Aset SET Nama_Aset = ?, Jenis_Aset = ?, Merk = ?, Model = ?, Serial_Number = ?, Tanggal_Pembelian = ?, Harga_Pembelian = ?, Kondisi = ?, Lokasi = ?, Foto = ? WHERE ID_Aset = ?";
+    $sql = "UPDATE aset_master SET Nama_Aset = ?, Jenis_Aset = ?, Merk = ?, Model = ?, Serial_Number = ?, Tanggal_Pembelian = ?, Harga_Pembelian = ?, Kondisi = ?, Lokasi = ?, Foto = ? WHERE ID_Aset = ?";
 
     // ... prepared statement ...
     $stmt->bind_param("ssssssdssi", $nama_aset, $jenis_aset, $merk, $model, $serial_number, $tanggal_pembelian, $harga_pembelian, $kondisi, $lokasi, $foto, $id);

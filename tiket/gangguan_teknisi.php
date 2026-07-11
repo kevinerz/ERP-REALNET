@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 session_start();
 
 // Konfigurasi Database
@@ -8,7 +9,7 @@ $password   = "Admionkevin99";
 $dbname     = "u272457353_tiket_helpdesk";
 
 // Buat koneksi
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi database gagal: " . $conn->connect_error);
 }
@@ -66,7 +67,7 @@ $rows_per_page = 5;
 $page_tiket    = isset($_GET['page_tiket']) ? max(1, (int)$_GET['page_tiket']) : 1;
 
 // Hitung total baris & halaman
-$sqlCount    = "SELECT COUNT(*) AS total FROM tiket $whereClause";
+$sqlCount    = "SELECT COUNT(*) AS total FROM tiket_gangguan $whereClause";
 $total_rows  = $conn->query($sqlCount)->fetch_assoc()['total'];
 $total_pages = max(1, ceil($total_rows / $rows_per_page));
 $page_tiket  = min($page_tiket, $total_pages);
@@ -77,7 +78,7 @@ $sql = "
   SELECT 
     id, nama_pelanggan, alamat, whatsapp, pop, vlan, sn, keluhan, 
     maps_url, teknisi, action, tanggal_dibuat, tanggal_selesai, status
-  FROM tiket
+  FROM tiket_gangguan
   $whereClause
   ORDER BY 
     CASE 

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 $dashboard_divisi = ['Admin', 'IT', 'Manager', 'SPV Teknis', 'Finance'];
@@ -8,7 +9,7 @@ if (!isset($_SESSION['username']) || !in_array($_SESSION['divisi'], $dashboard_d
     exit;
 }
 
-$conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
 // Filter Periode - DEFAULT BULAN INI
@@ -68,7 +69,7 @@ $where = !empty($where_conditions) ? implode(' AND ', $where_conditions) : '1';
 
 // Query untuk data utama
 $query = "SELECT id, nama_pengaju, tanggal, tujuan, liter, total, catatan, foto_nota 
-          FROM reimburse_bbm 
+          FROM keu_reimburse_bbm 
           WHERE $where 
           ORDER BY tanggal DESC";
 $data = $conn->query($query);
@@ -79,7 +80,7 @@ $stats_query = "SELECT
     SUM(total) as total_biaya,
     SUM(liter) as total_liter,
     COUNT(DISTINCT nama_pengaju) as total_pengaju
-    FROM reimburse_bbm 
+    FROM keu_reimburse_bbm 
     WHERE $where";
 $stats_result = $conn->query($stats_query);
 $stats = $stats_result->fetch_assoc();
@@ -89,7 +90,7 @@ $top_pengaju_query = "SELECT
     nama_pengaju,
     COUNT(*) as jumlah_pengajuan,
     SUM(total) as total_biaya
-    FROM reimburse_bbm 
+    FROM keu_reimburse_bbm 
     WHERE $where
     GROUP BY nama_pengaju
     ORDER BY total_biaya DESC

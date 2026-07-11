@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validasi sederhana (pastikan tidak ada yang kosong)
     if (!empty($keterangan) && !empty($jumlah) && !empty($tanggal)) {
         // Gunakan Prepared Statement untuk mencegah SQL Injection
-        $stmt = $conn->prepare("INSERT INTO pemasukan (keterangan, jumlah, tanggal) VALUES (?, ?, ?)");
+        $stmt = $conn->prepare("INSERT INTO keu_pemasukan (keterangan, jumlah, tanggal) VALUES (?, ?, ?)");
         // 'sds' berarti: s=string, d=double/decimal, s=string (untuk tanggal)
         $stmt->bind_param("sds", $keterangan, $jumlah, $tanggal);
 
@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <tbody>
             <?php
             // Ambil semua data dari tabel pemasukan, urutkan dari yang terbaru
-            $result = $conn->query("SELECT * FROM pemasukan ORDER BY tanggal DESC");
+            $result = $conn->query("SELECT * FROM keu_pemasukan ORDER BY tanggal DESC");
             $no = 1;
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {

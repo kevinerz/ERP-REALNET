@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -22,7 +23,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $id_adss = $_GET['id'];
 
     // Ambil data ADSS berdasarkan ID
-    $stmt_select = $conn->prepare("SELECT * FROM kabel_adss WHERE id_kabel_adss = ?");
+    $stmt_select = $conn->prepare("SELECT * FROM jaringan_kabel_adss WHERE id_kabel_adss = ?");
     $stmt_select->bind_param("i", $id_adss);
     $stmt_select->execute();
     $result = $stmt_select->get_result();
@@ -54,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id_kabel_adss_update']
         $message = '<div class="alert alert-danger">Kode Kabel harus diisi.</div>';
     } else {
         // Cek apakah Kode Kabel sudah ada untuk kabel ADSS lain
-        $stmt_check = $conn->prepare("SELECT kode_kabel FROM kabel_adss WHERE kode_kabel = ? AND id_kabel_adss != ?");
+        $stmt_check = $conn->prepare("SELECT kode_kabel FROM jaringan_kabel_adss WHERE kode_kabel = ? AND id_kabel_adss != ?");
         $stmt_check->bind_param("si", $kode_kabel, $id_kabel_adss_update);
         $stmt_check->execute();
         $stmt_check->store_result();
@@ -63,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id_kabel_adss_update']
             $message = '<div class="alert alert-danger">Kode Kabel sudah terdaftar untuk kabel ADSS lain.</div>';
         } else {
             // Siapkan query SQL untuk update data
-            $stmt_update = $conn->prepare("UPDATE kabel_adss SET kode_kabel=?, panjang_meter=?, jumlah_core=?, merk=?, status=?, tanggal_masuk=?, keterangan=?, lokasi_penyimpanan=? WHERE id_kabel_adss=?");
+            $stmt_update = $conn->prepare("UPDATE jaringan_kabel_adss SET kode_kabel=?, panjang_meter=?, jumlah_core=?, merk=?, status=?, tanggal_masuk=?, keterangan=?, lokasi_penyimpanan=? WHERE id_kabel_adss=?");
             $stmt_update->bind_param("ssdsssssi", $kode_kabel, $panjang_meter, $jumlah_core, $merk, $status, $tanggal_masuk, $keterangan, $lokasi_penyimpanan, $id_kabel_adss_update);
 
             if ($stmt_update->execute()) {

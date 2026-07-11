@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // ==========================================
 // SESSION & AUTH GUARD — harus di baris paling atas
 // ==========================================
@@ -22,7 +23,7 @@ $username   = "u272457353_kevinsamsung99";
 $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi Gagal: " . $conn->connect_error);
 }
@@ -43,7 +44,7 @@ $sql_get = "SELECT
                 status_aktif, divisi, jabatan, tipe_petugas, id_pop_penempatan,
                 gaji_pokok, tunjangan_jabatan, tunjangan_operasional,
                 bank, rekening, username, password, fcm_token
-            FROM karyawan
+            FROM hr_karyawan
             WHERE id = ?";
 $stmt_get = $conn->prepare($sql_get);
 $stmt_get->bind_param("i", $id);
@@ -127,7 +128,7 @@ if (isset($_POST['update'])) {
     }
 
     // 3. Query Update (Semua Kolom) + ✅ gaji_pokok + tunjangan
-    $sql_update = "UPDATE karyawan SET
+    $sql_update = "UPDATE hr_karyawan SET
         avatar=?,
         nama=?,
         nik=?,

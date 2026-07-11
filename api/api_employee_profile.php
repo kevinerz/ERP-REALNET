@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // =================================================================
 // API UNTUK MENGAMBIL PROFIL KARYAWAN (VERSI FIX USERNAME & NAMA)
 // =================================================================
@@ -16,7 +17,7 @@ define('DB_PASSWORD', 'Admionkevin99');
 define('DB_NAME', 'u272457353_umumdata');
 
 $response = array();
-$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = getErpDbConnection();
 
 if ($conn->connect_error) {
     $response['status'] = 'error';
@@ -47,7 +48,7 @@ if ($keyword_pencarian !== null) {
     // Mencari data dimana 'username' COCOK -ATAU- 'nama' COCOK
     // Ini menangani kasus jika aplikasi mengirim "Gofur" (username) atau "MUHAMMAD GOFYR" (nama)
     
-    $sql = "SELECT * FROM karyawan WHERE username = ? OR nama = ?";
+    $sql = "SELECT * FROM hr_karyawan WHERE username = ? OR nama = ?";
     
     $stmt = $conn->prepare($sql);
     

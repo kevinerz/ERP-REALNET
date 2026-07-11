@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -6,7 +7,7 @@ error_reporting(E_ALL);
 header('Content-Type: application/json');
 date_default_timezone_set('Asia/Jakarta');
 
-$conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$conn = getErpDbConnection();
 
 if ($conn->connect_error) {
     http_response_code(500);
@@ -69,7 +70,7 @@ $catatan      = isset($_POST['catatan']) ? $_POST['catatan'] : '';
 // =======================================================================
 // ### PERUBAHAN DI SINI ###
 // Menghapus 'divisi' dan 'status' dari query INSERT
-$stmt = $conn->prepare("INSERT INTO reimburse_bbm (nama_pengaju, tanggal, tujuan, liter, total, catatan, foto_nota) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO keu_reimburse_bbm (nama_pengaju, tanggal, tujuan, liter, total, catatan, foto_nota) VALUES (?, ?, ?, ?, ?, ?, ?)");
 
 // Menyesuaikan bind_param dengan 7 parameter (s=string, d=double)
 $stmt->bind_param("sssddss", $nama_pengaju, $tgl, $tujuan, $liter, $total, $catatan, $filePath);

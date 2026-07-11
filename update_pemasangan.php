@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Set header untuk respons JSON
 header('Content-Type: application/json');
 
@@ -78,13 +79,13 @@ $pdo_crm = null;
 // --- Logika Pembaruan Data ---
 try {
     // 1. Koneksi ke Database Pemasangan
-    $conn_pemasangan = new mysqli($db_pemasangan_host, $db_pemasangan_user, $db_pemasangan_pass, $db_pemasangan_name);
+    $conn_pemasangan = getErpDbConnection();
     if ($conn_pemasangan->connect_error) {
         throw new Exception("Koneksi ke database pemasangan gagal: " . $conn_pemasangan->connect_error);
     }
 
     // 2. Koneksi ke Database Umum
-    $conn_umum = new mysqli($db_umum_host, $db_umum_user, $db_umum_pass, $db_umum_name);
+    $conn_umum = getErpDbConnection();
     if ($conn_umum->connect_error) {
         throw new Exception("Koneksi ke database umum gagal: " . $conn_umum->connect_error);
     }
@@ -98,7 +99,7 @@ try {
     // Kolom 'harga' DIHAPUS karena tidak ada di tabel 'pemasangan' sesuai error.
     $stmt_get_pemasangan = $conn_pemasangan->prepare(
         "SELECT modem, userppp, nama, pop, ktp, alamat, telp, email, paket, tanggal, marketing, url_maps
-         FROM pemasangan WHERE id = ?"
+         FROM pelanggan_instalasi WHERE id = ?"
     );
     if (!$stmt_get_pemasangan) {
         throw new Exception("Gagal menyiapkan statement SELECT dari db_pemasangan: " . $conn_pemasangan->error);
@@ -133,10 +134,10 @@ try {
 
     // 4. Update Tabel `pemasangan` di `db_pemasangan`
     $stmt_update_pemasangan = $conn_pemasangan->prepare(
-        "UPDATE pemasangan SET odp = ?, vlan = ?, modem = ?, dropcore = ?, teknisi = ?, status = 'di proses' WHERE id = ?"
+        "UPDATE pelanggan_instalasi SET odp = ?, vlan = ?, modem = ?, dropcore = ?, teknisi = ?, status = 'di proses' WHERE id = ?"
     );
     if (!$stmt_update_pemasangan) {
-        throw new Exception("Gagal menyiapkan statement UPDATE pemasangan: " . $conn_pemasangan->error);
+        throw new Exception("Gagal menyiapkan statement UPDATE pelanggan_instalasi: " . $conn_pemasangan->error);
     }
     $stmt_update_pemasangan->bind_param("sssssi", $odp, $vlan, $modem, $dropcore, $teknisi, $id);
     if (!$stmt_update_pemasangan->execute()) {
@@ -148,10 +149,10 @@ try {
     // 5. Update Status Modem di `db_umum`
     if (!empty($modem)) { // Jika modem baru dipilih
         $stmt_update_modem = $conn_umum->prepare(
-            "UPDATE modem SET status = 'dipasang', lokasi_penyimpanan = ? WHERE id_modem = ?"
+            "UPDATE jaringan_modem SET status = 'dipasang', lokasi_penyimpanan = ? WHERE id_modem = ?"
         );
         if (!$stmt_update_modem) {
-            throw new Exception("Gagal menyiapkan statement UPDATE modem (baru): " . $conn_umum->error);
+            throw new Exception("Gagal menyiapkan statement UPDATE jaringan_modem (baru): " . $conn_umum->error);
         }
         $stmt_update_modem->bind_param("ss", $nama_pelanggan, $modem);
         if (!$stmt_update_modem->execute()) {
@@ -163,10 +164,10 @@ try {
         if (!empty($modem_lama) && $modem_lama !== $modem) {
             $empty_lokasi = ''; // Kosongkan lokasi penyimpanan modem lama
             $stmt_reset_modem_lama = $conn_umum->prepare(
-                "UPDATE modem SET status = 'tersedia', lokasi_penyimpanan = ? WHERE id_modem = ?"
+                "UPDATE jaringan_modem SET status = 'tersedia', lokasi_penyimpanan = ? WHERE id_modem = ?"
             );
             if (!$stmt_reset_modem_lama) {
-                throw new Exception("Gagal menyiapkan statement UPDATE modem (lama): " . $conn_umum->error);
+                throw new Exception("Gagal menyiapkan statement UPDATE jaringan_modem (lama): " . $conn_umum->error);
             }
             $stmt_reset_modem_lama->bind_param("ss", $empty_lokasi, $modem_lama);
             if (!$stmt_reset_modem_lama->execute()) {

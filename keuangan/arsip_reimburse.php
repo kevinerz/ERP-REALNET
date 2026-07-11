@@ -1,11 +1,12 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 session_start();
 if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit;
 }
 
-$conn = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
 // Filter Periode (optional)
@@ -19,7 +20,7 @@ if ($tanggal_awal && $tanggal_akhir) {
 }
 
 // Query data arsip: status_keuangan = Disetujui
-$data = $conn->query("SELECT * FROM reimburse_bbm WHERE $where AND status_keuangan = 'Disetujui' ORDER BY tanggal DESC");
+$data = $conn->query("SELECT * FROM keu_reimburse_bbm WHERE $where AND status_keuangan = 'Disetujui' ORDER BY tanggal DESC");
 
 // Judul halaman
 $title = "Arsip Reimburse BBM";

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // update_ticket.php
 
 // 1. Konfigurasi Database
@@ -7,7 +8,7 @@ $username   = "u272457353_kevinsamsung";
 $password   = "Admionkevin99";
 $dbname     = "u272457353_tiket_helpdesk";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi database gagal: " . $conn->connect_error);
 }
@@ -33,7 +34,7 @@ $tanggal_selesai = ($status === 'selesai')
     : null;
 
 // 4. Prepare & execute UPDATE
-$sql = "UPDATE tiket 
+$sql = "UPDATE tiket_gangguan 
         SET vlan=?, sn=?, teknisi=?, action=?, maps_url=?, status=?, tanggal_selesai=?
         WHERE id=?";
 $stmt = $conn->prepare($sql);
@@ -97,7 +98,7 @@ function sendNotification($recipient, $body) {
 
 $ticketQ = $conn->prepare(
     "SELECT nama_pelanggan, whatsapp, keluhan, pop, teknisi, maps_url 
-     FROM tiket WHERE id=?"
+     FROM tiket_gangguan WHERE id=?"
 );
 $ticketQ->bind_param("i", $id);
 $ticketQ->execute();

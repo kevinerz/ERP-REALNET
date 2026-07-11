@@ -83,7 +83,7 @@ ob_start();
             <?php
             // Query untuk mengambil data riwayat
             // Pastikan $conn tersedia dari config/db_connect.php
-            $result = $conn->query("SELECT * FROM pembayaran_kontribusi ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
+            $result = $conn->query("SELECT * FROM keu_pembayaran_kontribusi ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
             $no = 1;
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {

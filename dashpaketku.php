@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 $dashboard_divisi = ['Admin', 'IT', 'Manager', 'SPV Teknis', 'Finance'];
@@ -16,7 +17,7 @@ $database = "u272457353_umumdata";
 
 // Koneksi dengan error handling
 try {
-    $conn = new mysqli($servername, $username, $password, $database);
+    $conn = getErpDbConnection();
     
     if ($conn->connect_error) {
         error_log("Database connection failed: " . $conn->connect_error);
@@ -31,7 +32,7 @@ try {
 }
 
 // Query data paket dengan sorting
-$sql = "SELECT * FROM paket ORDER BY harga ASC";
+$sql = "SELECT * FROM jaringan_paket ORDER BY harga ASC";
 $result = $conn->query($sql);
 
 include('navbar.php');

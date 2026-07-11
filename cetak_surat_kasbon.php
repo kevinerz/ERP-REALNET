@@ -16,8 +16,8 @@ $kasbon_id = (int)$_GET['id'];
 // Ambil kasbon berdasarkan ID
 $stmt = $conn->prepare("
     SELECT k.*, u.nama, u.divisi, u.username 
-    FROM kasbon k 
-    JOIN karyawan u ON k.id_karyawan = u.id 
+    FROM keu_kasbon k 
+    JOIN hr_karyawan u ON k.id_karyawan = u.id 
     WHERE k.id = ? AND k.status = 'selesai'
 ");
 $stmt->bind_param("i", $kasbon_id);
@@ -32,7 +32,7 @@ $data = $result->fetch_assoc();
 
 // Ambil nama approver dari divisi tertentu
 function getApprover($conn, $divisi) {
-    $stmt = $conn->prepare("SELECT nama FROM karyawan WHERE divisi = ? LIMIT 1");
+    $stmt = $conn->prepare("SELECT nama FROM hr_karyawan WHERE divisi = ? LIMIT 1");
     $stmt->bind_param("s", $divisi);
     $stmt->execute();
     $res = $stmt->get_result();

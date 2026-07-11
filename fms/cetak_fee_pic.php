@@ -26,7 +26,7 @@ $fee_per_pelanggan = 5000;
 // 3. Ambil data pelanggan untuk PIC dan periode tersebut
 $pelanggan_list = [];
 $stmt = $conn_pasang->prepare(
-    "SELECT nama, alamat, paket, pop, tanggal FROM pemasangan 
+    "SELECT nama, alamat, paket, pop, tanggal FROM pelanggan_instalasi 
      WHERE marketing = ? 
      AND paket IN ($paket_in_clause) 
      AND status IN ('selesai', 'on')
@@ -43,7 +43,7 @@ $total_fee = $jumlah_pelanggan * $fee_per_pelanggan;
 
 // Ambil nama paket
 $paket_map = [];
-$rp = $conn_bbm->query("SELECT id_paket, nama_paket FROM paket");
+$rp = $conn_bbm->query("SELECT id_paket, nama_paket FROM jaringan_paket");
 while ($p = $rp->fetch_assoc()) {
     $paket_map[$p['id_paket']] = $p['nama_paket'];
 }

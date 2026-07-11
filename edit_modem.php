@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -22,7 +23,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $id_modem = $_GET['id'];
 
     // Ambil data modem berdasarkan ID
-    $stmt_select = $conn->prepare("SELECT * FROM modem WHERE id_modem = ?");
+    $stmt_select = $conn->prepare("SELECT * FROM jaringan_modem WHERE id_modem = ?");
     $stmt_select->bind_param("i", $id_modem);
     $stmt_select->execute();
     $result = $stmt_select->get_result();
@@ -54,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id_modem_update'])) {
         $message = '<div class="alert alert-danger">Status tidak valid.</div>';
     } else {
         // Cek apakah Serial Number sudah ada untuk modem lain
-        $stmt_check = $conn->prepare("SELECT serial_number FROM modem WHERE serial_number = ? AND id_modem != ?");
+        $stmt_check = $conn->prepare("SELECT serial_number FROM jaringan_modem WHERE serial_number = ? AND id_modem != ?");
         $stmt_check->bind_param("si", $serial_number, $id_modem_update);
         $stmt_check->execute();
         $stmt_check->store_result();
@@ -63,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id_modem_update'])) {
             $message = '<div class="alert alert-danger">Serial Number sudah terdaftar untuk modem lain.</div>';
         } else {
             // Update data modem
-            $stmt_update = $conn->prepare("UPDATE modem SET serial_number=?, model=?, merk=?, status=?, tanggal_masuk=?, lokasi_penyimpanan=? WHERE id_modem=?");
+            $stmt_update = $conn->prepare("UPDATE jaringan_modem SET serial_number=?, model=?, merk=?, status=?, tanggal_masuk=?, lokasi_penyimpanan=? WHERE id_modem=?");
             $stmt_update->bind_param("ssssssi", $serial_number, $model, $merk, $status, $tanggal_masuk, $lokasi_penyimpanan, $id_modem_update);
 
             if ($stmt_update->execute()) {

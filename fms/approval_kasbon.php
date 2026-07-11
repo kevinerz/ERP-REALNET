@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Update data kasbon di DB umumdata (menggunakan $conn_bbm)
-    $stmt = $conn_bbm->prepare("UPDATE kasbon SET status = ?, catatan = CONCAT(IFNULL(catatan,''), ?) WHERE id = ?");
+    $stmt = $conn_bbm->prepare("UPDATE keu_kasbon SET status = ?, catatan = CONCAT(IFNULL(catatan,''), ?) WHERE id = ?");
     $stmt->bind_param("ssi", $new_status, $catatan_text, $kasbon_id);
     $stmt->execute();
 
@@ -65,8 +65,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // Ambil data kasbon yang menunggu approval dari divisi ini
 $stmt = $conn_bbm->prepare("
     SELECT k.*, u.nama, u.divisi
-    FROM kasbon k
-    JOIN karyawan u ON k.id_karyawan = u.id
+    FROM keu_kasbon k
+    JOIN hr_karyawan u ON k.id_karyawan = u.id
     WHERE k.status = ?
     ORDER BY k.tanggal_dibuat DESC
 ");

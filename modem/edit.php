@@ -5,7 +5,7 @@ hanyaAdmin();
 require_once "core/db.php";
 
 $id = $_GET['id'];
-$data = $conn->query("SELECT * FROM modem WHERE id_modem=$id")->fetch_assoc();
+$data = $conn->query("SELECT * FROM jaringan_modem WHERE id_modem=$id")->fetch_assoc();
 
 include "partials/header.php";
 
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
     $merk   = $_POST['merk'];
     $lokasi = $_POST['lokasi'];
 
-    $q = $conn->prepare("UPDATE modem SET serial_number=?, model=?, merk=?, lokasi_penyimpanan=? WHERE id_modem=?");
+    $q = $conn->prepare("UPDATE jaringan_modem SET serial_number=?, model=?, merk=?, lokasi_penyimpanan=? WHERE id_modem=?");
     $q->bind_param("ssssi", $serial,$model,$merk,$lokasi,$id);
     $q->execute();
 

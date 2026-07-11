@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Ensure session is started at the very beginning
 session_start();
 
@@ -26,7 +27,7 @@ error_log("DEBUG: Processing request for ID: " . $id);
 // ------------------------------------------------------------------
 // CONNECTION 1: u272457353_db_pemasangan (for installation data)
 // ------------------------------------------------------------------
-$conn_pemasangan = new mysqli("localhost", "u272457353_kevinsamsung9", "Admionkevin99", "u272457353_db_pemasangan");
+$conn_pemasangan = getErpDbConnection();
 if ($conn_pemasangan->connect_error) {
     error_log("FATAL ERROR: Koneksi database pemasangan gagal: " . $conn_pemasangan->connect_error);
     echo json_encode(['success'=>false,'message'=>'Koneksi database pemasangan gagal']);
@@ -40,7 +41,7 @@ $conn_pemasangan->begin_transaction();
 error_log("DEBUG: Transaction started for pemasangan database.");
 
 // 1. Update the installation status in 'pemasangan' database
-$stmt_update = $conn_pemasangan->prepare("UPDATE pemasangan SET status='selesai' WHERE id=?");
+$stmt_update = $conn_pemasangan->prepare("UPDATE pelanggan_instalasi SET status='selesai' WHERE id=?");
 if (!$stmt_update) {
     $conn_pemasangan->rollback(); // Rollback in case of prepare failure
     error_log("ERROR: Prepare statement update pemasangan gagal: " . $conn_pemasangan->error);
@@ -82,7 +83,7 @@ $stmt_select_pemasangan = $conn_pemasangan->prepare("SELECT
     email,
     marketing
 FROM
-    pemasangan
+    pelanggan_instalasi
 WHERE
     id = ?");
 
@@ -126,7 +127,7 @@ $lokasi_penyimpanan = "Tidak diketahui";
 // ------------------------------------------------------------------
 // CONNECTION 2: u272457353_umumdata (for package and modem details)
 // ------------------------------------------------------------------
-$conn_umumdata = new mysqli("localhost", "u272457353_kevinsamsung99", "Admionkevin99", "u272457353_umumdata");
+$conn_umumdata = getErpDbConnection();
 if ($conn_umumdata->connect_error) {
     error_log("ERROR: Koneksi database umumdata gagal: " . $conn_umumdata->connect_error . ". Package and modem details will be default.");
     // If this connection fails, package and modem details will remain default values.
@@ -135,7 +136,7 @@ if ($conn_umumdata->connect_error) {
 
     // --- Fetch package details (nama_paket, kecepatan, harga) using id_paket ---
     if (isset($paket) && is_numeric($paket)) { 
-        $stmt_select_paket_details = $conn_umumdata->prepare("SELECT nama_paket, kecepatan, harga FROM paket WHERE id_paket = ?");
+        $stmt_select_paket_details = $conn_umumdata->prepare("SELECT nama_paket, kecepatan, harga FROM jaringan_paket WHERE id_paket = ?");
         if ($stmt_select_paket_details) {
             $stmt_select_paket_details->bind_param("i", $paket); 
             $stmt_select_paket_details->execute();
@@ -163,7 +164,7 @@ if ($conn_umumdata->connect_error) {
     // CRITICAL CHANGE: Using id_modem_pemasangan (from pemasangan.modem) for lookup
     if (isset($id_modem_pemasangan) && is_numeric($id_modem_pemasangan) && $id_modem_pemasangan > 0) { 
         // Select serial_number here as well to display it
-        $stmt_select_modem = $conn_umumdata->prepare("SELECT serial_number, model, merk, lokasi_penyimpanan FROM modem WHERE id_modem = ?");
+        $stmt_select_modem = $conn_umumdata->prepare("SELECT serial_number, model, merk, lokasi_penyimpanan FROM jaringan_modem WHERE id_modem = ?");
         if ($stmt_select_modem) {
             $stmt_select_modem->bind_param("i", $id_modem_pemasangan); 
             $stmt_select_modem->execute();

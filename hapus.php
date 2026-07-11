@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung9";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_db_pemasangan";
 
 // Buat koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Periksa koneksi
 if ($conn->connect_error) {
@@ -18,7 +19,7 @@ if (isset($_GET['id'])) {
     $id = intval($_GET['id']); // Pastikan ID adalah angka
 
     // Query untuk menghapus data berdasarkan ID
-    $sql = "DELETE FROM pemasangan WHERE id = ?";
+    $sql = "DELETE FROM pelanggan_instalasi WHERE id = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $id);
 

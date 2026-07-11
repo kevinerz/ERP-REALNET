@@ -58,13 +58,13 @@ if (isset($_POST['submit'])) {
             case "mauk":     $nomor_tujuan = "120363405820721170@g.us"; break;
             default:         $nomor_tujuan = "";
         }
-        $stmt = $conn_utama->prepare("INSERT INTO tiket (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat) VALUES (?, ?, ?, ?, ?, ?, ?)");
+        $stmt = $conn_utama->prepare("INSERT INTO tiket_gangguan (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat) VALUES (?, ?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("sssssss", $nama, $alamat, $whatsapp, $pop, $keluhan, $maps_url, $tanggal_sekarang);
         if ($stmt->execute()) {
             sendNotificationCustomer($whatsapp, $keluhan, 'customer', $nama, $alamat, '', $maps_url, '', $tanggal_sekarang);
             sendNotificationGroup($nomor_tujuan, $keluhan, 'group', $nama, $alamat, $whatsapp, $maps_url, $pop, $tanggal_sekarang);
             if ($idPopTeknisi > 0) {
-                $res_fcm = $conn_umum->query("SELECT fcm_token, nama FROM karyawan WHERE id_pop_penempatan = $idPopTeknisi AND fcm_token IS NOT NULL AND fcm_token != ''");
+                $res_fcm = $conn_umum->query("SELECT fcm_token, nama FROM hr_karyawan WHERE id_pop_penempatan = $idPopTeknisi AND fcm_token IS NOT NULL AND fcm_token != ''");
                 if ($res_fcm && $res_fcm->num_rows > 0) {
                     while ($tk = $res_fcm->fetch_assoc()) {
                         $result_fcm = sendFCM($tk['fcm_token'], "Gangguan Baru di POP " . strtoupper($pop), "$nama | $alamat\nKeluhan: $keluhan");

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 $dashboard_divisi = ['Admin', 'IT', 'Manager', 'SPV Teknis', 'Finance'];
@@ -17,7 +18,7 @@ $db_pass = 'Admionkevin99';             // Password untuk database FMS
 $db_name = 'u272457353_fms';             // Nama database FMS
 
 // Membuat koneksi
-$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -38,7 +39,7 @@ if (isset($_POST['submit_pengajuan'])) {
     $keterangan     = $_POST['keterangan'];
 
     // Query INSERT menggunakan prepared statement
-    $stmt = $conn->prepare("INSERT INTO pengajuan_aset (nama_pengaju, divisi_pengaju, nama_barang, harga_satuan, jumlah, total_harga, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO keu_pengajuan_pembelian_aset (nama_pengaju, divisi_pengaju, nama_barang, harga_satuan, jumlah, total_harga, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sssdiis", $nama_pengaju, $divisi_pengaju, $nama_barang, $harga_satuan, $jumlah, $total_harga, $keterangan);
     
     if ($stmt->execute()) {
@@ -50,7 +51,7 @@ if (isset($_POST['submit_pengajuan'])) {
 }
 
 // Ambil 10 data pengajuan terakhir untuk ditampilkan di riwayat
-$history_result = $conn->query("SELECT * FROM pengajuan_aset ORDER BY tanggal_pengajuan DESC LIMIT 10");
+$history_result = $conn->query("SELECT * FROM keu_pengajuan_pembelian_aset ORDER BY tanggal_pengajuan DESC LIMIT 10");
 // INCLUDE NAVBAR
 include('navbar.php');
 ?>

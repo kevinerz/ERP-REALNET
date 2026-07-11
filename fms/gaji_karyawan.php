@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_bayar'])) {
                 COALESCE(gaji_pokok,0) AS gaji_pokok,
                 COALESCE(tunjangan_jabatan,0) AS tunjangan_jabatan,
                 COALESCE(tunjangan_operasional,0) AS tunjangan_operasional
-            FROM karyawan
+            FROM hr_karyawan
             WHERE nik=? LIMIT 1
         ");
         $stmtEmp->bind_param("s", $nik);
@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_bayar'])) {
                 $token = makePublicToken();
 
                 // Simpan slip (kolom gaji_pokok di slip_gaji kita isi = total gaji dasar (gp+tj+to))
-                $sqlIns = "INSERT INTO slip_gaji
+                $sqlIns = "INSERT INTO hr_slip_gaji
                     (karyawan_nik, nama_karyawan, tanggal_bayar, gaji_pokok, bonus, potongan, total_dibayar,
                      nama_bank, no_rekening, nama_rekening, keterangan, public_token)
                     VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -169,7 +169,7 @@ if (isset($_POST['delete_slip'])) {
     // (opsional) tambah CSRF delete kalau mau, sekarang mengikuti pola lama Anda
     $slipId = (int)($_POST['slip_id'] ?? 0);
     if ($slipId > 0) {
-        $stmtDel = $conn->prepare("DELETE FROM slip_gaji WHERE id=?");
+        $stmtDel = $conn->prepare("DELETE FROM hr_slip_gaji WHERE id=?");
         $stmtDel->bind_param("i", $slipId);
         $stmtDel->execute();
     }
@@ -187,13 +187,13 @@ $resK = $conn_bbm->query("
         COALESCE(k.tunjangan_operasional,0) AS tunjangan_operasional,
         (COALESCE(k.gaji_pokok,0) + COALESCE(k.tunjangan_jabatan,0) + COALESCE(k.tunjangan_operasional,0)) AS gaji_dasar,
         (SELECT COALESCE(SUM(jumlah),0)
-            FROM kasbon
+            FROM keu_kasbon
             WHERE id_karyawan=k.id
               AND status='selesai'
               AND MONTH(tanggal)=$bulan_ini
               AND YEAR(tanggal)=$tahun_ini
         ) AS kasbon_ini
-    FROM karyawan k
+    FROM hr_karyawan k
     ORDER BY nama ASC
 ");
 while($row = $resK->fetch_assoc()) $karyawan_list[] = $row;
@@ -203,7 +203,7 @@ $f_bulan = (int)($_GET['bulan'] ?? $bulan_ini);
 $f_tahun = (int)($_GET['tahun'] ?? $tahun_ini);
 $f_search = $_GET['search'] ?? '';
 
-$sqlR = "SELECT * FROM slip_gaji
+$sqlR = "SELECT * FROM hr_slip_gaji
          WHERE MONTH(tanggal_bayar)=? AND YEAR(tanggal_bayar)=? AND nama_karyawan LIKE ?
          ORDER BY id DESC";
 $stmtR = $conn->prepare($sqlR);

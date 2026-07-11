@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validasi sederhana
     if (!empty($keterangan) && !empty($jumlah) && !empty($tanggal)) {
         // Query INSERT ke tabel 'pengeluaran'
-        $stmt = $conn->prepare("INSERT INTO pengeluaran (keterangan, jumlah, tanggal) VALUES (?, ?, ?)");
+        $stmt = $conn->prepare("INSERT INTO keu_pengeluaran (keterangan, jumlah, tanggal) VALUES (?, ?, ?)");
         $stmt->bind_param("sds", $keterangan, $jumlah, $tanggal);
 
         if ($stmt->execute()) {
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <tbody>
             <?php
             // Ambil data dari tabel 'pengeluaran'
-            $result = $conn->query("SELECT * FROM pengeluaran ORDER BY tanggal DESC");
+            $result = $conn->query("SELECT * FROM keu_pengeluaran ORDER BY tanggal DESC");
             $no = 1;
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {

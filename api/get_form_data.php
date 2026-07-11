@@ -62,7 +62,7 @@ $data = [
 $lokasiUser = $username;
 $lokasiNama = null;
 
-$sql_map = "SELECT nama FROM karyawan WHERE username = ? LIMIT 1";
+$sql_map = "SELECT nama FROM hr_karyawan WHERE username = ? LIMIT 1";
 $stmt_map = $conn_umum->prepare($sql_map);
 if ($stmt_map) {
     $stmt_map->bind_param("s", $username);
@@ -80,7 +80,7 @@ if ($stmt_map) {
 // ==========================
 // LIST ODP
 // ==========================
-$res_odp = $conn_umum->query("SELECT DISTINCT nama_odp FROM ODP ORDER BY nama_odp ASC");
+$res_odp = $conn_umum->query("SELECT DISTINCT nama_odp FROM jaringan_odp ORDER BY nama_odp ASC");
 if ($res_odp) {
     $data['odp'] = $res_odp->fetch_all(MYSQLI_ASSOC);
     $res_odp->free();
@@ -98,7 +98,7 @@ if ($lokasiNama !== null && $lokasiNama !== '' && $lokasiNama !== $lokasiUser) {
             serial_number, 
             model, 
             merk
-        FROM modem 
+        FROM jaringan_modem 
         WHERE status = 'dibawa'
           AND (lokasi_penyimpanan = ? OR lokasi_penyimpanan = ?)
     ";
@@ -122,7 +122,7 @@ if ($lokasiNama !== null && $lokasiNama !== '' && $lokasiNama !== $lokasiUser) {
             serial_number, 
             model, 
             merk
-        FROM modem 
+        FROM jaringan_modem 
         WHERE status = 'dibawa'
           AND lokasi_penyimpanan = ?
     ";
@@ -148,7 +148,7 @@ $res_dropcore = $conn_umum->query("
         id_kabel_dropcore AS id, 
         kode_kabel, 
         panjang_meter 
-    FROM kabel_dropcore 
+    FROM jaringan_kabel_dropcore 
     WHERE status = 'tersedia'
 ");
 if ($res_dropcore) {
@@ -161,7 +161,7 @@ if ($res_dropcore) {
 // ==========================
 $res_teknisi = $conn_umum->query("
     SELECT username, divisi 
-    FROM karyawan 
+    FROM hr_karyawan 
     WHERE divisi IN ('Teknisi','Leader Area') 
     ORDER BY divisi, username ASC
 ");

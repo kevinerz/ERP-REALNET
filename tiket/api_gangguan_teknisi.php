@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, OPTIONS');
@@ -23,7 +24,7 @@ $password   = "Admionkevin99";
 $dbname     = "u272457353_tiket_helpdesk";
 
 // Buat koneksi
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     http_response_code(500);
     echo json_encode([
@@ -139,7 +140,7 @@ try {
     // --- PAGINATION ---
     $rows_per_page = 10;
 
-    $sqlCount = "SELECT COUNT(*) AS total FROM tiket $whereClause";
+    $sqlCount = "SELECT COUNT(*) AS total FROM tiket_gangguan $whereClause";
     $resultCount = $conn->query($sqlCount);
 
     if (!$resultCount) {
@@ -186,7 +187,7 @@ try {
             tanggal_dibuat    AS tanggal,
             tanggal_selesai,
             status
-        FROM tiket
+        FROM tiket_gangguan
         $whereClause
         ORDER BY
             CASE

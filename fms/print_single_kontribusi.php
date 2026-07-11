@@ -17,7 +17,7 @@ if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
 $kontribusi_id = $_GET['id'];
 
 // Mengambil data kontribusi berdasarkan ID
-$stmt = $conn->prepare("SELECT * FROM pembayaran_kontribusi WHERE id = ?");
+$stmt = $conn->prepare("SELECT * FROM keu_pembayaran_kontribusi WHERE id = ?");
 $stmt->bind_param("i", $kontribusi_id);
 $stmt->execute();
 $result = $stmt->get_result();

@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
         // INSERT TIKET KE DATABASE TIKET (conn_utama)
         // =====================================================
         $stmt = $conn_utama->prepare("
-            INSERT INTO tiket 
+            INSERT INTO tiket_gangguan 
             (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat)
             VALUES (?, ?, ?, ?, ?, ?, ?)
         ");
@@ -119,7 +119,7 @@ if (isset($_POST['submit'])) {
 
                 $sql_fcm = "
                     SELECT fcm_token, nama 
-                    FROM karyawan
+                    FROM hr_karyawan
                     WHERE id_pop_penempatan = $idPopTeknisi
                       AND fcm_token IS NOT NULL
                       AND fcm_token != ''

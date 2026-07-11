@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 require 'libraries/dompdf/autoload.inc.php'; // jika install via composer
 // require_once 'vendor/dompdf/autoload.inc.php'; // jika manual
 
@@ -10,10 +11,10 @@ $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
 $password = "Admionkevin99";
 $database = "u272457353_umumdata";
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
-$sql = "SELECT * FROM karyawan";
+$sql = "SELECT * FROM hr_karyawan";
 $result = $conn->query($sql);
 
 // Siapkan HTML untuk PDF

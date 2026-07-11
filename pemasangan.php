@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 if (
@@ -16,14 +17,14 @@ if (isset($_SESSION['notif'])) {
 }
 
 // DB koneksi
-$conn_pemasangan = new mysqli('localhost', 'u272457353_kevinsamsung9', 'Admionkevin99', 'u272457353_db_pemasangan');
+$conn_pemasangan = getErpDbConnection();
 if ($conn_pemasangan->connect_error) die("Koneksi gagal: " . $conn_pemasangan->connect_error);
 
-$conn_umum = new mysqli('localhost', 'u272457353_kevinsamsung99', 'Admionkevin99', 'u272457353_umumdata');
+$conn_umum = getErpDbConnection();
 if ($conn_umum->connect_error) die("Koneksi gagal: " . $conn_umum->connect_error);
 
 $paket_array = [];
-$res_paket = $conn_umum->query("SELECT * FROM paket ORDER BY id_paket ASC");
+$res_paket = $conn_umum->query("SELECT * FROM jaringan_paket ORDER BY id_paket ASC");
 while ($row_paket = $res_paket->fetch_assoc()) {
     $paket_array[$row_paket['id_paket']] = $row_paket;
 }
@@ -38,13 +39,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_aktivasi'])) {
     $status  = "aktivasi";
     $last_updated_by = $_SESSION['username'];
 
-    $stmt = $conn_pemasangan->prepare("UPDATE pemasangan SET userppp=?, passwordppp=?, vlan=?, paket=?, status=?, last_updated_by=? WHERE id=?");
+    $stmt = $conn_pemasangan->prepare("UPDATE pelanggan_instalasi SET userppp=?, passwordppp=?, vlan=?, paket=?, status=?, last_updated_by=? WHERE id=?");
     $stmt->bind_param("ssssssi", $userppp, $passwordppp, $vlan, $paket, $status, $last_updated_by, $id);
     $stmt->execute();
     $msg = $stmt->affected_rows > 0 ? "Pelanggan berhasil diaktivasi!" : "Aktivasi gagal.";
 }
 
-$sql = "SELECT * FROM pemasangan WHERE status='belum diproses' ORDER BY tanggal DESC";
+$sql = "SELECT * FROM pelanggan_instalasi WHERE status='belum diproses' ORDER BY tanggal DESC";
 $result = $conn_pemasangan->query($sql);
 
 include('navbar.php');

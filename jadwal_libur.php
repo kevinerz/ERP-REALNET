@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // =========================================
 //  JADWAL LIBUR KARYAWAN - PREMIUM VERSION
 // =========================================
@@ -9,7 +10,7 @@ define('DB_USER_UMUMDATA', 'u272457353_kevinsamsung99');
 define('DB_PASS_UMUMDATA', 'Admionkevin99');
 define('DB_NAME_UMUMDATA', 'u272457353_umumdata');
 
-$conn = new mysqli(DB_HOST_UMUMDATA, DB_USER_UMUMDATA, DB_PASS_UMUMDATA, DB_NAME_UMUMDATA);
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 $conn->set_charset('utf8mb4');
 
@@ -43,7 +44,7 @@ if (isset($_POST['ajax'])) {
         
         if (!in_array($hari, $hariList)) die(json_encode(['ok'=>0]));
         
-        $sqlCheck = "SELECT id FROM jadwal_libur WHERE id_karyawan = ? AND hari = ?";
+        $sqlCheck = "SELECT id FROM hr_jadwal_libur WHERE id_karyawan = ? AND hari = ?";
         $stmtCheck = $conn->prepare($sqlCheck);
         $stmtCheck->bind_param('is', $id_karyawan, $hari);
         $stmtCheck->execute();
@@ -51,13 +52,13 @@ if (isset($_POST['ajax'])) {
         $stmtCheck->close();
         
         if ($checked && !$exist) {
-            $sqlIns = "INSERT INTO jadwal_libur (id_karyawan, hari) VALUES (?, ?)";
+            $sqlIns = "INSERT INTO hr_jadwal_libur (id_karyawan, hari) VALUES (?, ?)";
             $stmtIns = $conn->prepare($sqlIns);
             $stmtIns->bind_param('is', $id_karyawan, $hari);
             $stmtIns->execute();
             $stmtIns->close();
         } elseif (!$checked && $exist) {
-            $sqlDel = "DELETE FROM jadwal_libur WHERE id_karyawan = ? AND hari = ?";
+            $sqlDel = "DELETE FROM hr_jadwal_libur WHERE id_karyawan = ? AND hari = ?";
             $stmtDel = $conn->prepare($sqlDel);
             $stmtDel->bind_param('is', $id_karyawan, $hari);
             $stmtDel->execute();
@@ -69,7 +70,7 @@ if (isset($_POST['ajax'])) {
 
 // AMBIL DATA KARYAWAN
 $karyawan = [];
-$sqlKaryawan = "SELECT id, nama, divisi, jabatan FROM karyawan WHERE status_aktif = 1 ORDER BY nama ASC";
+$sqlKaryawan = "SELECT id, nama, divisi, jabatan FROM hr_karyawan WHERE status_aktif = 1 ORDER BY nama ASC";
 if ($res = $conn->query($sqlKaryawan)) {
     while ($row = $res->fetch_assoc()) {
         $karyawan[] = $row;
@@ -79,7 +80,7 @@ if ($res = $conn->query($sqlKaryawan)) {
 
 // AMBIL JADWAL
 $jadwal = [];
-$sqlJadwal = "SELECT hari, id_karyawan FROM jadwal_libur";
+$sqlJadwal = "SELECT hari, id_karyawan FROM hr_jadwal_libur";
 if ($res = $conn->query($sqlJadwal)) {
     while ($row = $res->fetch_assoc()) {
         $h = $row['hari'];
@@ -92,8 +93,8 @@ if ($res = $conn->query($sqlJadwal)) {
 
 // AMBIL DATA LIBUR HARI INI
 $liburToday = [];
-$sqlToday = "SELECT k.nama, k.divisi, k.jabatan FROM jadwal_libur jl 
-    JOIN karyawan k ON k.id = jl.id_karyawan WHERE jl.hari = ? ORDER BY k.nama ASC";
+$sqlToday = "SELECT k.nama, k.divisi, k.jabatan FROM hr_jadwal_libur jl 
+    JOIN hr_karyawan k ON k.id = jl.id_karyawan WHERE jl.hari = ? ORDER BY k.nama ASC";
 $stmtToday = $conn->prepare($sqlToday);
 if ($stmtToday) {
     $stmtToday->bind_param('s', $hariToday);
@@ -145,7 +146,7 @@ foreach ($hariList as $idx => $hari) {
         $adaLibur = true;
         $textWASeminggu .= "*{$hari}, {$tanggal}:*\n";
         foreach ($selectedIds as $idk) {
-            $sqlNama = "SELECT nama, divisi, jabatan FROM karyawan WHERE id = ?";
+            $sqlNama = "SELECT nama, divisi, jabatan FROM hr_karyawan WHERE id = ?";
             $stmtNama = $conn->prepare($sqlNama);
             if ($stmtNama) {
                 $stmtNama->bind_param('i', $idk);

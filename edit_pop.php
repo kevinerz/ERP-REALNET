@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung9";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_db_pemasangan";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Periksa koneksi
 if ($conn->connect_error) {
@@ -16,7 +17,7 @@ if ($conn->connect_error) {
 // Ambil data POP berdasarkan ID
 if (isset($_GET['id'])) {
     $pop_id = $_GET['id'];
-    $query = "SELECT * FROM pop WHERE id = $pop_id";
+    $query = "SELECT * FROM jaringan_pop WHERE id = $pop_id";
     $result = $conn->query($query);
     $pop = $result->fetch_assoc();
 }
@@ -24,7 +25,7 @@ if (isset($_GET['id'])) {
 // Proses perubahan nama POP
 if (isset($_POST['edit_pop'])) {
     $pop_name = $_POST['pop_name'];
-    $query = "UPDATE pop SET name = '$pop_name' WHERE id = $pop_id";
+    $query = "UPDATE jaringan_pop SET name = '$pop_name' WHERE id = $pop_id";
     $conn->query($query);
     header("Location: pop.php");
 }

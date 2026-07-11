@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
     $merk   = $_POST['merk'];
     $lokasi = $_POST['lokasi'];
 
-    $q = $conn->prepare("INSERT INTO modem(serial_number,model,merk,status,tanggal_masuk,lokasi_penyimpanan) VALUES(?,?,?,'Tersedia',NOW(),?)");
+    $q = $conn->prepare("INSERT INTO jaringan_modem(serial_number,model,merk,status,tanggal_masuk,lokasi_penyimpanan) VALUES(?,?,?,'Tersedia',NOW(),?)");
     $q->bind_param("ssss", $serial,$model,$merk,$lokasi);
     $q->execute();
 

@@ -11,7 +11,7 @@ if (isset($_POST['submit_pengajuan'])) {
     $total_harga    = $harga_satuan * $jumlah;
     $keterangan     = $_POST['keterangan'];
 
-    $stmt = $conn->prepare("INSERT INTO pengajuan_aset (nama_pengaju, divisi_pengaju, nama_barang, harga_satuan, jumlah, total_harga, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO keu_pengajuan_pembelian_aset (nama_pengaju, divisi_pengaju, nama_barang, harga_satuan, jumlah, total_harga, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sssdiis", $nama_pengaju, $divisi_pengaju, $nama_barang, $harga_satuan, $jumlah, $total_harga, $keterangan);
     if ($stmt->execute()) {
         echo "<div class='alert alert-success'>Pengajuan aset berhasil dikirim.</div>";
@@ -24,7 +24,7 @@ if (isset($_POST['submit_pengajuan'])) {
 if (isset($_GET['action']) && $_GET['action'] == 'terima_barang' && isset($_GET['id'])) {
     $id = (int)$_GET['id'];
     $tanggal_sekarang = date('Y-m-d H:i:s');
-    $stmt = $conn->prepare("UPDATE pengajuan_aset SET status_penerimaan = 'Sudah Diterima', tanggal_penerimaan = ? WHERE id = ?");
+    $stmt = $conn->prepare("UPDATE keu_pengajuan_pembelian_aset SET status_penerimaan = 'Sudah Diterima', tanggal_penerimaan = ? WHERE id = ?");
     $stmt->bind_param("si", $tanggal_sekarang, $id);
     if ($stmt->execute()) {
         echo "<div class='alert alert-info'>Status barang berhasil diperbarui menjadi 'Sudah Diterima'.</div>";
@@ -32,7 +32,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'terima_barang' && isset($_GET[
 }
 
 // Ambil semua data pengajuan untuk ditampilkan
-$result = $conn->query("SELECT * FROM pengajuan_aset ORDER BY tanggal_pengajuan DESC");
+$result = $conn->query("SELECT * FROM keu_pengajuan_pembelian_aset ORDER BY tanggal_pengajuan DESC");
 ?>
 
 <h1><i class="bi bi-file-earmark-plus-fill"></i> Pengajuan Aset</h1>

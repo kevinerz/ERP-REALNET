@@ -1,10 +1,11 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 $servername = "localhost";
 $username   = "u272457353_kevinsamsung99";
 $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
@@ -16,7 +17,7 @@ $liter        = $_POST['liter'];
 $total        = $_POST['total'];
 $catatan      = $_POST['catatan'];
 
-$sql = "INSERT INTO reimburse_bbm 
+$sql = "INSERT INTO keu_reimburse_bbm 
 (nama_pengaju, tanggal, tujuan, liter, total, catatan) 
 VALUES (?, ?, ?, ?, ?, ?)";
 $stmt = $conn->prepare($sql);

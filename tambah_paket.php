@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // Konfigurasi database
 $servername = "localhost";
 $username = "u272457353_kevinsamsung99";
@@ -6,7 +7,7 @@ $password = "Admionkevin99";
 $database = "u272457353_umumdata";
 
 // Koneksi ke database
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -22,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $deskripsi = mysqli_real_escape_string($conn, $_POST["deskripsi"]);
     $harga = mysqli_real_escape_string($conn, $_POST["harga"]);
 
-    $sql = "INSERT INTO paket (nama_paket, kecepatan, deskripsi, harga) VALUES ('$nama_paket', '$kecepatan', '$deskripsi', '$harga')";
+    $sql = "INSERT INTO jaringan_paket (nama_paket, kecepatan, deskripsi, harga) VALUES ('$nama_paket', '$kecepatan', '$deskripsi', '$harga')";
 
     if ($conn->query($sql) === TRUE) {
         $pesan = "<div class='alert alert-success'>Data paket berhasil ditambahkan. <a href='dashpaketku.php' class='alert-link'>Kembali ke Dashboard</a></div>";

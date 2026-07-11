@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // file: update_ticket_api.php
 // DIPERBARUI: Sesuai dengan struktur API key terpisah untuk customer dan group
 
@@ -16,7 +17,7 @@ $username   = "u272457353_kevinsamsung";
 $password   = "Admionkevin99";
 $dbname     = "u272457353_tiket_helpdesk";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     echo json_encode(['success' => false, 'message' => 'Koneksi database gagal']);
     exit;
@@ -43,7 +44,7 @@ $tanggal_selesai = ($status === 'selesai') ? date('Y-m-d H:i:s') : null;
 // =====================================================
 // 4. UPDATE TIKET
 // =====================================================
-$sql = "UPDATE tiket 
+$sql = "UPDATE tiket_gangguan 
         SET vlan=?, sn=?, teknisi=?, action=?, maps_url=?, status=?, tanggal_selesai=?
         WHERE id=?";
 $stmt = $conn->prepare($sql);
@@ -57,7 +58,7 @@ if (!$stmt->execute()) {
 // =====================================================
 // 5. AMBIL DATA TIKET UNTUK NOTIFIKASI
 // =====================================================
-$q = $conn->prepare("SELECT nama_pelanggan, whatsapp, keluhan, pop, teknisi, maps_url FROM tiket WHERE id=?");
+$q = $conn->prepare("SELECT nama_pelanggan, whatsapp, keluhan, pop, teknisi, maps_url FROM tiket_gangguan WHERE id=?");
 $q->bind_param("i", $id);
 $q->execute();
 $t = $q->get_result()->fetch_assoc();

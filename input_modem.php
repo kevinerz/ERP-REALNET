@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // scan_gudang_modem.php
 session_start();
 date_default_timezone_set('Asia/Jakarta');
@@ -11,7 +12,7 @@ $username   = "u272457353_kevinsamsung99";
 $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
@@ -50,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         flash('error', 'Serial Number kosong, ulangi scan.');
     } else {
         // Cek apakah SN sudah ada di tabel modem
-        $stmt = $conn->prepare("SELECT id_modem FROM modem WHERE serial_number = ?");
+        $stmt = $conn->prepare("SELECT id_modem FROM jaringan_modem WHERE serial_number = ?");
         $stmt->bind_param("s", $sn);
         $stmt->execute();
         $stmt->store_result();
@@ -65,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $lokasi = 'GUDANG';
 
             $upd = $conn->prepare("
-                UPDATE modem
+                UPDATE jaringan_modem
                 SET status = ?, lokasi_penyimpanan = ?, tanggal_masuk = CURDATE()
                 WHERE id_modem = ?
             ");
@@ -86,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $merk   = '';    // opsional
 
             $ins = $conn->prepare("
-                INSERT INTO modem (serial_number, model, merk, status, tanggal_masuk, lokasi_penyimpanan)
+                INSERT INTO jaringan_modem (serial_number, model, merk, status, tanggal_masuk, lokasi_penyimpanan)
                 VALUES (?, ?, ?, ?, CURDATE(), ?)
             ");
             $ins->bind_param("sssss", $sn, $model, $merk, $status, $lokasi);
@@ -109,7 +110,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // =======================
 $recent = $conn->query("
     SELECT serial_number, model, merk, status, tanggal_masuk, lokasi_penyimpanan
-    FROM modem
+    FROM jaringan_modem
     WHERE lokasi_penyimpanan = 'GUDANG'
     ORDER BY id_modem DESC
     LIMIT 20

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 session_start();
 
 // Check if user is logged in
@@ -14,7 +15,7 @@ define('DB_PASSWORD', 'Admionkevin99');
 define('DB_NAME', 'u272457353_umumdata');
 
 // Create connection
-$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = getErpDbConnection();
 
 // Check connection
 if ($conn->connect_error) {
@@ -25,7 +26,7 @@ if ($conn->connect_error) {
 $username = $_SESSION['username'];
 
 // Query to get employee data
-$sql = "SELECT * FROM karyawan WHERE username = ?";
+$sql = "SELECT * FROM hr_karyawan WHERE username = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $username);
 $stmt->execute();

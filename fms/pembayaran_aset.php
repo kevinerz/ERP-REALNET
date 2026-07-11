@@ -12,7 +12,7 @@ require_once 'templates/header.php';
 if (isset($_GET['action']) && $_GET['action'] == 'bayar' && isset($_GET['id'])) {
     $id = (int)$_GET['id'];
     $tanggal_sekarang = date('Y-m-d H:i:s');
-    $stmt = $conn->prepare("UPDATE pengajuan_aset SET status_pembayaran = 'Sudah Bayar', tanggal_pembayaran = ? WHERE id = ?");
+    $stmt = $conn->prepare("UPDATE keu_pengajuan_pembelian_aset SET status_pembayaran = 'Sudah Bayar', tanggal_pembayaran = ? WHERE id = ?");
     $stmt->bind_param("si", $tanggal_sekarang, $id);
     if ($stmt->execute()) {
         echo "<div class='alert alert-success'>Status pembayaran berhasil diperbarui.</div>";
@@ -20,7 +20,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'bayar' && isset($_GET['id'])) 
 }
 
 // Ambil semua data pengajuan, utamakan yang belum bayar (tidak berubah)
-$result = $conn->query("SELECT * FROM pengajuan_aset ORDER BY FIELD(status_pembayaran, 'Belum Bayar', 'Sudah Bayar'), tanggal_pengajuan DESC");
+$result = $conn->query("SELECT * FROM keu_pengajuan_pembelian_aset ORDER BY FIELD(status_pembayaran, 'Belum Bayar', 'Sudah Bayar'), tanggal_pengajuan DESC");
 ?>
 
 <h1><i data-lucide="landmark"></i> Pembayaran Aset</h1>

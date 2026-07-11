@@ -107,7 +107,7 @@ if (empty($nama) || empty($tanggal) || empty($jumlah) || empty($keperluan)) {
 /* =========================
  * CARI DATA KARYAWAN
  * ========================= */
-$get_karyawan = $conn->prepare("SELECT id, divisi, no_telp FROM karyawan WHERE LOWER(nama) = LOWER(?)");
+$get_karyawan = $conn->prepare("SELECT id, divisi, no_telp FROM hr_karyawan WHERE LOWER(nama) = LOWER(?)");
 if (!$get_karyawan) {
     send_json_response('error', 'Gagal mempersiapkan query: ' . $conn->error);
 }
@@ -147,7 +147,7 @@ switch (strtolower($divisi_pengaju)) {
 /* =========================
  * SIMPAN DATA KASBON
  * ========================= */
-$sql = "INSERT INTO kasbon (id_karyawan, tanggal, jumlah, keperluan, status)
+$sql = "INSERT INTO keu_kasbon (id_karyawan, tanggal, jumlah, keperluan, status)
         VALUES (?, ?, ?, ?, ?)";
 $stmt = $conn->prepare($sql);
 if (!$stmt) {

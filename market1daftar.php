@@ -29,13 +29,13 @@ try {
 // Master Data
 $pops = [];
 if ($connPemasangan) {
-    $resultPop = $connPemasangan->query("SELECT id, name FROM pop ORDER BY name ASC");
+    $resultPop = $connPemasangan->query("SELECT id, name FROM jaringan_pop ORDER BY name ASC");
     if ($resultPop) while ($row = $resultPop->fetch_assoc()) $pops[] = $row;
 }
 
 $pakets = [];
 if ($connUmumData) {
-    $resultPaket = $connUmumData->query("SELECT id_paket, nama_paket, harga, kecepatan FROM paket WHERE id_paket IN (25,28,31,32) ORDER BY nama_paket ASC");
+    $resultPaket = $connUmumData->query("SELECT id_paket, nama_paket, harga, kecepatan FROM jaringan_paket WHERE id_paket IN (25,28,31,32) ORDER BY nama_paket ASC");
     if ($resultPaket) while ($row = $resultPaket->fetch_assoc()) $pakets[] = $row;
 }
 
@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // --- Cek KTP duplikat ---
     if (empty($alertMessage)) {
-        $stmtCheck = $connPemasangan->prepare("SELECT COUNT(*) AS total FROM pemasangan WHERE ktp = ?");
+        $stmtCheck = $connPemasangan->prepare("SELECT COUNT(*) AS total FROM pelanggan_instalasi WHERE ktp = ?");
         $stmtCheck->bind_param("s", $ktp);
         $stmtCheck->execute();
         $resCheck = $stmtCheck->get_result()->fetch_assoc();
@@ -140,7 +140,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $namaPop = null;
     if (empty($alertMessage)) {
-        $stmtPop = $connPemasangan->prepare("SELECT name FROM pop WHERE id = ?");
+        $stmtPop = $connPemasangan->prepare("SELECT name FROM jaringan_pop WHERE id = ?");
         $stmtPop->bind_param("i", $popId);
         $stmtPop->execute();
         $resPop = $stmtPop->get_result()->fetch_assoc();
@@ -155,7 +155,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pemasanganId = null;
     if (empty($alertMessage)) {
         $stmt = $connPemasangan->prepare("
-            INSERT INTO pemasangan
+            INSERT INTO pelanggan_instalasi
                 (nama, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing)
             VALUES
                 (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)

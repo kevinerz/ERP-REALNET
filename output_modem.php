@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 date_default_timezone_set('Asia/Jakarta');
 
 // ===================
@@ -9,7 +10,7 @@ $username   = "u272457353_kevinsamsung99";
 $password   = "Admionkevin99";
 $database   = "u272457353_umumdata";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = getErpDbConnection();
 if ($conn->connect_error) die("DB Error: " . $conn->connect_error);
 $conn->set_charset("utf8mb4");
 
@@ -19,7 +20,7 @@ $conn->set_charset("utf8mb4");
 function addLog($c, $sn, $aksi, $idk, $nama, $ket) {
     $w = date("Y-m-d H:i:s");
     $l = $c->prepare("
-        INSERT INTO modem_log(serial_number, aksi, id_karyawan, nama_karyawan, waktu, keterangan)
+        INSERT INTO jaringan_modem_log(serial_number, aksi, id_karyawan, nama_karyawan, waktu, keterangan)
         VALUES(?, ?, ?, ?, ?, ?)");
     $l->bind_param("ssisss", $sn, $aksi, $idk, $nama, $w, $ket);
     $l->execute();
@@ -43,7 +44,7 @@ if (isset($_POST["ajax"])) {
     }
 
     // Ambil nama teknisi
-    $q = $conn->prepare("SELECT nama FROM karyawan WHERE id=? LIMIT 1");
+    $q = $conn->prepare("SELECT nama FROM hr_karyawan WHERE id=? LIMIT 1");
     $q->bind_param("i", $idk);
     $q->execute();
     $q->bind_result($nama_karyawan);
@@ -56,7 +57,7 @@ if (isset($_POST["ajax"])) {
     }
 
     // Cek modem
-    $cek = $conn->prepare("SELECT id_modem FROM modem WHERE serial_number=?");
+    $cek = $conn->prepare("SELECT id_modem FROM jaringan_modem WHERE serial_number=?");
     $cek->bind_param("s", $sn);
     $cek->execute();
     $result = $cek->get_result();
@@ -67,7 +68,7 @@ if (isset($_POST["ajax"])) {
     if ($aksi === "ambil") {
         if ($modem) {
             $u = $conn->prepare("
-                UPDATE modem SET 
+                UPDATE jaringan_modem SET 
                     status='dibawa',
                     tanggal_keluar=?,
                     id_karyawan_keluar=?,
@@ -90,7 +91,7 @@ if (isset($_POST["ajax"])) {
             $merk  = (substr($sn, 0, 2) === "ZT") ? "ZTE" : "";
 
             $i = $conn->prepare("
-                INSERT INTO modem
+                INSERT INTO jaringan_modem
                 (serial_number, model, merk, status, tanggal_keluar, id_karyawan_keluar, lokasi_penyimpanan)
                 VALUES (?, ?, ?, 'dibawa', ?, ?, ?)
             ");
@@ -117,7 +118,7 @@ if (isset($_POST["ajax"])) {
         }
 
         $u = $conn->prepare("
-            UPDATE modem SET
+            UPDATE jaringan_modem SET
                 status='tersedia',
                 tanggal_masuk=?,
                 lokasi_penyimpanan='GUDANG',
@@ -147,7 +148,7 @@ if (isset($_POST["ajax"])) {
 // ===================
 $teknisi = $conn->query("
     SELECT id, nama
-    FROM karyawan
+    FROM hr_karyawan
     WHERE status_aktif = 1
       AND (divisi='Teknisi'
            OR divisi='Leader Area'

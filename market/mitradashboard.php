@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 session_start();
 
 if (!isset($_SESSION['login_mitra'])) {
@@ -20,13 +21,13 @@ $db_user_pasang = 'u272457353_kevinsamsung9';
 $db_pass_pasang = 'Admionkevin99';
 $db_name_pasang = 'u272457353_db_pemasangan';
 
-$conn_pasang = new mysqli($db_host_pasang, $db_user_pasang, $db_pass_pasang, $db_name_pasang);
+$conn_pasang = getErpDbConnection();
 if ($conn_pasang->connect_error) die("Koneksi Gagal");
 
 $sql_pelanggan = "
     SELECT p.id, p.tanggal, p.nama, p.paket, p.alamat, p.status AS status_pasang, f.status AS status_fee
-    FROM pemasangan p
-    LEFT JOIN pemasangan_fee_marketing_status f ON p.id = f.pemasangan_id
+    FROM pelanggan_instalasi p
+    LEFT JOIN pelanggan_fee_marketing f ON p.id = f.pemasangan_id
     WHERE p.marketing = ?
     ORDER BY p.tanggal DESC
 ";

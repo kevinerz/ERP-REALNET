@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -15,34 +16,19 @@ $nama     = $_SESSION['nama'];
    KONEKSI DATABASE
    ========================================== */
 // DB pemasangan
-$conn_pemasangan = new mysqli(
-    "localhost",
-    "u272457353_kevinsamsung9",
-    "Admionkevin99",
-    "u272457353_db_pemasangan"
-);
+$conn_pemasangan = getErpDbConnection();
 if ($conn_pemasangan->connect_error) {
     die("Koneksi gagal (db pemasangan): " . $conn_pemasangan->connect_error);
 }
 
 // DB gangguan (tiket_helpdesk)
-$conn_gangguan = new mysqli(
-    "localhost",
-    "u272457353_kevinsamsung",
-    "Admionkevin99",
-    "u272457353_tiket_helpdesk"
-);
+$conn_gangguan = getErpDbConnection();
 if ($conn_gangguan->connect_error) {
     die("Koneksi gagal (db gangguan): " . $conn_gangguan->connect_error);
 }
 
 // DB modem / BBM / kasbon (umumdata)
-$conn_modem = new mysqli(
-    "localhost",
-    "u272457353_kevinsamsung99",
-    "Admionkevin99",
-    "u272457353_umumdata"
-);
+$conn_modem = getErpDbConnection();
 if ($conn_modem->connect_error) {
     die("Koneksi gagal (db modem): " . $conn_modem->connect_error);
 }
@@ -91,7 +77,7 @@ function getCountByPOPAndDate($conn, $table, $status_col, $status_val, $pop_val,
 
 // Hitung modem per status
 function getModemCount($conn_modem, $status) {
-    $sql  = "SELECT COUNT(*) AS total FROM modem WHERE status = ?";
+    $sql  = "SELECT COUNT(*) AS total FROM jaringan_modem WHERE status = ?";
     $stmt = $conn_modem->prepare($sql);
     $stmt->bind_param("s", $status);
     $stmt->execute();
@@ -104,7 +90,7 @@ function getModemCount($conn_modem, $status) {
 // BBM per periode
 function getBBMByPeriod($conn, $start_date, $end_date) {
     $stmt = $conn->prepare("SELECT SUM(total) AS total_bbm, SUM(liter) AS total_liter, COUNT(*) AS jumlah_pengajuan
-                            FROM reimburse_bbm 
+                            FROM keu_reimburse_bbm 
                             WHERE tanggal BETWEEN ? AND ?");
     $stmt->bind_param("ss", $start_date, $end_date);
     $stmt->execute();
@@ -154,7 +140,7 @@ $nextMonth= (int)date('m', $nextTime);
 /* ==========================================
    STATISTIK PEMASANGAN BULANAN
    ========================================== */
-$tablePemasangan = 'pemasangan';
+$tablePemasangan = 'pelanggan_instalasi';
 $statusCol       = 'status';
 $dateCol         = 'tanggal';
 
@@ -195,9 +181,9 @@ foreach ($popList as $popKey => $popLabel) {
 /* ==========================================
    STATISTIK GANGGUAN (GLOBAL)
    ========================================== */
-$gangguan_selesai       = getCount($conn_gangguan, "tiket", "status", "selesai");
-$gangguan_belum_kerja   = getCount($conn_gangguan, "tiket", "status", "belum dikerjakan");
-$gangguan_diproses      = getCount($conn_gangguan, "tiket", "status", "di proses");
+$gangguan_selesai       = getCount($conn_gangguan, "tiket_gangguan", "status", "selesai");
+$gangguan_belum_kerja   = getCount($conn_gangguan, "tiket_gangguan", "status", "belum dikerjakan");
+$gangguan_diproses      = getCount($conn_gangguan, "tiket_gangguan", "status", "di proses");
 
 /* ==========================================
    STATISTIK MODEM (GLOBAL)
@@ -225,7 +211,7 @@ $bbm_per_pengaju_query = "SELECT
     COUNT(*) as jumlah_pengajuan,
     SUM(total) as total_biaya,
     SUM(liter) as total_liter
-    FROM reimburse_bbm 
+    FROM keu_reimburse_bbm 
     WHERE tanggal BETWEEN ? AND ?
     GROUP BY nama_pengaju
     ORDER BY total_biaya DESC
@@ -256,12 +242,12 @@ $stmt_pengaju->close();
    ========================================== */
 // Total nominal & liter
 $total_bbm = 0;
-$res_bbm   = $conn_modem->query("SELECT SUM(total) AS total_bbm FROM reimburse_bbm");
+$res_bbm   = $conn_modem->query("SELECT SUM(total) AS total_bbm FROM keu_reimburse_bbm");
 if ($res_bbm && $row = $res_bbm->fetch_assoc()) {
     $total_bbm = $row['total_bbm'] ?: 0;
 }
 $total_liter_bbm = 0;
-$res_liter_bbm   = $conn_modem->query("SELECT SUM(liter) AS total_liter_bbm FROM reimburse_bbm");
+$res_liter_bbm   = $conn_modem->query("SELECT SUM(liter) AS total_liter_bbm FROM keu_reimburse_bbm");
 if ($res_liter_bbm && $row = $res_liter_bbm->fetch_assoc()) {
     $total_liter_bbm = $row['total_liter_bbm'] ?: 0;
 }
@@ -270,7 +256,7 @@ if ($res_liter_bbm && $row = $res_liter_bbm->fetch_assoc()) {
    STATISTIK KASBON (GLOBAL)
    ========================================== */
 $total_kasbon_selesai = 0;
-$resKasbon = $conn_modem->query("SELECT SUM(jumlah) AS total_kasbon_selesai FROM kasbon WHERE status='selesai'");
+$resKasbon = $conn_modem->query("SELECT SUM(jumlah) AS total_kasbon_selesai FROM keu_kasbon WHERE status='selesai'");
 if ($resKasbon && $row = $resKasbon->fetch_assoc()) {
     $total_kasbon_selesai = $row['total_kasbon_selesai'] ?: 0;
 }

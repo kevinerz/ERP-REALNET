@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $keterangan             = $_POST['keterangan'];
 
     // Gunakan prepared statement untuk keamanan
-    $stmt = $conn->prepare("INSERT INTO pembayaran_upstream (nama_provider, deskripsi_layanan, periode_bayar, tanggal_bayar, biaya, no_rekening_penerima, nama_rekening_penerima, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO keu_pembayaran_upstream (nama_provider, deskripsi_layanan, periode_bayar, tanggal_bayar, biaya, no_rekening_penerima, nama_rekening_penerima, keterangan) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("ssssdsss", $nama_provider, $deskripsi_layanan, $periode_bayar, $tanggal_bayar, $biaya, $no_rekening_penerima, $nama_rekening_penerima, $keterangan);
 
     if ($stmt->execute()) {
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // Ambil daftar nama provider yang sudah ada untuk saran input
 $provider_list = [];
-$query_provider = $conn->query("SELECT DISTINCT nama_provider FROM pembayaran_upstream ORDER BY nama_provider ASC");
+$query_provider = $conn->query("SELECT DISTINCT nama_provider FROM keu_pembayaran_upstream ORDER BY nama_provider ASC");
 if ($query_provider) {
     while($p_row = $query_provider->fetch_assoc()) {
         $provider_list[] = $p_row['nama_provider'];
@@ -118,7 +118,7 @@ if ($query_provider) {
             <tbody>
                 <?php
                 // Query untuk mengambil data riwayat
-                $result = $conn->query("SELECT * FROM pembayaran_upstream ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
+                $result = $conn->query("SELECT * FROM keu_pembayaran_upstream ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
                 $no = 1;
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {

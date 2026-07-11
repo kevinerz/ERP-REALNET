@@ -1,9 +1,10 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // submit_ai.php (Versi Hybrid - Bisa Proses & Tolak)
 date_default_timezone_set("Asia/Jakarta");
 
 // Koneksi Database
-$db = new mysqli("localhost", "u272457353_kevinsamsung", "Admionkevin99", "u272457353_tiket_helpdesk");
+$db = getErpDbConnection();
 if ($db->connect_error) die("Koneksi gagal: " . $db->connect_error);
 
 // Tentukan Aksi: dari Tombol Kirim (POST) atau Tombol Tolak (GET)
@@ -44,7 +45,7 @@ if ($action === 'process') {
     }
 
     // Simpan ke tabel tiket utama
-    $stmt = $db->prepare("INSERT INTO tiket (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $db->prepare("INSERT INTO tiket_gangguan (nama_pelanggan, alamat, whatsapp, pop, keluhan, maps_url, tanggal_dibuat) VALUES (?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sssssss", $nama, $alamat, $whatsapp, $pop, $keluhan, $maps_url, $now);
     $stmt->execute();
     $stmt->close();

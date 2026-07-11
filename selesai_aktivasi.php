@@ -46,7 +46,7 @@ $daftar_status = [
 $daftar_pop = [];
 $qrpop = $connPemasangan->query("
     SELECT DISTINCT pop 
-    FROM pemasangan 
+    FROM pelanggan_instalasi 
     WHERE status IN ('selesai','on') 
       AND pop IS NOT NULL 
       AND pop != '' 
@@ -79,7 +79,7 @@ if ($status_filter && array_key_exists($status_filter, $daftar_status)) {
 
 // Total Data
 $total = 0;
-$stmt_total = $connPemasangan->prepare("SELECT COUNT(*) AS total FROM pemasangan WHERE $where_sql");
+$stmt_total = $connPemasangan->prepare("SELECT COUNT(*) AS total FROM pelanggan_instalasi WHERE $where_sql");
 if ($stmt_total) {
     if ($where_types) {
         $stmt_total->bind_param($where_types, ...$where_params);
@@ -93,7 +93,7 @@ if ($stmt_total) {
 $status_counts = ['on' => 0, 'selesai' => 0];
 $stmt_stat = $connPemasangan->prepare("
     SELECT status, COUNT(*) AS jml
-    FROM pemasangan
+    FROM pelanggan_instalasi
     WHERE $where_sql
     GROUP BY status
 ");
@@ -121,7 +121,7 @@ $total_halaman  = max(1, ceil($total / $limit));
 
 // Fetch data
 $order_by  = "ORDER BY (status='on') DESC, $sort $order";
-$sql       = "SELECT * FROM pemasangan WHERE $where_sql $order_by LIMIT ? OFFSET ?";
+$sql       = "SELECT * FROM pelanggan_instalasi WHERE $where_sql $order_by LIMIT ? OFFSET ?";
 $stmt_data = $connPemasangan->prepare($sql);
 
 $where_types_query = $where_types . 'ii';
@@ -140,14 +140,14 @@ if ($stmt_data) {
 
 // Paket Map
 $paket_map = [];
-$rp = $connUmum->query("SELECT id_paket, nama_paket, kecepatan FROM paket");
+$rp = $connUmum->query("SELECT id_paket, nama_paket, kecepatan FROM jaringan_paket");
 while ($p = $rp->fetch_assoc()) {
     $paket_map[$p['id_paket']] = $p;
 }
 
 // Serial Number Map
 $serial_map = [];
-$rm = $connUmum->query("SELECT id_modem, serial_number FROM modem");
+$rm = $connUmum->query("SELECT id_modem, serial_number FROM jaringan_modem");
 while ($rowm = $rm->fetch_assoc()) {
     $serial_map[$rowm['id_modem']] = $rowm['serial_number'];
 }

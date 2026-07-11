@@ -62,7 +62,7 @@ $where = !empty($where_conditions) ? implode(' AND ', $where_conditions) : '1';
 
 // Query untuk data utama
 $query = "SELECT id, nama_pengaju, tanggal, tujuan, liter, catatan, foto_nota
-          FROM reimburse_bbm 
+          FROM keu_reimburse_bbm 
           WHERE $where 
           ORDER BY tanggal DESC";
 $data = $conn_bbm->query($query);
@@ -72,7 +72,7 @@ $stats_query = "SELECT
     COUNT(*) as total_pengajuan,
     SUM(liter) as total_liter,
     COUNT(DISTINCT nama_pengaju) as total_pengaju
-    FROM reimburse_bbm 
+    FROM keu_reimburse_bbm 
     WHERE $where";
 $stats_result = $conn_bbm->query($stats_query);
 $stats = $stats_result->fetch_assoc();
@@ -82,7 +82,7 @@ $top_pengaju_query = "SELECT
     nama_pengaju,
     COUNT(*) as jumlah_pengajuan,
     SUM(liter) as total_liter
-    FROM reimburse_bbm 
+    FROM keu_reimburse_bbm 
     WHERE $where
     GROUP BY nama_pengaju
     ORDER BY jumlah_pengajuan DESC

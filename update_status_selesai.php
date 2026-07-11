@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config/database.php';
 // update_status_selesai.php
 session_start();
 if (!isset($_SESSION['username'])) { echo "noauth"; exit; }
@@ -6,10 +7,10 @@ if (!isset($_SESSION['username'])) { echo "noauth"; exit; }
 if (empty($_POST['id'])) { echo "noid"; exit; }
 $id = intval($_POST['id']);
 
-$conn = new mysqli("localhost", "u272457353_kevinsamsung9", "Admionkevin99", "u272457353_db_pemasangan");
+$conn = getErpDbConnection();
 if ($conn->connect_error) { echo "dberr"; exit; }
 
-$stmt = $conn->prepare("UPDATE pemasangan SET status='selesai' WHERE id=?");
+$stmt = $conn->prepare("UPDATE pelanggan_instalasi SET status='selesai' WHERE id=?");
 $stmt->bind_param("i", $id);
 if($stmt->execute()){
     echo "ok";

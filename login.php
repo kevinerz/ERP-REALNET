@@ -13,7 +13,7 @@ define('DB_PASSWORD', 'Admionkevin99'); // PERINGATAN: Password ini disimpan dal
 define('DB_NAME', 'u272457353_umumdata');
 
 // Membuat koneksi database
-$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = getErpDbConnection();
 if ($conn->connect_error) {
     // Catat error koneksi ke log server, jangan tampilkan ke pengguna
     error_log("Koneksi database gagal: " . $conn->connect_error);
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pass = trim($_POST['password']);
 
     // Gunakan prepared statement untuk mencegah SQL Injection
-    $stmt = $conn->prepare("SELECT password, divisi, nama FROM karyawan WHERE username = ?");
+    $stmt = $conn->prepare("SELECT password, divisi, nama FROM hr_karyawan WHERE username = ?");
 
     if ($stmt === false) {
         // Catat error jika prepared statement gagal

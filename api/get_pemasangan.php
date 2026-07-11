@@ -106,7 +106,7 @@ $types .= "ss";
 $where_sql = "WHERE " . implode(" AND ", $where);
 
 // --- Hitung Total Rows (Pagination) ---
-$sql_count = "SELECT COUNT(*) AS total FROM pemasangan $where_sql";
+$sql_count = "SELECT COUNT(*) AS total FROM pelanggan_instalasi $where_sql";
 $stmt_count = $conn_pemasangan->prepare($sql_count);
 if ($params) {
     $stmt_count->bind_param($types, ...$params);
@@ -119,7 +119,7 @@ $total_pages = max(1, ceil($total_rows / $rows_per_page));
 
 // --- Ambil Data Utama ---
 $sql_data = "SELECT id, nama, userppp, passwordppp, paket, vlan, sn, pop, odp, url_maps, teknisi, alamat, ktp, telp, email, marketing, tanggal, status, modem, dropcore
-             FROM pemasangan $where_sql ORDER BY tanggal DESC LIMIT ?, ?";
+             FROM pelanggan_instalasi $where_sql ORDER BY tanggal DESC LIMIT ?, ?";
 $params_data = $params;
 $types_data = $types . "ii";
 array_push($params_data, $start_row, $rows_per_page);
@@ -139,7 +139,7 @@ if (!empty($data)) {
     $conn_umum = get_conn_umum();
 
     $paket_map = [];
-    $res_pk = $conn_umum->query("SELECT id_paket, nama_paket FROM paket");
+    $res_pk = $conn_umum->query("SELECT id_paket, nama_paket FROM jaringan_paket");
     if ($res_pk) {
         while ($row = $res_pk->fetch_assoc()) {
             $paket_map[$row['id_paket']] = $row['nama_paket'];

@@ -9,7 +9,7 @@ use Dompdf\Dompdf;
 include 'kasbon/koneksi.php';
 
 // Ambil data kasbon
-$query = "SELECT k.*, u.nama, u.divisi FROM kasbon k JOIN karyawan u ON k.id_karyawan = u.id ORDER BY k.tanggal_dibuat DESC";
+$query = "SELECT k.*, u.nama, u.divisi FROM keu_kasbon k JOIN hr_karyawan u ON k.id_karyawan = u.id ORDER BY k.tanggal_dibuat DESC";
 $result = $conn->query($query);
 
 // Bangun HTML

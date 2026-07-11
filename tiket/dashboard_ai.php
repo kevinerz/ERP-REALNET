@@ -1,6 +1,7 @@
 <?php
+require_once __DIR__ . '/../config/database.php';
 // dashboard_ai.php (Versi Terbaik - Real-time & Cerdas)
-$db = new mysqli("localhost", "u272457353_kevinsamsung", "Admionkevin99", "u272457353_tiket_helpdesk");
+$db = getErpDbConnection();
 if ($db->connect_error) die("Koneksi gagal: " . $db->connect_error);
 
 date_default_timezone_set("Asia/Jakarta");

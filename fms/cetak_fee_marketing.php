@@ -15,7 +15,7 @@ if ($id === 0) {
 }
 
 // 2. Ambil data pemasangan dari database 'pemasangan' (via $conn_pasang)
-$stmt_pemasangan = $conn_pasang->prepare("SELECT * FROM pemasangan WHERE id = ?");
+$stmt_pemasangan = $conn_pasang->prepare("SELECT * FROM pelanggan_instalasi WHERE id = ?");
 $stmt_pemasangan->bind_param("i", $id);
 $stmt_pemasangan->execute();
 $result_pemasangan = $stmt_pemasangan->get_result();
@@ -28,7 +28,7 @@ if (!$data) {
 // 3. Ambil nama paket dari database 'umumdata' (via $conn_bbm)
 $nama_paket = 'N/A';
 if (!empty($data['paket'])) {
-    $stmt_paket = $conn_bbm->prepare("SELECT nama_paket FROM paket WHERE id_paket = ?");
+    $stmt_paket = $conn_bbm->prepare("SELECT nama_paket FROM jaringan_paket WHERE id_paket = ?");
     $stmt_paket->bind_param("i", $data['paket']);
     $stmt_paket->execute();
     $result_paket = $stmt_paket->get_result();

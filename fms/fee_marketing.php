@@ -105,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         exit;
     }
     $pid = (int)$pemasangan_id;
-    $stmtP = $conn_pasang->prepare("SELECT id, nama, pop, alamat, telp, marketing, tanggal FROM pemasangan WHERE id=? LIMIT 1");
+    $stmtP = $conn_pasang->prepare("SELECT id, nama, pop, alamat, telp, marketing, tanggal FROM pelanggan_instalasi WHERE id=? LIMIT 1");
     if (!$stmtP) { echo json_encode(['success' => false, 'message' => 'DB error pemasangan: ' . $conn_pasang->error]); exit; }
     $stmtP->bind_param("i", $pid);
     $stmtP->execute();
@@ -113,17 +113,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     $rowP = ($resP && $resP->num_rows > 0) ? $resP->fetch_assoc() : null;
     $stmtP->close();
     if (!$rowP) { echo json_encode(['success' => false, 'message' => 'Data pemasangan tidak ditemukan.']); exit; }
-    $check_stmt = $conn_pasang->prepare("SELECT id FROM pemasangan_fee_marketing_status WHERE pemasangan_id = ?");
+    $check_stmt = $conn_pasang->prepare("SELECT id FROM pelanggan_fee_marketing WHERE pemasangan_id = ?");
     if (!$check_stmt) { echo json_encode(['success' => false, 'message' => 'DB error: ' . $conn_pasang->error]); exit; }
     $check_stmt->bind_param("i", $pid);
     $check_stmt->execute();
     $check_result = $check_stmt->get_result();
     if ($check_result && $check_result->num_rows > 0) {
-        $stmt = $conn_pasang->prepare("UPDATE pemasangan_fee_marketing_status SET status = ? WHERE pemasangan_id = ?");
+        $stmt = $conn_pasang->prepare("UPDATE pelanggan_fee_marketing SET status = ? WHERE pemasangan_id = ?");
         if (!$stmt) { $check_stmt->close(); echo json_encode(['success' => false, 'message' => 'DB error update: ' . $conn_pasang->error]); exit; }
         $stmt->bind_param("si", $new_status, $pid);
     } else {
-        $stmt = $conn_pasang->prepare("INSERT INTO pemasangan_fee_marketing_status (pemasangan_id, status) VALUES (?, ?)");
+        $stmt = $conn_pasang->prepare("INSERT INTO pelanggan_fee_marketing (pemasangan_id, status) VALUES (?, ?)");
         if (!$stmt) { $check_stmt->close(); echo json_encode(['success' => false, 'message' => 'DB error insert: ' . $conn_pasang->error]); exit; }
         $stmt->bind_param("is", $pid, $new_status);
     }
@@ -179,7 +179,7 @@ $tgl_sampai_valid  = ($tgl_sampai !== '' && preg_match('/^\d{4}-\d{2}-\d{2}$/', 
 
 // Daftar POP
 $daftar_pop = [];
-$qrpop = $conn_pasang->query("SELECT DISTINCT pop FROM pemasangan WHERE status IN ('selesai','on') AND marketing IS NOT NULL AND marketing != '' ORDER BY pop ASC");
+$qrpop = $conn_pasang->query("SELECT DISTINCT pop FROM pelanggan_instalasi WHERE status IN ('selesai','on') AND marketing IS NOT NULL AND marketing != '' ORDER BY pop ASC");
 if ($qrpop) {
     while ($poprow = $qrpop->fetch_assoc()) {
         $daftar_pop[] = $poprow['pop'];
@@ -217,7 +217,7 @@ if ($tgl_sampai_valid) {                                                        
 }
 
 // Total
-$total_sql    = "SELECT COUNT(p.id) AS total FROM pemasangan p LEFT JOIN pemasangan_fee_marketing_status pfs ON p.id = pfs.pemasangan_id WHERE $where";
+$total_sql    = "SELECT COUNT(p.id) AS total FROM pelanggan_instalasi p LEFT JOIN pelanggan_fee_marketing pfs ON p.id = pfs.pemasangan_id WHERE $where";
 $total_result = $conn_pasang->query($total_sql);
 $total        = ($total_result) ? (int)($total_result->fetch_assoc()['total'] ?? 0) : 0;
 $total_halaman = max(1, (int)ceil($total / $limit));
@@ -226,8 +226,8 @@ $offset        = ($page - 1) * $limit;
 
 // Query utama
 $sql = "SELECT p.*, COALESCE(pfs.status, 'unpaid') AS status_pembayaran
-        FROM pemasangan p
-        LEFT JOIN pemasangan_fee_marketing_status pfs ON p.id = pfs.pemasangan_id
+        FROM pelanggan_instalasi p
+        LEFT JOIN pelanggan_fee_marketing pfs ON p.id = pfs.pemasangan_id
         WHERE $where
         ORDER BY p.tanggal DESC
         LIMIT $limit OFFSET $offset";

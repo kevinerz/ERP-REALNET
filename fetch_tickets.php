@@ -37,7 +37,7 @@ if (!empty($where_clauses)) {
 }
 
 // Kueri untuk mendapatkan total tiket (untuk paginasi)
-$qTotal = "SELECT COUNT(*) AS total FROM tiket $where_sql";
+$qTotal = "SELECT COUNT(*) AS total FROM tiket_gangguan $where_sql";
 $total_result = $conn->query($qTotal);
 $total_tiket = $total_result->fetch_assoc()['total'];
 $total_pages = ceil($total_tiket / $limit);
@@ -45,7 +45,7 @@ $total_pages = ceil($total_tiket / $limit);
 // Kueri untuk mendapatkan data tiket
 $qTiket = "
     SELECT *
-    FROM tiket
+    FROM tiket_gangguan
     $where_sql
     ORDER BY
         CASE
@@ -65,7 +65,7 @@ while ($row = $result_tiket->fetch_assoc()) {
 }
 
 // Ambil daftar POP unik untuk filter
-$query_pop = "SELECT DISTINCT pop FROM tiket ORDER BY pop ASC";
+$query_pop = "SELECT DISTINCT pop FROM tiket_gangguan ORDER BY pop ASC";
 $result_pop = $conn->query($query_pop);
 $daftar_pop = [];
 while ($row = $result_pop->fetch_assoc()) {

@@ -16,7 +16,7 @@ $edit_data = [];
 // Ambil data untuk diedit jika ada parameter 'edit_id' di URL
 if (isset($_GET['edit_id']) && is_numeric($_GET['edit_id'])) {
     $edit_id = $_GET['edit_id'];
-    $stmt = $conn->prepare("SELECT * FROM pembayaran_kontribusi WHERE id = ?");
+    $stmt = $conn->prepare("SELECT * FROM keu_pembayaran_kontribusi WHERE id = ?");
     $stmt->bind_param("i", $edit_id);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($id_to_process) {
         // Mode EDIT (UPDATE)
-        $stmt = $conn->prepare("UPDATE pembayaran_kontribusi SET nama_penerima = ?, no_wa_penerima = ?, nama_kontribusi = ?, tanggal_bayar = ?, nominal = ?, keterangan = ? WHERE id = ?");
+        $stmt = $conn->prepare("UPDATE keu_pembayaran_kontribusi SET nama_penerima = ?, no_wa_penerima = ?, nama_kontribusi = ?, tanggal_bayar = ?, nominal = ?, keterangan = ? WHERE id = ?");
         $stmt->bind_param("ssssdsi", $nama_penerima, $no_wa_penerima, $nama_kontribusi, $tanggal_bayar, $nominal, $keterangan, $id_to_process);
         if ($stmt->execute()) {
             echo "<div class='alert alert-success'>Data kontribusi berhasil diperbarui.</div>";
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     } else {
         // Mode TAMBAH BARU (INSERT)
-        $stmt = $conn->prepare("INSERT INTO pembayaran_kontribusi (nama_penerima, no_wa_penerima, nama_kontribusi, tanggal_bayar, nominal, keterangan) VALUES (?, ?, ?, ?, ?, ?)");
+        $stmt = $conn->prepare("INSERT INTO keu_pembayaran_kontribusi (nama_penerima, no_wa_penerima, nama_kontribusi, tanggal_bayar, nominal, keterangan) VALUES (?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("ssssds", $nama_penerima, $no_wa_penerima, $nama_kontribusi, $tanggal_bayar, $nominal, $keterangan);
 
         if ($stmt->execute()) {
@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <tbody>
                 <?php
                 // Query untuk mengambil data riwayat
-                $result = $conn->query("SELECT * FROM pembayaran_kontribusi ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
+                $result = $conn->query("SELECT * FROM keu_pembayaran_kontribusi ORDER BY tanggal_bayar DESC, id DESC LIMIT 100");
                 $no = 1;
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
@@ -179,7 +179,7 @@ function confirmDelete(id) {
 // Proses penghapusan jika ada parameter 'delete_id' di URL
 if (isset($_GET['delete_id']) && is_numeric($_GET['delete_id'])) {
     $delete_id = $_GET['delete_id'];
-    $stmt = $conn->prepare("DELETE FROM pembayaran_kontribusi WHERE id = ?");
+    $stmt = $conn->prepare("DELETE FROM keu_pembayaran_kontribusi WHERE id = ?");
     $stmt->bind_param("i", $delete_id);
     if ($stmt->execute()) {
         echo "<div class='alert alert-success'>Data kontribusi berhasil dihapus.</div>";
