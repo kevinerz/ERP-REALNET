@@ -38,8 +38,7 @@ export default async function SelesaiPsbPage({
   if (filterPop) where.pop = filterPop;
   if (filterStatus) where.status = filterStatus;
 
-  const [total, statusCounts, rows, paketList, popRows] = await Promise.all([
-    prisma.pelangganInstalasi.count({ where }),
+  const [statusCounts, rows, paketList, popRows] = await Promise.all([
     prisma.pelangganInstalasi.groupBy({ by: ["status"], where, _count: { _all: true } }),
     prisma.pelangganInstalasi.findMany({
       where,
@@ -81,7 +80,9 @@ export default async function SelesaiPsbPage({
 
   type CountRow = { status: string | null; _count: { _all: number } };
   const counts: Record<string, number> = { on: 0, selesai: 0 };
+  let total = 0;
   (statusCounts as CountRow[]).forEach((c) => {
+    total += c._count._all;
     if (c.status && c.status in counts) counts[c.status] = c._count._all;
   });
 

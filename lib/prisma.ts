@@ -55,7 +55,14 @@ function createPrismaClient() {
   }
   const adapter = new PrismaMariaDb({
     ...parseDatabaseUrl(databaseUrl),
-    connectionLimit: 5,
+    // Beberapa halaman (mis. Selesai PSB) menjalankan 4-5 query Prisma
+    // sekaligus lewat Promise.all -- connectionLimit:5 yang lama pas-pasan
+    // untuk SATU request saja, jadi begitu ada request lain bersamaan (tab
+    // lain / user lain), pool kehabisan koneksi: query jadi antre (kelihatan
+    // "lemot"), lalu timeout dan muncul "Application error" di production.
+    // Dinaikkan ke 12 supaya ada ruang untuk beberapa request bersamaan.
+    // Cek juga batas koneksi MySQL di sisi Hostinger kalau masih terjadi.
+    connectionLimit: 12,
     // Batas waktu koneksi 10 detik -- kalau database tidak bisa dijangkau,
     // request akan gagal cepat dengan error jelas, bukan menggantung tanpa
     // batas waktu (yang sebelumnya bikin tombol login macet di "Memproses...").
