@@ -1,23 +1,20 @@
 <?php
-// CATATAN: Database `u272457353_cabut` BELUM dikonsolidasi ke erprealnet
-// (belum ada skema/dump-nya). File ini sengaja TIDAK diubah.
 // config.php
-
-$DB_HOST = 'localhost'; // biasanya 'localhost', kalau pakai hosting cek dokumentasi
-$DB_NAME = 'u272457353_cabut';
-$DB_USER = 'u272457353_kevinsamsungcb';
-$DB_PASS = 'Admionkevin99';
+//
+// CATATAN (update): tabel tickets_cabut_modem sudah dipindahkan ke database
+// utama (erprealnet/u272457353_erprealnetku) supaya modul CABUT di Next.js
+// dan halaman PHP ini sama-sama baca/tulis data yang sama secara live.
+// Database lama u272457353_cabut TIDAK dipakai lagi oleh file ini (data
+// lamanya sengaja tidak dimigrasikan -- mulai dari kosong di database baru).
+//
+// Koneksi sekarang lewat helper terpusat getErpDbPdo() (lihat
+// config/database.php), bukan kredensial hardcoded ke database terpisah
+// seperti sebelumnya.
+require_once __DIR__ . '/../config/database.php';
 
 try {
-    $pdo = new PDO(
-        "mysql:host=$DB_HOST;dbname=$DB_NAME;charset=utf8mb4",
-        $DB_USER,
-        $DB_PASS,
-        [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        ]
-    );
+    $pdo = getErpDbPdo();
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 } catch (Exception $e) {
     die('Koneksi database gagal: ' . $e->getMessage());
 }

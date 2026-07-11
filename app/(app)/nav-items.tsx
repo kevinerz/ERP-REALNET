@@ -39,7 +39,13 @@ export type NavGroup = {
 //     card (selalu global) + filter/sort/paginasi + create/edit/hapus, status
 //     'selesai' otomatis isi tanggal_selesai, direvisi dari 'selesai' otomatis
 //     dikosongkan lagi -- sama seperti edit_gangguan.php lama)
-//   CABUT -> cabut.php (pakai database "cabut" yang belum ikut dikonsolidasi)
+//   Cabut -> cabut.php (dibangun persis di "/cabut": form tambah tiket +
+//     filter/cari + tabel TANPA paginasi, statistik & distribusi per-POP
+//     dihitung dari hasil YANG SUDAH DIFILTER -- beda dari Gangguan yang
+//     statistiknya selalu global. Tabel tickets_cabut_modem yang tadinya di
+//     database terpisah (u272457353_cabut, belum dikonsolidasi) sekarang
+//     dipindahkan ke database utama; cabut.php dialihkan ikut pakai
+//     database ini juga lewat getErpDbPdo(), data lama tidak dimigrasikan)
 //   Remote Modem -> https://remot.datarealsolution.net/ (subdomain terpisah, bukan modul)
 //   HRIS -> dashkaryawan.php (menu utama sempat dialihkan ke halaman "maintenance",
 //     tapi file aslinya ada dan berfungsi -- akan dipakai sebagai acuan)
@@ -67,7 +73,7 @@ export const NAV_GROUPS: NavGroup[] = [
     title: "Operasional",
     items: [
       { label: "Gangguan", href: "/gangguan", icon: IconTicket },
-      { label: "Cabut", href: "/cabut", icon: IconWifi, comingSoon: true },
+      { label: "Cabut", href: "/cabut", icon: IconWifi },
       {
         label: "Remote Modem",
         href: "https://remot.datarealsolution.net/",
