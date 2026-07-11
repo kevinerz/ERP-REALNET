@@ -8,36 +8,9 @@ import {
   TIPE_PETUGAS_OPTIONS,
   STATUS_PERNIKAHAN_OPTIONS,
 } from "./hr-helpers";
+import { FormField, TextInput, TextArea, SelectInput } from "@/components/ui/form-field";
 
 export type KaryawanDefaults = Partial<Record<string, string>>;
-
-function Field({
-  label,
-  required,
-  error,
-  children,
-  full,
-}: {
-  label: string;
-  required?: boolean;
-  error?: string;
-  children: React.ReactNode;
-  full?: boolean;
-}) {
-  return (
-    <div className={full ? "sm:col-span-2" : ""}>
-      <label className="mb-1 block text-sm font-medium text-gray-700">
-        {label}
-        {required && <span className="text-red-500"> *</span>}
-      </label>
-      {children}
-      {error && <p className="mt-1 text-xs text-red-600">{error}</p>}
-    </div>
-  );
-}
-
-const inputClass =
-  "w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none";
 
 export default function KaryawanForm({
   action,
@@ -65,125 +38,125 @@ export default function KaryawanForm({
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-500">Data Pribadi</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <Field label="Nama Lengkap (sesuai KTP)" required error={err("nama")}>
-            <input name="nama" defaultValue={d.nama} className={inputClass} />
-          </Field>
-          <Field label="NIK" required error={err("nik")}>
-            <input name="nik" defaultValue={d.nik} placeholder="16 digit" className={inputClass} />
-          </Field>
-          <Field label="Nomor KK" required error={err("nomor_kk")}>
-            <input name="nomor_kk" defaultValue={d.nomor_kk} className={inputClass} />
-          </Field>
-          <Field label="Nomor SIM (opsional)">
-            <input name="tipe_nomor_sim" defaultValue={d.tipe_nomor_sim} className={inputClass} />
-          </Field>
-          <Field label="Jenis Kelamin" required error={err("jenis_kelamin")}>
-            <select name="jenis_kelamin" defaultValue={d.jenis_kelamin ?? ""} className={inputClass}>
+          <FormField label="Nama Lengkap (sesuai KTP)" required error={err("nama")}>
+            <TextInput name="nama" defaultValue={d.nama} />
+          </FormField>
+          <FormField label="NIK" required error={err("nik")}>
+            <TextInput name="nik" defaultValue={d.nik} placeholder="16 digit" />
+          </FormField>
+          <FormField label="Nomor KK" required error={err("nomor_kk")}>
+            <TextInput name="nomor_kk" defaultValue={d.nomor_kk} />
+          </FormField>
+          <FormField label="Nomor SIM (opsional)">
+            <TextInput name="tipe_nomor_sim" defaultValue={d.tipe_nomor_sim} />
+          </FormField>
+          <FormField label="Jenis Kelamin" required error={err("jenis_kelamin")}>
+            <SelectInput name="jenis_kelamin" defaultValue={d.jenis_kelamin ?? ""}>
               <option value="" disabled>Pilih...</option>
               <option value="Laki-laki">Laki-laki</option>
               <option value="Perempuan">Perempuan</option>
-            </select>
-          </Field>
-          <Field label="Agama" required error={err("agama")}>
-            <input name="agama" defaultValue={d.agama} className={inputClass} />
-          </Field>
-          <Field label="Tempat Lahir" required error={err("tempat_lahir")}>
-            <input name="tempat_lahir" defaultValue={d.tempat_lahir} className={inputClass} />
-          </Field>
-          <Field label="Tanggal Lahir" required error={err("tanggal_lahir")}>
-            <input type="date" name="tanggal_lahir" defaultValue={d.tanggal_lahir} className={inputClass} />
-          </Field>
-          <Field label="Status Pernikahan" required error={err("status_pernikahan")}>
-            <select name="status_pernikahan" defaultValue={d.status_pernikahan ?? ""} className={inputClass}>
+            </SelectInput>
+          </FormField>
+          <FormField label="Agama" required error={err("agama")}>
+            <TextInput name="agama" defaultValue={d.agama} />
+          </FormField>
+          <FormField label="Tempat Lahir" required error={err("tempat_lahir")}>
+            <TextInput name="tempat_lahir" defaultValue={d.tempat_lahir} />
+          </FormField>
+          <FormField label="Tanggal Lahir" required error={err("tanggal_lahir")}>
+            <TextInput type="date" name="tanggal_lahir" defaultValue={d.tanggal_lahir} />
+          </FormField>
+          <FormField label="Status Pernikahan" required error={err("status_pernikahan")}>
+            <SelectInput name="status_pernikahan" defaultValue={d.status_pernikahan ?? ""}>
               <option value="" disabled>Pilih...</option>
               {STATUS_PERNIKAHAN_OPTIONS.map((v) => (
                 <option key={v} value={v}>{v}</option>
               ))}
-            </select>
-          </Field>
-          <Field label="No. Telepon / WhatsApp">
-            <input name="no_telp" defaultValue={d.no_telp} className={inputClass} />
-          </Field>
-          <Field label="Email">
-            <input type="email" name="email" defaultValue={d.email} className={inputClass} />
-          </Field>
-          <Field label="Alamat" full>
-            <textarea name="alamat" defaultValue={d.alamat} rows={2} className={inputClass} />
-          </Field>
+            </SelectInput>
+          </FormField>
+          <FormField label="No. Telepon / WhatsApp">
+            <TextInput name="no_telp" defaultValue={d.no_telp} />
+          </FormField>
+          <FormField label="Email">
+            <TextInput type="email" name="email" defaultValue={d.email} />
+          </FormField>
+          <FormField label="Alamat" full>
+            <TextArea name="alamat" defaultValue={d.alamat} rows={2} />
+          </FormField>
         </div>
       </section>
 
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-500">Kepegawaian</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <Field label="Divisi" required error={err("divisi")}>
-            <select name="divisi" defaultValue={d.divisi ?? ""} className={inputClass}>
+          <FormField label="Divisi" required error={err("divisi")}>
+            <SelectInput name="divisi" defaultValue={d.divisi ?? ""}>
               <option value="" disabled>Pilih...</option>
               {DIVISI_OPTIONS.map((v) => (
                 <option key={v} value={v}>{v}</option>
               ))}
-            </select>
-          </Field>
-          <Field label="Jabatan">
-            <input name="jabatan" defaultValue={d.jabatan} placeholder="Contoh: Koordinator Teknisi Rajeg" className={inputClass} />
-          </Field>
-          <Field label="Tipe Petugas">
-            <select name="tipe_petugas" defaultValue={d.tipe_petugas ?? "Lainnya"} className={inputClass}>
+            </SelectInput>
+          </FormField>
+          <FormField label="Jabatan">
+            <TextInput name="jabatan" defaultValue={d.jabatan} placeholder="Contoh: Koordinator Teknisi Rajeg" />
+          </FormField>
+          <FormField label="Tipe Petugas">
+            <SelectInput name="tipe_petugas" defaultValue={d.tipe_petugas ?? "Lainnya"}>
               {TIPE_PETUGAS_OPTIONS.map((v) => (
                 <option key={v} value={v}>{v}</option>
               ))}
-            </select>
-          </Field>
-          <Field label="Status Kepegawaian" required error={err("status_kepegawaian")}>
-            <select name="status_kepegawaian" defaultValue={d.status_kepegawaian ?? ""} className={inputClass}>
+            </SelectInput>
+          </FormField>
+          <FormField label="Status Kepegawaian" required error={err("status_kepegawaian")}>
+            <SelectInput name="status_kepegawaian" defaultValue={d.status_kepegawaian ?? ""}>
               <option value="" disabled>Pilih...</option>
               {STATUS_KEPEGAWAIAN_OPTIONS.map((v) => (
                 <option key={v} value={v}>{v}</option>
               ))}
-            </select>
-          </Field>
-          <Field label="Tanggal Masuk">
-            <input type="date" name="tanggal_masuk" defaultValue={d.tanggal_masuk} className={inputClass} />
-          </Field>
-          <Field label="Status Aktif">
-            <select name="status_aktif" defaultValue={d.status_aktif ?? "1"} className={inputClass}>
+            </SelectInput>
+          </FormField>
+          <FormField label="Tanggal Masuk">
+            <TextInput type="date" name="tanggal_masuk" defaultValue={d.tanggal_masuk} />
+          </FormField>
+          <FormField label="Status Aktif">
+            <SelectInput name="status_aktif" defaultValue={d.status_aktif ?? "1"}>
               <option value="1">Aktif</option>
               <option value="0">Nonaktif</option>
-            </select>
-          </Field>
+            </SelectInput>
+          </FormField>
         </div>
       </section>
 
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-500">Gaji & Rekening</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <Field label="Gaji Pokok" required error={err("gaji_pokok")}>
-            <input type="number" min="0" name="gaji_pokok" defaultValue={d.gaji_pokok} className={inputClass} />
-          </Field>
-          <Field label="Tunjangan Jabatan">
-            <input type="number" min="0" name="tunjangan_jabatan" defaultValue={d.tunjangan_jabatan ?? "0"} className={inputClass} />
-          </Field>
-          <Field label="Tunjangan Operasional">
-            <input type="number" min="0" name="tunjangan_operasional" defaultValue={d.tunjangan_operasional ?? "0"} className={inputClass} />
-          </Field>
-          <Field label="Bank">
-            <input name="bank" defaultValue={d.bank} placeholder="Contoh: BCA / BRI / Mandiri" className={inputClass} />
-          </Field>
-          <Field label="Nomor Rekening">
-            <input name="rekening" defaultValue={d.rekening} className={inputClass} />
-          </Field>
+          <FormField label="Gaji Pokok" required error={err("gaji_pokok")}>
+            <TextInput type="number" min="0" name="gaji_pokok" defaultValue={d.gaji_pokok} />
+          </FormField>
+          <FormField label="Tunjangan Jabatan">
+            <TextInput type="number" min="0" name="tunjangan_jabatan" defaultValue={d.tunjangan_jabatan ?? "0"} />
+          </FormField>
+          <FormField label="Tunjangan Operasional">
+            <TextInput type="number" min="0" name="tunjangan_operasional" defaultValue={d.tunjangan_operasional ?? "0"} />
+          </FormField>
+          <FormField label="Bank">
+            <TextInput name="bank" defaultValue={d.bank} placeholder="Contoh: BCA / BRI / Mandiri" />
+          </FormField>
+          <FormField label="Nomor Rekening">
+            <TextInput name="rekening" defaultValue={d.rekening} />
+          </FormField>
         </div>
       </section>
 
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-500">Akun Login</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          <Field label="Username" required error={err("username")}>
-            <input name="username" defaultValue={d.username} className={inputClass} />
-          </Field>
-          <Field label={isEdit ? "Password (kosongkan jika tidak ganti)" : "Password"} required={!isEdit} error={err("password")}>
-            <input name="password" defaultValue="" placeholder={isEdit ? "••••••••" : ""} className={inputClass} />
-          </Field>
+          <FormField label="Username" required error={err("username")}>
+            <TextInput name="username" defaultValue={d.username} />
+          </FormField>
+          <FormField label={isEdit ? "Password (kosongkan jika tidak ganti)" : "Password"} required={!isEdit} error={err("password")}>
+            <TextInput name="password" defaultValue="" placeholder={isEdit ? "••••••••" : ""} />
+          </FormField>
         </div>
       </section>
 

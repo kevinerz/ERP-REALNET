@@ -3,7 +3,8 @@
 import { prisma } from "@/lib/prisma";
 import { requireSession } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
-import { sendActivationWhatsApp } from "./whatsapp";
+import { sendWhatsAppToPop } from "@/lib/notifications";
+import { buildActivationMessage } from "@/lib/notifications/templates/activation";
 
 function getStr(formData: FormData, key: string): string {
   return formData.get(key)?.toString().trim() ?? "";
@@ -36,19 +37,20 @@ export async function activatePelanggan(id: number, formData: FormData): Promise
     ? await prisma.jaringanPaket.findFirst({ where: { id_paket: paketId } })
     : null;
 
-  await sendActivationWhatsApp(
-    {
-      id: updated.id,
-      nama: updated.nama,
-      alamat: updated.alamat,
-      userppp: updated.userppp,
-      passwordppp: updated.passwordppp,
-      vlan: updated.vlan,
-      telp: updated.telp,
-      pop: updated.pop,
-    },
-    paketData ? { nama_paket: paketData.nama_paket, kecepatan: paketData.kecepatan, harga: paketData.harga.toString() } : null
-  );
+  const message = buildActivationMessage({
+    id: updated.id,
+    nama: updated.nama,
+    alamat: updated.alamat,
+    userppp: updated.userppp,
+    passwordppp: updated.passwordppp,
+    vlan: updated.vlan,
+    telp: updated.telp,
+    pop: updated.pop,
+    paket: paketData
+      ? { nama_paket: paketData.nama_paket, kecepatan: paketData.kecepatan, harga: paketData.harga.toString() }
+      : null,
+  });
+  await sendWhatsAppToPop(updated.pop, message);
 
   revalidatePath("/pelanggan/aktivasi");
   revalidatePath("/pelanggan");

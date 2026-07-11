@@ -2,6 +2,7 @@
 
 import { useActionState } from "react";
 import type { PelangganFormState } from "./actions";
+import { FormField, TextInput, TextArea } from "@/components/ui/form-field";
 
 type FieldDef = { name: string; label: string; required?: boolean; type?: string };
 
@@ -56,28 +57,13 @@ export default function PelangganForm({
           const isFull = field.type === "textarea";
 
           return (
-            <div key={field.name} className={isFull ? "sm:col-span-2" : ""}>
-              <label className="mb-1 block text-sm font-medium text-gray-700">
-                {field.label}
-                {field.required && <span className="text-red-500"> *</span>}
-              </label>
+            <FormField key={field.name} label={field.label} required={field.required} error={errorMsg} full={isFull}>
               {field.type === "textarea" ? (
-                <textarea
-                  name={field.name}
-                  defaultValue={defaultValue}
-                  rows={3}
-                  className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none"
-                />
+                <TextArea name={field.name} defaultValue={defaultValue} rows={3} />
               ) : (
-                <input
-                  type={field.type ?? "text"}
-                  name={field.name}
-                  defaultValue={defaultValue}
-                  className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none"
-                />
+                <TextInput type={field.type ?? "text"} name={field.name} defaultValue={defaultValue} />
               )}
-              {errorMsg && <p className="mt-1 text-xs text-red-600">{errorMsg}</p>}
-            </div>
+            </FormField>
           );
         })}
       </div>

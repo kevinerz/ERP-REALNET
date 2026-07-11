@@ -5,6 +5,9 @@ import { requireSession } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { combineTempatTanggalLahir, calculateUmur } from "./hr-helpers";
+import { formatUniqueConstraintError } from "@/lib/db-errors";
+
+const UNIQUE_FIELD_LABELS = { username: "Username", nik: "NIK" };
 
 export type KaryawanFormState = {
   error?: string;
@@ -97,13 +100,9 @@ export async function createKaryawan(
       data: { ...data, password },
     });
     newId = created.id;
-  } catch (err: any) {
-    if (err?.code === "P2002") {
-      const target = Array.isArray(err?.meta?.target) ? err.meta.target.join(", ") : "";
-      return {
-        error: `Data tidak bisa disimpan: ${target.includes("username") ? "username" : "NIK"} sudah dipakai karyawan lain.`,
-      };
-    }
+  } catch (err) {
+    const uniqueMsg = formatUniqueConstraintError(err, UNIQUE_FIELD_LABELS);
+    if (uniqueMsg) return { error: uniqueMsg };
     console.error("createKaryawan error:", err);
     return { error: "Gagal menyimpan data karyawan. Coba lagi." };
   }
@@ -131,13 +130,9 @@ export async function updateKaryawan(
       where: { id },
       data: { ...data, ...(newPassword ? { password: newPassword } : {}) },
     });
-  } catch (err: any) {
-    if (err?.code === "P2002") {
-      const target = Array.isArray(err?.meta?.target) ? err.meta.target.join(", ") : "";
-      return {
-        error: `Data tidak bisa disimpan: ${target.includes("username") ? "username" : "NIK"} sudah dipakai karyawan lain.`,
-      };
-    }
+  } catch (err) {
+    const uniqueMsg = formatUniqueConstraintError(err, UNIQUE_FIELD_LABELS);
+    if (uniqueMsg) return { error: uniqueMsg };
     console.error("updateKaryawan error:", err);
     return { error: "Gagal menyimpan perubahan. Coba lagi." };
   }
