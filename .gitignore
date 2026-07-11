@@ -29,3 +29,12 @@ api/uploads/
 Thumbs.db
 .vscode/
 .idea/
+
+# --- Next.js ---
+/node_modules
+/.next/
+/out/
+next-env.d.ts
+.vercel
+*.tsbuildinfo
+/generated

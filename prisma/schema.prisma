@@ -1,0 +1,450 @@
+// ============================================================
+// ERP REALNET -- Prisma schema untuk database `erprealnet`
+// Model di-generate dari consolidated_schema.sql, nama kolom
+// dipertahankan sama seperti skema MySQL (pakai @map/@@map)
+// supaya cocok dengan data yang sudah ada.
+// ============================================================
+
+generator client {
+  provider   = "prisma-client"
+  output     = "../generated/prisma"
+  engineType = "client"
+  moduleFormat = "esm"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// AUTO-GENERATED dari consolidated_schema.sql -- review manual disarankan untuk enum & relasi lanjutan
+
+model JaringanPop {
+  id Int @id @default(autoincrement())
+  name String @db.VarChar(255)
+  @@map("jaringan_pop")
+}
+
+model JaringanOdp {
+  ODP_ID String @id @db.VarChar(255)
+  Nama_ODP String? @db.VarChar(255)
+  Lokasi String? @db.Text
+  Kapasitas_Port Int?
+  Kapasitas_Terpakai Int?
+  Status String? @db.VarChar(50)
+  Tanggal_Instalasi DateTime? @db.Date
+  Latitude Decimal? @db.Decimal(10, 8)
+  Longitude Decimal? @db.Decimal(11, 8)
+  Redaman_Output Decimal? @db.Decimal(5, 2)
+  Nama_POP String? @db.VarChar(255)
+  @@map("jaringan_odp")
+}
+
+model JaringanPaket {
+  id_paket Int @id @default(autoincrement())
+  nama_paket String @db.VarChar(255)
+  kecepatan String @db.VarChar(100)
+  deskripsi String? @db.Text
+  harga Decimal @db.Decimal(10, 2)
+  @@unique([nama_paket])
+  @@map("jaringan_paket")
+}
+
+model JaringanKabelAdss {
+  id_kabel_adss Int @id @default(autoincrement())
+  kode_kabel String @db.VarChar(255)
+  panjang_meter Decimal? @db.Decimal(10, 2)
+  jumlah_core Int?
+  merk String? @db.VarChar(100)
+  status String?
+  tanggal_masuk DateTime? @db.Date
+  keterangan String? @db.Text
+  lokasi_penyimpanan String? @db.VarChar(100)
+  @@unique([kode_kabel])
+  @@map("jaringan_kabel_adss")
+}
+
+model JaringanKabelDropcore {
+  id_kabel_dropcore Int @id @default(autoincrement())
+  kode_kabel String @db.VarChar(255)
+  panjang_meter Decimal? @db.Decimal(10, 2)
+  jenis String? @db.VarChar(100)
+  status String?
+  tanggal_masuk DateTime? @db.Date
+  keterangan String? @db.Text
+  lokasi_penyimpanan String? @db.VarChar(100)
+  @@unique([kode_kabel])
+  @@map("jaringan_kabel_dropcore")
+}
+
+model JaringanModem {
+  id_modem Int @id @default(autoincrement())
+  serial_number String @db.VarChar(255)
+  model String? @db.VarChar(100)
+  merk String? @db.VarChar(100)
+  status String
+  tanggal_masuk DateTime? @db.Date
+  tanggal_keluar DateTime?
+  id_karyawan_keluar Int?
+  lokasi_penyimpanan String? @db.VarChar(100)
+  @@unique([serial_number])
+  @@map("jaringan_modem")
+}
+
+model JaringanModemLog {
+  id_log Int @id @default(autoincrement())
+  serial_number String? @db.VarChar(100)
+  aksi String?
+  id_karyawan Int?
+  nama_karyawan String? @db.VarChar(200)
+  waktu DateTime?
+  keterangan String? @db.Text
+  @@map("jaringan_modem_log")
+}
+
+model JaringanModemLogging {
+  id Int @id @default(autoincrement())
+  username String? @db.VarChar(100)
+  action String? @db.VarChar(30)
+  sn_lama String? @db.VarChar(100)
+  sn_baru String? @db.VarChar(100)
+  waktu DateTime?
+  @@map("jaringan_modem_logging")
+}
+
+model JaringanPerangkatLain {
+  id_perangkat Int @id @default(autoincrement())
+  barang String @db.VarChar(100)
+  serial_number String? @db.VarChar(255)
+  model String? @db.VarChar(100)
+  merk String? @db.VarChar(100)
+  status String?
+  tanggal_masuk DateTime? @db.Date
+  keterangan String? @db.Text
+  lokasi_penyimpanan String? @db.VarChar(100)
+  @@unique([serial_number])
+  @@map("jaringan_perangkat_lain")
+}
+
+model HrKaryawan {
+  id Int @id @default(autoincrement())
+  avatar String? @db.VarChar(255)
+  nama String @db.VarChar(100)
+  nik String @db.VarChar(20)
+  nomor_kk String @db.VarChar(20)
+  tipe_nomor_sim String? @db.VarChar(50)
+  jenis_kelamin String
+  tempat_tanggal_lahir String @db.VarChar(100)
+  umur Int
+  agama String @db.VarChar(30)
+  status_pernikahan String @db.VarChar(30)
+  no_telp String? @db.VarChar(20)
+  email String? @db.VarChar(100)
+  alamat String? @db.Text
+  status_kepegawaian String
+  tanggal_masuk DateTime? @db.Date
+  tanggal_keluar DateTime? @db.Date
+  status_aktif Boolean
+  divisi String
+  jabatan String? @db.VarChar(100)
+  tipe_petugas String?
+  id_pop_penempatan Int?
+  gaji_pokok Decimal @db.Decimal(15, 2)
+  tunjangan_jabatan Decimal @db.Decimal(15, 2)
+  tunjangan_operasional Decimal @db.Decimal(15, 2)
+  bank String? @db.VarChar(100)
+  rekening String? @db.VarChar(50)
+  created_at DateTime? @db.Timestamp(0)
+  username String @db.VarChar(255)
+  password String @db.VarChar(255)
+  fcm_token String? @db.VarChar(256)
+  @@unique([username])
+  @@unique([nik])
+  @@map("hr_karyawan")
+}
+
+model HrCuti {
+  id_cuti BigInt @id @default(autoincrement())
+  id_karyawan Int
+  jenis_cuti String
+  tanggal_mulai DateTime @db.Date
+  tanggal_selesai DateTime @db.Date
+  jumlah_hari Int
+  alasan String? @db.VarChar(255)
+  alamat_selama_cuti String? @db.VarChar(255)
+  kontak_darurat String? @db.VarChar(50)
+  lampiran String? @db.VarChar(255)
+  status String
+  catatan_atasan String? @db.VarChar(255)
+  created_at DateTime @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  @@map("hr_cuti")
+}
+
+model HrJadwalLibur {
+  id Int @id @default(autoincrement())
+  id_karyawan Int
+  hari String
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  @@unique([hari, id_karyawan])
+  @@map("hr_jadwal_libur")
+}
+
+model HrStrukturOrganisasi {
+  id Int @id @default(autoincrement())
+  nama_jabatan String @db.VarChar(255)
+  nama_pegawai String? @db.VarChar(255)
+  id_atasan Int?
+  @@map("hr_struktur_organisasi")
+}
+
+model HrSlipGaji {
+  id Int @id @default(autoincrement())
+  karyawan_nik String @db.VarChar(50)
+  nama_karyawan String @db.VarChar(255)
+  tanggal_bayar DateTime @db.Date
+  gaji_pokok Decimal @db.Decimal(12, 2)
+  bonus Decimal? @db.Decimal(12, 2)
+  potongan Decimal? @db.Decimal(12, 2)
+  total_dibayar Decimal @db.Decimal(12, 2)
+  nama_bank String? @db.VarChar(100)
+  no_rekening String? @db.VarChar(50)
+  nama_rekening String? @db.VarChar(255)
+  keterangan String? @db.Text
+  public_token String? @db.VarChar(64)
+  @@unique([public_token])
+  @@map("hr_slip_gaji")
+}
+
+model AsetMaster {
+  ID_Aset Int @id @default(autoincrement())
+  Nama_Aset String? @db.VarChar(255)
+  Jenis_Aset String? @db.VarChar(50)
+  Merk String? @db.VarChar(100)
+  Model String? @db.VarChar(100)
+  Serial_Number String? @db.VarChar(100)
+  Tanggal_Pembelian DateTime? @db.Date
+  Harga_Pembelian Decimal? @db.Decimal(15, 2)
+  Kondisi String? @db.VarChar(50)
+  Lokasi String? @db.VarChar(255)
+  Foto String? @db.VarChar(255)
+  @@map("aset_master")
+}
+
+model AsetSpv {
+  id Int @id @default(autoincrement())
+  nama_aset String @db.VarChar(100)
+  kode_aset String @db.VarChar(20)
+  foto String? @db.VarChar(255)
+  kondisi String
+  pemilik_username String @db.VarChar(50)
+  created_at DateTime? @db.Timestamp(0)
+  @@unique([kode_aset])
+  @@map("aset_spv")
+}
+
+model KeuKasbon {
+  id Int @id @default(autoincrement())
+  id_karyawan Int?
+  tanggal DateTime? @db.Date
+  jumlah Decimal? @db.Decimal(15, 2)
+  keperluan String? @db.Text
+  status String?
+  catatan String? @db.Text
+  tanggal_dibuat DateTime? @db.Timestamp(0)
+  @@map("keu_kasbon")
+}
+
+model KeuReimburseBbm {
+  id Int @id @default(autoincrement())
+  nama_pengaju String? @db.VarChar(100)
+  tanggal DateTime? @db.Date
+  tujuan String? @db.VarChar(200)
+  liter Decimal? @db.Decimal(10, 2)
+  total Decimal? @db.Decimal(12, 2)
+  catatan String? @db.Text
+  foto_nota String? @db.VarChar(255)
+  @@map("keu_reimburse_bbm")
+}
+
+model KeuBiayaListrik {
+  id Int @id @default(autoincrement())
+  lokasi String @db.VarChar(100)
+  jenis_pembayaran String
+  nomor_referensi String? @db.VarChar(100)
+  tanggal_bayar DateTime @db.Date
+  biaya Decimal @db.Decimal(12, 2)
+  keterangan String? @db.Text
+  @@map("keu_biaya_listrik")
+}
+
+model KeuPemasukan {
+  id Int @id @default(autoincrement())
+  keterangan String @db.VarChar(255)
+  jumlah Decimal @db.Decimal(10, 2)
+  tanggal DateTime @db.Date
+  @@map("keu_pemasukan")
+}
+
+model KeuPengeluaran {
+  id Int @id @default(autoincrement())
+  keterangan String @db.VarChar(255)
+  jumlah Decimal @db.Decimal(10, 2)
+  tanggal DateTime @db.Date
+  @@map("keu_pengeluaran")
+}
+
+model KeuPembayaranKontribusi {
+  id Int @id @default(autoincrement())
+  nama_penerima String @db.VarChar(255)
+  no_wa_penerima String? @db.VarChar(20)
+  nama_kontribusi String @db.VarChar(255)
+  tanggal_bayar DateTime @db.Date
+  nominal Decimal @db.Decimal(12, 2)
+  keterangan String? @db.Text
+  @@map("keu_pembayaran_kontribusi")
+}
+
+model KeuPembayaranSewa {
+  id Int @id @default(autoincrement())
+  nama_kontrakan String @db.VarChar(255)
+  lokasi String? @db.VarChar(255)
+  alamat String? @db.Text
+  periode_sewa DateTime @db.Date
+  tanggal_bayar DateTime @db.Date
+  biaya_per_bulan Decimal @db.Decimal(12, 2)
+  keterangan String? @db.Text
+  @@map("keu_pembayaran_sewa")
+}
+
+model KeuPembayaranUpstream {
+  id Int @id @default(autoincrement())
+  nama_provider String @db.VarChar(255)
+  deskripsi_layanan String @db.Text
+  periode_bayar DateTime @db.Date
+  tanggal_bayar DateTime @db.Date
+  biaya Decimal @db.Decimal(14, 2)
+  no_rekening_penerima String? @db.VarChar(50)
+  nama_rekening_penerima String? @db.VarChar(255)
+  keterangan String? @db.Text
+  @@map("keu_pembayaran_upstream")
+}
+
+model KeuPengajuanPembelianAset {
+  id Int @id @default(autoincrement())
+  nama_pengaju String @db.VarChar(255)
+  divisi_pengaju String @db.VarChar(100)
+  tanggal_pengajuan DateTime
+  nama_barang String @db.VarChar(255)
+  harga_satuan Decimal @db.Decimal(14, 2)
+  jumlah Int
+  total_harga Decimal @db.Decimal(14, 2)
+  status_pembayaran String
+  tanggal_pembayaran DateTime?
+  status_penerimaan String
+  tanggal_penerimaan DateTime?
+  keterangan String? @db.Text
+  @@map("keu_pengajuan_pembelian_aset")
+}
+
+model PelangganInstalasi {
+  id Int @id @default(autoincrement())
+  nama String @db.VarChar(255)
+  user String @db.VarChar(255)
+  userppp String? @db.VarChar(100)
+  paket String @db.VarChar(255)
+  vlan String? @db.VarChar(50)
+  sn String? @db.VarChar(100)
+  pop String? @db.VarChar(100)
+  odp String? @db.VarChar(100)
+  url_maps String @db.Text
+  teknisi String? @db.VarChar(100)
+  alamat String @db.Text
+  ktp String? @db.VarChar(50)
+  telp String @db.VarChar(20)
+  email String? @db.VarChar(100)
+  marketing String? @db.VarChar(255)
+  tanggal DateTime? @db.Timestamp(0)
+  status String? @db.VarChar(50)
+  modem String @db.VarChar(255)
+  dropcore String @db.VarChar(255)
+  last_updated_by String? @db.VarChar(50)
+  passwordppp String? @db.VarChar(100)
+  feeMarketing PelangganFeeMarketing?
+  feeTeknisi   PelangganFeeTeknisi?
+  @@map("pelanggan_instalasi")
+}
+
+model PelangganFeeMarketing {
+  id Int @id @default(autoincrement())
+  pemasangan_id Int @unique
+  status String?
+  updated_at DateTime? @db.Timestamp(0)
+  instalasi PelangganInstalasi @relation(fields: [pemasangan_id], references: [id], onDelete: Cascade)
+  @@map("pelanggan_fee_marketing")
+}
+
+model PelangganFeeTeknisi {
+  id Int @id @default(autoincrement())
+  pemasangan_id Int @unique
+  status String
+  updated_at DateTime? @db.Timestamp(0)
+  created_at DateTime? @db.Timestamp(0)
+  instalasi PelangganInstalasi @relation(fields: [pemasangan_id], references: [id], onDelete: Cascade)
+  @@map("pelanggan_fee_teknisi")
+}
+
+model TiketGangguan {
+  id Int @id @default(autoincrement())
+  nama_pelanggan String? @db.VarChar(255)
+  alamat String? @db.Text
+  whatsapp String? @db.VarChar(20)
+  pop String? @db.VarChar(100)
+  vlan String? @db.VarChar(50)
+  sn String? @db.VarChar(100)
+  keluhan String? @db.Text
+  maps_url String? @db.Text
+  teknisi String? @db.VarChar(255)
+  action String? @db.VarChar(255)
+  tanggal_dibuat DateTime? @db.Timestamp(0)
+  tanggal_selesai DateTime? @db.Timestamp(0)
+  status String
+  @@map("tiket_gangguan")
+}
+
+model TiketAi {
+  id Int @id @default(autoincrement())
+  nama String? @db.VarChar(100)
+  alamat String? @db.Text
+  pop String? @db.VarChar(50)
+  whatsapp String? @db.VarChar(20)
+  keluhan String? @db.Text
+  maps_url String? @db.Text
+  created_at DateTime?
+  status String?
+  @@map("tiket_ai")
+}
+
+model MitraResmi {
+  id BigInt @id @default(autoincrement())
+  nama_pemilik String @db.VarChar(150)
+  nama_brand String @db.VarChar(150)
+  alamat_lengkap String @db.Text
+  kelurahan_dusun String @db.VarChar(120)
+  kelurahan_code String? @db.VarChar(25)
+  kota_kab String @db.VarChar(120)
+  kecamatan String? @db.VarChar(120)
+  kecamatan_code String? @db.VarChar(20)
+  kota_kab_code String? @db.VarChar(15)
+  provinsi String @db.VarChar(120)
+  provinsi_code String? @db.VarChar(10)
+  latitude Decimal? @db.Decimal(10, 7)
+  longitude Decimal? @db.Decimal(10, 7)
+  kapasitas_nilai Decimal @db.Decimal(12, 3)
+  kapasitas_satuan String
+  status String?
+  created_at DateTime?
+  updated_at DateTime?
+  @@map("mitra_resmi")
+}
