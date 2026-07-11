@@ -28,9 +28,10 @@ export type NavGroup = {
 // urutan pengerjaan modul di Next.js jelas mengikuti menu yang sudah dipakai
 // sehari-hari. Pemetaan file lama -> di sini untuk referensi kalau perlu cek balik:
 //   Dashboard -> dashboard.php
-//   Aktivasi/Proses PSB/Selesai PSB -> aktivasi_pelanggan.php, prosesaktivasi.php,
-//     selesai_aktivasi.php (di Next.js digabung jadi 1 modul "/pelanggan" dengan
-//     filter status, bukan 3 halaman terpisah -- lebih simpel tanpa kehilangan fungsi)
+//   Aktivasi -> aktivasi_pelanggan.php (dibangun ulang persis di "/pelanggan/aktivasi":
+//     antrian status='belum diproses', proses aktivasi + kirim WA, atau simpan pending)
+//   Proses PSB/Selesai PSB -> prosesaktivasi.php, selesai_aktivasi.php (belum dibangun
+//     terpisah -- untuk sementara bisa dilihat/diedit lewat "/pelanggan" biasa)
 //   Gangguan -> gangguan.php
 //   CABUT -> cabut.php (pakai database "cabut" yang belum ikut dikonsolidasi)
 //   Remote Modem -> https://remot.datarealsolution.net/ (subdomain terpisah, bukan modul)
@@ -51,6 +52,7 @@ export const NAV_GROUPS: NavGroup[] = [
     title: "Pelanggan",
     items: [
       { label: "Pelanggan / Instalasi", href: "/pelanggan", icon: IconUsers },
+      { label: "Antrian Aktivasi", href: "/pelanggan/aktivasi", icon: IconTicket },
     ],
   },
   {
