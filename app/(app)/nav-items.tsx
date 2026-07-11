@@ -35,7 +35,10 @@ export type NavGroup = {
 //     monitoring status='aktivasi', read-only, tanpa aksi ubah data seperti versi lama)
 //   Selesai PSB -> selesai_aktivasi.php (dibangun persis di "/pelanggan/selesai-psb":
 //     monitoring status IN ('on','selesai'), filter+sort+paginasi, read-only)
-//   Gangguan -> gangguan.php
+//   Gangguan -> gangguan.php (dibangun persis di "/gangguan": list + stats
+//     card (selalu global) + filter/sort/paginasi + create/edit/hapus, status
+//     'selesai' otomatis isi tanggal_selesai, direvisi dari 'selesai' otomatis
+//     dikosongkan lagi -- sama seperti edit_gangguan.php lama)
 //   CABUT -> cabut.php (pakai database "cabut" yang belum ikut dikonsolidasi)
 //   Remote Modem -> https://remot.datarealsolution.net/ (subdomain terpisah, bukan modul)
 //   HRIS -> dashkaryawan.php (menu utama sempat dialihkan ke halaman "maintenance",
@@ -63,7 +66,7 @@ export const NAV_GROUPS: NavGroup[] = [
   {
     title: "Operasional",
     items: [
-      { label: "Gangguan", href: "/gangguan", icon: IconTicket, comingSoon: true },
+      { label: "Gangguan", href: "/gangguan", icon: IconTicket },
       { label: "Cabut", href: "/cabut", icon: IconWifi, comingSoon: true },
       {
         label: "Remote Modem",
