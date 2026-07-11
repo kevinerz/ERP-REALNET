@@ -29,6 +29,21 @@ function SidebarContent({ pathname, onNavigate }: { pathname: string; onNavigate
                 const active = pathname === item.href || pathname.startsWith(item.href + "/");
                 const Icon = item.icon;
 
+                if (item.external) {
+                  return (
+                    <a
+                      key={item.href}
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2.5 rounded-md px-2.5 py-2 text-sm font-medium text-slate-300 transition hover:bg-slate-800 hover:text-white"
+                    >
+                      <Icon className="h-[18px] w-[18px]" />
+                      {item.label}
+                    </a>
+                  );
+                }
+
                 if (item.comingSoon) {
                   return (
                     <div
