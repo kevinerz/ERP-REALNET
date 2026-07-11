@@ -3,6 +3,7 @@ import {
   IconUsers,
   IconWifi,
   IconTicket,
+  IconCheck,
   IconBriefcase,
   IconWallet,
   IconHandshake,
@@ -30,8 +31,10 @@ export type NavGroup = {
 //   Dashboard -> dashboard.php
 //   Aktivasi -> aktivasi_pelanggan.php (dibangun ulang persis di "/pelanggan/aktivasi":
 //     antrian status='belum diproses', proses aktivasi + kirim WA, atau simpan pending)
-//   Proses PSB/Selesai PSB -> prosesaktivasi.php, selesai_aktivasi.php (belum dibangun
-//     terpisah -- untuk sementara bisa dilihat/diedit lewat "/pelanggan" biasa)
+//   Proses PSB -> prosesaktivasi.php (dibangun persis di "/pelanggan/proses-psb":
+//     monitoring status='aktivasi', read-only, tanpa aksi ubah data seperti versi lama)
+//   Selesai PSB -> selesai_aktivasi.php (dibangun persis di "/pelanggan/selesai-psb":
+//     monitoring status IN ('on','selesai'), filter+sort+paginasi, read-only)
 //   Gangguan -> gangguan.php
 //   CABUT -> cabut.php (pakai database "cabut" yang belum ikut dikonsolidasi)
 //   Remote Modem -> https://remot.datarealsolution.net/ (subdomain terpisah, bukan modul)
@@ -53,6 +56,8 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { label: "Pelanggan / Instalasi", href: "/pelanggan", icon: IconUsers },
       { label: "Antrian Aktivasi", href: "/pelanggan/aktivasi", icon: IconTicket },
+      { label: "Proses PSB", href: "/pelanggan/proses-psb", icon: IconWifi },
+      { label: "Selesai PSB", href: "/pelanggan/selesai-psb", icon: IconCheck },
     ],
   },
   {
