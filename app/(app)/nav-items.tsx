@@ -69,7 +69,7 @@ export const NAV_GROUPS: NavGroup[] = [
   {
     title: "SDM & Keuangan",
     items: [
-      { label: "HRIS", href: "/hr", icon: IconBriefcase, comingSoon: true },
+      { label: "HRIS", href: "/hr", icon: IconBriefcase },
       { label: "BBM", href: "/bbm", icon: IconWallet, comingSoon: true },
       { label: "Kasbon", href: "/kasbon", icon: IconWallet, comingSoon: true },
     ],
