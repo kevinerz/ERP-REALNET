@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tes Reimburse API</title>
+    <style>
+        body { font-family: sans-serif; max-width: 500px; margin: 40px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        label { display: block; margin-top: 15px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+        button { margin-top: 20px; padding: 10px 15px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Form Tes API Reimburse</h2>
+    <form action="https://datarealsolution.net/api/form_reimburse.php" method="post" enctype="multipart/form-data">
+        
+        <label for="nama_pengaju">Nama Pengaju:</label>
+        <input type="text" id="nama_pengaju" name="nama_pengaju" value="testing_dari_html" required>
+
+        <label for="divisi">Divisi:</label>
+        <input type="text" id="divisi" name="divisi" value="Teknisi" required>
+        
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+        
+        <label for="tujuan">Tujuan:</label>
+        <input type="text" id="tujuan" name="tujuan" value="Test dari Form HTML" required>
+        
+        <label for="liter">Liter:</label>
+        <input type="number" step="0.01" id="liter" name="liter" value="5.5" required>
+        
+        <label for="total">Total (Rp):</label>
+        <input type="number" id="total" name="total" value="55000" required>
+        
+        <label for="catatan">Catatan:</label>
+        <textarea id="catatan" name="catatan">Catatan untuk tes.</textarea>
+
+        <label for="nota">Foto Nota (Wajib):</label>
+        <input type="file" id="nota" name="nota" accept="image/png, image/jpeg" required>
+        
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>

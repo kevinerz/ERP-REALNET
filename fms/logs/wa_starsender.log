@@ -1,0 +1,1332 @@
+[2025-12-22 13:39:32] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":251359465},"message":"Success sent message"}
+[2025-12-22 13:39:32] PAID pid=882 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-22 17:46:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":251387720},"message":"Success sent message"}
+[2025-12-22 17:46:51] PAID pid=882 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:05:24] STARSENDER JSON to=6285755712422 HTTP=200 err= resp={"success":true,"data":{"message_id":252002971},"message":"Success sent message"}
+[2025-12-27 10:05:24] PAID pid=487 -> WA TERKIRIM ke 6285755712422 (Dewi wahyu setyaningrum) HTTP 200
+[2025-12-27 10:07:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003110},"message":"Success sent message"}
+[2025-12-27 10:07:56] PAID pid=891 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:07:59] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003113},"message":"Success sent message"}
+[2025-12-27 10:07:59] PAID pid=899 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:01] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003117},"message":"Success sent message"}
+[2025-12-27 10:08:01] PAID pid=898 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:05] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003120},"message":"Success sent message"}
+[2025-12-27 10:08:05] PAID pid=896 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:07] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003126},"message":"Success sent message"}
+[2025-12-27 10:08:07] PAID pid=900 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003132},"message":"Success sent message"}
+[2025-12-27 10:08:09] PAID pid=902 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003137},"message":"Success sent message"}
+[2025-12-27 10:08:11] PAID pid=901 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003140},"message":"Success sent message"}
+[2025-12-27 10:08:13] PAID pid=909 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003143},"message":"Success sent message"}
+[2025-12-27 10:08:15] PAID pid=908 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:18] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003148},"message":"Success sent message"}
+[2025-12-27 10:08:18] PAID pid=906 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:20] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003150},"message":"Success sent message"}
+[2025-12-27 10:08:20] PAID pid=905 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:23] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003152},"message":"Success sent message"}
+[2025-12-27 10:08:23] PAID pid=904 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003153},"message":"Success sent message"}
+[2025-12-27 10:08:24] PAID pid=911 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003156},"message":"Success sent message"}
+[2025-12-27 10:08:26] PAID pid=910 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003157},"message":"Success sent message"}
+[2025-12-27 10:08:28] PAID pid=915 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2025-12-27 10:08:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":252003159},"message":"Success sent message"}
+[2025-12-27 10:08:30] PAID pid=914 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:16:56] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":256325475},"message":"Success sent message"}
+[2026-01-23 11:16:56] PAID pid=981 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-01-23 11:16:58] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":256325481},"message":"Success sent message"}
+[2026-01-23 11:16:58] PAID pid=925 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-01-23 11:17:29] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":256325534},"message":"Success sent message"}
+[2026-01-23 11:17:29] PAID pid=1011 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-01-23 11:17:32] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":256325541},"message":"Success sent message"}
+[2026-01-23 11:17:32] PAID pid=978 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-01-23 11:17:34] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":256325542},"message":"Success sent message"}
+[2026-01-23 11:17:34] PAID pid=954 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-01-23 11:17:36] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":256325544},"message":"Success sent message"}
+[2026-01-23 11:17:36] PAID pid=937 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-01-23 11:18:10] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":256325658},"message":"Success sent message"}
+[2026-01-23 11:18:10] PAID pid=1014 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-01-23 11:18:12] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":256325667},"message":"Success sent message"}
+[2026-01-23 11:18:12] PAID pid=942 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-01-23 11:20:36] STARSENDER JSON to=6285814351409 HTTP=200 err= resp={"success":true,"data":{"message_id":256325861},"message":"Success sent message"}
+[2026-01-23 11:20:36] PAID pid=1041 -> WA TERKIRIM ke 6285814351409 (Muhamad muhidin/idin) HTTP 200
+[2026-01-23 11:21:07] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325916},"message":"Success sent message"}
+[2026-01-23 11:21:07] PAID pid=912 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325925},"message":"Success sent message"}
+[2026-01-23 11:21:09] PAID pid=920 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:32] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325965},"message":"Success sent message"}
+[2026-01-23 11:21:32] PAID pid=919 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:34] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325968},"message":"Success sent message"}
+[2026-01-23 11:21:34] PAID pid=918 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:35] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325972},"message":"Success sent message"}
+[2026-01-23 11:21:35] PAID pid=936 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:37] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325975},"message":"Success sent message"}
+[2026-01-23 11:21:37] PAID pid=935 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:39] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325978},"message":"Success sent message"}
+[2026-01-23 11:21:39] PAID pid=928 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:40] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325981},"message":"Success sent message"}
+[2026-01-23 11:21:40] PAID pid=927 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:42] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325983},"message":"Success sent message"}
+[2026-01-23 11:21:42] PAID pid=926 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:46] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325987},"message":"Success sent message"}
+[2026-01-23 11:21:46] PAID pid=946 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325989},"message":"Success sent message"}
+[2026-01-23 11:21:48] PAID pid=941 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325992},"message":"Success sent message"}
+[2026-01-23 11:21:51] PAID pid=979 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:52] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256325997},"message":"Success sent message"}
+[2026-01-23 11:21:52] PAID pid=971 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:54] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326000},"message":"Success sent message"}
+[2026-01-23 11:21:54] PAID pid=972 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326004},"message":"Success sent message"}
+[2026-01-23 11:21:56] PAID pid=973 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326006},"message":"Success sent message"}
+[2026-01-23 11:21:57] PAID pid=975 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:21:59] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326007},"message":"Success sent message"}
+[2026-01-23 11:21:59] PAID pid=976 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326011},"message":"Success sent message"}
+[2026-01-23 11:22:02] PAID pid=967 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:05] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326016},"message":"Success sent message"}
+[2026-01-23 11:22:05] PAID pid=968 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:08] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326025},"message":"Success sent message"}
+[2026-01-23 11:22:08] PAID pid=969 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326026},"message":"Success sent message"}
+[2026-01-23 11:22:09] PAID pid=960 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326029},"message":"Success sent message"}
+[2026-01-23 11:22:11] PAID pid=961 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326035},"message":"Success sent message"}
+[2026-01-23 11:22:13] PAID pid=962 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326037},"message":"Success sent message"}
+[2026-01-23 11:22:15] PAID pid=957 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326039},"message":"Success sent message"}
+[2026-01-23 11:22:17] PAID pid=958 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326043},"message":"Success sent message"}
+[2026-01-23 11:22:19] PAID pid=959 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:27] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326065},"message":"Success sent message"}
+[2026-01-23 11:22:27] PAID pid=955 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:31] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326077},"message":"Success sent message"}
+[2026-01-23 11:22:31] PAID pid=956 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:35] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326080},"message":"Success sent message"}
+[2026-01-23 11:22:35] PAID pid=951 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:37] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326082},"message":"Success sent message"}
+[2026-01-23 11:22:37] PAID pid=952 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:39] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326083},"message":"Success sent message"}
+[2026-01-23 11:22:39] PAID pid=949 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:22:41] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326087},"message":"Success sent message"}
+[2026-01-23 11:22:41] PAID pid=938 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326119},"message":"Success sent message"}
+[2026-01-23 11:23:09] PAID pid=977 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326121},"message":"Success sent message"}
+[2026-01-23 11:23:11] PAID pid=986 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326124},"message":"Success sent message"}
+[2026-01-23 11:23:13] PAID pid=985 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326126},"message":"Success sent message"}
+[2026-01-23 11:23:15] PAID pid=984 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326129},"message":"Success sent message"}
+[2026-01-23 11:23:17] PAID pid=983 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326131},"message":"Success sent message"}
+[2026-01-23 11:23:19] PAID pid=991 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:20] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326133},"message":"Success sent message"}
+[2026-01-23 11:23:20] PAID pid=989 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:22] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326138},"message":"Success sent message"}
+[2026-01-23 11:23:22] PAID pid=994 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326141},"message":"Success sent message"}
+[2026-01-23 11:23:24] PAID pid=1056 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326143},"message":"Success sent message"}
+[2026-01-23 11:23:26] PAID pid=1052 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326146},"message":"Success sent message"}
+[2026-01-23 11:23:28] PAID pid=1040 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:29] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326151},"message":"Success sent message"}
+[2026-01-23 11:23:29] PAID pid=1046 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:32] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326155},"message":"Success sent message"}
+[2026-01-23 11:23:32] PAID pid=1049 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:23:34] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326164},"message":"Success sent message"}
+[2026-01-23 11:23:34] PAID pid=1026 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326251},"message":"Success sent message"}
+[2026-01-23 11:24:13] PAID pid=1027 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326259},"message":"Success sent message"}
+[2026-01-23 11:24:17] PAID pid=1034 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326264},"message":"Success sent message"}
+[2026-01-23 11:24:19] PAID pid=1036 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:21] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326266},"message":"Success sent message"}
+[2026-01-23 11:24:21] PAID pid=1038 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:23] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326270},"message":"Success sent message"}
+[2026-01-23 11:24:23] PAID pid=1024 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326272},"message":"Success sent message"}
+[2026-01-23 11:24:24] PAID pid=1020 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326273},"message":"Success sent message"}
+[2026-01-23 11:24:26] PAID pid=1022 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326281},"message":"Success sent message"}
+[2026-01-23 11:24:28] PAID pid=1015 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:34] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326292},"message":"Success sent message"}
+[2026-01-23 11:24:34] PAID pid=1016 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:36] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326296},"message":"Success sent message"}
+[2026-01-23 11:24:36] PAID pid=1018 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:38] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326297},"message":"Success sent message"}
+[2026-01-23 11:24:38] PAID pid=1008 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:40] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326300},"message":"Success sent message"}
+[2026-01-23 11:24:40] PAID pid=1010 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:41] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326302},"message":"Success sent message"}
+[2026-01-23 11:24:41] PAID pid=1003 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:43] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326304},"message":"Success sent message"}
+[2026-01-23 11:24:43] PAID pid=1006 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:45] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326391},"message":"Success sent message"}
+[2026-01-23 11:24:45] PAID pid=997 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-23 11:24:47] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256326416},"message":"Success sent message"}
+[2026-01-23 11:24:47] PAID pid=998 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:07] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809447},"message":"Success sent message"}
+[2026-01-28 11:08:07] PAID pid=1068 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:08] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809454},"message":"Success sent message"}
+[2026-01-28 11:08:08] PAID pid=1070 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:10] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809458},"message":"Success sent message"}
+[2026-01-28 11:08:10] PAID pid=1064 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:12] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809463},"message":"Success sent message"}
+[2026-01-28 11:08:12] PAID pid=1066 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809464},"message":"Success sent message"}
+[2026-01-28 11:08:13] PAID pid=1067 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809466},"message":"Success sent message"}
+[2026-01-28 11:08:15] PAID pid=1059 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-28 11:08:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256809467},"message":"Success sent message"}
+[2026-01-28 11:08:17] PAID pid=1063 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:23:01] STARSENDER JSON to=628568338033 HTTP=200 err= resp={"success":true,"data":{"message_id":256931166},"message":"Success sent message"}
+[2026-01-29 13:23:01] PAID pid=756 -> WA TERKIRIM ke 628568338033 (Amang IINK) HTTP 200
+[2026-01-29 13:23:03] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256931170},"message":"Success sent message"}
+[2026-01-29 13:23:03] PAID pid=765 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:23:06] PAID pid=897 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-01-29 13:23:08] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":256931181},"message":"Success sent message"}
+[2026-01-29 13:23:08] PAID pid=903 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-01-29 13:23:13] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931187},"message":"Success sent message"}
+[2026-01-29 13:23:13] PAID pid=907 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:16] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931188},"message":"Success sent message"}
+[2026-01-29 13:23:16] PAID pid=917 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:19] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931190},"message":"Success sent message"}
+[2026-01-29 13:23:19] PAID pid=916 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:21] STARSENDER JSON to=6285892979403 HTTP=200 err= resp={"success":true,"data":{"message_id":256931195},"message":"Success sent message"}
+[2026-01-29 13:23:21] PAID pid=924 -> WA TERKIRIM ke 6285892979403 (Azis) HTTP 200
+[2026-01-29 13:23:24] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931198},"message":"Success sent message"}
+[2026-01-29 13:23:24] PAID pid=923 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:34] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":256931207},"message":"Success sent message"}
+[2026-01-29 13:23:34] PAID pid=922 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-01-29 13:23:38] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931215},"message":"Success sent message"}
+[2026-01-29 13:23:38] PAID pid=921 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:40] STARSENDER JSON to=6285892979403 HTTP=200 err= resp={"success":true,"data":{"message_id":256931218},"message":"Success sent message"}
+[2026-01-29 13:23:40] PAID pid=934 -> WA TERKIRIM ke 6285892979403 (Azis) HTTP 200
+[2026-01-29 13:23:42] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931219},"message":"Success sent message"}
+[2026-01-29 13:23:42] PAID pid=933 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:45] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931221},"message":"Success sent message"}
+[2026-01-29 13:23:45] PAID pid=932 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:47] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931225},"message":"Success sent message"}
+[2026-01-29 13:23:47] PAID pid=931 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:49] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931227},"message":"Success sent message"}
+[2026-01-29 13:23:49] PAID pid=930 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:50] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931236},"message":"Success sent message"}
+[2026-01-29 13:23:50] PAID pid=929 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:52] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931338},"message":"Success sent message"}
+[2026-01-29 13:23:52] PAID pid=945 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:55] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931341},"message":"Success sent message"}
+[2026-01-29 13:23:55] PAID pid=944 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:23:58] STARSENDER JSON to=6285892979403 HTTP=200 err= resp={"success":true,"data":{"message_id":256931345},"message":"Success sent message"}
+[2026-01-29 13:23:58] PAID pid=940 -> WA TERKIRIM ke 6285892979403 (Azis) HTTP 200
+[2026-01-29 13:24:00] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931347},"message":"Success sent message"}
+[2026-01-29 13:24:00] PAID pid=939 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:02] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931350},"message":"Success sent message"}
+[2026-01-29 13:24:02] PAID pid=948 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:04] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931353},"message":"Success sent message"}
+[2026-01-29 13:24:04] PAID pid=947 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:08] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931361},"message":"Success sent message"}
+[2026-01-29 13:24:08] PAID pid=950 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:10] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931364},"message":"Success sent message"}
+[2026-01-29 13:24:10] PAID pid=966 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:13] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931368},"message":"Success sent message"}
+[2026-01-29 13:24:13] PAID pid=965 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:15] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931372},"message":"Success sent message"}
+[2026-01-29 13:24:15] PAID pid=963 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:20] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931378},"message":"Success sent message"}
+[2026-01-29 13:24:20] PAID pid=970 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:22] STARSENDER JSON to=6283836729970 HTTP=200 err= resp={"success":true,"data":{"message_id":256931382},"message":"Success sent message"}
+[2026-01-29 13:24:22] PAID pid=974 -> WA TERKIRIM ke 6283836729970 (Indah pratiwi / teh indah) HTTP 200
+[2026-01-29 13:24:24] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931388},"message":"Success sent message"}
+[2026-01-29 13:24:24] PAID pid=987 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:27] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931393},"message":"Success sent message"}
+[2026-01-29 13:24:27] PAID pid=988 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:28] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931396},"message":"Success sent message"}
+[2026-01-29 13:24:28] PAID pid=992 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:30] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931398},"message":"Success sent message"}
+[2026-01-29 13:24:30] PAID pid=990 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:32] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931401},"message":"Success sent message"}
+[2026-01-29 13:24:32] PAID pid=996 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:34] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":256931405},"message":"Success sent message"}
+[2026-01-29 13:24:34] PAID pid=993 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-01-29 13:24:37] STARSENDER JSON to=6285890343708 HTTP=200 err= resp={"success":true,"data":{"message_id":256931411},"message":"Success sent message"}
+[2026-01-29 13:24:37] PAID pid=1001 -> WA TERKIRIM ke 6285890343708 (Dion) HTTP 200
+[2026-01-29 13:24:39] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931414},"message":"Success sent message"}
+[2026-01-29 13:24:39] PAID pid=1000 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:41] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931416},"message":"Success sent message"}
+[2026-01-29 13:24:41] PAID pid=999 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:42] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931418},"message":"Success sent message"}
+[2026-01-29 13:24:42] PAID pid=1007 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:44] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931688},"message":"Success sent message"}
+[2026-01-29 13:24:44] PAID pid=1005 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:46] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931691},"message":"Success sent message"}
+[2026-01-29 13:24:46] PAID pid=1004 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:48] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931694},"message":"Success sent message"}
+[2026-01-29 13:24:48] PAID pid=1002 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:50] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931704},"message":"Success sent message"}
+[2026-01-29 13:24:50] PAID pid=1009 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:24:54] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931712},"message":"Success sent message"}
+[2026-01-29 13:24:54] PAID pid=1029 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:03] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931724},"message":"Success sent message"}
+[2026-01-29 13:25:03] PAID pid=1075 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:04] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931731},"message":"Success sent message"}
+[2026-01-29 13:25:04] PAID pid=1076 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:06] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931737},"message":"Success sent message"}
+[2026-01-29 13:25:06] PAID pid=1061 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:07] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931743},"message":"Success sent message"}
+[2026-01-29 13:25:07] PAID pid=1062 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:10] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931750},"message":"Success sent message"}
+[2026-01-29 13:25:10] PAID pid=1058 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:13] STARSENDER JSON to=6285755712422 HTTP=200 err= resp={"success":true,"data":{"message_id":256931753},"message":"Success sent message"}
+[2026-01-29 13:25:13] PAID pid=1055 -> WA TERKIRIM ke 6285755712422 (Dewi wahyu setyaningrum) HTTP 200
+[2026-01-29 13:25:16] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931759},"message":"Success sent message"}
+[2026-01-29 13:25:16] PAID pid=1042 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:18] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931761},"message":"Success sent message"}
+[2026-01-29 13:25:18] PAID pid=1048 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:20] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931767},"message":"Success sent message"}
+[2026-01-29 13:25:20] PAID pid=1032 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:21] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931768},"message":"Success sent message"}
+[2026-01-29 13:25:21] PAID pid=1035 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:23] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931770},"message":"Success sent message"}
+[2026-01-29 13:25:23] PAID pid=1037 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:25] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931772},"message":"Success sent message"}
+[2026-01-29 13:25:25] PAID pid=1025 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:25:26] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":256931774},"message":"Success sent message"}
+[2026-01-29 13:25:26] PAID pid=1021 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-01-29 13:25:28] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256931777},"message":"Success sent message"}
+[2026-01-29 13:25:28] PAID pid=1023 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-01-29 13:27:00] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":256931891},"message":"Success sent message"}
+[2026-01-29 13:27:00] PAID pid=1090 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-01-29 13:27:43] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":256931991},"message":"Success sent message"}
+[2026-01-29 13:27:43] PAID pid=1087 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-01-29 13:28:21] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":256932129},"message":"Success sent message"}
+[2026-01-29 13:28:21] PAID pid=1074 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-01-29 13:28:59] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932158},"message":"Success sent message"}
+[2026-01-29 13:28:59] PAID pid=1079 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932173},"message":"Success sent message"}
+[2026-01-29 13:29:09] PAID pid=1065 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932174},"message":"Success sent message"}
+[2026-01-29 13:29:11] PAID pid=1077 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932176},"message":"Success sent message"}
+[2026-01-29 13:29:13] PAID pid=1057 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:15] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":256932177},"message":"Success sent message"}
+[2026-01-29 13:29:15] PAID pid=1054 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-01-29 13:29:18] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932182},"message":"Success sent message"}
+[2026-01-29 13:29:18] PAID pid=1073 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:20] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":256932185},"message":"Success sent message"}
+[2026-01-29 13:29:20] PAID pid=1051 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-01-29 13:29:39] PAID pid=1039 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-01-29 13:29:44] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932251},"message":"Success sent message"}
+[2026-01-29 13:29:44] PAID pid=1069 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:46] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932254},"message":"Success sent message"}
+[2026-01-29 13:29:46] PAID pid=1078 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-01-29 13:29:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":256932257},"message":"Success sent message"}
+[2026-01-29 13:29:48] PAID pid=1080 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:38:32] STARSENDER JSON to=6285883495102 HTTP=200 err= resp={"success":true,"data":{"message_id":259092729},"message":"Success sent message"}
+[2026-02-19 08:38:32] PAID pid=1091 -> WA TERKIRIM ke 6285883495102 (Abdul musa) HTTP 200
+[2026-02-19 08:38:35] STARSENDER JSON to=6285883495102 HTTP=200 err= resp={"success":true,"data":{"message_id":259092735},"message":"Success sent message"}
+[2026-02-19 08:38:35] PAID pid=1127 -> WA TERKIRIM ke 6285883495102 (Abdul musa) HTTP 200
+[2026-02-19 08:38:37] STARSENDER JSON to=6285883495102 HTTP=200 err= resp={"success":true,"data":{"message_id":259092737},"message":"Success sent message"}
+[2026-02-19 08:38:37] PAID pid=1130 -> WA TERKIRIM ke 6285883495102 (Abdul musa) HTTP 200
+[2026-02-19 08:38:38] STARSENDER JSON to=6285883495102 HTTP=200 err= resp={"success":true,"data":{"message_id":259092741},"message":"Success sent message"}
+[2026-02-19 08:38:38] PAID pid=1106 -> WA TERKIRIM ke 6285883495102 (Abdul musa) HTTP 200
+[2026-02-19 08:39:45] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259092811},"message":"Success sent message"}
+[2026-02-19 08:39:45] PAID pid=1111 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-19 08:39:47] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259092814},"message":"Success sent message"}
+[2026-02-19 08:39:47] PAID pid=1179 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-19 08:39:49] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259092817},"message":"Success sent message"}
+[2026-02-19 08:39:49] PAID pid=1164 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-19 08:39:53] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259092819},"message":"Success sent message"}
+[2026-02-19 08:39:53] PAID pid=1156 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:41:10] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":259092913},"message":"Success sent message"}
+[2026-02-19 08:41:10] PAID pid=1193 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-02-19 08:41:12] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":259092917},"message":"Success sent message"}
+[2026-02-19 08:41:12] PAID pid=1183 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-02-19 08:41:14] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":259092920},"message":"Success sent message"}
+[2026-02-19 08:41:14] PAID pid=1181 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-02-19 08:41:18] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":259092927},"message":"Success sent message"}
+[2026-02-19 08:41:18] PAID pid=1129 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-02-19 08:41:25] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":259092953},"message":"Success sent message"}
+[2026-02-19 08:41:25] PAID pid=1131 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-02-19 08:42:25] STARSENDER JSON to=6283836729970 HTTP=200 err= resp={"success":true,"data":{"message_id":259093020},"message":"Success sent message"}
+[2026-02-19 08:42:25] PAID pid=1128 -> WA TERKIRIM ke 6283836729970 (Indah pratiwi / teh indah) HTTP 200
+[2026-02-19 08:42:26] STARSENDER JSON to=62895329770591 HTTP=200 err= resp={"success":true,"data":{"message_id":259093022},"message":"Success sent message"}
+[2026-02-19 08:42:26] PAID pid=1095 -> WA TERKIRIM ke 62895329770591 (Andi) HTTP 200
+[2026-02-19 08:42:28] STARSENDER JSON to=62895329770591 HTTP=200 err= resp={"success":true,"data":{"message_id":259093025},"message":"Success sent message"}
+[2026-02-19 08:42:28] PAID pid=1017 -> WA TERKIRIM ke 62895329770591 (Andi) HTTP 200
+[2026-02-19 08:44:49] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093241},"message":"Success sent message"}
+[2026-02-19 08:44:49] PAID pid=1213 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:44:52] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093243},"message":"Success sent message"}
+[2026-02-19 08:44:52] PAID pid=1173 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:44:54] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093246},"message":"Success sent message"}
+[2026-02-19 08:44:54] PAID pid=1138 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:44:56] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093254},"message":"Success sent message"}
+[2026-02-19 08:44:56] PAID pid=1121 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:44:58] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093260},"message":"Success sent message"}
+[2026-02-19 08:44:58] PAID pid=1097 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:00] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093265},"message":"Success sent message"}
+[2026-02-19 08:45:00] PAID pid=1083 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:04] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093270},"message":"Success sent message"}
+[2026-02-19 08:45:04] PAID pid=1089 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:06] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093273},"message":"Success sent message"}
+[2026-02-19 08:45:06] PAID pid=1050 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:09] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093277},"message":"Success sent message"}
+[2026-02-19 08:45:09] PAID pid=1043 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:11] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093285},"message":"Success sent message"}
+[2026-02-19 08:45:11] PAID pid=1044 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:13] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093288},"message":"Success sent message"}
+[2026-02-19 08:45:13] PAID pid=1045 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:15] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093291},"message":"Success sent message"}
+[2026-02-19 08:45:15] PAID pid=1028 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:17] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093293},"message":"Success sent message"}
+[2026-02-19 08:45:17] PAID pid=1030 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:18] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093298},"message":"Success sent message"}
+[2026-02-19 08:45:18] PAID pid=1031 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:45:20] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":259093303},"message":"Success sent message"}
+[2026-02-19 08:45:20] PAID pid=1019 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-02-19 08:47:26] STARSENDER JSON to=6285890343708 HTTP=200 err= resp={"success":true,"data":{"message_id":259093893},"message":"Success sent message"}
+[2026-02-19 08:47:26] PAID pid=1013 -> WA TERKIRIM ke 6285890343708 (Dion) HTTP 200
+[2026-02-19 08:47:28] STARSENDER JSON to=6285890343708 HTTP=200 err= resp={"success":true,"data":{"message_id":259093896},"message":"Success sent message"}
+[2026-02-19 08:47:28] PAID pid=1012 -> WA TERKIRIM ke 6285890343708 (Dion) HTTP 200
+[2026-02-19 08:47:30] STARSENDER JSON to=6285890343708 HTTP=200 err= resp={"success":true,"data":{"message_id":259093898},"message":"Success sent message"}
+[2026-02-19 08:47:30] PAID pid=1033 -> WA TERKIRIM ke 6285890343708 (Dion) HTTP 200
+[2026-02-19 08:48:56] PAID pid=1119 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-19 08:48:58] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094067},"message":"Success sent message"}
+[2026-02-19 08:48:58] PAID pid=1082 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:48:59] PAID pid=1060 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-19 08:51:41] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":259094442},"message":"Success sent message"}
+[2026-02-19 08:51:41] PAID pid=1085 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-02-19 08:51:43] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":259094445},"message":"Success sent message"}
+[2026-02-19 08:51:43] PAID pid=1086 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-02-19 08:52:53] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094594},"message":"Success sent message"}
+[2026-02-19 08:52:53] PAID pid=1072 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:52:55] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094595},"message":"Success sent message"}
+[2026-02-19 08:52:55] PAID pid=1099 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:52:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094599},"message":"Success sent message"}
+[2026-02-19 08:52:57] PAID pid=1114 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:01] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094603},"message":"Success sent message"}
+[2026-02-19 08:53:01] PAID pid=1208 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094606},"message":"Success sent message"}
+[2026-02-19 08:53:02] PAID pid=1185 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094608},"message":"Success sent message"}
+[2026-02-19 08:53:04] PAID pid=1155 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:08] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094611},"message":"Success sent message"}
+[2026-02-19 08:53:08] PAID pid=1140 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094615},"message":"Success sent message"}
+[2026-02-19 08:53:09] PAID pid=1141 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094668},"message":"Success sent message"}
+[2026-02-19 08:53:11] PAID pid=1124 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:53:14] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094673},"message":"Success sent message"}
+[2026-02-19 08:53:14] PAID pid=1125 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094908},"message":"Success sent message"}
+[2026-02-19 08:55:02] PAID pid=1217 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094909},"message":"Success sent message"}
+[2026-02-19 08:55:04] PAID pid=1199 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:05] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094913},"message":"Success sent message"}
+[2026-02-19 08:55:05] PAID pid=1194 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:07] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094918},"message":"Success sent message"}
+[2026-02-19 08:55:07] PAID pid=1187 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:12] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094921},"message":"Success sent message"}
+[2026-02-19 08:55:12] PAID pid=1184 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:14] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094922},"message":"Success sent message"}
+[2026-02-19 08:55:14] PAID pid=1180 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:16] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094924},"message":"Success sent message"}
+[2026-02-19 08:55:16] PAID pid=1150 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094927},"message":"Success sent message"}
+[2026-02-19 08:55:17] PAID pid=1154 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094932},"message":"Success sent message"}
+[2026-02-19 08:55:19] PAID pid=1159 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:21] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094937},"message":"Success sent message"}
+[2026-02-19 08:55:21] PAID pid=1143 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:55:23] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259094941},"message":"Success sent message"}
+[2026-02-19 08:55:23] PAID pid=1126 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096049},"message":"Success sent message"}
+[2026-02-19 08:59:24] PAID pid=1047 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096089},"message":"Success sent message"}
+[2026-02-19 08:59:48] PAID pid=1081 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:50] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096091},"message":"Success sent message"}
+[2026-02-19 08:59:50] PAID pid=1101 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096093},"message":"Success sent message"}
+[2026-02-19 08:59:51] PAID pid=1100 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:55] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096097},"message":"Success sent message"}
+[2026-02-19 08:59:55] PAID pid=1096 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096102},"message":"Success sent message"}
+[2026-02-19 08:59:56] PAID pid=1094 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 08:59:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096106},"message":"Success sent message"}
+[2026-02-19 08:59:57] PAID pid=1093 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096161},"message":"Success sent message"}
+[2026-02-19 09:00:02] PAID pid=1092 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096185},"message":"Success sent message"}
+[2026-02-19 09:00:04] PAID pid=1103 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:06] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096202},"message":"Success sent message"}
+[2026-02-19 09:00:06] PAID pid=1145 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:07] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096219},"message":"Success sent message"}
+[2026-02-19 09:00:07] PAID pid=1144 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:08] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096234},"message":"Success sent message"}
+[2026-02-19 09:00:08] PAID pid=1157 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096582},"message":"Success sent message"}
+[2026-02-19 09:00:51] PAID pid=1209 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:53] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096586},"message":"Success sent message"}
+[2026-02-19 09:00:53] PAID pid=1210 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:55] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096588},"message":"Success sent message"}
+[2026-02-19 09:00:55] PAID pid=1214 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096591},"message":"Success sent message"}
+[2026-02-19 09:00:57] PAID pid=1172 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:00:58] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096594},"message":"Success sent message"}
+[2026-02-19 09:00:58] PAID pid=1161 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:01:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096600},"message":"Success sent message"}
+[2026-02-19 09:01:02] PAID pid=1165 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-19 09:01:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259096607},"message":"Success sent message"}
+[2026-02-19 09:01:04] PAID pid=1167 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-20 10:53:41] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224595},"message":"Success sent message"}
+[2026-02-20 10:53:41] PAID pid=1203 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:53:46] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224597},"message":"Success sent message"}
+[2026-02-20 10:53:46] PAID pid=1204 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:53:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259224598},"message":"Success sent message"}
+[2026-02-20 10:53:48] PAID pid=1200 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-20 10:53:49] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224599},"message":"Success sent message"}
+[2026-02-20 10:53:49] PAID pid=1195 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:53:52] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224601},"message":"Success sent message"}
+[2026-02-20 10:53:52] PAID pid=1196 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:53:58] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224604},"message":"Success sent message"}
+[2026-02-20 10:53:58] PAID pid=1197 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:00] PAID pid=1186 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-20 10:54:01] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":259224609},"message":"Success sent message"}
+[2026-02-20 10:54:01] PAID pid=1189 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-02-20 10:54:03] PAID pid=1191 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-20 10:54:05] PAID pid=1192 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-20 10:54:07] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":259224614},"message":"Success sent message"}
+[2026-02-20 10:54:07] PAID pid=1182 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-02-20 10:54:10] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224615},"message":"Success sent message"}
+[2026-02-20 10:54:10] PAID pid=1174 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:14] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224619},"message":"Success sent message"}
+[2026-02-20 10:54:14] PAID pid=1177 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:15] PAID pid=1171 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-20 10:54:17] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":259224622},"message":"Success sent message"}
+[2026-02-20 10:54:17] PAID pid=1162 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-02-20 10:54:19] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224624},"message":"Success sent message"}
+[2026-02-20 10:54:19] PAID pid=1168 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:21] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224626},"message":"Success sent message"}
+[2026-02-20 10:54:21] PAID pid=1149 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:22] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224631},"message":"Success sent message"}
+[2026-02-20 10:54:22] PAID pid=1151 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:24] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224632},"message":"Success sent message"}
+[2026-02-20 10:54:24] PAID pid=1152 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:25] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224635},"message":"Success sent message"}
+[2026-02-20 10:54:25] PAID pid=1153 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:27] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224638},"message":"Success sent message"}
+[2026-02-20 10:54:27] PAID pid=1132 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:29] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":259224642},"message":"Success sent message"}
+[2026-02-20 10:54:29] PAID pid=1134 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-02-20 10:54:30] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":259224669},"message":"Success sent message"}
+[2026-02-20 10:54:30] PAID pid=1135 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-02-20 10:54:32] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224677},"message":"Success sent message"}
+[2026-02-20 10:54:32] PAID pid=1120 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:34] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224683},"message":"Success sent message"}
+[2026-02-20 10:54:34] PAID pid=1122 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:36] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224686},"message":"Success sent message"}
+[2026-02-20 10:54:36] PAID pid=1115 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:38] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224689},"message":"Success sent message"}
+[2026-02-20 10:54:38] PAID pid=1116 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:54:39] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":259224696},"message":"Success sent message"}
+[2026-02-20 10:54:39] PAID pid=1117 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-02-20 10:54:41] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224701},"message":"Success sent message"}
+[2026-02-20 10:54:41] PAID pid=1118 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-20 10:59:22] PAID pid=1190 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-20 10:59:45] STARSENDER JSON to=6283836729970 HTTP=200 err= resp={"success":true,"data":{"message_id":259225328},"message":"Success sent message"}
+[2026-02-20 10:59:45] PAID pid=1084 -> WA TERKIRIM ke 6283836729970 (Indah pratiwi / teh indah) HTTP 200
+[2026-02-20 10:59:49] STARSENDER JSON to=6283836729970 HTTP=200 err= resp={"success":true,"data":{"message_id":259225333},"message":"Success sent message"}
+[2026-02-20 10:59:49] PAID pid=1112 -> WA TERKIRIM ke 6283836729970 (Indah pratiwi / teh indah) HTTP 200
+[2026-02-20 10:59:53] PAID pid=1105 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-20 11:00:12] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":259225375},"message":"Success sent message"}
+[2026-02-20 11:00:12] PAID pid=1216 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-02-22 08:16:25] PAID pid=1158 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-22 10:43:25] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259416272},"message":"Success sent message"}
+[2026-02-22 10:43:25] PAID pid=1231 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-22 10:43:27] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259416276},"message":"Success sent message"}
+[2026-02-22 10:43:27] PAID pid=1232 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-22 10:43:29] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259416277},"message":"Success sent message"}
+[2026-02-22 10:43:29] PAID pid=1233 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-22 10:43:31] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259416279},"message":"Success sent message"}
+[2026-02-22 10:43:31] PAID pid=1234 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-22 10:43:34] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259416283},"message":"Success sent message"}
+[2026-02-22 10:43:34] PAID pid=1226 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-22 10:44:00] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":259416308},"message":"Success sent message"}
+[2026-02-22 10:44:00] PAID pid=1228 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-02-22 10:44:03] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259416312},"message":"Success sent message"}
+[2026-02-22 10:44:03] PAID pid=1220 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-22 10:44:28] STARSENDER JSON to=6285883495102 HTTP=200 err= resp={"success":true,"data":{"message_id":259416329},"message":"Success sent message"}
+[2026-02-22 10:44:28] PAID pid=1212 -> WA TERKIRIM ke 6285883495102 (Abdul musa) HTTP 200
+[2026-02-22 10:44:31] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259416337},"message":"Success sent message"}
+[2026-02-22 10:44:31] PAID pid=1188 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-22 10:44:33] PAID pid=1170 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-22 10:44:36] PAID pid=1148 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-22 10:44:46] STARSENDER JSON to=6285814351409 HTTP=200 err= resp={"success":true,"data":{"message_id":259416355},"message":"Success sent message"}
+[2026-02-22 10:44:46] PAID pid=1123 -> WA TERKIRIM ke 6285814351409 (Muhamad muhidin/idin) HTTP 200
+[2026-02-23 09:35:11] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":259501298},"message":"Success sent message"}
+[2026-02-23 09:35:11] PAID pid=1205 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-02-23 09:35:12] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":259501302},"message":"Success sent message"}
+[2026-02-23 09:35:12] PAID pid=1219 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-02-23 09:35:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259501308},"message":"Success sent message"}
+[2026-02-23 09:35:15] PAID pid=1224 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-23 09:35:16] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259501309},"message":"Success sent message"}
+[2026-02-23 09:35:16] PAID pid=1223 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-23 09:35:18] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":259501314},"message":"Success sent message"}
+[2026-02-23 09:35:18] PAID pid=1222 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-02-23 09:35:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259501317},"message":"Success sent message"}
+[2026-02-23 09:35:19] PAID pid=1221 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-23 09:35:21] PAID pid=1235 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-02-23 09:35:23] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259501328},"message":"Success sent message"}
+[2026-02-23 09:35:23] PAID pid=1236 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-23 09:35:25] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259501335},"message":"Success sent message"}
+[2026-02-23 09:35:25] PAID pid=1225 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-27 09:49:40] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978726},"message":"Success sent message"}
+[2026-02-27 09:49:40] PAID pid=1239 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:49:43] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978727},"message":"Success sent message"}
+[2026-02-27 09:49:43] PAID pid=1258 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:49:51] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":259978773},"message":"Success sent message"}
+[2026-02-27 09:49:51] PAID pid=1251 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-02-27 09:49:54] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259978778},"message":"Success sent message"}
+[2026-02-27 09:49:54] PAID pid=1252 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 09:50:01] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978792},"message":"Success sent message"}
+[2026-02-27 09:50:01] PAID pid=1244 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:50:05] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259978851},"message":"Success sent message"}
+[2026-02-27 09:50:05] PAID pid=1245 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 09:50:09] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259978860},"message":"Success sent message"}
+[2026-02-27 09:50:09] PAID pid=1246 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 09:50:12] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":259978862},"message":"Success sent message"}
+[2026-02-27 09:50:12] PAID pid=1248 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-02-27 09:50:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978865},"message":"Success sent message"}
+[2026-02-27 09:50:15] PAID pid=1238 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:50:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978869},"message":"Success sent message"}
+[2026-02-27 09:50:19] PAID pid=1240 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:50:21] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259978873},"message":"Success sent message"}
+[2026-02-27 09:50:21] PAID pid=1241 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-02-27 09:50:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978876},"message":"Success sent message"}
+[2026-02-27 09:50:24] PAID pid=1242 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:50:27] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978883},"message":"Success sent message"}
+[2026-02-27 09:50:27] PAID pid=1243 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 09:50:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259978886},"message":"Success sent message"}
+[2026-02-27 09:50:30] PAID pid=1237 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 10:10:50] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259984067},"message":"Success sent message"}
+[2026-02-27 10:10:50] PAID pid=1262 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 10:11:09] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259984100},"message":"Success sent message"}
+[2026-02-27 10:11:09] PAID pid=1259 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 10:11:11] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259984108},"message":"Success sent message"}
+[2026-02-27 10:11:11] PAID pid=1263 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 10:11:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":259984114},"message":"Success sent message"}
+[2026-02-27 10:11:15] PAID pid=1104 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-27 10:14:05] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259988013},"message":"Success sent message"}
+[2026-02-27 10:14:05] PAID pid=1249 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-27 10:17:18] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":259988397},"message":"Success sent message"}
+[2026-02-27 10:17:18] PAID pid=1254 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-02-28 09:16:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":260088444},"message":"Success sent message"}
+[2026-02-28 09:16:24] PAID pid=1269 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-28 09:16:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":260088449},"message":"Success sent message"}
+[2026-02-28 09:16:26] PAID pid=1267 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-02-28 09:16:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":260088452},"message":"Success sent message"}
+[2026-02-28 09:16:28] PAID pid=1268 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:22:52] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":261854902},"message":"Success sent message"}
+[2026-03-17 09:22:52] PAID pid=1255 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-03-17 09:22:54] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":261854906},"message":"Success sent message"}
+[2026-03-17 09:22:54] PAID pid=1274 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-03-17 09:22:56] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":261854908},"message":"Success sent message"}
+[2026-03-17 09:22:56] PAID pid=1287 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-03-17 09:25:32] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855071},"message":"Success sent message"}
+[2026-03-17 09:25:32] PAID pid=1273 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:34] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855074},"message":"Success sent message"}
+[2026-03-17 09:25:34] PAID pid=1272 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:38] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855079},"message":"Success sent message"}
+[2026-03-17 09:25:38] PAID pid=1271 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:39] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855081},"message":"Success sent message"}
+[2026-03-17 09:25:39] PAID pid=1270 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:44] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855085},"message":"Success sent message"}
+[2026-03-17 09:25:44] PAID pid=1278 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:45] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855087},"message":"Success sent message"}
+[2026-03-17 09:25:45] PAID pid=1276 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:47] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855088},"message":"Success sent message"}
+[2026-03-17 09:25:47] PAID pid=1284 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:50] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855091},"message":"Success sent message"}
+[2026-03-17 09:25:50] PAID pid=1283 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:25:52] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":261855096},"message":"Success sent message"}
+[2026-03-17 09:25:52] PAID pid=1301 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-03-17 09:27:14] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261855217},"message":"Success sent message"}
+[2026-03-17 09:27:14] PAID pid=1281 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-17 09:27:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261855220},"message":"Success sent message"}
+[2026-03-17 09:27:17] PAID pid=1297 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:27:19] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":261855221},"message":"Success sent message"}
+[2026-03-17 09:27:19] PAID pid=1302 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-03-17 09:27:20] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261855222},"message":"Success sent message"}
+[2026-03-17 09:27:20] PAID pid=1312 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-17 09:27:41] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":261855288},"message":"Success sent message"}
+[2026-03-17 09:27:41] PAID pid=1277 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-03-17 09:27:43] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":261855291},"message":"Success sent message"}
+[2026-03-17 09:27:43] PAID pid=1311 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-03-17 09:28:38] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":261855553},"message":"Success sent message"}
+[2026-03-17 09:28:38] PAID pid=1289 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-03-17 09:28:40] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":261855555},"message":"Success sent message"}
+[2026-03-17 09:28:40] PAID pid=1288 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-03-17 09:28:41] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":261855556},"message":"Success sent message"}
+[2026-03-17 09:28:41] PAID pid=1295 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-03-17 09:29:18] STARSENDER JSON to=6285892979403 HTTP=200 err= resp={"success":true,"data":{"message_id":261855627},"message":"Success sent message"}
+[2026-03-17 09:29:18] PAID pid=1279 -> WA TERKIRIM ke 6285892979403 (Azis) HTTP 200
+[2026-03-17 09:29:50] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261855664},"message":"Success sent message"}
+[2026-03-17 09:29:50] PAID pid=1314 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:29:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261855665},"message":"Success sent message"}
+[2026-03-17 09:29:51] PAID pid=1310 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:30:30] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261856074},"message":"Success sent message"}
+[2026-03-17 09:30:30] PAID pid=1291 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-17 09:30:54] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856100},"message":"Success sent message"}
+[2026-03-17 09:30:54] PAID pid=1304 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:30:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856102},"message":"Success sent message"}
+[2026-03-17 09:30:56] PAID pid=1305 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:31:20] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856123},"message":"Success sent message"}
+[2026-03-17 09:31:20] PAID pid=1266 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:31:21] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856126},"message":"Success sent message"}
+[2026-03-17 09:31:21] PAID pid=1296 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:31:23] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856129},"message":"Success sent message"}
+[2026-03-17 09:31:23] PAID pid=1282 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:31:25] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856135},"message":"Success sent message"}
+[2026-03-17 09:31:25] PAID pid=1300 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:31:27] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856136},"message":"Success sent message"}
+[2026-03-17 09:31:27] PAID pid=1315 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-17 09:31:29] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":261856137},"message":"Success sent message"}
+[2026-03-17 09:31:29] PAID pid=1299 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-24 10:14:54] PAID pid=982 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-03-24 10:14:57] PAID pid=1250 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-03-24 10:14:58] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399593},"message":"Success sent message"}
+[2026-03-24 10:14:58] PAID pid=1280 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:00] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399595},"message":"Success sent message"}
+[2026-03-24 10:15:00] PAID pid=1286 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:02] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399598},"message":"Success sent message"}
+[2026-03-24 10:15:02] PAID pid=1285 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:03] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399603},"message":"Success sent message"}
+[2026-03-24 10:15:03] PAID pid=1293 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:05] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399605},"message":"Success sent message"}
+[2026-03-24 10:15:05] PAID pid=1292 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:07] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399609},"message":"Success sent message"}
+[2026-03-24 10:15:07] PAID pid=1307 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:09] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399614},"message":"Success sent message"}
+[2026-03-24 10:15:09] PAID pid=1303 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:11] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399621},"message":"Success sent message"}
+[2026-03-24 10:15:11] PAID pid=1306 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:13] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399629},"message":"Success sent message"}
+[2026-03-24 10:15:13] PAID pid=1308 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:16] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399635},"message":"Success sent message"}
+[2026-03-24 10:15:16] PAID pid=1313 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:20] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399642},"message":"Success sent message"}
+[2026-03-24 10:15:20] PAID pid=1319 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:22] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399649},"message":"Success sent message"}
+[2026-03-24 10:15:22] PAID pid=1318 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:26] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399656},"message":"Success sent message"}
+[2026-03-24 10:15:26] PAID pid=1316 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:28] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399659},"message":"Success sent message"}
+[2026-03-24 10:15:28] PAID pid=1323 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:32] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262399662},"message":"Success sent message"}
+[2026-03-24 10:15:32] PAID pid=1321 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-03-24 10:15:34] PAID pid=1320 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-03-24 10:15:40] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":262399667},"message":"Success sent message"}
+[2026-03-24 10:15:40] PAID pid=1326 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-24 10:15:42] PAID pid=1329 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-03-24 10:15:49] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":262399675},"message":"Success sent message"}
+[2026-03-24 10:15:49] PAID pid=1322 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-03-24 10:15:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":262399677},"message":"Success sent message"}
+[2026-03-24 10:15:51] PAID pid=1331 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 11:19:46] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766869},"message":"Success sent message"}
+[2026-04-20 11:19:46] PAID pid=1434 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:19:50] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766960},"message":"Success sent message"}
+[2026-04-20 11:19:50] PAID pid=1407 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:19:52] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766962},"message":"Success sent message"}
+[2026-04-20 11:19:52] PAID pid=1409 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:19:53] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766965},"message":"Success sent message"}
+[2026-04-20 11:19:53] PAID pid=1399 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:19:56] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766967},"message":"Success sent message"}
+[2026-04-20 11:19:56] PAID pid=1400 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:20:00] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766974},"message":"Success sent message"}
+[2026-04-20 11:20:00] PAID pid=1378 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:20:04] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766979},"message":"Success sent message"}
+[2026-04-20 11:20:04] PAID pid=1402 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:20:05] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":264766983},"message":"Success sent message"}
+[2026-04-20 11:20:05] PAID pid=1401 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-04-20 11:32:15] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768610},"message":"Success sent message"}
+[2026-04-20 11:32:15] PAID pid=1502 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:17] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768612},"message":"Success sent message"}
+[2026-04-20 11:32:17] PAID pid=1503 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:19] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768616},"message":"Success sent message"}
+[2026-04-20 11:32:19] PAID pid=1485 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:21] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768619},"message":"Success sent message"}
+[2026-04-20 11:32:21] PAID pid=1487 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:23] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768722},"message":"Success sent message"}
+[2026-04-20 11:32:23] PAID pid=1488 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:25] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768724},"message":"Success sent message"}
+[2026-04-20 11:32:25] PAID pid=1478 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:27] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768727},"message":"Success sent message"}
+[2026-04-20 11:32:27] PAID pid=1471 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:29] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768731},"message":"Success sent message"}
+[2026-04-20 11:32:29] PAID pid=1464 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:31] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768734},"message":"Success sent message"}
+[2026-04-20 11:32:31] PAID pid=1465 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:33] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768737},"message":"Success sent message"}
+[2026-04-20 11:32:33] PAID pid=1466 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:35] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768739},"message":"Success sent message"}
+[2026-04-20 11:32:35] PAID pid=1467 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:40] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768744},"message":"Success sent message"}
+[2026-04-20 11:32:40] PAID pid=1459 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:42] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768747},"message":"Success sent message"}
+[2026-04-20 11:32:42] PAID pid=1461 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:43] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768750},"message":"Success sent message"}
+[2026-04-20 11:32:43] PAID pid=1460 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:45] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768755},"message":"Success sent message"}
+[2026-04-20 11:32:45] PAID pid=1446 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:47] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768757},"message":"Success sent message"}
+[2026-04-20 11:32:47] PAID pid=1448 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:49] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768758},"message":"Success sent message"}
+[2026-04-20 11:32:49] PAID pid=1449 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:52] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768760},"message":"Success sent message"}
+[2026-04-20 11:32:52] PAID pid=1450 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:54] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768763},"message":"Success sent message"}
+[2026-04-20 11:32:54] PAID pid=1442 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:32:56] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768769},"message":"Success sent message"}
+[2026-04-20 11:32:56] PAID pid=1406 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:00] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768773},"message":"Success sent message"}
+[2026-04-20 11:33:00] PAID pid=1411 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:02] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768781},"message":"Success sent message"}
+[2026-04-20 11:33:02] PAID pid=1389 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:04] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768783},"message":"Success sent message"}
+[2026-04-20 11:33:04] PAID pid=1370 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:05] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768786},"message":"Success sent message"}
+[2026-04-20 11:33:05] PAID pid=1346 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:07] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768788},"message":"Success sent message"}
+[2026-04-20 11:33:07] PAID pid=1348 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:09] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768792},"message":"Success sent message"}
+[2026-04-20 11:33:09] PAID pid=1349 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:10] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768794},"message":"Success sent message"}
+[2026-04-20 11:33:10] PAID pid=1350 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:12] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768796},"message":"Success sent message"}
+[2026-04-20 11:33:12] PAID pid=1352 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:16] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768803},"message":"Success sent message"}
+[2026-04-20 11:33:16] PAID pid=1341 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:19] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768812},"message":"Success sent message"}
+[2026-04-20 11:33:19] PAID pid=1342 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 11:33:23] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264768814},"message":"Success sent message"}
+[2026-04-20 11:33:23] PAID pid=1344 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-20 13:35:26] STARSENDER JSON to=6285892979403 HTTP=200 err= resp={"success":true,"data":{"message_id":264779906},"message":"Success sent message"}
+[2026-04-20 13:35:26] PAID pid=1362 -> WA TERKIRIM ke 6285892979403 (Azis) HTTP 200
+[2026-04-20 13:36:55] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780065},"message":"Success sent message"}
+[2026-04-20 13:36:55] PAID pid=1484 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:36:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780066},"message":"Success sent message"}
+[2026-04-20 13:36:56] PAID pid=1477 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:36:58] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780068},"message":"Success sent message"}
+[2026-04-20 13:36:58] PAID pid=1482 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:00] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780073},"message":"Success sent message"}
+[2026-04-20 13:37:00] PAID pid=1472 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780074},"message":"Success sent message"}
+[2026-04-20 13:37:02] PAID pid=1463 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:03] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780077},"message":"Success sent message"}
+[2026-04-20 13:37:03] PAID pid=1462 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:05] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780081},"message":"Success sent message"}
+[2026-04-20 13:37:05] PAID pid=1444 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:08] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780083},"message":"Success sent message"}
+[2026-04-20 13:37:08] PAID pid=1435 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:10] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780085},"message":"Success sent message"}
+[2026-04-20 13:37:10] PAID pid=1440 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:12] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780086},"message":"Success sent message"}
+[2026-04-20 13:37:12] PAID pid=1441 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780090},"message":"Success sent message"}
+[2026-04-20 13:37:13] PAID pid=1421 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780093},"message":"Success sent message"}
+[2026-04-20 13:37:15] PAID pid=1422 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780094},"message":"Success sent message"}
+[2026-04-20 13:37:17] PAID pid=1424 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:19] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780136},"message":"Success sent message"}
+[2026-04-20 13:37:19] PAID pid=1416 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:20] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780137},"message":"Success sent message"}
+[2026-04-20 13:37:20] PAID pid=1417 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:22] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780140},"message":"Success sent message"}
+[2026-04-20 13:37:22] PAID pid=1418 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780142},"message":"Success sent message"}
+[2026-04-20 13:37:24] PAID pid=1413 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780146},"message":"Success sent message"}
+[2026-04-20 13:37:26] PAID pid=1414 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:29] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780153},"message":"Success sent message"}
+[2026-04-20 13:37:29] PAID pid=1398 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:31] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780156},"message":"Success sent message"}
+[2026-04-20 13:37:31] PAID pid=1404 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:32] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780158},"message":"Success sent message"}
+[2026-04-20 13:37:32] PAID pid=1393 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:34] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780160},"message":"Success sent message"}
+[2026-04-20 13:37:34] PAID pid=1396 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:35] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780161},"message":"Success sent message"}
+[2026-04-20 13:37:35] PAID pid=1397 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:37] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780163},"message":"Success sent message"}
+[2026-04-20 13:37:37] PAID pid=1386 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:39] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780164},"message":"Success sent message"}
+[2026-04-20 13:37:39] PAID pid=1387 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:43] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780373},"message":"Success sent message"}
+[2026-04-20 13:37:43] PAID pid=1354 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:45] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780375},"message":"Success sent message"}
+[2026-04-20 13:37:45] PAID pid=1353 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:46] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780376},"message":"Success sent message"}
+[2026-04-20 13:37:46] PAID pid=1351 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:37:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264780378},"message":"Success sent message"}
+[2026-04-20 13:37:48] PAID pid=1380 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:39:01] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":264780680},"message":"Success sent message"}
+[2026-04-20 13:39:01] PAID pid=1337 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-04-20 13:42:25] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781120},"message":"Success sent message"}
+[2026-04-20 13:42:25] PAID pid=1328 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:27] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781414},"message":"Success sent message"}
+[2026-04-20 13:42:27] PAID pid=1335 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781418},"message":"Success sent message"}
+[2026-04-20 13:42:30] PAID pid=1340 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:32] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781424},"message":"Success sent message"}
+[2026-04-20 13:42:32] PAID pid=1377 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:38] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781429},"message":"Success sent message"}
+[2026-04-20 13:42:38] PAID pid=1384 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:39] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781430},"message":"Success sent message"}
+[2026-04-20 13:42:39] PAID pid=1469 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:42] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781439},"message":"Success sent message"}
+[2026-04-20 13:42:42] PAID pid=1468 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:46] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781544},"message":"Success sent message"}
+[2026-04-20 13:42:46] PAID pid=1476 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:42:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264781548},"message":"Success sent message"}
+[2026-04-20 13:42:48] PAID pid=1474 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:44:03] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":264781700},"message":"Success sent message"}
+[2026-04-20 13:44:03] PAID pid=1382 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-04-20 13:44:05] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":264781705},"message":"Success sent message"}
+[2026-04-20 13:44:05] PAID pid=1376 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-04-20 13:44:06] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":264781709},"message":"Success sent message"}
+[2026-04-20 13:44:06] PAID pid=1403 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-04-20 13:46:29] STARSENDER JSON to=628380704488 HTTP=200 err= resp={"success":true,"data":{"message_id":264782059},"message":"Success sent message"}
+[2026-04-20 13:46:29] PAID pid=1458 -> WA TERKIRIM ke 628380704488 (Zaitun Atin) HTTP 200
+[2026-04-20 13:46:39] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782064},"message":"Success sent message"}
+[2026-04-20 13:46:39] PAID pid=1334 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:41] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782065},"message":"Success sent message"}
+[2026-04-20 13:46:41] PAID pid=1367 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:43] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782073},"message":"Success sent message"}
+[2026-04-20 13:46:43] PAID pid=1365 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:45] STARSENDER JSON to=6283836729970 HTTP=200 err= resp={"success":true,"data":{"message_id":264782074},"message":"Success sent message"}
+[2026-04-20 13:46:45] PAID pid=1374 -> WA TERKIRIM ke 6283836729970 (Indah pratiwi / teh indah) HTTP 200
+[2026-04-20 13:46:47] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782076},"message":"Success sent message"}
+[2026-04-20 13:46:47] PAID pid=1372 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782079},"message":"Success sent message"}
+[2026-04-20 13:46:48] PAID pid=1343 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:50] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782085},"message":"Success sent message"}
+[2026-04-20 13:46:50] PAID pid=1369 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:52] STARSENDER JSON to=6283836729970 HTTP=200 err= resp={"success":true,"data":{"message_id":264782090},"message":"Success sent message"}
+[2026-04-20 13:46:52] PAID pid=1368 -> WA TERKIRIM ke 6283836729970 (Indah pratiwi / teh indah) HTTP 200
+[2026-04-20 13:46:54] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782093},"message":"Success sent message"}
+[2026-04-20 13:46:54] PAID pid=1379 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:55] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782096},"message":"Success sent message"}
+[2026-04-20 13:46:55] PAID pid=1385 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782098},"message":"Success sent message"}
+[2026-04-20 13:46:57] PAID pid=1390 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:46:59] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782101},"message":"Success sent message"}
+[2026-04-20 13:46:59] PAID pid=1408 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:01] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782103},"message":"Success sent message"}
+[2026-04-20 13:47:01] PAID pid=1426 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782105},"message":"Success sent message"}
+[2026-04-20 13:47:02] PAID pid=1425 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782110},"message":"Success sent message"}
+[2026-04-20 13:47:04] PAID pid=1433 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:10] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782118},"message":"Success sent message"}
+[2026-04-20 13:47:10] PAID pid=1454 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:10] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782119},"message":"Success sent message"}
+[2026-04-20 13:47:10] PAID pid=1454 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782120},"message":"Success sent message"}
+[2026-04-20 13:47:11] PAID pid=1454 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782128},"message":"Success sent message"}
+[2026-04-20 13:47:13] PAID pid=1453 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:14] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782129},"message":"Success sent message"}
+[2026-04-20 13:47:14] PAID pid=1445 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:16] STARSENDER JSON to=6283895846670 HTTP=200 err= resp={"success":true,"data":{"message_id":264782130},"message":"Success sent message"}
+[2026-04-20 13:47:16] PAID pid=1470 -> WA TERKIRIM ke 6283895846670 (Rt Samsudin) HTTP 200
+[2026-04-20 13:47:18] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782132},"message":"Success sent message"}
+[2026-04-20 13:47:18] PAID pid=1480 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:22] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782141},"message":"Success sent message"}
+[2026-04-20 13:47:22] PAID pid=1475 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782199},"message":"Success sent message"}
+[2026-04-20 13:47:26] PAID pid=1490 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264782204},"message":"Success sent message"}
+[2026-04-20 13:47:28] PAID pid=1483 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:47:44] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782219},"message":"Success sent message"}
+[2026-04-20 13:47:44] PAID pid=1495 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:47:46] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782222},"message":"Success sent message"}
+[2026-04-20 13:47:46] PAID pid=1497 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:47:50] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782224},"message":"Success sent message"}
+[2026-04-20 13:47:50] PAID pid=1486 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:47:54] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782344},"message":"Success sent message"}
+[2026-04-20 13:47:54] PAID pid=1486 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:47:55] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782345},"message":"Success sent message"}
+[2026-04-20 13:47:55] PAID pid=1486 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:47:59] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782368},"message":"Success sent message"}
+[2026-04-20 13:47:59] PAID pid=1436 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:01] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782370},"message":"Success sent message"}
+[2026-04-20 13:48:01] PAID pid=1438 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:04] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782375},"message":"Success sent message"}
+[2026-04-20 13:48:04] PAID pid=1452 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:06] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782380},"message":"Success sent message"}
+[2026-04-20 13:48:06] PAID pid=1473 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:08] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782385},"message":"Success sent message"}
+[2026-04-20 13:48:08] PAID pid=1489 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:12] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782387},"message":"Success sent message"}
+[2026-04-20 13:48:12] PAID pid=1325 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:14] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782469},"message":"Success sent message"}
+[2026-04-20 13:48:14] PAID pid=1333 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:16] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782471},"message":"Success sent message"}
+[2026-04-20 13:48:16] PAID pid=1332 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:18] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782472},"message":"Success sent message"}
+[2026-04-20 13:48:18] PAID pid=1338 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:21] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782476},"message":"Success sent message"}
+[2026-04-20 13:48:21] PAID pid=1336 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:23] PAID pid=1339 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-04-20 13:48:25] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782482},"message":"Success sent message"}
+[2026-04-20 13:48:25] PAID pid=1358 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:27] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782484},"message":"Success sent message"}
+[2026-04-20 13:48:27] PAID pid=1357 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:29] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":264782488},"message":"Success sent message"}
+[2026-04-20 13:48:29] PAID pid=1366 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-04-20 13:48:41] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782500},"message":"Success sent message"}
+[2026-04-20 13:48:41] PAID pid=1371 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:43] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782503},"message":"Success sent message"}
+[2026-04-20 13:48:43] PAID pid=1388 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:51] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782511},"message":"Success sent message"}
+[2026-04-20 13:48:51] PAID pid=1394 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:52] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782516},"message":"Success sent message"}
+[2026-04-20 13:48:52] PAID pid=1392 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:54] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782517},"message":"Success sent message"}
+[2026-04-20 13:48:54] PAID pid=1391 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:56] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782555},"message":"Success sent message"}
+[2026-04-20 13:48:56] PAID pid=1412 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:57] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782556},"message":"Success sent message"}
+[2026-04-20 13:48:57] PAID pid=1429 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:48:59] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782559},"message":"Success sent message"}
+[2026-04-20 13:48:59] PAID pid=1420 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:49:01] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782562},"message":"Success sent message"}
+[2026-04-20 13:49:01] PAID pid=1428 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:49:02] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782564},"message":"Success sent message"}
+[2026-04-20 13:49:02] PAID pid=1427 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:49:04] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782565},"message":"Success sent message"}
+[2026-04-20 13:49:04] PAID pid=1479 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:49:05] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264782569},"message":"Success sent message"}
+[2026-04-20 13:49:05] PAID pid=1491 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-20 13:50:59] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782854},"message":"Success sent message"}
+[2026-04-20 13:50:59] PAID pid=1356 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:02] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782858},"message":"Success sent message"}
+[2026-04-20 13:51:02] PAID pid=1355 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:04] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782861},"message":"Success sent message"}
+[2026-04-20 13:51:04] PAID pid=1375 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:07] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782865},"message":"Success sent message"}
+[2026-04-20 13:51:07] PAID pid=1373 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:48] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782946},"message":"Success sent message"}
+[2026-04-20 13:51:48] PAID pid=1494 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:51] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782950},"message":"Success sent message"}
+[2026-04-20 13:51:51] PAID pid=1431 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:55] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782953},"message":"Success sent message"}
+[2026-04-20 13:51:55] PAID pid=1432 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:51:58] PAID pid=1410 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-04-20 13:52:00] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":264782955},"message":"Success sent message"}
+[2026-04-20 13:52:00] PAID pid=1405 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-04-20 13:54:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264783160},"message":"Success sent message"}
+[2026-04-20 13:54:30] PAID pid=1506 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-20 13:55:36] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":264783295},"message":"Success sent message"}
+[2026-04-20 13:55:36] PAID pid=1496 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-22 10:46:37] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264959379},"message":"Success sent message"}
+[2026-04-22 10:46:37] PAID pid=1504 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-22 10:46:46] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264959393},"message":"Success sent message"}
+[2026-04-22 10:46:46] PAID pid=1501 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-22 10:47:46] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":264959479},"message":"Success sent message"}
+[2026-04-22 10:47:46] PAID pid=1510 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-22 10:48:09] STARSENDER JSON to=628380704488 HTTP=200 err= resp={"success":true,"data":{"message_id":264959558},"message":"Success sent message"}
+[2026-04-22 10:48:09] PAID pid=1508 -> WA TERKIRIM ke 628380704488 (Zaitun Atin) HTTP 200
+[2026-04-22 10:48:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264959563},"message":"Success sent message"}
+[2026-04-22 10:48:13] PAID pid=1509 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-22 10:48:16] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":264959614},"message":"Success sent message"}
+[2026-04-22 10:48:16] PAID pid=1505 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-22 10:48:56] STARSENDER JSON to=6283895846670 HTTP=200 err= resp={"success":true,"data":{"message_id":264959712},"message":"Success sent message"}
+[2026-04-22 10:48:56] PAID pid=1507 -> WA TERKIRIM ke 6283895846670 (Rt Samsudin) HTTP 200
+[2026-04-24 10:13:25] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265130185},"message":"Success sent message"}
+[2026-04-24 10:13:25] PAID pid=1519 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:13:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265130191},"message":"Success sent message"}
+[2026-04-24 10:13:30] PAID pid=1520 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:14:39] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":265130268},"message":"Success sent message"}
+[2026-04-24 10:14:39] PAID pid=1415 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-04-24 10:14:41] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265130270},"message":"Success sent message"}
+[2026-04-24 10:14:41] PAID pid=1395 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:14:47] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265130284},"message":"Success sent message"}
+[2026-04-24 10:14:47] PAID pid=1439 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:14:49] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265130287},"message":"Success sent message"}
+[2026-04-24 10:14:49] PAID pid=1437 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:14:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265130392},"message":"Success sent message"}
+[2026-04-24 10:14:56] PAID pid=1493 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:19:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265131568},"message":"Success sent message"}
+[2026-04-24 10:19:24] PAID pid=1492 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:19:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265131570},"message":"Success sent message"}
+[2026-04-24 10:19:26] PAID pid=1518 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:19:27] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265131572},"message":"Success sent message"}
+[2026-04-24 10:19:27] PAID pid=1517 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-24 10:19:29] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265131576},"message":"Success sent message"}
+[2026-04-24 10:19:29] PAID pid=1511 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-25 10:30:46] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265220744},"message":"Success sent message"}
+[2026-04-25 10:30:46] PAID pid=1515 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-25 10:30:48] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265220746},"message":"Success sent message"}
+[2026-04-25 10:30:48] PAID pid=1524 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-26 10:38:44] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265289550},"message":"Success sent message"}
+[2026-04-26 10:38:44] PAID pid=1523 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-26 10:39:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265290009},"message":"Success sent message"}
+[2026-04-26 10:39:09] PAID pid=1525 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-26 10:39:11] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265290010},"message":"Success sent message"}
+[2026-04-26 10:39:11] PAID pid=1527 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-26 10:39:12] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265290011},"message":"Success sent message"}
+[2026-04-26 10:39:12] PAID pid=1521 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-26 10:39:14] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265290013},"message":"Success sent message"}
+[2026-04-26 10:39:14] PAID pid=1522 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-26 10:39:16] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265290016},"message":"Success sent message"}
+[2026-04-26 10:39:16] PAID pid=1512 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-26 10:39:19] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265290019},"message":"Success sent message"}
+[2026-04-26 10:39:19] PAID pid=1514 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-26 10:39:21] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265290023},"message":"Success sent message"}
+[2026-04-26 10:39:21] PAID pid=1516 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-04-26 11:34:00] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265293352},"message":"Success sent message"}
+[2026-04-26 11:34:00] PAID pid=1530 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-26 11:34:02] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265293355},"message":"Success sent message"}
+[2026-04-26 11:34:02] PAID pid=1529 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-26 11:34:04] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265293356},"message":"Success sent message"}
+[2026-04-26 11:34:04] PAID pid=1528 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-27 10:08:24] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265370798},"message":"Success sent message"}
+[2026-04-27 10:08:24] PAID pid=1533 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-27 12:15:26] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265388561},"message":"Success sent message"}
+[2026-04-27 12:15:26] PAID pid=1532 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-27 13:22:56] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265393794},"message":"Success sent message"}
+[2026-04-27 13:22:56] PAID pid=1531 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-27 13:51:06] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265396813},"message":"Success sent message"}
+[2026-04-27 13:51:06] PAID pid=1534 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-27 13:51:08] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265396815},"message":"Success sent message"}
+[2026-04-27 13:51:08] PAID pid=1535 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-29 10:46:32] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265561698},"message":"Success sent message"}
+[2026-04-29 10:46:32] PAID pid=1538 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-29 10:46:34] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265561701},"message":"Success sent message"}
+[2026-04-29 10:46:34] PAID pid=1537 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-29 10:46:35] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":265561703},"message":"Success sent message"}
+[2026-04-29 10:46:35] PAID pid=1536 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-04-30 09:41:50] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265638670},"message":"Success sent message"}
+[2026-04-30 09:41:50] PAID pid=1540 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-04-30 09:41:51] STARSENDER JSON to=6281292651616 HTTP=200 err= resp={"success":true,"data":{"message_id":265638675},"message":"Success sent message"}
+[2026-04-30 09:41:51] PAID pid=1543 -> WA TERKIRIM ke 6281292651616 (ANDIKA) HTTP 200
+[2026-04-30 09:41:53] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265638684},"message":"Success sent message"}
+[2026-04-30 09:41:53] PAID pid=1542 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-03 14:45:44] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265925340},"message":"Success sent message"}
+[2026-05-03 14:45:44] PAID pid=1550 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-03 14:46:42] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":265925394},"message":"Success sent message"}
+[2026-05-03 14:46:42] PAID pid=1564 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:01:28] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":266923034},"message":"Success sent message"}
+[2026-05-14 07:01:28] PAID pid=1569 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-05-14 07:01:50] STARSENDER JSON to=62895329770591 HTTP=200 err= resp={"success":true,"data":{"message_id":266923050},"message":"Success sent message"}
+[2026-05-14 07:01:50] PAID pid=1547 -> WA TERKIRIM ke 62895329770591 (Andi) HTTP 200
+[2026-05-14 07:01:53] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923051},"message":"Success sent message"}
+[2026-05-14 07:01:53] PAID pid=1544 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:01:56] STARSENDER JSON to=6285880763198 HTTP=200 err= resp={"success":true,"data":{"message_id":266923055},"message":"Success sent message"}
+[2026-05-14 07:01:56] PAID pid=1561 -> WA TERKIRIM ke 6285880763198 (Doni) HTTP 200
+[2026-05-14 07:01:58] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923056},"message":"Success sent message"}
+[2026-05-14 07:01:58] PAID pid=1585 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:01] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":266923058},"message":"Success sent message"}
+[2026-05-14 07:02:01] PAID pid=1591 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-05-14 07:02:04] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":266923063},"message":"Success sent message"}
+[2026-05-14 07:02:04] PAID pid=1590 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-05-14 07:02:07] STARSENDER JSON to=62895329770591 HTTP=200 err= resp={"success":true,"data":{"message_id":266923066},"message":"Success sent message"}
+[2026-05-14 07:02:07] PAID pid=1603 -> WA TERKIRIM ke 62895329770591 (Andi) HTTP 200
+[2026-05-14 07:02:11] STARSENDER JSON to=62895329770591 HTTP=200 err= resp={"success":true,"data":{"message_id":266923070},"message":"Success sent message"}
+[2026-05-14 07:02:11] PAID pid=1600 -> WA TERKIRIM ke 62895329770591 (Andi) HTTP 200
+[2026-05-14 07:02:22] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923082},"message":"Success sent message"}
+[2026-05-14 07:02:22] PAID pid=1549 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:25] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923084},"message":"Success sent message"}
+[2026-05-14 07:02:25] PAID pid=1548 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923086},"message":"Success sent message"}
+[2026-05-14 07:02:28] PAID pid=1546 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923088},"message":"Success sent message"}
+[2026-05-14 07:02:30] PAID pid=1545 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:33] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923092},"message":"Success sent message"}
+[2026-05-14 07:02:33] PAID pid=1557 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:36] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923094},"message":"Success sent message"}
+[2026-05-14 07:02:36] PAID pid=1551 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:38] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923095},"message":"Success sent message"}
+[2026-05-14 07:02:38] PAID pid=1560 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:41] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923096},"message":"Success sent message"}
+[2026-05-14 07:02:41] PAID pid=1559 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:43] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923101},"message":"Success sent message"}
+[2026-05-14 07:02:43] PAID pid=1558 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:02:54] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923120},"message":"Success sent message"}
+[2026-05-14 07:02:54] PAID pid=1526 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:02:56] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923126},"message":"Success sent message"}
+[2026-05-14 07:02:56] PAID pid=1556 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:02:59] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":266923138},"message":"Success sent message"}
+[2026-05-14 07:02:59] PAID pid=1555 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-05-14 07:03:02] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923160},"message":"Success sent message"}
+[2026-05-14 07:03:02] PAID pid=1553 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:05] STARSENDER JSON to=6281398796067 HTTP=200 err= resp={"success":true,"data":{"message_id":266923176},"message":"Success sent message"}
+[2026-05-14 07:03:05] PAID pid=1552 -> WA TERKIRIM ke 6281398796067 (Aslan/ALAN) HTTP 200
+[2026-05-14 07:03:07] PAID pid=1579 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-05-14 07:03:11] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923180},"message":"Success sent message"}
+[2026-05-14 07:03:11] PAID pid=1575 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:13] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923183},"message":"Success sent message"}
+[2026-05-14 07:03:13] PAID pid=1573 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:16] PAID pid=1584 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-05-14 07:03:19] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923198},"message":"Success sent message"}
+[2026-05-14 07:03:19] PAID pid=1588 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:24] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923621},"message":"Success sent message"}
+[2026-05-14 07:03:24] PAID pid=1592 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:27] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923627},"message":"Success sent message"}
+[2026-05-14 07:03:27] PAID pid=1594 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:29] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923635},"message":"Success sent message"}
+[2026-05-14 07:03:29] PAID pid=1606 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:32] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923646},"message":"Success sent message"}
+[2026-05-14 07:03:32] PAID pid=1605 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:35] PAID pid=1602 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-05-14 07:03:38] PAID pid=1601 -> mitra tidak ditemukan. marketing=Tidak Ada
+[2026-05-14 07:03:40] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923653},"message":"Success sent message"}
+[2026-05-14 07:03:40] PAID pid=1612 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:03:43] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923655},"message":"Success sent message"}
+[2026-05-14 07:03:43] PAID pid=1615 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-14 07:04:01] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923683},"message":"Success sent message"}
+[2026-05-14 07:04:01] PAID pid=1264 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923688},"message":"Success sent message"}
+[2026-05-14 07:04:04] PAID pid=1260 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:06] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923701},"message":"Success sent message"}
+[2026-05-14 07:04:06] PAID pid=1364 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923705},"message":"Success sent message"}
+[2026-05-14 07:04:09] PAID pid=1363 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923708},"message":"Success sent message"}
+[2026-05-14 07:04:11] PAID pid=1361 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:13] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923711},"message":"Success sent message"}
+[2026-05-14 07:04:13] PAID pid=1360 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:15] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923721},"message":"Success sent message"}
+[2026-05-14 07:04:15] PAID pid=1359 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:18] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923723},"message":"Success sent message"}
+[2026-05-14 07:04:18] PAID pid=1455 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:20] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923728},"message":"Success sent message"}
+[2026-05-14 07:04:20] PAID pid=1451 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:22] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923732},"message":"Success sent message"}
+[2026-05-14 07:04:22] PAID pid=1447 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:25] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923734},"message":"Success sent message"}
+[2026-05-14 07:04:25] PAID pid=1457 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:28] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923735},"message":"Success sent message"}
+[2026-05-14 07:04:28] PAID pid=1456 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:37] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923749},"message":"Success sent message"}
+[2026-05-14 07:04:37] PAID pid=1539 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:40] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923751},"message":"Success sent message"}
+[2026-05-14 07:04:40] PAID pid=1550 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:42] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923752},"message":"Success sent message"}
+[2026-05-14 07:04:42] PAID pid=1554 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:44] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923754},"message":"Success sent message"}
+[2026-05-14 07:04:44] PAID pid=1563 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:46] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923758},"message":"Success sent message"}
+[2026-05-14 07:04:46] PAID pid=1562 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:49] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923763},"message":"Success sent message"}
+[2026-05-14 07:04:49] PAID pid=1567 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:52] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923764},"message":"Success sent message"}
+[2026-05-14 07:04:52] PAID pid=1565 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:54] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923767},"message":"Success sent message"}
+[2026-05-14 07:04:54] PAID pid=1568 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923772},"message":"Success sent message"}
+[2026-05-14 07:04:57] PAID pid=1581 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:04:59] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923773},"message":"Success sent message"}
+[2026-05-14 07:04:59] PAID pid=1580 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:02] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923776},"message":"Success sent message"}
+[2026-05-14 07:05:02] PAID pid=1578 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:05] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923787},"message":"Success sent message"}
+[2026-05-14 07:05:05] PAID pid=1576 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:07] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923793},"message":"Success sent message"}
+[2026-05-14 07:05:07] PAID pid=1587 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:10] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923795},"message":"Success sent message"}
+[2026-05-14 07:05:10] PAID pid=1589 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:12] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923799},"message":"Success sent message"}
+[2026-05-14 07:05:12] PAID pid=1595 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:14] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923807},"message":"Success sent message"}
+[2026-05-14 07:05:14] PAID pid=1597 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:17] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923816},"message":"Success sent message"}
+[2026-05-14 07:05:17] PAID pid=1610 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:20] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923817},"message":"Success sent message"}
+[2026-05-14 07:05:20] PAID pid=1609 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-14 07:05:22] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":266923820},"message":"Success sent message"}
+[2026-05-14 07:05:22] PAID pid=1614 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-16 06:42:54] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":267099446},"message":"Success sent message"}
+[2026-05-16 06:42:54] PAID pid=1621 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-16 06:42:57] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":267099450},"message":"Success sent message"}
+[2026-05-16 06:42:57] PAID pid=1620 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-16 06:43:03] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":267099451},"message":"Success sent message"}
+[2026-05-16 06:43:03] PAID pid=1619 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-16 06:43:06] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":267099453},"message":"Success sent message"}
+[2026-05-16 06:43:06] PAID pid=1622 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:12:40] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339602},"message":"Success sent message"}
+[2026-05-30 14:12:40] PAID pid=1611 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:12:48] STARSENDER JSON to=6285718424080 HTTP=200 err= resp={"success":true,"data":{"message_id":268339611},"message":"Success sent message"}
+[2026-05-30 14:12:48] PAID pid=1659 -> WA TERKIRIM ke 6285718424080 (Suheli / Teh Eli) HTTP 200
+[2026-05-30 14:12:52] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339614},"message":"Success sent message"}
+[2026-05-30 14:12:52] PAID pid=1658 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:13:01] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339624},"message":"Success sent message"}
+[2026-05-30 14:13:01] PAID pid=1608 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:13:04] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339627},"message":"Success sent message"}
+[2026-05-30 14:13:04] PAID pid=1613 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:07] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":268339630},"message":"Success sent message"}
+[2026-05-30 14:13:07] PAID pid=1623 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-05-30 14:13:11] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339634},"message":"Success sent message"}
+[2026-05-30 14:13:11] PAID pid=1625 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:14] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339641},"message":"Success sent message"}
+[2026-05-30 14:13:14] PAID pid=1624 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:17] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339647},"message":"Success sent message"}
+[2026-05-30 14:13:17] PAID pid=1632 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:13:22] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":268339648},"message":"Success sent message"}
+[2026-05-30 14:13:22] PAID pid=1631 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-05-30 14:13:25] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":268339649},"message":"Success sent message"}
+[2026-05-30 14:13:25] PAID pid=1630 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-05-30 14:13:27] STARSENDER JSON to=62895329770591 HTTP=200 err= resp={"success":true,"data":{"message_id":268339653},"message":"Success sent message"}
+[2026-05-30 14:13:27] PAID pid=1629 -> WA TERKIRIM ke 62895329770591 (Andi) HTTP 200
+[2026-05-30 14:13:30] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339657},"message":"Success sent message"}
+[2026-05-30 14:13:30] PAID pid=1628 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:32] STARSENDER JSON to=6285894567748 HTTP=200 err= resp={"success":true,"data":{"message_id":268339658},"message":"Success sent message"}
+[2026-05-30 14:13:32] PAID pid=1627 -> WA TERKIRIM ke 6285894567748 (Aas aswati) HTTP 200
+[2026-05-30 14:13:34] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339660},"message":"Success sent message"}
+[2026-05-30 14:13:34] PAID pid=1626 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:13:36] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339661},"message":"Success sent message"}
+[2026-05-30 14:13:36] PAID pid=1634 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:39] STARSENDER JSON to=62895365714338 HTTP=200 err= resp={"success":true,"data":{"message_id":268339664},"message":"Success sent message"}
+[2026-05-30 14:13:39] PAID pid=1633 -> WA TERKIRIM ke 62895365714338 (Rasyid/Ket Deff) HTTP 200
+[2026-05-30 14:13:41] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339669},"message":"Success sent message"}
+[2026-05-30 14:13:41] PAID pid=1636 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:13:44] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339671},"message":"Success sent message"}
+[2026-05-30 14:13:44] PAID pid=1635 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:46] STARSENDER JSON to=6283870362270 HTTP=200 err= resp={"success":true,"data":{"message_id":268339672},"message":"Success sent message"}
+[2026-05-30 14:13:46] PAID pid=1637 -> WA TERKIRIM ke 6283870362270 (Ahmad Nawawi) HTTP 200
+[2026-05-30 14:13:48] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339675},"message":"Success sent message"}
+[2026-05-30 14:13:48] PAID pid=1650 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:51] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339678},"message":"Success sent message"}
+[2026-05-30 14:13:51] PAID pid=1649 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:13:53] STARSENDER JSON to=6285755712422 HTTP=200 err= resp={"success":true,"data":{"message_id":268339684},"message":"Success sent message"}
+[2026-05-30 14:13:53] PAID pid=1648 -> WA TERKIRIM ke 6285755712422 (Dewi wahyu setyaningrum) HTTP 200
+[2026-05-30 14:13:55] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339687},"message":"Success sent message"}
+[2026-05-30 14:13:55] PAID pid=1647 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:13:57] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":268339690},"message":"Success sent message"}
+[2026-05-30 14:13:57] PAID pid=1655 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-05-30 14:14:00] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":268339694},"message":"Success sent message"}
+[2026-05-30 14:14:00] PAID pid=1654 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-05-30 14:14:03] STARSENDER JSON to=6281374280550 HTTP=200 err= resp={"success":true,"data":{"message_id":268339697},"message":"Success sent message"}
+[2026-05-30 14:14:03] PAID pid=1653 -> WA TERKIRIM ke 6281374280550 (M Yamin / Goming) HTTP 200
+[2026-05-30 14:14:06] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339698},"message":"Success sent message"}
+[2026-05-30 14:14:06] PAID pid=1652 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:14:09] STARSENDER JSON to=6285772902845 HTTP=200 err= resp={"success":true,"data":{"message_id":268339699},"message":"Success sent message"}
+[2026-05-30 14:14:09] PAID pid=1651 -> WA TERKIRIM ke 6285772902845 (Dedy) HTTP 200
+[2026-05-30 14:14:12] STARSENDER JSON to=628161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339704},"message":"Success sent message"}
+[2026-05-30 14:14:12] PAID pid=1657 -> WA TERKIRIM ke 628161131741 (Ramdani) HTTP 200
+[2026-05-30 14:14:14] STARSENDER JSON to=6285892979403 HTTP=200 err= resp={"success":true,"data":{"message_id":268339710},"message":"Success sent message"}
+[2026-05-30 14:14:14] PAID pid=1656 -> WA TERKIRIM ke 6285892979403 (Azis) HTTP 200

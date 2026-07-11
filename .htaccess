@@ -1,0 +1,21 @@
+# ============================================================
+# ERP REALNET - Proteksi akses file sensitif dari web
+# (Sebelumnya TIDAK ADA .htaccess sama sekali di public_html --
+#  dump database & log bisa diunduh langsung lewat browser.)
+# ============================================================
+
+# Blokir semua file/folder yang diawali titik (.git, .env, .htaccess sendiri)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Blokir dump SQL, log, dan file debug
+<FilesMatch "\.(sql|txt|log|bak|key)$">
+    Require all denied
+</FilesMatch>
+
+# Blokir folder .git secara eksplisit (kalau server pakai konfigurasi lama mod_access)
+RedirectMatch 404 /\.git
+
+# Nonaktifkan directory listing
+Options -Indexes

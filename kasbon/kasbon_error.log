@@ -1,0 +1,45 @@
+[28-Dec-2025 11:59:59 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[28-Dec-2025 11:59:59 UTC] Starsender HTTP code: 406
+[28-Dec-2025 11:59:59 UTC] Starsender response body: {"success":false,"data":{},"message":"Key: 'ApiSend.MessageType' Error:Field validation for 'MessageType' failed on the 'required' tag\nKey: 'ApiSend.To' Error:Field validation for 'To' failed on the 'required' tag"}
+[28-Dec-2025 12:03:06 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[28-Dec-2025 12:03:06 UTC] Starsender HTTP code: 200
+[28-Dec-2025 12:03:06 UTC] Starsender response body: {"success":true,"data":{"message_id":252122726},"message":"Success sent message"}
+[19-Jan-2026 11:21:49 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[19-Jan-2026 11:21:49 UTC] Starsender HTTP code: 200
+[19-Jan-2026 11:21:49 UTC] Starsender response body: {"success":true,"data":{"message_id":255880858},"message":"Success sent message"}
+[22-Jan-2026 02:42:55 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[22-Jan-2026 02:42:55 UTC] Starsender HTTP code: 200
+[22-Jan-2026 02:42:55 UTC] Starsender response body: {"success":true,"data":{"message_id":256176480},"message":"Success sent message"}
+[24-Feb-2026 18:11:40 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[24-Feb-2026 18:11:40 UTC] Starsender HTTP code: 200
+[24-Feb-2026 18:11:40 UTC] Starsender response body: {"success":true,"data":{"message_id":259685925},"message":"Success sent message"}
+[25-Mar-2026 00:18:36 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[25-Mar-2026 00:18:37 UTC] Starsender HTTP code: 200
+[25-Mar-2026 00:18:37 UTC] Starsender response body: {"success":true,"data":{"message_id":262443352},"message":"Success sent message"}
+[27-Mar-2026 00:48:20 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[27-Mar-2026 00:48:20 UTC] Starsender HTTP code: 200
+[27-Mar-2026 00:48:20 UTC] Starsender response body: {"success":true,"data":{"message_id":262593978},"message":"Success sent message"}
+[14-Apr-2026 02:08:15 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[14-Apr-2026 02:08:15 UTC] Starsender HTTP code: 200
+[14-Apr-2026 02:08:15 UTC] Starsender response body: {"success":true,"data":{"message_id":264209271},"message":"Success sent message"}
+[22-Apr-2026 13:47:30 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[22-Apr-2026 13:47:30 UTC] Starsender HTTP code: 200
+[22-Apr-2026 13:47:30 UTC] Starsender response body: {"success":true,"data":{"message_id":265007012},"message":"Success sent message"}
+[23-Apr-2026 10:37:57 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[23-Apr-2026 10:37:57 UTC] Starsender HTTP code: 200
+[23-Apr-2026 10:37:57 UTC] Starsender response body: {"success":true,"data":{"message_id":265083225},"message":"Success sent message"}
+[24-Apr-2026 10:41:01 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[24-Apr-2026 10:41:01 UTC] Starsender HTTP code: 200
+[24-Apr-2026 10:41:01 UTC] Starsender response body: {"success":true,"data":{"message_id":265172378},"message":"Success sent message"}
+[24-May-2026 05:57:49 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[24-May-2026 05:57:49 UTC] Starsender HTTP code: 200
+[24-May-2026 05:57:49 UTC] Starsender response body: {"success":true,"data":{"message_id":267780365},"message":"Success sent message"}
+[25-May-2026 03:31:53 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[25-May-2026 03:31:53 UTC] Starsender HTTP code: 200
+[25-May-2026 03:31:53 UTC] Starsender response body: {"success":true,"data":{"message_id":267849036},"message":"Success sent message"}
+[20-Jun-2026 23:54:23 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[20-Jun-2026 23:54:23 UTC] Starsender HTTP code: 200
+[20-Jun-2026 23:54:23 UTC] Starsender response body: {"success":true,"data":{"message_id":270262886},"message":"Success sent message"}
+[24-Jun-2026 07:24:46 UTC] DEBUG Starsender: mulai kirim ke 6287770366015
+[24-Jun-2026 07:24:46 UTC] Starsender HTTP code: 200
+[24-Jun-2026 07:24:46 UTC] Starsender response body: {"success":true,"data":{"message_id":270535503},"message":"Success sent message"}

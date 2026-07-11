@@ -1,0 +1,540 @@
+[2026-06-30 20:13:11] CUSTOMER to 6285882547328
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-06-30 20:13:11] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":270976450},"message":"Success sent message"}
+
+[2026-06-30 23:11:26] CUSTOMER to 6282260900150
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-06-30 23:11:26] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":270983453},"message":"Success sent message"}
+
+[2026-07-01 11:22:39] CUSTOMER to 6287773673077
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-01 11:22:39] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271030224},"message":"Success sent message"}
+
+[2026-07-01 12:24:13] CUSTOMER to 089673633955
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-01 12:24:13] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271036296},"message":"Success sent message"}
+
+[2026-07-01 13:59:03] CUSTOMER to 6281286961277
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-01 13:59:03] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271043899},"message":"Success sent message"}
+
+[2026-07-01 20:44:09] CUSTOMER to 6287773673077
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-01 20:44:09] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271069547},"message":"Success sent message"}
+
+[2026-07-01 21:44:51] CUSTOMER to 6285719258199
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-01 21:44:51] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271072289},"message":"Success sent message"}
+
+[2026-07-02 06:15:22] CUSTOMER to 6287773673077
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 06:15:22] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271082804},"message":"Success sent message"}
+
+[2026-07-02 06:15:40] CUSTOMER to 6281294497654
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 06:15:40] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271082814},"message":"Success sent message"}
+
+[2026-07-02 09:27:50] CUSTOMER to 6281514651347
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 09:27:50] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271099032},"message":"Success sent message"}
+
+[2026-07-02 11:40:33] CUSTOMER to 085718427998
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 11:40:33] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271113737},"message":"Success sent message"}
+
+[2026-07-02 11:40:50] CUSTOMER to 6285714449073
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 11:40:50] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271113748},"message":"Success sent message"}
+
+[2026-07-02 11:49:26] CUSTOMER to 6281283354385
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 11:49:26] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271114354},"message":"Success sent message"}
+
+[2026-07-02 11:50:06] CUSTOMER to 628521015320
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 11:50:06] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271114396},"message":"Success sent message"}
+
+[2026-07-02 17:55:30] CUSTOMER to 6281291285170
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 17:55:30] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271141400},"message":"Success sent message"}
+
+[2026-07-02 21:16:15] CUSTOMER to 6283175974928
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 21:16:15] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271151043},"message":"Success sent message"}
+
+[2026-07-02 21:33:19] CUSTOMER to 6285714445992
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-02 21:33:19] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271151610},"message":"Success sent message"}
+
+[2026-07-03 16:50:26] CUSTOMER to 6281295917866
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-03 16:50:27] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271229138},"message":"Success sent message"}
+
+[2026-07-03 17:25:37] CUSTOMER to 628521015320
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-03 17:25:39] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271231349},"message":"Success sent message"}
+
+[2026-07-03 17:38:59] CUSTOMER to 6282260900150
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-03 17:38:59] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271232182},"message":"Success sent message"}
+
+[2026-07-03 17:39:16] CUSTOMER to 6281295917866
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-03 17:39:16] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271232196},"message":"Success sent message"}
+
+[2026-07-04 11:05:10] CUSTOMER to 6289508337238
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 11:05:10] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271276137},"message":"Success sent message"}
+
+[2026-07-04 11:30:04] CUSTOMER to 628567905561
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 11:30:04] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271277695},"message":"Success sent message"}
+
+[2026-07-04 11:55:34] CUSTOMER to 6283812112448
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 11:55:34] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271279114},"message":"Success sent message"}
+
+[2026-07-04 12:45:24] CUSTOMER to 6283898745410
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 12:45:24] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271281669},"message":"Success sent message"}
+
+[2026-07-04 12:51:08] CUSTOMER to 6289508337238
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 12:51:09] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271281882},"message":"Success sent message"}
+
+[2026-07-04 13:58:02] CUSTOMER to 6281617271765
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 13:58:02] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271285343},"message":"Success sent message"}
+
+[2026-07-04 14:26:45] CUSTOMER to 6285711454544
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 14:26:46] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271287463},"message":"Success sent message"}
+
+[2026-07-04 17:31:31] CUSTOMER to 6281214547807
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 17:31:31] GROUP to 120363424070641923@g.us
+Resp: {"success":true,"data":{"message_id":271295592},"message":"Success sent message"}
+
+[2026-07-04 19:30:40] CUSTOMER to 6285714924053
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 19:30:40] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271300278},"message":"Success sent message"}
+
+[2026-07-04 22:00:07] CUSTOMER to 6288809959410
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 22:00:07] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271305062},"message":"Success sent message"}
+
+[2026-07-04 22:14:18] CUSTOMER to 6281910004232
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-04 22:14:18] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271305418},"message":"Success sent message"}
+
+[2026-07-05 09:11:02] CUSTOMER to 6288809959410
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-05 09:11:02] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271324624},"message":"Success sent message"}
+
+[2026-07-05 09:37:13] CUSTOMER to 6285781169604
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-05 09:37:13] GROUP to 120363424070641923@g.us
+Resp: {"success":true,"data":{"message_id":271325901},"message":"Success sent message"}
+
+[2026-07-05 11:04:12] CUSTOMER to 6283847331330
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-05 11:04:13] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271330214},"message":"Success sent message"}
+
+[2026-07-05 19:32:59] CUSTOMER to 6281214547807
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-05 19:32:59] GROUP to 120363424070641923@g.us
+Resp: {"success":true,"data":{"message_id":271350850},"message":"Success sent message"}
+
+[2026-07-05 19:41:42] CUSTOMER to 6281517158462
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-05 19:41:42] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271351118},"message":"Success sent message"}
+
+[2026-07-05 23:25:00] CUSTOMER to 6289503819072
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-05 23:25:00] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271358698},"message":"Success sent message"}
+
+[2026-07-06 10:05:04] CUSTOMER to 6285882864663
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 10:05:04] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271386601},"message":"Success sent message"}
+
+[2026-07-06 11:25:12] CUSTOMER to 6285946521457
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 11:25:12] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271397732},"message":"Success sent message"}
+
+[2026-07-06 11:28:38] CUSTOMER to 6288295684099
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 11:28:38] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271398147},"message":"Success sent message"}
+
+[2026-07-06 13:22:07] CUSTOMER to 6283818444699
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 13:22:07] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271407894},"message":"Success sent message"}
+
+[2026-07-06 18:02:38] CUSTOMER to 6285717088031
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 18:02:38] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271426830},"message":"Success sent message"}
+
+[2026-07-06 19:35:50] CUSTOMER to 6285117046874
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 19:35:50] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271430643},"message":"Success sent message"}
+
+[2026-07-06 20:04:48] CUSTOMER to 6285210482009
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 20:04:48] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271432110},"message":"Success sent message"}
+
+[2026-07-06 21:17:25] CUSTOMER to 6283153120931
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 21:17:25] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271434861},"message":"Success sent message"}
+
+[2026-07-06 21:23:47] CUSTOMER to 6281779138830
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 21:23:47] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271435046},"message":"Success sent message"}
+
+[2026-07-06 21:25:53] CUSTOMER to 6285959891844
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-06 21:25:53] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271435108},"message":"Success sent message"}
+
+[2026-07-07 07:45:22] CUSTOMER to 6283807001700
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 07:45:22] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271447177},"message":"Success sent message"}
+
+[2026-07-07 10:31:12] CUSTOMER to 628121981695
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 10:31:12] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271466688},"message":"Success sent message"}
+
+[2026-07-07 10:40:08] CUSTOMER to 6285117046874
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 10:40:08] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271468330},"message":"Success sent message"}
+
+[2026-07-07 11:19:16] CUSTOMER to 6288905540602
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 11:19:16] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271475231},"message":"Success sent message"}
+
+[2026-07-07 15:21:39] CUSTOMER to 6281216139996
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 15:21:39] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271496040},"message":"Success sent message"}
+
+[2026-07-07 15:28:00] CUSTOMER to 085959905578
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 15:28:00] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271496559},"message":"Success sent message"}
+
+[2026-07-07 15:54:34] CUSTOMER to 6285697077922
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 15:54:34] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271497899},"message":"Success sent message"}
+
+[2026-07-07 15:55:59] CUSTOMER to 085860388867
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 15:55:59] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271497958},"message":"Success sent message"}
+
+[2026-07-07 22:11:16] CUSTOMER to 085814134545
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 22:11:16] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271513867},"message":"Success sent message"}
+
+[2026-07-07 22:16:42] CUSTOMER to 6285704109050
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 22:16:42] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271514014},"message":"Success sent message"}
+
+[2026-07-07 22:19:29] CUSTOMER to 6285895904352
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-07 22:19:29] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271514081},"message":"Success sent message"}
+
+[2026-07-08 04:55:35] CUSTOMER to 6281380501205
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 04:55:35] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271519107},"message":"Success sent message"}
+
+[2026-07-08 08:09:18] CUSTOMER to 085810213698
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 08:09:18] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271527238},"message":"Success sent message"}
+
+[2026-07-08 08:45:45] CUSTOMER to 085693616696
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 08:45:45] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271531425},"message":"Success sent message"}
+
+[2026-07-08 09:16:52] CUSTOMER to 085693616696
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 09:16:52] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271535050},"message":"Success sent message"}
+
+[2026-07-08 09:43:10] CUSTOMER to 6283838801866
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 09:43:10] GROUP to 120363424070641923@g.us
+Resp: {"success":true,"data":{"message_id":271540143},"message":"Success sent message"}
+
+[2026-07-08 09:44:05] CUSTOMER to 985311134154
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 09:44:05] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271540243},"message":"Success sent message"}
+
+[2026-07-08 10:10:11] CUSTOMER to 083111537754
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 10:10:11] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271543395},"message":"Success sent message"}
+
+[2026-07-08 11:28:55] CUSTOMER to 6285719334426
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 11:28:55] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271549430},"message":"Success sent message"}
+
+[2026-07-08 12:37:46] CUSTOMER to 6285781169604
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 12:37:46] GROUP to 120363424070641923@g.us
+Resp: {"success":true,"data":{"message_id":271554503},"message":"Success sent message"}
+
+[2026-07-08 17:48:53] CUSTOMER to 6285893556720
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 17:48:53] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271574641},"message":"Success sent message"}
+
+[2026-07-08 17:49:28] CUSTOMER to 6285781169604
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 17:49:28] GROUP to 120363424070641923@g.us
+Resp: {"success":true,"data":{"message_id":271574659},"message":"Success sent message"}
+
+[2026-07-08 19:23:51] CUSTOMER to 6281319647719
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 19:23:51] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271578275},"message":"Success sent message"}
+
+[2026-07-08 20:42:08] CUSTOMER to 085819487922
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-08 20:42:08] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271581324},"message":"Success sent message"}
+
+[2026-07-09 12:13:41] CUSTOMER to 6281906165106
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-09 12:13:41] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271624703},"message":"Success sent message"}
+
+[2026-07-09 12:43:19] CUSTOMER to 6281213588998
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-09 12:43:19] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271626190},"message":"Success sent message"}
+
+[2026-07-09 13:10:53] CUSTOMER to 6287771520132
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-09 13:10:53] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271627596},"message":"Success sent message"}
+
+[2026-07-09 14:11:37] CUSTOMER to 62895349890326
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-09 14:11:37] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271632354},"message":"Success sent message"}
+
+[2026-07-09 15:23:24] CUSTOMER to 628777173540
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-09 15:23:24] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271639451},"message":"Success sent message"}
+
+[2026-07-09 15:44:02] CUSTOMER to 085860388867
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-09 15:44:02] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271640568},"message":"Success sent message"}
+
+[2026-07-10 11:43:18] CUSTOMER to 62856931332262
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 11:43:19] GROUP to 120363405820721170@g.us
+Resp: {"success":true,"data":{"message_id":271705268},"message":"Success sent message"}
+
+[2026-07-10 13:02:27] CUSTOMER to 6282144334405
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 13:02:27] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271710770},"message":"Success sent message"}
+
+[2026-07-10 13:03:11] CUSTOMER to 6281284976893
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 13:03:11] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271710836},"message":"Success sent message"}
+
+[2026-07-10 16:21:08] CUSTOMER to 6289630590654
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 16:21:08] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271727448},"message":"Success sent message"}
+
+[2026-07-10 16:21:28] CUSTOMER to 6283877595510
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 16:21:28] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271727455},"message":"Success sent message"}
+
+[2026-07-10 17:57:25] CUSTOMER to 6281617271765
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 17:57:25] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271733299},"message":"Success sent message"}
+
+[2026-07-10 19:24:04] CUSTOMER to 6285694974856
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 19:24:04] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271736948},"message":"Success sent message"}
+
+[2026-07-10 19:32:48] CUSTOMER to 085860388867
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 19:32:48] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271737277},"message":"Success sent message"}
+
+[2026-07-10 19:34:41] CUSTOMER to 6283169799222
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 19:34:41] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271737344},"message":"Success sent message"}
+
+[2026-07-10 19:56:29] CUSTOMER to 62858070074391
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-10 19:56:29] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271738335},"message":"Success sent message"}
+
+[2026-07-11 08:43:23] CUSTOMER to 6289513861117
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-11 08:43:23] GROUP to 120363423460663827@g.us
+Resp: {"success":true,"data":{"message_id":271763032},"message":"Success sent message"}
+
+[2026-07-11 08:44:14] CUSTOMER to 6285782271375
+Resp: {"success":false,"data":{},"message":"Invalid API Key"}
+
+[2026-07-11 08:44:14] GROUP to 120363424064802149@g.us
+Resp: {"success":true,"data":{"message_id":271763075},"message":"Success sent message"}
+

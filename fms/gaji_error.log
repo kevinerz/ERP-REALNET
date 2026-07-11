@@ -1,0 +1,131 @@
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: perbandingan_persen in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 578
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: search_nama in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 781
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: riwayat in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 800
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 800
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Notice:  Undefined variable: riwayat in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 821
+[21-Dec-2025 20:26:30 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 821
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: perbandingan_persen in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 578
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: search_nama in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 781
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: riwayat in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 800
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 800
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Notice:  Undefined variable: riwayat in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 821
+[21-Dec-2025 20:26:42 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 821
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: perbandingan_persen in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 578
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_bulan in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 761
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: filter_tahun in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 773
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: search_nama in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 781
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: riwayat in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 800
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 800
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Notice:  Undefined variable: riwayat in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 821
+[21-Dec-2025 20:27:55 Asia/Jakarta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 821
+[21-Dec-2025 20:34:23 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:34:34 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:34:43 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:46:11 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:46:48 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:47:00 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:47:11 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[21-Dec-2025 20:47:21 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 12:58:35 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 12:58:59 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 13:00:55 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 14:02:58 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 17:47:15 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 17:47:31 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Dec-2025 18:39:54 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[23-Dec-2025 18:19:48 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[02-Jan-2026 17:34:18 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[02-Jan-2026 17:34:45 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 10:51:56 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 10:53:44 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 16:09:07 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 16:13:53 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 16:48:32 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:07:34 Asia/Jakarta] PHP Notice:  Undefined index: gaji in /home/u272457353/domains/datarealsolution.net/public_html/fms/gaji_karyawan.php on line 206
+[05-Jan-2026 23:12:30 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[07-Jan-2026 02:13:09 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[12-Jan-2026 00:03:57 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[12-Jan-2026 00:04:20 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[13-Jan-2026 14:16:47 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[13-Jan-2026 14:18:59 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[13-Jan-2026 14:19:13 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[14-Jan-2026 02:30:18 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[17-Apr-2026 16:37:38 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-Apr-2026 11:31:09 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[24-Apr-2026 13:46:30 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[18-May-2026 17:45:04 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[18-May-2026 17:46:43 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2
+[22-May-2026 20:26:22 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/u272457353/domains/datarealsolution.net/public_html/fms/templates/header.php on line 2

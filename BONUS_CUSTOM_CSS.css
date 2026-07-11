@@ -1,0 +1,527 @@
+/* ================================================================
+   BONUS: ADVANCED CUSTOMIZATION SNIPPETS
+   Use these to further enhance your FUN CONNECT website
+   ================================================================ */
+
+/* ================================================================
+   1. DARK MODE VARIANT
+   Uncomment jika ingin dark mode yang lebih intense
+   ================================================================ */
+:root.dark-mode {
+    --primary: #FF6B35;
+    --primary-dark: #E55A24;
+    --primary-light: #FFB38F;
+    --accent: #00D4FF;
+    --accent-dark: #0099CC;
+    --dark-bg: #030a1a;
+    --card-bg: #0f1425;
+    --text-primary: #FFFFFF;
+    --text-secondary: #A8B8D8;
+}
+
+/* ================================================================
+   2. LIGHT MODE VARIANT
+   Uncomment jika ingin light theme
+   ================================================================ */
+:root.light-mode {
+    --primary: #FF6B35;
+    --primary-dark: #E55A24;
+    --primary-light: #FFB38F;
+    --accent: #0099CC;
+    --accent-dark: #006B99;
+    --dark-bg: #FFFFFF;
+    --card-bg: #F5F7FA;
+    --text-primary: #1a1f3a;
+    --text-secondary: #6B7280;
+}
+
+body.light-mode {
+    background: linear-gradient(180deg, #F5F7FA 0%, #E0E5ED 100%);
+    color: var(--text-primary);
+}
+
+/* ================================================================
+   3. NEON GLOW EFFECT
+   Untuk buttons dan cards yang lebih vibrant
+   ================================================================ */
+.btn-neon-glow {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.6),
+                0 0 40px rgba(255, 107, 53, 0.4),
+                inset 0 0 20px rgba(0, 212, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-neon-glow:hover {
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.8),
+                0 0 60px rgba(255, 107, 53, 0.6),
+                inset 0 0 20px rgba(0, 212, 255, 0.2);
+}
+
+/* ================================================================
+   4. PREMIUM CARD GRADIENT BORDER
+   Untuk cards yang lebih mewah dengan animated border
+   ================================================================ */
+.card-gradient-border {
+    position: relative;
+    background: linear-gradient(135deg, rgba(26, 31, 58, 0.9) 0%, rgba(16, 21, 46, 0.9) 100%);
+    border-radius: 30px;
+    padding: 2rem;
+    overflow: hidden;
+    border: 2px solid;
+    border-image: linear-gradient(135deg, #FF6B35, #00D4FF) 1;
+}
+
+.card-gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(0, 212, 255, 0.2), transparent);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%) translateY(-100%); }
+    100% { transform: translateX(100%) translateY(100%); }
+}
+
+/* ================================================================
+   5. FLOATING ELEMENT ANIMATION
+   Untuk elements yang ingin "melayang" di halaman
+   ================================================================ */
+.float-element {
+    animation: floatAdvanced 4s ease-in-out infinite;
+}
+
+@keyframes floatAdvanced {
+    0%, 100% {
+        transform: translateY(0px) rotateZ(0deg);
+    }
+    25% {
+        transform: translateY(-15px) rotateZ(2deg);
+    }
+    50% {
+        transform: translateY(-30px) rotateZ(0deg);
+    }
+    75% {
+        transform: translateY(-15px) rotateZ(-2deg);
+    }
+}
+
+/* ================================================================
+   6. PREMIUM TEXT GLOW
+   Untuk text yang lebih glamor
+   ================================================================ */
+.text-glow-premium {
+    text-shadow: 
+        0 0 10px rgba(0, 212, 255, 0.5),
+        0 0 20px rgba(255, 107, 53, 0.3),
+        0 0 30px rgba(0, 212, 255, 0.2);
+}
+
+.text-glow-intense {
+    text-shadow: 
+        0 0 20px rgba(0, 212, 255, 0.8),
+        0 0 40px rgba(255, 107, 53, 0.5),
+        0 0 60px rgba(0, 212, 255, 0.3);
+    animation: glowPulse 2s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+    0%, 100% { text-shadow: 
+        0 0 20px rgba(0, 212, 255, 0.8),
+        0 0 40px rgba(255, 107, 53, 0.5),
+        0 0 60px rgba(0, 212, 255, 0.3);
+    }
+    50% { text-shadow: 
+        0 0 30px rgba(0, 212, 255, 1),
+        0 0 60px rgba(255, 107, 53, 0.7),
+        0 0 90px rgba(0, 212, 255, 0.5);
+    }
+}
+
+/* ================================================================
+   7. PREMIUM BUTTON VARIANTS
+   Extra button styles
+   ================================================================ */
+
+/* Outline Button dengan glow */
+.btn-outline-glow {
+    border: 2px solid;
+    border-image: linear-gradient(135deg, #FF6B35, #00D4FF) 1;
+    color: var(--accent);
+    background: transparent;
+    position: relative;
+}
+
+.btn-outline-glow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(0, 212, 255, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50px;
+}
+
+.btn-outline-glow:hover::before {
+    opacity: 1;
+}
+
+/* Gradient Button dengan animation */
+.btn-gradient-animated {
+    background: linear-gradient(135deg, #FF6B35 0%, #00D4FF 100%);
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ================================================================
+   8. SECTION BACKGROUND PATTERNS
+   Subtle patterns untuk sections
+   ================================================================ */
+.section-pattern-1 {
+    background: 
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 10px,
+            rgba(0, 212, 255, 0.03) 10px,
+            rgba(0, 212, 255, 0.03) 20px
+        );
+}
+
+.section-pattern-2 {
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(255, 107, 53, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+}
+
+.section-pattern-3 {
+    background-image:
+        linear-gradient(90deg, rgba(0, 212, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(0, 212, 255, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+}
+
+/* ================================================================
+   9. LOADING & SKELETON STATES
+   Untuk data yang masih loading
+   ================================================================ */
+.skeleton-loading {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.2) 50%,
+        rgba(255, 255, 255, 0.1) 100%
+    );
+    background-size: 200% 100%;
+    animation: loading 2s infinite;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ================================================================
+   10. SCROLL PROGRESS BAR
+   Progress indicator at top of page
+   ================================================================ */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF6B35, #00D4FF, #FF6B35);
+    width: 0%;
+    z-index: 9999;
+}
+
+/* ================================================================
+   11. TOOLTIP STYLES
+   Premium tooltips
+   ================================================================ */
+.tooltip-premium {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-premium .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(26, 31, 58, 0.95);
+    color: var(--accent);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    font-size: 0.85rem;
+    white-space: nowrap;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+}
+
+.tooltip-premium:hover .tooltip-text {
+    visibility: visible;
+    animation: tooltipFadeIn 0.3s ease;
+}
+
+@keyframes tooltipFadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+/* ================================================================
+   12. PRICE TAG STYLING
+   Untuk price yang lebih eye-catching
+   ================================================================ */
+.price-tag {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(0, 212, 255, 0.15));
+    border: 1px solid var(--accent);
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.price-tag::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(135deg, #FF6B35, #00D4FF);
+    border-radius: 50px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+/* ================================================================
+   13. BADGE ANIMATIONS
+   Untuk badges dan labels
+   ================================================================ */
+.badge-pulse {
+    animation: badgePulse 2s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 15px rgba(255, 107, 53, 0);
+    }
+}
+
+/* ================================================================
+   14. RIPPLE EFFECT
+   Untuk buttons
+   ================================================================ */
+.ripple-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple-effect::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+}
+
+.ripple-effect:active::after {
+    animation: ripple 0.6s ease-out;
+}
+
+@keyframes ripple {
+    to {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+/* ================================================================
+   15. ADVANCED FILTER EFFECTS
+   Untuk visual effects
+   ================================================================ */
+.filter-blur {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+
+.filter-blur:hover {
+    filter: blur(0px);
+}
+
+.filter-brightness {
+    filter: brightness(0.8);
+    transition: filter 0.3s ease;
+}
+
+.filter-brightness:hover {
+    filter: brightness(1);
+}
+
+.filter-saturate {
+    filter: saturate(0.8);
+    transition: filter 0.3s ease;
+}
+
+.filter-saturate:hover {
+    filter: saturate(1.2);
+}
+
+/* ================================================================
+   16. PARALLAX EFFECT
+   Untuk background yang bergerak
+   ================================================================ */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ================================================================
+   17. MODAL STYLES
+   Untuk popup/modal
+   ================================================================ */
+.modal-premium {
+    --bs-modal-bg: rgba(26, 31, 58, 0.95);
+    --bs-modal-border-color: rgba(0, 212, 255, 0.2);
+}
+
+.modal-premium .modal-header {
+    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.modal-premium .modal-body {
+    color: var(--text-secondary);
+}
+
+.modal-premium .btn-primary {
+    background: var(--gradient-main);
+    border: none;
+}
+
+/* ================================================================
+   18. FORM INPUTS - PREMIUM STYLE
+   Untuk form yang lebih premium
+   ================================================================ */
+.input-premium {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    color: var(--text-primary);
+    padding: 12px 16px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.input-premium:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+    outline: none;
+}
+
+.input-premium::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* ================================================================
+   19. CUSTOM RANGE SLIDER
+   Untuk range inputs
+   ================================================================ */
+.range-premium {
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: linear-gradient(to right, var(--primary), var(--accent));
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.range-premium::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--gradient-main);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 107, 53, 0.4);
+}
+
+.range-premium::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--gradient-main);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 15px rgba(255, 107, 53, 0.4);
+}
+
+/* ================================================================
+   20. COUNTER ANIMATION
+   Untuk numbers yang increment
+   ================================================================ */
+@keyframes countUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.counter-animate {
+    animation: countUp 0.5s ease-out;
+}
+
+/* ================================================================
+   USAGE GUIDE
+   
+   Copy-paste snippets ini ke main CSS file dan:
+   1. Uncomment snippets yang ingin digunakan
+   2. Add class ke HTML elements
+   3. Sesuaikan colors/timing sesuai kebutuhan
+   
+   Example:
+   <button class="btn btn-primary-luxury btn-neon-glow">
+       Button dengan Neon Glow
+   </button>
+   
+   ================================================================ */

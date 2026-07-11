@@ -1,0 +1,10 @@
+# Mengaktifkan Modul Rewrite Engine
+RewriteEngine On
+
+# Aturan ini hanya akan berjalan jika URL yang diminta BUKAN file yang ada...
+RewriteCond %{REQUEST_FILENAME} !-f
+# ...dan juga BUKAN direktori yang ada.
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Ambil URL yang diminta (contoh: "login") dan secara internal layani file .php-nya ("login.php")
+RewriteRule ^(.*)$ $1.php [L]

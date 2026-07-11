@@ -1,0 +1,149 @@
+/* --- Import Font & Pengaturan Variabel Warna "Power Colour" --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    /* Gradien Utama (Ungu ke Biru/Teal) */
+    --gradient-primary-start: #4e54c8;
+    --gradient-primary-end: #8f94fb;
+    
+    /* Gradien Aksen (Pink ke Oranye) */
+    --gradient-accent-start: #ff512f;
+    --gradient-accent-end: #dd2476;
+
+    /* Warna Dasar */
+    --app-bg: #f0f2f5; /* Latar belakang sedikit lebih gelap untuk kontras */
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --text-primary: #1e293b; /* Teks lebih gelap dan tegas */
+    --text-secondary: #64748b;
+    --border-color: rgba(0, 0, 0, 0.05);
+
+    /* Efek Bayangan Berwarna */
+    --shadow-color: 220, 3%, 70%;
+    --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34), 0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34), 1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36), 0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36), 2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36), 5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--app-bg);
+    color: var(--text-secondary);
+}
+
+h1, .h1, h2, .h2 {
+    color: var(--text-primary);
+    font-weight: 700; /* Lebih tebal untuk kesan kuat */
+}
+
+/* --- Struktur Layout Utama (Tidak berubah) --- */
+.page-wrapper { display: flex; }
+.main-wrapper { margin-left: 260px; width: calc(100% - 260px); transition: margin-left 0.3s ease-in-out; }
+.main-content { padding: 30px; }
+.navbar-top {
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow-elevation-low);
+    height: 70px;
+    display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0;
+    z-index: 999; padding: 0 30px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+/* --- Sidebar dengan Efek "Glassmorphism" --- */
+.sidebar {
+    width: 260px;
+    /* Efek kaca buram */
+    background: rgba(255, 255, 255, 0.65);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    
+    position: fixed; height: 100vh;
+    top: 0; left: 0; z-index: 1001;
+    transition: transform 0.3s ease-in-out;
+}
+.sidebar-header { height: 70px; display: flex; align-items: center; justify-content: center; }
+.sidebar-header h2 {
+    background: linear-gradient(45deg, var(--gradient-primary-start), var(--gradient-primary-end));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800; font-size: 2rem;
+}
+
+/* --- Navigasi Sidebar Powerfull --- */
+.sidebar-nav { padding: 15px; }
+.sidebar .nav-link {
+    display: flex; align-items: center;
+    color: var(--text-secondary);
+    padding: 12px 20px;
+    margin: 0 10px 8px 10px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+.sidebar .nav-link:hover {
+    background: linear-gradient(90deg, var(--gradient-primary-start), var(--gradient-primary-end));
+    color: #fff;
+    transform: scale(1.05) translateX(5px);
+    box-shadow: var(--shadow-elevation-medium);
+}
+.sidebar .nav-link.active {
+    background: linear-gradient(90deg, var(--gradient-primary-start), var(--gradient-primary-end));
+    color: #fff;
+    box-shadow: var(--shadow-elevation-medium);
+}
+.sidebar .nav-link .icon { margin-right: 15px; font-size: 1.2rem; }
+.sidebar-submenu { padding-left: 0; list-style: none; }
+.sidebar-submenu a.nav-link:hover, .sidebar-submenu a.nav-link.active {
+    background: transparent;
+    color: var(--gradient-primary-start);
+    transform: none;
+    box-shadow: none;
+}
+
+/* --- Konten & Komponen Mewah --- */
+.card, .form-card, .table-container {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-elevation-medium);
+    transition: all 0.3s ease;
+}
+.card:hover, .form-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+.table thead th { font-weight: 700; color: var(--text-primary); }
+
+/* --- Tombol dengan Power Colour --- */
+.btn-primary {
+    background: linear-gradient(45deg, var(--gradient-accent-start), var(--gradient-accent-end));
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(221, 36, 118, 0.3);
+}
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(221, 36, 118, 0.4);
+}
+/* Menyesuaikan tombol lain agar serasi */
+.btn-success { background-color: #28a745; }
+.btn-info { background-color: #0dcaf0; }
+
+/* --- Responsif (Tidak berubah) --- */
+@media (max-width: 992px) {
+    .sidebar { transform: translateX(-260px); }
+    .sidebar.active { transform: translateX(0); }
+    .main-wrapper { margin-left: 0; width: 100%; }
+    .navbar-top .sidebar-toggler { display: block; }
+    .page-overlay {
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background-color: rgba(0,0,0,0.4); z-index: 1000;
+        display: none;
+    }
+    .page-overlay.active { display: block; }
+}

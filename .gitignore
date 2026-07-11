@@ -1,0 +1,31 @@
+# ============================================================
+# ERP REALNET - .gitignore
+# Mengecualikan file yang tidak boleh ikut ke repository publik:
+# dump database, log yang berisi data pelanggan, kredensial, dsb.
+# ============================================================
+
+# Kredensial - JANGAN PERNAH commit file ini
+.env
+.env.local
+.env.*.local
+
+# Dump database (berisi seluruh data pelanggan) - jangan pernah di-commit
+*.sql
+
+# Log aplikasi (berisi nomor HP / data pelanggan)
+log_*.txt
+debug*.txt
+
+# File sensitif lain yang ditemukan saat audit
+routers.txt
+*.json.key
+myrealtek-*.json
+
+# Upload pengguna (foto nota, dsb) - biasanya tidak perlu versioning
+api/uploads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

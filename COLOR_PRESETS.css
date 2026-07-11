@@ -1,0 +1,449 @@
+/* ================================================================
+   FUN CONNECT - COLOR PALETTE PRESETS & THEME VARIATIONS
+   
+   INSTRUCTIONS:
+   1. Pilih salah satu preset di bawah
+   2. Copy seluruh :root block
+   3. Paste di section STYLE di index_premium.php
+   4. Replace existing :root declaration
+   
+   ================================================================ */
+
+/* ================================================================
+   PRESET 1: ORIGINAL LUXURY (RECOMMENDED)
+   Primary: Orange + Cyan (Current)
+   ================================================================ */
+:root.preset-orange-cyan {
+    --primary: #FF6B35;
+    --primary-dark: #E55A24;
+    --primary-light: #FFB38F;
+    --accent: #00D4FF;
+    --accent-dark: #0099CC;
+    --dark-bg: #0A0E27;
+    --card-bg: #1a1f3a;
+    --text-primary: #FFFFFF;
+    --text-secondary: #B8C0D8;
+    --luxury-gold: #D4AF37;
+    --success: #00D67D;
+}
+
+/* ================================================================
+   PRESET 2: ENTERPRISE BLUE
+   Primary: Deep Blue + Light Blue (Professional)
+   ================================================================ */
+:root.preset-enterprise-blue {
+    --primary: #1E3A8A;
+    --primary-dark: #1e40af;
+    --primary-light: #3B82F6;
+    --accent: #06B6D4;
+    --accent-dark: #0891b2;
+    --dark-bg: #0F172A;
+    --card-bg: #1e293b;
+    --text-primary: #FFFFFF;
+    --text-secondary: #CBD5E1;
+    --luxury-gold: #60A5FA;
+    --success: #34D399;
+}
+
+/* ================================================================
+   PRESET 3: TECH PURPLE
+   Primary: Purple + Pink (Modern Tech)
+   ================================================================ */
+:root.preset-tech-purple {
+    --primary: #7C3AED;
+    --primary-dark: #6D28D9;
+    --primary-light: #A78BFA;
+    --accent: #EC4899;
+    --accent-dark: #DB2777;
+    --dark-bg: #1F0F3D;
+    --card-bg: #2D1B4E;
+    --text-primary: #FFFFFF;
+    --text-secondary: #D1B3E5;
+    --luxury-gold: #F472B6;
+    --success: #A855F7;
+}
+
+/* ================================================================
+   PRESET 4: EMERALD GREEN
+   Primary: Green + Teal (Eco/Health)
+   ================================================================ */
+:root.preset-emerald-green {
+    --primary: #10B981;
+    --primary-dark: #059669;
+    --primary-light: #6EE7B7;
+    --accent: #14B8A6;
+    --accent-dark: #0D9488;
+    --dark-bg: #0F2F2F;
+    --card-bg: #1A3A3A;
+    --text-primary: #FFFFFF;
+    --text-secondary: #C0E8E8;
+    --luxury-gold: #6EE7B7;
+    --success: #10B981;
+}
+
+/* ================================================================
+   PRESET 5: SUNSET RED
+   Primary: Red + Orange (Energetic)
+   ================================================================ */
+:root.preset-sunset-red {
+    --primary: #DC2626;
+    --primary-dark: #991B1B;
+    --primary-light: #FCA5A5;
+    --accent: #F97316;
+    --accent-dark: #EA580C;
+    --dark-bg: #2C1010;
+    --card-bg: #3F1515;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E5B8B8;
+    --luxury-gold: #FCA5A5;
+    --success: #F97316;
+}
+
+/* ================================================================
+   PRESET 6: MIDNIGHT INDIGO
+   Primary: Indigo + Violet (Premium)
+   ================================================================ */
+:root.preset-midnight-indigo {
+    --primary: #4F46E5;
+    --primary-dark: #4338CA;
+    --primary-light: #818CF8;
+    --accent: #8B5CF6;
+    --accent-dark: #7C3AED;
+    --dark-bg: #1C1235;
+    --card-bg: #2B1D45;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E0D5F0;
+    --luxury-gold: #A78BFA;
+    --success: #A855F7;
+}
+
+/* ================================================================
+   PRESET 7: VIBRANT PINK
+   Primary: Magenta + Hot Pink (Bold)
+   ================================================================ */
+:root.preset-vibrant-pink {
+    --primary: #EC4899;
+    --primary-dark: #BE185D;
+    --primary-light: #F472B6;
+    --accent: #FF006E;
+    --accent-dark: #C2185B;
+    --dark-bg: #2D0F3F;
+    --card-bg: #3F1554;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E5B8D8;
+    --luxury-gold: #F472B6;
+    --success: #F97316;
+}
+
+/* ================================================================
+   PRESET 8: AQUAMARINE
+   Primary: Teal + Cyan (Fresh)
+   ================================================================ */
+:root.preset-aquamarine {
+    --primary: #0D9488;
+    --primary-dark: #115E59;
+    --primary-light: #2DD4BF;
+    --accent: #06B6D4;
+    --accent-dark: #0891b2;
+    --dark-bg: #0F2F2F;
+    --card-bg: #134E4A;
+    --text-primary: #FFFFFF;
+    --text-secondary: #CCECE8;
+    --luxury-gold: #67E8F9;
+    --success: #2DD4BF;
+}
+
+/* ================================================================
+   PRESET 9: CHARCOAL GREY
+   Primary: Grey + Blue (Minimalist)
+   ================================================================ */
+:root.preset-charcoal-grey {
+    --primary: #6B7280;
+    --primary-dark: #4B5563;
+    --primary-light: #9CA3AF;
+    --accent: #60A5FA;
+    --accent-dark: #3B82F6;
+    --dark-bg: #111827;
+    --card-bg: #1F2937;
+    --text-primary: #FFFFFF;
+    --text-secondary: #D1D5DB;
+    --luxury-gold: #93C5FD;
+    --success: #34D399;
+}
+
+/* ================================================================
+   PRESET 10: GOLD LUXURY
+   Primary: Gold + Cream (Luxury)
+   ================================================================ */
+:root.preset-gold-luxury {
+    --primary: #D4AF37;
+    --primary-dark: #AA8C2C;
+    --primary-light: #F4E4C1;
+    --accent: #FBBF24;
+    --accent-dark: #D97706;
+    --dark-bg: #2C2C2C;
+    --card-bg: #3F3F3F;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E5E5E5;
+    --luxury-gold: #FCD34D;
+    --success: #FBBF24;
+}
+
+/* ================================================================
+   PRESET 11: NEON CYBERPUNK
+   Primary: Neon Pink + Cyan (Futuristic)
+   ================================================================ */
+:root.preset-neon-cyberpunk {
+    --primary: #FF006E;
+    --primary-dark: #D60065;
+    --primary-light: #FF6BA6;
+    --accent: #00F5FF;
+    --accent-dark: #00D4FF;
+    --dark-bg: #0A0015;
+    --card-bg: #1A0A2E;
+    --text-primary: #FFFFFF;
+    --text-secondary: #D0ABFF;
+    --luxury-gold: #00F5FF;
+    --success: #39FF14;
+}
+
+/* ================================================================
+   PRESET 12: ROSE GOLD
+   Primary: Rose + Copper (Elegant)
+   ================================================================ */
+:root.preset-rose-gold {
+    --primary: #E11D48;
+    --primary-dark: #9D174D;
+    --primary-light: #FB7185;
+    --accent: #F97316;
+    --accent-dark: #D97706;
+    --dark-bg: #2D1620;
+    --card-bg: #3F2825;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E5D1D8;
+    --luxury-gold: #F8A5AE;
+    --success: #F97316;
+}
+
+/* ================================================================
+   HOW TO APPLY PRESETS
+   ================================================================ */
+
+/*
+STEP 1: Choose your preset color name from above
+STEP 2: In HTML, add class to <body> tag:
+        <body class="preset-tech-purple">
+        
+STEP 3: OR manually replace :root variables in index_premium.php
+
+EXAMPLE:
+--------
+Before:
+:root {
+    --primary: #FF6B35;
+    --accent: #00D4FF;
+    ...
+}
+
+After (using PRESET 3):
+:root {
+    --primary: #7C3AED;
+    --accent: #EC4899;
+    ...
+}
+
+STEP 4: Save & refresh browser
+*/
+
+/* ================================================================
+   ADDITIONAL COLOR UTILITIES
+   Use these in combination with any preset
+   ================================================================ */
+
+/* Light Mode Override */
+.light-mode {
+    --dark-bg: #FFFFFF;
+    --card-bg: #F5F7FA;
+    --text-primary: #1a1f3a;
+    --text-secondary: #6B7280;
+}
+
+/* High Contrast Mode */
+.high-contrast {
+    --primary: #000000;
+    --accent: #FFFF00;
+    --dark-bg: #FFFFFF;
+    --text-primary: #000000;
+    --text-secondary: #333333;
+}
+
+/* Monochrome Mode */
+.monochrome {
+    filter: saturate(0);
+}
+
+/* Warm Tone */
+.warm-tone {
+    filter: sepia(0.2);
+}
+
+/* Cool Tone */
+.cool-tone {
+    filter: hue-rotate(-10deg);
+}
+
+/* ================================================================
+   GRADIENT PRESETS
+   Custom gradients for sections
+   ================================================================ */
+
+:root.preset-orange-cyan {
+    --gradient-main: linear-gradient(135deg, #FF6B35 0%, #00D4FF 100%);
+    --gradient-dark: linear-gradient(135deg, #0A0E27 0%, #1a1f3a 100%);
+    --gradient-luxury: linear-gradient(135deg, #FF6B35 0%, #D4AF37 50%, #00D4FF 100%);
+}
+
+:root.preset-enterprise-blue {
+    --gradient-main: linear-gradient(135deg, #1E3A8A 0%, #06B6D4 100%);
+    --gradient-dark: linear-gradient(135deg, #0F172A 0%, #1e293b 100%);
+    --gradient-luxury: linear-gradient(135deg, #1E3A8A 0%, #60A5FA 50%, #06B6D4 100%);
+}
+
+:root.preset-tech-purple {
+    --gradient-main: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);
+    --gradient-dark: linear-gradient(135deg, #1F0F3D 0%, #2D1B4E 100%);
+    --gradient-luxury: linear-gradient(135deg, #7C3AED 0%, #A78BFA 50%, #EC4899 100%);
+}
+
+:root.preset-emerald-green {
+    --gradient-main: linear-gradient(135deg, #10B981 0%, #14B8A6 100%);
+    --gradient-dark: linear-gradient(135deg, #0F2F2F 0%, #1A3A3A 100%);
+    --gradient-luxury: linear-gradient(135deg, #10B981 0%, #6EE7B7 50%, #14B8A6 100%);
+}
+
+:root.preset-sunset-red {
+    --gradient-main: linear-gradient(135deg, #DC2626 0%, #F97316 100%);
+    --gradient-dark: linear-gradient(135deg, #2C1010 0%, #3F1515 100%);
+    --gradient-luxury: linear-gradient(135deg, #DC2626 0%, #FCA5A5 50%, #F97316 100%);
+}
+
+:root.preset-neon-cyberpunk {
+    --gradient-main: linear-gradient(135deg, #FF006E 0%, #00F5FF 100%);
+    --gradient-dark: linear-gradient(135deg, #0A0015 0%, #1A0A2E 100%);
+    --gradient-luxury: linear-gradient(135deg, #FF006E 0%, #00F5FF 50%, #39FF14 100%);
+}
+
+/* ================================================================
+   QUICK APPLY GUIDE
+   ================================================================ */
+
+/*
+THREE WAYS TO APPLY COLORS:
+
+1. STATIC (Recommended for most users):
+   - Copy one :root block above
+   - Replace existing :root in index_premium.php
+   - Save file
+
+2. DYNAMIC (Using CSS classes):
+   - Add class attribute ke <body> tag
+   - Example: <body class="preset-tech-purple">
+
+3. JAVASCRIPT (For runtime switching):
+   - Add theme switcher button
+   - Use JavaScript to change :root colors
+   - Code di bawah...
+*/
+
+/* ================================================================
+   JAVASCRIPT FOR THEME SWITCHER (Optional)
+   Add ini di <script> section jika ingin theme switcher
+   ================================================================ */
+
+/*
+<script>
+function setTheme(themeName) {
+    const themes = {
+        'original': {
+            '--primary': '#FF6B35',
+            '--accent': '#00D4FF'
+        },
+        'purple': {
+            '--primary': '#7C3AED',
+            '--accent': '#EC4899'
+        },
+        'blue': {
+            '--primary': '#1E3A8A',
+            '--accent': '#06B6D4'
+        },
+        'green': {
+            '--primary': '#10B981',
+            '--accent': '#14B8A6'
+        },
+        'neon': {
+            '--primary': '#FF006E',
+            '--accent': '#00F5FF'
+        }
+    };
+    
+    const theme = themes[themeName];
+    if (theme) {
+        Object.entries(theme).forEach(([key, value]) => {
+            document.documentElement.style.setProperty(key, value);
+        });
+        localStorage.setItem('theme', themeName);
+    }
+}
+
+// Load saved theme on page load
+window.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme') || 'original';
+    setTheme(savedTheme);
+});
+</script>
+
+HTML for theme buttons:
+<div class="theme-switcher">
+    <button onclick="setTheme('original')">Original</button>
+    <button onclick="setTheme('purple')">Purple</button>
+    <button onclick="setTheme('blue')">Blue</button>
+    <button onclick="setTheme('green')">Green</button>
+    <button onclick="setTheme('neon')">Neon</button>
+</div>
+*/
+
+/* ================================================================
+   ACCESSIBILITY COLOR NOTES
+   ================================================================ */
+
+/*
+Color Contrast Guidelines (WCAG AA):
+- Text on background: minimum 4.5:1 ratio for normal text
+- Large text (18pt+): minimum 3:1 ratio
+- Graphics: minimum 3:1 ratio
+
+Tested Presets:
+✓ Original Orange-Cyan: PASS
+✓ Enterprise Blue: PASS
+✓ Tech Purple: PASS
+✓ Emerald Green: PASS
+✓ Sunset Red: PASS
+✓ Midnight Indigo: PASS
+✓ Neon Cyberpunk: WARNING (high contrast)
+
+Tips:
+- Always test text readability
+- Use tools: WebAIM, Color Contrast Checker
+- Avoid pure colors (#000, #FFF) for better accessibility
+- Test with colorblind simulators
+*/
+
+/* ================================================================
+   END OF COLOR PALETTES
+   
+   Choose your favorite preset, apply it, and enjoy!
+   
+   Questions or custom colors? Modify the :root variables
+   according to your brand colors.
+   
+   ================================================================ */

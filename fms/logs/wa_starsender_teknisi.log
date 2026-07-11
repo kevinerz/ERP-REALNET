@@ -1,0 +1,1363 @@
+[2025-12-22 13:51:19] PAID pid=896 -> teknisi tidak ditemukan di karyawan. teknisi=Gofur, Luckyman
+[2025-12-22 13:58:39] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":251361245},"message":"Success sent message"}
+[2025-12-22 13:58:39] PAID pid=869 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2025-12-28 14:07:53] STARSENDER to=085716219034 HTTP=200 err= resp={"success":true,"data":{"message_id":252105373},"message":"Success sent message"}
+[2025-12-28 14:07:53] PAID pid=899 -> WA TERKIRIM ke 085716219034 (username=ARIES) HTTP 200
+[2025-12-28 14:07:57] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105375},"message":"Success sent message"}
+[2025-12-28 14:07:57] PAID pid=900 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:07:59] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105380},"message":"Success sent message"}
+[2025-12-28 14:07:59] PAID pid=903 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:01] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105382},"message":"Success sent message"}
+[2025-12-28 14:08:01] PAID pid=902 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:03] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105384},"message":"Success sent message"}
+[2025-12-28 14:08:03] PAID pid=901 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:05] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105387},"message":"Success sent message"}
+[2025-12-28 14:08:05] PAID pid=909 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:08] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105389},"message":"Success sent message"}
+[2025-12-28 14:08:08] PAID pid=908 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:10] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105391},"message":"Success sent message"}
+[2025-12-28 14:08:10] PAID pid=907 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:12] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105394},"message":"Success sent message"}
+[2025-12-28 14:08:12] PAID pid=906 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:15] STARSENDER to=085716219034 HTTP=200 err= resp={"success":true,"data":{"message_id":252105396},"message":"Success sent message"}
+[2025-12-28 14:08:15] PAID pid=905 -> WA TERKIRIM ke 085716219034 (username=ARIES) HTTP 200
+[2025-12-28 14:08:18] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":252105399},"message":"Success sent message"}
+[2025-12-28 14:08:18] PAID pid=904 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2025-12-28 14:08:21] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":252105405},"message":"Success sent message"}
+[2025-12-28 14:08:21] PAID pid=911 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2025-12-28 14:08:25] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":252105407},"message":"Success sent message"}
+[2025-12-28 14:08:25] PAID pid=910 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2025-12-28 14:08:30] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105409},"message":"Success sent message"}
+[2025-12-28 14:08:30] PAID pid=917 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:33] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105412},"message":"Success sent message"}
+[2025-12-28 14:08:33] PAID pid=916 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:36] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105418},"message":"Success sent message"}
+[2025-12-28 14:08:36] PAID pid=915 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:38] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105421},"message":"Success sent message"}
+[2025-12-28 14:08:38] PAID pid=914 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:41] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105422},"message":"Success sent message"}
+[2025-12-28 14:08:41] PAID pid=923 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:44] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105425},"message":"Success sent message"}
+[2025-12-28 14:08:44] PAID pid=921 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:47] STARSENDER to=085716219034 HTTP=200 err= resp={"success":true,"data":{"message_id":252105427},"message":"Success sent message"}
+[2025-12-28 14:08:47] PAID pid=920 -> WA TERKIRIM ke 085716219034 (username=ARIES) HTTP 200
+[2025-12-28 14:08:51] STARSENDER to=085716219034 HTTP=200 err= resp={"success":true,"data":{"message_id":252105431},"message":"Success sent message"}
+[2025-12-28 14:08:51] PAID pid=919 -> WA TERKIRIM ke 085716219034 (username=ARIES) HTTP 200
+[2025-12-28 14:08:53] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252105435},"message":"Success sent message"}
+[2025-12-28 14:08:53] PAID pid=929 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 14:08:55] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105440},"message":"Success sent message"}
+[2025-12-28 14:08:55] PAID pid=928 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 14:08:58] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":252105443},"message":"Success sent message"}
+[2025-12-28 14:08:58] PAID pid=927 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2025-12-28 17:09:32] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":252117346},"message":"Success sent message"}
+[2025-12-28 17:09:32] PAID pid=930 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2025-12-28 17:09:45] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":252117359},"message":"Success sent message"}
+[2025-12-28 17:09:45] PAID pid=918 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2025-12-28 17:55:55] STARSENDER to=085716219034 HTTP=200 err= resp={"success":true,"data":{"message_id":252119813},"message":"Success sent message"}
+[2025-12-28 17:55:55] PAID pid=905 -> WA TERKIRIM ke 085716219034 (username=ARIES) HTTP 200
+[2025-12-28 18:01:30] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":252120184},"message":"Success sent message"}
+[2025-12-28 18:01:30] PAID pid=896 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-10 11:14:41] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849167},"message":"Success sent message"}
+[2026-01-10 11:14:41] PAID pid=961 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:14:44] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849169},"message":"Success sent message"}
+[2026-01-10 11:14:44] PAID pid=962 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:14:47] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849176},"message":"Success sent message"}
+[2026-01-10 11:14:47] PAID pid=957 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:14:50] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849184},"message":"Success sent message"}
+[2026-01-10 11:14:50] PAID pid=959 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:14:52] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849190},"message":"Success sent message"}
+[2026-01-10 11:14:52] PAID pid=955 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:14:55] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849193},"message":"Success sent message"}
+[2026-01-10 11:14:55] PAID pid=946 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:14:57] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849200},"message":"Success sent message"}
+[2026-01-10 11:14:57] PAID pid=935 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:15:02] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849209},"message":"Success sent message"}
+[2026-01-10 11:15:02] PAID pid=936 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:15:03] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254849211},"message":"Success sent message"}
+[2026-01-10 11:15:03] PAID pid=936 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-10 11:24:49] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":254849797},"message":"Success sent message"}
+[2026-01-10 11:24:49] PAID pid=963 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-01-10 11:25:06] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254849827},"message":"Success sent message"}
+[2026-01-10 11:25:06] PAID pid=965 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-10 11:25:56] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254849881},"message":"Success sent message"}
+[2026-01-10 11:25:56] PAID pid=967 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:25:01] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254954804},"message":"Success sent message"}
+[2026-01-11 14:25:01] PAID pid=994 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-11 14:25:05] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254954821},"message":"Success sent message"}
+[2026-01-11 14:25:05] PAID pid=989 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-11 14:25:07] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954824},"message":"Success sent message"}
+[2026-01-11 14:25:07] PAID pid=990 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:25:09] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":254954827},"message":"Success sent message"}
+[2026-01-11 14:25:09] PAID pid=991 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-11 14:25:11] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954834},"message":"Success sent message"}
+[2026-01-11 14:25:11] PAID pid=992 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:25:13] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954836},"message":"Success sent message"}
+[2026-01-11 14:25:13] PAID pid=988 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:25:15] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254954839},"message":"Success sent message"}
+[2026-01-11 14:25:15] PAID pid=983 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-11 14:25:17] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":254954844},"message":"Success sent message"}
+[2026-01-11 14:25:17] PAID pid=984 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-11 14:25:19] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":254954846},"message":"Success sent message"}
+[2026-01-11 14:25:19] PAID pid=985 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-11 14:25:21] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254954849},"message":"Success sent message"}
+[2026-01-11 14:25:21] PAID pid=986 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-11 14:25:23] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954851},"message":"Success sent message"}
+[2026-01-11 14:25:23] PAID pid=987 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:25:25] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":254954852},"message":"Success sent message"}
+[2026-01-11 14:25:25] PAID pid=977 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-11 14:25:28] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":254954854},"message":"Success sent message"}
+[2026-01-11 14:25:28] PAID pid=978 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-01-11 14:25:30] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":254954856},"message":"Success sent message"}
+[2026-01-11 14:25:30] PAID pid=979 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-11 14:25:42] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":254954861},"message":"Success sent message"}
+[2026-01-11 14:25:42] PAID pid=981 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-11 14:25:45] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954864},"message":"Success sent message"}
+[2026-01-11 14:25:45] PAID pid=971 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:25:47] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954865},"message":"Success sent message"}
+[2026-01-11 14:25:47] PAID pid=972 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:26:20] STARSENDER to=083838801866 HTTP=200 err= resp={"success":true,"data":{"message_id":254954882},"message":"Success sent message"}
+[2026-01-11 14:26:20] PAID pid=973 -> WA TERKIRIM ke 083838801866 (username=MUKHSIN) HTTP 200
+[2026-01-11 14:26:23] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":254954883},"message":"Success sent message"}
+[2026-01-11 14:26:23] PAID pid=974 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-11 14:26:25] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":254954886},"message":"Success sent message"}
+[2026-01-11 14:26:25] PAID pid=975 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-11 14:26:28] STARSENDER to=083124491857 HTTP=200 err= resp={"success":true,"data":{"message_id":254954888},"message":"Success sent message"}
+[2026-01-11 14:26:28] PAID pid=976 -> WA TERKIRIM ke 083124491857 (username=ROHILI) HTTP 200
+[2026-01-11 14:26:29] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954889},"message":"Success sent message"}
+[2026-01-11 14:26:29] PAID pid=970 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:26:31] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":254954890},"message":"Success sent message"}
+[2026-01-11 14:26:31] PAID pid=968 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-01-11 14:26:33] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":254954891},"message":"Success sent message"}
+[2026-01-11 14:26:33] PAID pid=969 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-11 14:26:35] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":254954893},"message":"Success sent message"}
+[2026-01-11 14:26:35] PAID pid=960 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-11 14:26:37] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954894},"message":"Success sent message"}
+[2026-01-11 14:26:37] PAID pid=966 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:26:39] STARSENDER to=083124491857 HTTP=200 err= resp={"success":true,"data":{"message_id":254954899},"message":"Success sent message"}
+[2026-01-11 14:26:39] PAID pid=958 -> WA TERKIRIM ke 083124491857 (username=ROHILI) HTTP 200
+[2026-01-11 14:26:41] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954904},"message":"Success sent message"}
+[2026-01-11 14:26:41] PAID pid=954 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:26:43] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":254954905},"message":"Success sent message"}
+[2026-01-11 14:26:43] PAID pid=956 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-11 14:26:45] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":254954906},"message":"Success sent message"}
+[2026-01-11 14:26:45] PAID pid=950 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-01-11 14:26:54] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954911},"message":"Success sent message"}
+[2026-01-11 14:26:54] PAID pid=951 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:26:56] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954913},"message":"Success sent message"}
+[2026-01-11 14:26:56] PAID pid=952 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:26:58] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954914},"message":"Success sent message"}
+[2026-01-11 14:26:58] PAID pid=947 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:00] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954915},"message":"Success sent message"}
+[2026-01-11 14:27:00] PAID pid=948 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:02] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":254954919},"message":"Success sent message"}
+[2026-01-11 14:27:02] PAID pid=949 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-11 14:27:06] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954926},"message":"Success sent message"}
+[2026-01-11 14:27:06] PAID pid=937 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:06] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954928},"message":"Success sent message"}
+[2026-01-11 14:27:06] PAID pid=937 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:08] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":254954930},"message":"Success sent message"}
+[2026-01-11 14:27:08] PAID pid=938 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-11 14:27:11] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954932},"message":"Success sent message"}
+[2026-01-11 14:27:11] PAID pid=939 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:13] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954934},"message":"Success sent message"}
+[2026-01-11 14:27:13] PAID pid=940 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:14] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":254954937},"message":"Success sent message"}
+[2026-01-11 14:27:14] PAID pid=941 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-11 14:27:16] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":254954938},"message":"Success sent message"}
+[2026-01-11 14:27:16] PAID pid=942 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-01-11 14:27:18] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954939},"message":"Success sent message"}
+[2026-01-11 14:27:18] PAID pid=944 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:20] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954940},"message":"Success sent message"}
+[2026-01-11 14:27:20] PAID pid=945 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:22] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954944},"message":"Success sent message"}
+[2026-01-11 14:27:22] PAID pid=925 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:24] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954946},"message":"Success sent message"}
+[2026-01-11 14:27:24] PAID pid=926 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:27] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954948},"message":"Success sent message"}
+[2026-01-11 14:27:27] PAID pid=931 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:30] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954950},"message":"Success sent message"}
+[2026-01-11 14:27:30] PAID pid=932 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:32] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954954},"message":"Success sent message"}
+[2026-01-11 14:27:32] PAID pid=933 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:34] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954956},"message":"Success sent message"}
+[2026-01-11 14:27:34] PAID pid=934 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:36] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954957},"message":"Success sent message"}
+[2026-01-11 14:27:36] PAID pid=922 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:38] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954959},"message":"Success sent message"}
+[2026-01-11 14:27:38] PAID pid=924 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-11 14:27:41] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":254954963},"message":"Success sent message"}
+[2026-01-11 14:27:41] PAID pid=912 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-11 14:27:43] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":254954965},"message":"Success sent message"}
+[2026-01-11 14:27:43] PAID pid=765 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-11 14:27:47] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":254954966},"message":"Success sent message"}
+[2026-01-11 14:27:47] PAID pid=487 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:08:21] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256071757},"message":"Success sent message"}
+[2026-01-21 10:08:21] PAID pid=1052 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:08:27] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":256071773},"message":"Success sent message"}
+[2026-01-21 10:08:27] PAID pid=1039 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-21 10:08:38] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256071791},"message":"Success sent message"}
+[2026-01-21 10:08:38] PAID pid=1042 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:08:53] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256071816},"message":"Success sent message"}
+[2026-01-21 10:08:53] PAID pid=1040 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:09:05] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":256071836},"message":"Success sent message"}
+[2026-01-21 10:09:05] PAID pid=1041 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-21 10:09:12] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256071859},"message":"Success sent message"}
+[2026-01-21 10:09:12] PAID pid=1043 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:09:16] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256071870},"message":"Success sent message"}
+[2026-01-21 10:09:16] PAID pid=1044 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:09:21] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256071876},"message":"Success sent message"}
+[2026-01-21 10:09:21] PAID pid=1045 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:09:25] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256071890},"message":"Success sent message"}
+[2026-01-21 10:09:25] PAID pid=1046 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:09:30] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256071908},"message":"Success sent message"}
+[2026-01-21 10:09:30] PAID pid=1048 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:09:34] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256071912},"message":"Success sent message"}
+[2026-01-21 10:09:34] PAID pid=1049 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:09:37] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256071917},"message":"Success sent message"}
+[2026-01-21 10:09:37] PAID pid=1026 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:09:40] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256071927},"message":"Success sent message"}
+[2026-01-21 10:09:40] PAID pid=1027 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:09:44] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":256071934},"message":"Success sent message"}
+[2026-01-21 10:09:44] PAID pid=1028 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-01-21 10:09:47] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072301},"message":"Success sent message"}
+[2026-01-21 10:09:47] PAID pid=1029 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:09:51] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072309},"message":"Success sent message"}
+[2026-01-21 10:09:51] PAID pid=1030 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:09:55] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072318},"message":"Success sent message"}
+[2026-01-21 10:09:55] PAID pid=1031 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:09:59] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072328},"message":"Success sent message"}
+[2026-01-21 10:09:59] PAID pid=1032 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:03] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":256072339},"message":"Success sent message"}
+[2026-01-21 10:10:03] PAID pid=1033 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-21 10:10:06] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256072350},"message":"Success sent message"}
+[2026-01-21 10:10:06] PAID pid=1034 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:10:09] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072368},"message":"Success sent message"}
+[2026-01-21 10:10:09] PAID pid=1035 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:12] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":256072378},"message":"Success sent message"}
+[2026-01-21 10:10:12] PAID pid=1036 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-21 10:10:15] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072386},"message":"Success sent message"}
+[2026-01-21 10:10:15] PAID pid=1037 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:18] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256072395},"message":"Success sent message"}
+[2026-01-21 10:10:18] PAID pid=1038 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:10:22] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256072405},"message":"Success sent message"}
+[2026-01-21 10:10:22] PAID pid=1024 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:10:26] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072454},"message":"Success sent message"}
+[2026-01-21 10:10:26] PAID pid=1025 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:28] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072462},"message":"Success sent message"}
+[2026-01-21 10:10:28] PAID pid=1025 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:31] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":256072469},"message":"Success sent message"}
+[2026-01-21 10:10:31] PAID pid=1020 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-01-21 10:10:33] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":256072472},"message":"Success sent message"}
+[2026-01-21 10:10:33] PAID pid=1020 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-01-21 10:10:35] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072477},"message":"Success sent message"}
+[2026-01-21 10:10:35] PAID pid=1021 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:38] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072483},"message":"Success sent message"}
+[2026-01-21 10:10:38] PAID pid=1021 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:10:40] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":256072486},"message":"Success sent message"}
+[2026-01-21 10:10:40] PAID pid=1022 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-21 10:10:42] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":256072492},"message":"Success sent message"}
+[2026-01-21 10:10:42] PAID pid=1022 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-21 10:10:45] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":256072498},"message":"Success sent message"}
+[2026-01-21 10:10:45] PAID pid=1023 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-01-21 10:10:49] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072511},"message":"Success sent message"}
+[2026-01-21 10:10:49] PAID pid=1014 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:10:51] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072515},"message":"Success sent message"}
+[2026-01-21 10:10:51] PAID pid=1014 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:10:54] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072519},"message":"Success sent message"}
+[2026-01-21 10:10:54] PAID pid=1015 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:10:58] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072889},"message":"Success sent message"}
+[2026-01-21 10:10:58] PAID pid=1016 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:11:04] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":256072909},"message":"Success sent message"}
+[2026-01-21 10:11:04] PAID pid=1017 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-01-21 10:11:12] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":256072922},"message":"Success sent message"}
+[2026-01-21 10:11:12] PAID pid=1018 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-01-21 10:11:17] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072929},"message":"Success sent message"}
+[2026-01-21 10:11:17] PAID pid=1019 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:11:21] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":256072937},"message":"Success sent message"}
+[2026-01-21 10:11:21] PAID pid=1012 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-21 10:11:26] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":256072955},"message":"Success sent message"}
+[2026-01-21 10:11:26] PAID pid=1013 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-21 10:11:29] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072960},"message":"Success sent message"}
+[2026-01-21 10:11:29] PAID pid=1008 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:11:33] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072969},"message":"Success sent message"}
+[2026-01-21 10:11:33] PAID pid=1009 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:11:37] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072982},"message":"Success sent message"}
+[2026-01-21 10:11:37] PAID pid=1010 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:11:39] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256072985},"message":"Success sent message"}
+[2026-01-21 10:11:39] PAID pid=1010 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:11:42] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":256072986},"message":"Success sent message"}
+[2026-01-21 10:11:42] PAID pid=1011 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-01-21 10:11:45] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256072989},"message":"Success sent message"}
+[2026-01-21 10:11:45] PAID pid=1002 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:11:49] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256073001},"message":"Success sent message"}
+[2026-01-21 10:11:49] PAID pid=1003 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-21 10:11:54] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073011},"message":"Success sent message"}
+[2026-01-21 10:11:54] PAID pid=1004 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:11:58] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073019},"message":"Success sent message"}
+[2026-01-21 10:11:58] PAID pid=1005 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:12:01] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256073021},"message":"Success sent message"}
+[2026-01-21 10:12:01] PAID pid=1006 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:12:03] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073385},"message":"Success sent message"}
+[2026-01-21 10:12:03] PAID pid=1007 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:12:08] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256073399},"message":"Success sent message"}
+[2026-01-21 10:12:08] PAID pid=997 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:12:11] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256073406},"message":"Success sent message"}
+[2026-01-21 10:12:11] PAID pid=998 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-21 10:12:15] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073417},"message":"Success sent message"}
+[2026-01-21 10:12:15] PAID pid=999 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:12:23] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073433},"message":"Success sent message"}
+[2026-01-21 10:12:23] PAID pid=1000 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:12:30] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":256073456},"message":"Success sent message"}
+[2026-01-21 10:12:30] PAID pid=1001 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-21 10:12:30] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":256073457},"message":"Success sent message"}
+[2026-01-21 10:12:30] PAID pid=1001 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-01-21 10:12:36] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073469},"message":"Success sent message"}
+[2026-01-21 10:12:36] PAID pid=993 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-21 10:12:43] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256073484},"message":"Success sent message"}
+[2026-01-21 10:12:43] PAID pid=996 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-22 10:40:34] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256186191},"message":"Success sent message"}
+[2026-01-22 10:40:34] PAID pid=1051 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-22 10:40:37] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256186199},"message":"Success sent message"}
+[2026-01-22 10:40:37] PAID pid=1050 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-22 10:40:40] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256186204},"message":"Success sent message"}
+[2026-01-22 10:40:40] PAID pid=1054 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-28 17:21:09] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256847193},"message":"Success sent message"}
+[2026-01-28 17:21:09] PAID pid=1057 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-28 17:21:11] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":256847196},"message":"Success sent message"}
+[2026-01-28 17:21:11] PAID pid=1056 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-28 17:21:14] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":256847197},"message":"Success sent message"}
+[2026-01-28 17:21:14] PAID pid=1056 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-01-28 17:21:16] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256847204},"message":"Success sent message"}
+[2026-01-28 17:21:16] PAID pid=1055 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-28 17:21:18] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256847206},"message":"Success sent message"}
+[2026-01-28 17:21:18] PAID pid=1058 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-28 17:21:36] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847216},"message":"Success sent message"}
+[2026-01-28 17:21:36] PAID pid=1063 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:21:42] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256847220},"message":"Success sent message"}
+[2026-01-28 17:21:42] PAID pid=1062 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-28 17:21:44] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256847224},"message":"Success sent message"}
+[2026-01-28 17:21:44] PAID pid=1061 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-28 17:21:46] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847229},"message":"Success sent message"}
+[2026-01-28 17:21:46] PAID pid=1059 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:21:49] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847232},"message":"Success sent message"}
+[2026-01-28 17:21:49] PAID pid=1067 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:21:51] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847233},"message":"Success sent message"}
+[2026-01-28 17:21:51] PAID pid=1066 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:21:59] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":256847237},"message":"Success sent message"}
+[2026-01-28 17:21:59] PAID pid=1065 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-01-28 17:22:02] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847241},"message":"Success sent message"}
+[2026-01-28 17:22:02] PAID pid=1064 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:22:04] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256847245},"message":"Success sent message"}
+[2026-01-28 17:22:04] PAID pid=1077 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-28 17:22:07] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256847252},"message":"Success sent message"}
+[2026-01-28 17:22:07] PAID pid=1076 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-28 17:22:10] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":256847256},"message":"Success sent message"}
+[2026-01-28 17:22:10] PAID pid=1075 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-01-28 17:22:14] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":256847258},"message":"Success sent message"}
+[2026-01-28 17:22:14] PAID pid=1080 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-28 17:22:16] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847267},"message":"Success sent message"}
+[2026-01-28 17:22:16] PAID pid=1081 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:22:19] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":256847270},"message":"Success sent message"}
+[2026-01-28 17:22:19] PAID pid=1078 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-28 17:22:21] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":256847271},"message":"Success sent message"}
+[2026-01-28 17:22:21] PAID pid=1079 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-01-28 17:22:32] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847273},"message":"Success sent message"}
+[2026-01-28 17:22:32] PAID pid=1068 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:22:34] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":256847276},"message":"Success sent message"}
+[2026-01-28 17:22:34] PAID pid=1069 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-01-28 17:22:36] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":256847279},"message":"Success sent message"}
+[2026-01-28 17:22:36] PAID pid=1070 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-01-28 17:22:38] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256847282},"message":"Success sent message"}
+[2026-01-28 17:22:38] PAID pid=1072 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-28 17:22:41] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256847287},"message":"Success sent message"}
+[2026-01-28 17:22:41] PAID pid=1073 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-28 17:22:44] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256847293},"message":"Success sent message"}
+[2026-01-28 17:22:44] PAID pid=1074 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-29 13:21:32] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256931072},"message":"Success sent message"}
+[2026-01-29 13:21:32] PAID pid=1090 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-29 13:21:35] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256931078},"message":"Success sent message"}
+[2026-01-29 13:21:35] PAID pid=1087 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-01-29 13:21:51] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":256931096},"message":"Success sent message"}
+[2026-01-29 13:21:51] PAID pid=1083 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:24:39] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":258504307},"message":"Success sent message"}
+[2026-02-12 14:24:39] PAID pid=1112 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-12 14:25:10] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258504431},"message":"Success sent message"}
+[2026-02-12 14:25:10] PAID pid=1118 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:25:32] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258504458},"message":"Success sent message"}
+[2026-02-12 14:25:32] PAID pid=1117 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:25:47] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258504473},"message":"Success sent message"}
+[2026-02-12 14:25:47] PAID pid=1116 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:26:04] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258504484},"message":"Success sent message"}
+[2026-02-12 14:26:04] PAID pid=1115 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:40:52] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506523},"message":"Success sent message"}
+[2026-02-12 14:40:52] PAID pid=1187 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:40:55] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506524},"message":"Success sent message"}
+[2026-02-12 14:40:55] PAID pid=1189 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:40:58] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506600},"message":"Success sent message"}
+[2026-02-12 14:40:58] PAID pid=1190 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:41:00] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506602},"message":"Success sent message"}
+[2026-02-12 14:41:00] PAID pid=1191 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:41:03] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":258506611},"message":"Success sent message"}
+[2026-02-12 14:41:03] PAID pid=1183 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-12 14:41:05] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506617},"message":"Success sent message"}
+[2026-02-12 14:41:05] PAID pid=1184 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:41:08] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258506620},"message":"Success sent message"}
+[2026-02-12 14:41:08] PAID pid=1173 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:41:10] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258506629},"message":"Success sent message"}
+[2026-02-12 14:41:10] PAID pid=1174 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:41:13] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258506633},"message":"Success sent message"}
+[2026-02-12 14:41:13] PAID pid=1177 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:41:15] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":258506636},"message":"Success sent message"}
+[2026-02-12 14:41:15] PAID pid=1179 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-12 14:41:18] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506644},"message":"Success sent message"}
+[2026-02-12 14:41:18] PAID pid=1180 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:41:20] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":258506645},"message":"Success sent message"}
+[2026-02-12 14:41:20] PAID pid=1181 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-12 14:41:23] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506653},"message":"Success sent message"}
+[2026-02-12 14:41:23] PAID pid=1170 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:41:26] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506660},"message":"Success sent message"}
+[2026-02-12 14:41:26] PAID pid=1171 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:41:28] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506663},"message":"Success sent message"}
+[2026-02-12 14:41:28] PAID pid=1172 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:41:30] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506664},"message":"Success sent message"}
+[2026-02-12 14:41:30] PAID pid=1161 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:41:33] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506671},"message":"Success sent message"}
+[2026-02-12 14:41:33] PAID pid=1162 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:41:35] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258506676},"message":"Success sent message"}
+[2026-02-12 14:41:35] PAID pid=1164 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:41:37] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506678},"message":"Success sent message"}
+[2026-02-12 14:41:37] PAID pid=1165 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:41:43] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506684},"message":"Success sent message"}
+[2026-02-12 14:41:43] PAID pid=1167 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:41:46] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506686},"message":"Success sent message"}
+[2026-02-12 14:41:46] PAID pid=1168 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:41:48] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506696},"message":"Success sent message"}
+[2026-02-12 14:41:48] PAID pid=1148 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:41:50] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258506698},"message":"Success sent message"}
+[2026-02-12 14:41:50] PAID pid=1149 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:41:53] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":258506702},"message":"Success sent message"}
+[2026-02-12 14:41:53] PAID pid=1150 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-12 14:41:55] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258506708},"message":"Success sent message"}
+[2026-02-12 14:41:55] PAID pid=1151 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:41:58] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506711},"message":"Success sent message"}
+[2026-02-12 14:41:58] PAID pid=1152 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:42:00] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":258506712},"message":"Success sent message"}
+[2026-02-12 14:42:00] PAID pid=1153 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-02-12 14:42:03] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":258506718},"message":"Success sent message"}
+[2026-02-12 14:42:03] PAID pid=1154 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-12 14:42:05] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258506722},"message":"Success sent message"}
+[2026-02-12 14:42:05] PAID pid=1155 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:42:08] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506724},"message":"Success sent message"}
+[2026-02-12 14:42:08] PAID pid=1156 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:42:10] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506730},"message":"Success sent message"}
+[2026-02-12 14:42:10] PAID pid=1157 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:42:40] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506764},"message":"Success sent message"}
+[2026-02-12 14:42:40] PAID pid=1158 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:42:42] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506767},"message":"Success sent message"}
+[2026-02-12 14:42:42] PAID pid=1159 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:42:44] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":258506769},"message":"Success sent message"}
+[2026-02-12 14:42:44] PAID pid=1138 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-12 14:42:47] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258506772},"message":"Success sent message"}
+[2026-02-12 14:42:47] PAID pid=1140 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:42:49] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258506774},"message":"Success sent message"}
+[2026-02-12 14:42:49] PAID pid=1141 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:42:51] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258506777},"message":"Success sent message"}
+[2026-02-12 14:42:51] PAID pid=1143 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:42:54] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506781},"message":"Success sent message"}
+[2026-02-12 14:42:54] PAID pid=1144 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:42:56] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258506784},"message":"Success sent message"}
+[2026-02-12 14:42:56] PAID pid=1145 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:42:58] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258506909},"message":"Success sent message"}
+[2026-02-12 14:42:58] PAID pid=1132 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:43:02] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258507036},"message":"Success sent message"}
+[2026-02-12 14:43:02] PAID pid=1134 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:43:05] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258507041},"message":"Success sent message"}
+[2026-02-12 14:43:05] PAID pid=1135 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:43:08] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258507044},"message":"Success sent message"}
+[2026-02-12 14:43:08] PAID pid=1126 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:43:10] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507046},"message":"Success sent message"}
+[2026-02-12 14:43:10] PAID pid=1127 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:13] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258507053},"message":"Success sent message"}
+[2026-02-12 14:43:13] PAID pid=1128 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:43:19] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507062},"message":"Success sent message"}
+[2026-02-12 14:43:19] PAID pid=1129 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:22] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507069},"message":"Success sent message"}
+[2026-02-12 14:43:22] PAID pid=1130 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:24] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":258507073},"message":"Success sent message"}
+[2026-02-12 14:43:24] PAID pid=1131 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-02-12 14:43:26] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258507075},"message":"Success sent message"}
+[2026-02-12 14:43:26] PAID pid=1123 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:43:28] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507076},"message":"Success sent message"}
+[2026-02-12 14:43:28] PAID pid=1124 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:31] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507078},"message":"Success sent message"}
+[2026-02-12 14:43:31] PAID pid=1125 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:33] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":258507080},"message":"Success sent message"}
+[2026-02-12 14:43:33] PAID pid=1119 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-02-12 14:43:35] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258507083},"message":"Success sent message"}
+[2026-02-12 14:43:35] PAID pid=1120 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:43:38] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507086},"message":"Success sent message"}
+[2026-02-12 14:43:38] PAID pid=1121 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:40] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":258507087},"message":"Success sent message"}
+[2026-02-12 14:43:40] PAID pid=1122 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-12 14:43:43] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507096},"message":"Success sent message"}
+[2026-02-12 14:43:43] PAID pid=1114 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:45] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507102},"message":"Success sent message"}
+[2026-02-12 14:43:45] PAID pid=1103 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:43:47] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":258507104},"message":"Success sent message"}
+[2026-02-12 14:43:47] PAID pid=1105 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-12 14:43:49] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507105},"message":"Success sent message"}
+[2026-02-12 14:43:49] PAID pid=1106 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:52] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507108},"message":"Success sent message"}
+[2026-02-12 14:43:52] PAID pid=1111 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:54] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507186},"message":"Success sent message"}
+[2026-02-12 14:43:54] PAID pid=1091 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:43:58] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507188},"message":"Success sent message"}
+[2026-02-12 14:43:58] PAID pid=1092 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:44:00] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507191},"message":"Success sent message"}
+[2026-02-12 14:44:00] PAID pid=1093 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:44:02] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507298},"message":"Success sent message"}
+[2026-02-12 14:44:02] PAID pid=1094 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:44:05] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507303},"message":"Success sent message"}
+[2026-02-12 14:44:05] PAID pid=1095 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:44:07] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507305},"message":"Success sent message"}
+[2026-02-12 14:44:07] PAID pid=1096 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:44:09] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507306},"message":"Success sent message"}
+[2026-02-12 14:44:09] PAID pid=1097 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:44:11] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507308},"message":"Success sent message"}
+[2026-02-12 14:44:11] PAID pid=1099 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:44:14] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507309},"message":"Success sent message"}
+[2026-02-12 14:44:14] PAID pid=1100 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:44:17] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507315},"message":"Success sent message"}
+[2026-02-12 14:44:17] PAID pid=1101 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-12 14:44:20] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":258507316},"message":"Success sent message"}
+[2026-02-12 14:44:20] PAID pid=1082 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-02-12 14:44:22] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":258507319},"message":"Success sent message"}
+[2026-02-12 14:44:22] PAID pid=1084 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-12 14:44:24] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":258507320},"message":"Success sent message"}
+[2026-02-12 14:44:24] PAID pid=1085 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-02-12 14:44:26] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507322},"message":"Success sent message"}
+[2026-02-12 14:44:26] PAID pid=1086 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:44:28] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":258507324},"message":"Success sent message"}
+[2026-02-12 14:44:28] PAID pid=1089 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-12 14:44:31] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":258507328},"message":"Success sent message"}
+[2026-02-12 14:44:31] PAID pid=1060 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-02-12 14:44:33] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":258507447},"message":"Success sent message"}
+[2026-02-12 14:44:33] PAID pid=1047 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-20 10:49:39] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":259224202},"message":"Success sent message"}
+[2026-02-20 10:49:39] PAID pid=1214 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-20 10:49:43] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":259224215},"message":"Success sent message"}
+[2026-02-20 10:49:43] PAID pid=1210 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-20 10:49:47] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":259224225},"message":"Success sent message"}
+[2026-02-20 10:49:47] PAID pid=1209 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-20 10:49:53] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":259224229},"message":"Success sent message"}
+[2026-02-20 10:49:53] PAID pid=1220 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-20 10:50:25] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":259224254},"message":"Success sent message"}
+[2026-02-20 10:50:25] PAID pid=1216 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-20 10:50:48] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":259224295},"message":"Success sent message"}
+[2026-02-20 10:50:48] PAID pid=1217 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-20 10:50:58] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":259224305},"message":"Success sent message"}
+[2026-02-20 10:50:58] PAID pid=1208 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-20 10:51:07] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":259224321},"message":"Success sent message"}
+[2026-02-20 10:51:07] PAID pid=1213 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-20 10:51:16] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224375},"message":"Success sent message"}
+[2026-02-20 10:51:16] PAID pid=1203 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:51:31] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224390},"message":"Success sent message"}
+[2026-02-20 10:51:31] PAID pid=1204 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:51:39] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":259224393},"message":"Success sent message"}
+[2026-02-20 10:51:39] PAID pid=1199 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-20 10:51:49] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224402},"message":"Success sent message"}
+[2026-02-20 10:51:49] PAID pid=1200 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:51:57] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":259224415},"message":"Success sent message"}
+[2026-02-20 10:51:57] PAID pid=1194 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-20 10:52:04] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":259224427},"message":"Success sent message"}
+[2026-02-20 10:52:04] PAID pid=1226 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-20 10:52:13] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224439},"message":"Success sent message"}
+[2026-02-20 10:52:13] PAID pid=1195 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:52:20] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224502},"message":"Success sent message"}
+[2026-02-20 10:52:20] PAID pid=1196 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:52:27] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224512},"message":"Success sent message"}
+[2026-02-20 10:52:27] PAID pid=1197 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:52:35] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":259224517},"message":"Success sent message"}
+[2026-02-20 10:52:35] PAID pid=1185 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-20 10:52:56] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224535},"message":"Success sent message"}
+[2026-02-20 10:52:56] PAID pid=1186 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:53:04] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224544},"message":"Success sent message"}
+[2026-02-20 10:53:04] PAID pid=1192 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-20 10:53:11] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":259224552},"message":"Success sent message"}
+[2026-02-20 10:53:11] PAID pid=1193 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-20 10:53:19] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259224555},"message":"Success sent message"}
+[2026-02-20 10:53:19] PAID pid=1182 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-22 13:39:01] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":259428395},"message":"Success sent message"}
+[2026-02-22 13:39:01] PAID pid=1231 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-22 13:39:15] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428405},"message":"Success sent message"}
+[2026-02-22 13:39:15] PAID pid=1232 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:39:28] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259428410},"message":"Success sent message"}
+[2026-02-22 13:39:28] PAID pid=1233 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-22 13:39:40] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259428416},"message":"Success sent message"}
+[2026-02-22 13:39:40] PAID pid=1234 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-22 13:39:59] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":259428428},"message":"Success sent message"}
+[2026-02-22 13:39:59] PAID pid=1228 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-22 13:40:31] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428455},"message":"Success sent message"}
+[2026-02-22 13:40:31] PAID pid=1221 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:40:49] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428470},"message":"Success sent message"}
+[2026-02-22 13:40:49] PAID pid=1222 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:41:03] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428480},"message":"Success sent message"}
+[2026-02-22 13:41:03] PAID pid=1223 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:41:19] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428491},"message":"Success sent message"}
+[2026-02-22 13:41:19] PAID pid=1224 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:41:37] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":259428502},"message":"Success sent message"}
+[2026-02-22 13:41:37] PAID pid=1225 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-22 13:41:53] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428517},"message":"Success sent message"}
+[2026-02-22 13:41:53] PAID pid=1219 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:42:05] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":259428526},"message":"Success sent message"}
+[2026-02-22 13:42:05] PAID pid=1212 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-22 13:42:16] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":259428532},"message":"Success sent message"}
+[2026-02-22 13:42:16] PAID pid=1205 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-22 13:42:25] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":259428539},"message":"Success sent message"}
+[2026-02-22 13:42:25] PAID pid=1188 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 12:56:38] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114098},"message":"Success sent message"}
+[2026-02-28 12:56:38] PAID pid=1248 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 12:56:58] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114246},"message":"Success sent message"}
+[2026-02-28 12:56:58] PAID pid=1252 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 12:57:19] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114278},"message":"Success sent message"}
+[2026-02-28 12:57:19] PAID pid=1251 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 12:57:37] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114299},"message":"Success sent message"}
+[2026-02-28 12:57:37] PAID pid=1258 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 12:58:27] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114426},"message":"Success sent message"}
+[2026-02-28 12:58:27] PAID pid=1255 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 12:58:45] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114501},"message":"Success sent message"}
+[2026-02-28 12:58:45] PAID pid=1104 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 12:58:59] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114517},"message":"Success sent message"}
+[2026-02-28 12:58:59] PAID pid=1249 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 12:59:13] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114528},"message":"Success sent message"}
+[2026-02-28 12:59:13] PAID pid=1254 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 12:59:34] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114595},"message":"Success sent message"}
+[2026-02-28 12:59:34] PAID pid=1263 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 12:59:48] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114612},"message":"Success sent message"}
+[2026-02-28 12:59:48] PAID pid=1262 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 13:00:09] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114663},"message":"Success sent message"}
+[2026-02-28 13:00:09] PAID pid=1259 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 13:00:23] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114676},"message":"Success sent message"}
+[2026-02-28 13:00:23] PAID pid=1250 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:00:35] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":260114688},"message":"Success sent message"}
+[2026-02-28 13:00:35] PAID pid=1266 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-02-28 13:00:53] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":260114728},"message":"Success sent message"}
+[2026-02-28 13:00:53] PAID pid=1235 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-28 13:00:55] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":260114730},"message":"Success sent message"}
+[2026-02-28 13:00:55] PAID pid=1236 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-02-28 13:00:57] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114732},"message":"Success sent message"}
+[2026-02-28 13:00:57] PAID pid=1237 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:00:59] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114734},"message":"Success sent message"}
+[2026-02-28 13:00:59] PAID pid=1243 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:01:01] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114738},"message":"Success sent message"}
+[2026-02-28 13:01:01] PAID pid=1242 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:01:04] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":260114745},"message":"Success sent message"}
+[2026-02-28 13:01:04] PAID pid=1241 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-02-28 13:01:07] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114746},"message":"Success sent message"}
+[2026-02-28 13:01:07] PAID pid=1240 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:01:09] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114781},"message":"Success sent message"}
+[2026-02-28 13:01:09] PAID pid=1239 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 13:01:11] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114787},"message":"Success sent message"}
+[2026-02-28 13:01:11] PAID pid=1238 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:01:13] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114792},"message":"Success sent message"}
+[2026-02-28 13:01:13] PAID pid=1246 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 13:01:15] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":260114795},"message":"Success sent message"}
+[2026-02-28 13:01:15] PAID pid=1245 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-02-28 13:01:17] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":260114815},"message":"Success sent message"}
+[2026-02-28 13:01:17] PAID pid=1244 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-02-28 13:01:20] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":260114822},"message":"Success sent message"}
+[2026-02-28 13:01:20] PAID pid=1268 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-28 13:01:22] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":260114824},"message":"Success sent message"}
+[2026-02-28 13:01:22] PAID pid=1267 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-02-28 13:01:25] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":260114827},"message":"Success sent message"}
+[2026-02-28 13:01:25] PAID pid=1269 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-03-14 11:09:38] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":261615355},"message":"Success sent message"}
+[2026-03-14 11:09:38] PAID pid=1279 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-14 11:09:56] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":261615378},"message":"Success sent message"}
+[2026-03-14 11:09:56] PAID pid=1278 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-14 11:10:25] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":261615415},"message":"Success sent message"}
+[2026-03-14 11:10:25] PAID pid=1277 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-14 11:10:47] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":261615439},"message":"Success sent message"}
+[2026-03-14 11:10:47] PAID pid=1276 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-14 11:11:04] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":261615460},"message":"Success sent message"}
+[2026-03-14 11:11:04] PAID pid=1274 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-14 11:11:46] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615573},"message":"Success sent message"}
+[2026-03-14 11:11:46] PAID pid=1281 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:12:01] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615591},"message":"Success sent message"}
+[2026-03-14 11:12:01] PAID pid=1280 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:12:33] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":261615644},"message":"Success sent message"}
+[2026-03-14 11:12:33] PAID pid=1287 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-03-14 11:12:51] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615661},"message":"Success sent message"}
+[2026-03-14 11:12:51] PAID pid=1286 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:13:08] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615676},"message":"Success sent message"}
+[2026-03-14 11:13:08] PAID pid=1285 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:13:22] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261615711},"message":"Success sent message"}
+[2026-03-14 11:13:22] PAID pid=1284 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-14 11:14:02] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261615773},"message":"Success sent message"}
+[2026-03-14 11:14:02] PAID pid=1283 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-14 11:14:33] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":261615809},"message":"Success sent message"}
+[2026-03-14 11:14:33] PAID pid=1282 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-14 11:15:12] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615858},"message":"Success sent message"}
+[2026-03-14 11:15:12] PAID pid=1293 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:15:26] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615864},"message":"Success sent message"}
+[2026-03-14 11:15:26] PAID pid=1292 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:15:41] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615878},"message":"Success sent message"}
+[2026-03-14 11:15:41] PAID pid=1291 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:15:54] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":261615909},"message":"Success sent message"}
+[2026-03-14 11:15:54] PAID pid=1289 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-03-14 11:16:09] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":261615925},"message":"Success sent message"}
+[2026-03-14 11:16:09] PAID pid=1288 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-14 11:16:30] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261615951},"message":"Success sent message"}
+[2026-03-14 11:16:30] PAID pid=1303 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:17:14] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261615999},"message":"Success sent message"}
+[2026-03-14 11:17:14] PAID pid=1302 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-14 11:17:39] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261616011},"message":"Success sent message"}
+[2026-03-14 11:17:39] PAID pid=1301 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-14 11:17:52] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":261616021},"message":"Success sent message"}
+[2026-03-14 11:17:52] PAID pid=1300 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-14 11:18:07] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":261616043},"message":"Success sent message"}
+[2026-03-14 11:18:07] PAID pid=1299 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-14 11:18:23] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261616058},"message":"Success sent message"}
+[2026-03-14 11:18:23] PAID pid=1305 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-14 11:18:45] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261616081},"message":"Success sent message"}
+[2026-03-14 11:18:45] PAID pid=1304 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-14 11:19:45] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261616142},"message":"Success sent message"}
+[2026-03-14 11:19:45] PAID pid=1313 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 11:20:01] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261616164},"message":"Success sent message"}
+[2026-03-14 11:20:01] PAID pid=1312 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 12:16:35] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261619531},"message":"Success sent message"}
+[2026-03-14 12:16:35] PAID pid=1307 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 12:17:00] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261619541},"message":"Success sent message"}
+[2026-03-14 12:17:00] PAID pid=1306 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 12:17:18] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261619556},"message":"Success sent message"}
+[2026-03-14 12:17:18] PAID pid=1308 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 12:17:40] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261619635},"message":"Success sent message"}
+[2026-03-14 12:17:40] PAID pid=1319 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-14 12:17:56] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261619643},"message":"Success sent message"}
+[2026-03-14 12:17:56] PAID pid=1318 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-15 13:23:37] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":261695088},"message":"Success sent message"}
+[2026-03-15 13:23:37] PAID pid=1315 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-15 13:24:05] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":261695109},"message":"Success sent message"}
+[2026-03-15 13:24:05] PAID pid=1320 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-15 13:24:48] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":261695131},"message":"Success sent message"}
+[2026-03-15 13:24:48] PAID pid=1295 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-15 13:25:36] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":261695295},"message":"Success sent message"}
+[2026-03-15 13:25:36] PAID pid=1311 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-03-15 13:25:56] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261695305},"message":"Success sent message"}
+[2026-03-15 13:25:56] PAID pid=1323 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-15 13:26:35] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":261695339},"message":"Success sent message"}
+[2026-03-15 13:26:35] PAID pid=1321 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-25 10:38:37] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262463951},"message":"Success sent message"}
+[2026-03-25 10:38:37] PAID pid=1316 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-25 10:38:53] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":262463963},"message":"Success sent message"}
+[2026-03-25 10:38:53] PAID pid=982 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-03-25 10:39:37] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":262464003},"message":"Success sent message"}
+[2026-03-25 10:39:37] PAID pid=1326 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-25 10:40:11] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":262464037},"message":"Success sent message"}
+[2026-03-25 10:40:11] PAID pid=1329 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-03-25 10:40:37] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":262464055},"message":"Success sent message"}
+[2026-03-25 10:40:37] PAID pid=1328 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-25 11:01:10] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":262466362},"message":"Success sent message"}
+[2026-03-25 11:01:10] PAID pid=1273 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-25 11:01:12] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":262466364},"message":"Success sent message"}
+[2026-03-25 11:01:12] PAID pid=1272 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-25 11:01:14] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":262466367},"message":"Success sent message"}
+[2026-03-25 11:01:14] PAID pid=1271 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-25 11:01:18] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":262466370},"message":"Success sent message"}
+[2026-03-25 11:01:18] PAID pid=1270 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-03-25 11:01:21] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":262466373},"message":"Success sent message"}
+[2026-03-25 11:01:21] PAID pid=1297 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-03-25 11:01:23] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":262466376},"message":"Success sent message"}
+[2026-03-25 11:01:23] PAID pid=1296 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-03-25 11:01:26] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":262466383},"message":"Success sent message"}
+[2026-03-25 11:01:26] PAID pid=1314 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-03-25 11:01:28] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":262466388},"message":"Success sent message"}
+[2026-03-25 11:01:28] PAID pid=1310 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-03-25 11:01:32] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":262466392},"message":"Success sent message"}
+[2026-03-25 11:01:32] PAID pid=1322 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-03-25 11:01:55] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":262466418},"message":"Success sent message"}
+[2026-03-25 11:01:55] PAID pid=1331 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-04-17 11:12:27] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529565},"message":"Success sent message"}
+[2026-04-17 11:12:27] PAID pid=1354 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:30] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529571},"message":"Success sent message"}
+[2026-04-17 11:12:30] PAID pid=1353 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:34] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529574},"message":"Success sent message"}
+[2026-04-17 11:12:34] PAID pid=1351 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:36] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529577},"message":"Success sent message"}
+[2026-04-17 11:12:36] PAID pid=1380 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:40] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529583},"message":"Success sent message"}
+[2026-04-17 11:12:40] PAID pid=1387 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:42] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529586},"message":"Success sent message"}
+[2026-04-17 11:12:42] PAID pid=1386 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:45] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529589},"message":"Success sent message"}
+[2026-04-17 11:12:45] PAID pid=1397 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:47] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529591},"message":"Success sent message"}
+[2026-04-17 11:12:47] PAID pid=1396 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-17 11:12:50] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":264529601},"message":"Success sent message"}
+[2026-04-17 11:12:50] PAID pid=1393 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-24 11:26:27] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265139545},"message":"Success sent message"}
+[2026-04-24 11:26:27] PAID pid=1358 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:26:43] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265139614},"message":"Success sent message"}
+[2026-04-24 11:26:43] PAID pid=1357 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:27:12] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265139656},"message":"Success sent message"}
+[2026-04-24 11:27:12] PAID pid=1356 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:27:42] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265139722},"message":"Success sent message"}
+[2026-04-24 11:27:42] PAID pid=1355 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:29:02] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265139893},"message":"Success sent message"}
+[2026-04-24 11:29:02] PAID pid=1367 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:29:27] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265139947},"message":"Success sent message"}
+[2026-04-24 11:29:27] PAID pid=1366 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:29:48] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265139973},"message":"Success sent message"}
+[2026-04-24 11:29:48] PAID pid=1365 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:30:05] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265139994},"message":"Success sent message"}
+[2026-04-24 11:30:05] PAID pid=1362 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-24 11:30:23] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265140009},"message":"Success sent message"}
+[2026-04-24 11:30:23] PAID pid=1375 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:30:44] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140028},"message":"Success sent message"}
+[2026-04-24 11:30:44] PAID pid=1374 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:31:22] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265140088},"message":"Success sent message"}
+[2026-04-24 11:31:22] PAID pid=1373 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:31:47] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140128},"message":"Success sent message"}
+[2026-04-24 11:31:47] PAID pid=1372 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:32:15] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265140158},"message":"Success sent message"}
+[2026-04-24 11:32:15] PAID pid=1371 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:32:31] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265140175},"message":"Success sent message"}
+[2026-04-24 11:32:31] PAID pid=1370 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-24 11:33:02] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140218},"message":"Success sent message"}
+[2026-04-24 11:33:02] PAID pid=1369 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:33:24] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140261},"message":"Success sent message"}
+[2026-04-24 11:33:24] PAID pid=1368 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:33:42] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140467},"message":"Success sent message"}
+[2026-04-24 11:33:42] PAID pid=1382 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:33:58] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140478},"message":"Success sent message"}
+[2026-04-24 11:33:58] PAID pid=1379 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:34:16] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265140495},"message":"Success sent message"}
+[2026-04-24 11:34:16] PAID pid=1378 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-24 11:34:34] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265140511},"message":"Success sent message"}
+[2026-04-24 11:34:34] PAID pid=1377 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-24 11:35:09] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265140737},"message":"Success sent message"}
+[2026-04-24 11:35:09] PAID pid=1376 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-24 11:35:23] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265140749},"message":"Success sent message"}
+[2026-04-24 11:35:23] PAID pid=1388 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-24 11:35:38] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265140763},"message":"Success sent message"}
+[2026-04-24 11:35:38] PAID pid=1385 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-24 11:35:55] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265140782},"message":"Success sent message"}
+[2026-04-24 11:35:55] PAID pid=1384 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-24 11:36:09] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265140808},"message":"Success sent message"}
+[2026-04-24 11:36:09] PAID pid=1395 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-24 11:36:24] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":265140827},"message":"Success sent message"}
+[2026-04-24 11:36:24] PAID pid=1394 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-04-24 11:36:44] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":265140845},"message":"Success sent message"}
+[2026-04-24 11:36:44] PAID pid=1392 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-04-24 11:37:14] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":265140930},"message":"Success sent message"}
+[2026-04-24 11:37:14] PAID pid=1391 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-04-24 11:39:26] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265141280},"message":"Success sent message"}
+[2026-04-24 11:39:26] PAID pid=1390 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:21:07] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265292695},"message":"Success sent message"}
+[2026-04-26 11:21:07] PAID pid=1528 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:21:09] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265292696},"message":"Success sent message"}
+[2026-04-26 11:21:09] PAID pid=1529 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:21:11] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265292699},"message":"Success sent message"}
+[2026-04-26 11:21:11] PAID pid=1530 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:21:13] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292701},"message":"Success sent message"}
+[2026-04-26 11:21:13] PAID pid=1523 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:21:15] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292702},"message":"Success sent message"}
+[2026-04-26 11:21:15] PAID pid=1524 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:21:18] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292705},"message":"Success sent message"}
+[2026-04-26 11:21:18] PAID pid=1525 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:21:19] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292707},"message":"Success sent message"}
+[2026-04-26 11:21:19] PAID pid=1527 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:21:21] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292708},"message":"Success sent message"}
+[2026-04-26 11:21:21] PAID pid=1519 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:21:23] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292711},"message":"Success sent message"}
+[2026-04-26 11:21:23] PAID pid=1520 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:21:25] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292713},"message":"Success sent message"}
+[2026-04-26 11:21:25] PAID pid=1521 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:21:27] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292714},"message":"Success sent message"}
+[2026-04-26 11:21:27] PAID pid=1522 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:21:30] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292717},"message":"Success sent message"}
+[2026-04-26 11:21:30] PAID pid=1511 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:21:32] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292718},"message":"Success sent message"}
+[2026-04-26 11:21:32] PAID pid=1512 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:21:34] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292719},"message":"Success sent message"}
+[2026-04-26 11:21:34] PAID pid=1514 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:21:36] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292720},"message":"Success sent message"}
+[2026-04-26 11:21:36] PAID pid=1515 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:21:38] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292721},"message":"Success sent message"}
+[2026-04-26 11:21:38] PAID pid=1516 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:21:39] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292722},"message":"Success sent message"}
+[2026-04-26 11:21:39] PAID pid=1517 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:21:41] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292724},"message":"Success sent message"}
+[2026-04-26 11:21:41] PAID pid=1518 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:21:43] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292725},"message":"Success sent message"}
+[2026-04-26 11:21:43] PAID pid=1508 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:21:45] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292727},"message":"Success sent message"}
+[2026-04-26 11:21:45] PAID pid=1509 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:21:47] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292728},"message":"Success sent message"}
+[2026-04-26 11:21:47] PAID pid=1510 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:21:50] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292729},"message":"Success sent message"}
+[2026-04-26 11:21:50] PAID pid=1505 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:21:51] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":265292730},"message":"Success sent message"}
+[2026-04-26 11:21:51] PAID pid=1506 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-04-26 11:21:54] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292734},"message":"Success sent message"}
+[2026-04-26 11:21:54] PAID pid=1507 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:21:56] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292735},"message":"Success sent message"}
+[2026-04-26 11:21:56] PAID pid=1501 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:21:58] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292738},"message":"Success sent message"}
+[2026-04-26 11:21:58] PAID pid=1502 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:21:59] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292739},"message":"Success sent message"}
+[2026-04-26 11:21:59] PAID pid=1503 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:22:05] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292742},"message":"Success sent message"}
+[2026-04-26 11:22:05] PAID pid=1504 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:06] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292744},"message":"Success sent message"}
+[2026-04-26 11:22:06] PAID pid=1493 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:22:08] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292745},"message":"Success sent message"}
+[2026-04-26 11:22:08] PAID pid=1494 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:10] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292747},"message":"Success sent message"}
+[2026-04-26 11:22:10] PAID pid=1495 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:11] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292751},"message":"Success sent message"}
+[2026-04-26 11:22:11] PAID pid=1496 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:13] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292755},"message":"Success sent message"}
+[2026-04-26 11:22:13] PAID pid=1497 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:15] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292757},"message":"Success sent message"}
+[2026-04-26 11:22:15] PAID pid=1483 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:22:17] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292760},"message":"Success sent message"}
+[2026-04-26 11:22:17] PAID pid=1484 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:22:19] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292762},"message":"Success sent message"}
+[2026-04-26 11:22:19] PAID pid=1485 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:21] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292764},"message":"Success sent message"}
+[2026-04-26 11:22:21] PAID pid=1486 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:23] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292766},"message":"Success sent message"}
+[2026-04-26 11:22:23] PAID pid=1487 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:25] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292767},"message":"Success sent message"}
+[2026-04-26 11:22:25] PAID pid=1488 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:27] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292769},"message":"Success sent message"}
+[2026-04-26 11:22:27] PAID pid=1489 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:33] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292770},"message":"Success sent message"}
+[2026-04-26 11:22:33] PAID pid=1490 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:22:36] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292771},"message":"Success sent message"}
+[2026-04-26 11:22:36] PAID pid=1491 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:38] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292772},"message":"Success sent message"}
+[2026-04-26 11:22:38] PAID pid=1492 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:22:41] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292774},"message":"Success sent message"}
+[2026-04-26 11:22:41] PAID pid=1474 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:43] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292775},"message":"Success sent message"}
+[2026-04-26 11:22:43] PAID pid=1475 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:22:46] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292778},"message":"Success sent message"}
+[2026-04-26 11:22:46] PAID pid=1476 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:48] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292782},"message":"Success sent message"}
+[2026-04-26 11:22:48] PAID pid=1477 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:22:50] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292784},"message":"Success sent message"}
+[2026-04-26 11:22:50] PAID pid=1478 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:22:53] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292788},"message":"Success sent message"}
+[2026-04-26 11:22:53] PAID pid=1479 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:22:55] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292789},"message":"Success sent message"}
+[2026-04-26 11:22:55] PAID pid=1480 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:22:58] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292792},"message":"Success sent message"}
+[2026-04-26 11:22:58] PAID pid=1482 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:22:59] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292800},"message":"Success sent message"}
+[2026-04-26 11:22:59] PAID pid=1470 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:23:01] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292809},"message":"Success sent message"}
+[2026-04-26 11:23:01] PAID pid=1471 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:03] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292812},"message":"Success sent message"}
+[2026-04-26 11:23:03] PAID pid=1472 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:23:05] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292815},"message":"Success sent message"}
+[2026-04-26 11:23:05] PAID pid=1473 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:23:07] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292820},"message":"Success sent message"}
+[2026-04-26 11:23:07] PAID pid=1463 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:23:09] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292822},"message":"Success sent message"}
+[2026-04-26 11:23:09] PAID pid=1464 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:11] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292826},"message":"Success sent message"}
+[2026-04-26 11:23:11] PAID pid=1465 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:14] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292830},"message":"Success sent message"}
+[2026-04-26 11:23:14] PAID pid=1466 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:17] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292834},"message":"Success sent message"}
+[2026-04-26 11:23:17] PAID pid=1467 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:18] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292838},"message":"Success sent message"}
+[2026-04-26 11:23:18] PAID pid=1468 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:23:20] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292840},"message":"Success sent message"}
+[2026-04-26 11:23:20] PAID pid=1469 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:23:22] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292845},"message":"Success sent message"}
+[2026-04-26 11:23:22] PAID pid=1458 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:24] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292846},"message":"Success sent message"}
+[2026-04-26 11:23:24] PAID pid=1459 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:26] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292847},"message":"Success sent message"}
+[2026-04-26 11:23:26] PAID pid=1460 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:31] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292850},"message":"Success sent message"}
+[2026-04-26 11:23:31] PAID pid=1461 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:31] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292851},"message":"Success sent message"}
+[2026-04-26 11:23:31] PAID pid=1461 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:32] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292852},"message":"Success sent message"}
+[2026-04-26 11:23:32] PAID pid=1461 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:34] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292853},"message":"Success sent message"}
+[2026-04-26 11:23:34] PAID pid=1462 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:23:38] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292855},"message":"Success sent message"}
+[2026-04-26 11:23:38] PAID pid=1444 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:23:40] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292856},"message":"Success sent message"}
+[2026-04-26 11:23:40] PAID pid=1445 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:23:42] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292857},"message":"Success sent message"}
+[2026-04-26 11:23:42] PAID pid=1446 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:44] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292859},"message":"Success sent message"}
+[2026-04-26 11:23:44] PAID pid=1448 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:46] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265292860},"message":"Success sent message"}
+[2026-04-26 11:23:46] PAID pid=1449 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:23:47] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292863},"message":"Success sent message"}
+[2026-04-26 11:23:47] PAID pid=1450 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:23:49] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292865},"message":"Success sent message"}
+[2026-04-26 11:23:49] PAID pid=1452 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:23:51] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292868},"message":"Success sent message"}
+[2026-04-26 11:23:51] PAID pid=1453 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:23:53] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292871},"message":"Success sent message"}
+[2026-04-26 11:23:53] PAID pid=1454 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:23:54] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292873},"message":"Success sent message"}
+[2026-04-26 11:23:54] PAID pid=1434 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:23:59] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292877},"message":"Success sent message"}
+[2026-04-26 11:23:59] PAID pid=1435 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:02] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292878},"message":"Success sent message"}
+[2026-04-26 11:24:02] PAID pid=1436 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:05] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292880},"message":"Success sent message"}
+[2026-04-26 11:24:05] PAID pid=1437 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:24:06] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292883},"message":"Success sent message"}
+[2026-04-26 11:24:06] PAID pid=1438 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:08] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292887},"message":"Success sent message"}
+[2026-04-26 11:24:08] PAID pid=1439 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:24:10] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292892},"message":"Success sent message"}
+[2026-04-26 11:24:10] PAID pid=1440 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:12] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292898},"message":"Success sent message"}
+[2026-04-26 11:24:12] PAID pid=1441 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:14] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292901},"message":"Success sent message"}
+[2026-04-26 11:24:14] PAID pid=1442 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:24:16] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292903},"message":"Success sent message"}
+[2026-04-26 11:24:16] PAID pid=1431 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:18] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292904},"message":"Success sent message"}
+[2026-04-26 11:24:18] PAID pid=1432 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:20] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292905},"message":"Success sent message"}
+[2026-04-26 11:24:20] PAID pid=1433 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:24:22] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292907},"message":"Success sent message"}
+[2026-04-26 11:24:22] PAID pid=1421 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:23] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292911},"message":"Success sent message"}
+[2026-04-26 11:24:23] PAID pid=1422 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:25] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292912},"message":"Success sent message"}
+[2026-04-26 11:24:25] PAID pid=1424 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:27] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292914},"message":"Success sent message"}
+[2026-04-26 11:24:27] PAID pid=1425 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:24:29] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265292917},"message":"Success sent message"}
+[2026-04-26 11:24:29] PAID pid=1426 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:24:31] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292921},"message":"Success sent message"}
+[2026-04-26 11:24:31] PAID pid=1427 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:33] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292922},"message":"Success sent message"}
+[2026-04-26 11:24:33] PAID pid=1428 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:35] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292923},"message":"Success sent message"}
+[2026-04-26 11:24:35] PAID pid=1429 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:37] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292927},"message":"Success sent message"}
+[2026-04-26 11:24:37] PAID pid=1416 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:39] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292928},"message":"Success sent message"}
+[2026-04-26 11:24:39] PAID pid=1417 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:41] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292930},"message":"Success sent message"}
+[2026-04-26 11:24:41] PAID pid=1418 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:24:43] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292932},"message":"Success sent message"}
+[2026-04-26 11:24:43] PAID pid=1420 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:24:45] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292933},"message":"Success sent message"}
+[2026-04-26 11:24:45] PAID pid=1406 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:24:57] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292944},"message":"Success sent message"}
+[2026-04-26 11:24:57] PAID pid=1407 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:00] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292945},"message":"Success sent message"}
+[2026-04-26 11:25:00] PAID pid=1408 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:25:02] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292947},"message":"Success sent message"}
+[2026-04-26 11:25:02] PAID pid=1409 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:05] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":265292948},"message":"Success sent message"}
+[2026-04-26 11:25:05] PAID pid=1410 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-04-26 11:25:08] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292950},"message":"Success sent message"}
+[2026-04-26 11:25:08] PAID pid=1411 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:10] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265292953},"message":"Success sent message"}
+[2026-04-26 11:25:10] PAID pid=1412 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:25:16] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292956},"message":"Success sent message"}
+[2026-04-26 11:25:16] PAID pid=1413 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:25:18] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292957},"message":"Success sent message"}
+[2026-04-26 11:25:18] PAID pid=1414 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:25:20] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292960},"message":"Success sent message"}
+[2026-04-26 11:25:20] PAID pid=1415 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:25:21] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292964},"message":"Success sent message"}
+[2026-04-26 11:25:21] PAID pid=1398 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:25:24] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292969},"message":"Success sent message"}
+[2026-04-26 11:25:24] PAID pid=1399 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:27] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292971},"message":"Success sent message"}
+[2026-04-26 11:25:27] PAID pid=1400 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:30] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292973},"message":"Success sent message"}
+[2026-04-26 11:25:30] PAID pid=1401 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:32] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":265292974},"message":"Success sent message"}
+[2026-04-26 11:25:32] PAID pid=1402 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-04-26 11:25:34] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265292982},"message":"Success sent message"}
+[2026-04-26 11:25:34] PAID pid=1403 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:25:36] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":265292987},"message":"Success sent message"}
+[2026-04-26 11:25:36] PAID pid=1404 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-04-26 11:25:38] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":265292989},"message":"Success sent message"}
+[2026-04-26 11:25:38] PAID pid=1405 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-04-26 11:25:40] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292990},"message":"Success sent message"}
+[2026-04-26 11:25:40] PAID pid=1389 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:25:42] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265292991},"message":"Success sent message"}
+[2026-04-26 11:25:42] PAID pid=1346 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:25:44] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265292994},"message":"Success sent message"}
+[2026-04-26 11:25:44] PAID pid=1348 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:25:47] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265292997},"message":"Success sent message"}
+[2026-04-26 11:25:47] PAID pid=1349 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:25:50] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265293000},"message":"Success sent message"}
+[2026-04-26 11:25:50] PAID pid=1350 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:25:52] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265293003},"message":"Success sent message"}
+[2026-04-26 11:25:52] PAID pid=1352 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:25:56] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":265293007},"message":"Success sent message"}
+[2026-04-26 11:25:56] PAID pid=1340 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-04-26 11:25:58] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265293008},"message":"Success sent message"}
+[2026-04-26 11:25:58] PAID pid=1341 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:26:00] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265293009},"message":"Success sent message"}
+[2026-04-26 11:26:00] PAID pid=1342 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:26:04] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":265293013},"message":"Success sent message"}
+[2026-04-26 11:26:04] PAID pid=1343 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-04-26 11:26:06] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265293014},"message":"Success sent message"}
+[2026-04-26 11:26:06] PAID pid=1344 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:26:09] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265293018},"message":"Success sent message"}
+[2026-04-26 11:26:09] PAID pid=1339 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:26:19] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":265293023},"message":"Success sent message"}
+[2026-04-26 11:26:19] PAID pid=1334 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-04-26 11:26:22] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265293027},"message":"Success sent message"}
+[2026-04-26 11:26:22] PAID pid=1335 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:26:24] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":265293028},"message":"Success sent message"}
+[2026-04-26 11:26:24] PAID pid=1336 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-04-26 11:26:26] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":265293030},"message":"Success sent message"}
+[2026-04-26 11:26:26] PAID pid=1337 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-04-26 11:26:29] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265293031},"message":"Success sent message"}
+[2026-04-26 11:26:29] PAID pid=1338 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:26:31] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265293035},"message":"Success sent message"}
+[2026-04-26 11:26:31] PAID pid=1332 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:26:33] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265293036},"message":"Success sent message"}
+[2026-04-26 11:26:33] PAID pid=1333 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-04-26 11:26:36] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":265293037},"message":"Success sent message"}
+[2026-04-26 11:26:36] PAID pid=1325 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:05:59] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923867},"message":"Success sent message"}
+[2026-05-14 07:05:59] PAID pid=1264 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:02] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923871},"message":"Success sent message"}
+[2026-05-14 07:06:02] PAID pid=1260 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:05] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923876},"message":"Success sent message"}
+[2026-05-14 07:06:05] PAID pid=1364 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:08] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923880},"message":"Success sent message"}
+[2026-05-14 07:06:08] PAID pid=1363 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:11] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923883},"message":"Success sent message"}
+[2026-05-14 07:06:11] PAID pid=1361 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:14] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923884},"message":"Success sent message"}
+[2026-05-14 07:06:14] PAID pid=1360 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:17] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923886},"message":"Success sent message"}
+[2026-05-14 07:06:17] PAID pid=1359 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:20] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923890},"message":"Success sent message"}
+[2026-05-14 07:06:20] PAID pid=1455 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:23] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923892},"message":"Success sent message"}
+[2026-05-14 07:06:23] PAID pid=1451 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:25] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923893},"message":"Success sent message"}
+[2026-05-14 07:06:25] PAID pid=1447 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:28] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923895},"message":"Success sent message"}
+[2026-05-14 07:06:28] PAID pid=1457 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:31] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923897},"message":"Success sent message"}
+[2026-05-14 07:06:31] PAID pid=1456 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:34] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923900},"message":"Success sent message"}
+[2026-05-14 07:06:34] PAID pid=1526 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:06:36] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923902},"message":"Success sent message"}
+[2026-05-14 07:06:36] PAID pid=1535 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:40] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923904},"message":"Success sent message"}
+[2026-05-14 07:06:40] PAID pid=1534 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:42] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":266923907},"message":"Success sent message"}
+[2026-05-14 07:06:42] PAID pid=1533 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-05-14 07:06:45] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":266923908},"message":"Success sent message"}
+[2026-05-14 07:06:45] PAID pid=1532 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-05-14 07:06:47] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923909},"message":"Success sent message"}
+[2026-05-14 07:06:47] PAID pid=1531 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:06:50] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":266923913},"message":"Success sent message"}
+[2026-05-14 07:06:50] PAID pid=1540 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-14 07:06:58] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923919},"message":"Success sent message"}
+[2026-05-14 07:06:58] PAID pid=1539 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:00] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266923921},"message":"Success sent message"}
+[2026-05-14 07:07:00] PAID pid=1538 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:07:02] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266923922},"message":"Success sent message"}
+[2026-05-14 07:07:02] PAID pid=1537 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:07:04] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266923925},"message":"Success sent message"}
+[2026-05-14 07:07:04] PAID pid=1536 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:07:06] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":266923926},"message":"Success sent message"}
+[2026-05-14 07:07:06] PAID pid=1543 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-05-14 07:07:09] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":266923927},"message":"Success sent message"}
+[2026-05-14 07:07:09] PAID pid=1542 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-14 07:07:11] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923929},"message":"Success sent message"}
+[2026-05-14 07:07:11] PAID pid=1550 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:13] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923932},"message":"Success sent message"}
+[2026-05-14 07:07:13] PAID pid=1549 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:16] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923936},"message":"Success sent message"}
+[2026-05-14 07:07:16] PAID pid=1548 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:18] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266923938},"message":"Success sent message"}
+[2026-05-14 07:07:18] PAID pid=1547 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:07:20] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923939},"message":"Success sent message"}
+[2026-05-14 07:07:20] PAID pid=1546 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:23] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923942},"message":"Success sent message"}
+[2026-05-14 07:07:23] PAID pid=1545 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:25] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266923943},"message":"Success sent message"}
+[2026-05-14 07:07:25] PAID pid=1544 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:07:27] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923944},"message":"Success sent message"}
+[2026-05-14 07:07:27] PAID pid=1557 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:29] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923945},"message":"Success sent message"}
+[2026-05-14 07:07:29] PAID pid=1556 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:07:31] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":266923947},"message":"Success sent message"}
+[2026-05-14 07:07:31] PAID pid=1555 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-05-14 07:07:33] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923949},"message":"Success sent message"}
+[2026-05-14 07:07:33] PAID pid=1554 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:35] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923950},"message":"Success sent message"}
+[2026-05-14 07:07:35] PAID pid=1553 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:07:37] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":266923951},"message":"Success sent message"}
+[2026-05-14 07:07:37] PAID pid=1552 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-05-14 07:07:39] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923952},"message":"Success sent message"}
+[2026-05-14 07:07:39] PAID pid=1551 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:41] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923953},"message":"Success sent message"}
+[2026-05-14 07:07:41] PAID pid=1563 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:43] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923956},"message":"Success sent message"}
+[2026-05-14 07:07:43] PAID pid=1562 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:45] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":266923958},"message":"Success sent message"}
+[2026-05-14 07:07:45] PAID pid=1561 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-05-14 07:07:46] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923959},"message":"Success sent message"}
+[2026-05-14 07:07:46] PAID pid=1560 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:48] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923960},"message":"Success sent message"}
+[2026-05-14 07:07:48] PAID pid=1559 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:50] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923961},"message":"Success sent message"}
+[2026-05-14 07:07:50] PAID pid=1558 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:52] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923964},"message":"Success sent message"}
+[2026-05-14 07:07:52] PAID pid=1567 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:54] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923967},"message":"Success sent message"}
+[2026-05-14 07:07:54] PAID pid=1565 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:07:55] STARSENDER to=085716794537 HTTP=200 err= resp={"success":true,"data":{"message_id":266923969},"message":"Success sent message"}
+[2026-05-14 07:07:55] PAID pid=1564 -> WA TERKIRIM ke 085716794537 (username=Asep) HTTP 200
+[2026-05-14 07:07:57] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266923971},"message":"Success sent message"}
+[2026-05-14 07:07:57] PAID pid=1569 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:08:18] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923984},"message":"Success sent message"}
+[2026-05-14 07:08:18] PAID pid=1568 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:08:20] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923985},"message":"Success sent message"}
+[2026-05-14 07:08:20] PAID pid=1581 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:08:22] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923987},"message":"Success sent message"}
+[2026-05-14 07:08:22] PAID pid=1580 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:08:24] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266923988},"message":"Success sent message"}
+[2026-05-14 07:08:24] PAID pid=1579 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:26] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923992},"message":"Success sent message"}
+[2026-05-14 07:08:26] PAID pid=1578 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:08:28] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266923995},"message":"Success sent message"}
+[2026-05-14 07:08:28] PAID pid=1576 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:08:30] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":266923998},"message":"Success sent message"}
+[2026-05-14 07:08:30] PAID pid=1575 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-05-14 07:08:32] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924002},"message":"Success sent message"}
+[2026-05-14 07:08:32] PAID pid=1573 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:34] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":266924006},"message":"Success sent message"}
+[2026-05-14 07:08:34] PAID pid=1587 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-14 07:08:36] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":266924007},"message":"Success sent message"}
+[2026-05-14 07:08:36] PAID pid=1585 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-05-14 07:08:38] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":266924008},"message":"Success sent message"}
+[2026-05-14 07:08:38] PAID pid=1584 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-05-14 07:08:40] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924010},"message":"Success sent message"}
+[2026-05-14 07:08:40] PAID pid=1588 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:42] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924012},"message":"Success sent message"}
+[2026-05-14 07:08:42] PAID pid=1592 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:44] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":266924017},"message":"Success sent message"}
+[2026-05-14 07:08:44] PAID pid=1591 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-05-14 07:08:46] STARSENDER to=081295502455 HTTP=200 err= resp={"success":true,"data":{"message_id":266924020},"message":"Success sent message"}
+[2026-05-14 07:08:46] PAID pid=1590 -> WA TERKIRIM ke 081295502455 (username=ALFARIZ) HTTP 200
+[2026-05-14 07:08:48] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":266924021},"message":"Success sent message"}
+[2026-05-14 07:08:48] PAID pid=1589 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-14 07:08:49] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266924023},"message":"Success sent message"}
+[2026-05-14 07:08:49] PAID pid=1595 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:08:51] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924026},"message":"Success sent message"}
+[2026-05-14 07:08:51] PAID pid=1594 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:53] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924088},"message":"Success sent message"}
+[2026-05-14 07:08:53] PAID pid=1606 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:55] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924091},"message":"Success sent message"}
+[2026-05-14 07:08:55] PAID pid=1605 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:08:57] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266924094},"message":"Success sent message"}
+[2026-05-14 07:08:57] PAID pid=1603 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:08:59] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924097},"message":"Success sent message"}
+[2026-05-14 07:08:59] PAID pid=1602 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:09:01] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924098},"message":"Success sent message"}
+[2026-05-14 07:09:01] PAID pid=1601 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:09:03] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":266924105},"message":"Success sent message"}
+[2026-05-14 07:09:03] PAID pid=1600 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-14 07:09:05] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266924117},"message":"Success sent message"}
+[2026-05-14 07:09:05] PAID pid=1597 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:09:07] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924118},"message":"Success sent message"}
+[2026-05-14 07:09:07] PAID pid=1612 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:09:09] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266924121},"message":"Success sent message"}
+[2026-05-14 07:09:09] PAID pid=1610 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-14 07:09:11] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":266924122},"message":"Success sent message"}
+[2026-05-14 07:09:11] PAID pid=1609 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-14 07:09:13] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":266924124},"message":"Success sent message"}
+[2026-05-14 07:09:13] PAID pid=1615 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-14 07:09:15] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":266924125},"message":"Success sent message"}
+[2026-05-14 07:09:15] PAID pid=1614 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-16 06:43:33] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":267099461},"message":"Success sent message"}
+[2026-05-16 06:43:33] PAID pid=1621 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-05-16 06:43:36] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":267099464},"message":"Success sent message"}
+[2026-05-16 06:43:36] PAID pid=1620 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-16 06:43:39] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":267099465},"message":"Success sent message"}
+[2026-05-16 06:43:39] PAID pid=1619 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-16 06:43:41] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":267099466},"message":"Success sent message"}
+[2026-05-16 06:43:41] PAID pid=1622 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-30 14:14:41] STARSENDER to=085819613690 HTTP=200 err= resp={"success":true,"data":{"message_id":268339733},"message":"Success sent message"}
+[2026-05-30 14:14:41] PAID pid=1659 -> WA TERKIRIM ke 085819613690 (username=Wahyunur) HTTP 200
+[2026-05-30 14:14:56] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":268339741},"message":"Success sent message"}
+[2026-05-30 14:14:56] PAID pid=1611 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-30 14:14:58] STARSENDER to=085882689209 HTTP=200 err= resp={"success":true,"data":{"message_id":268339743},"message":"Success sent message"}
+[2026-05-30 14:14:58] PAID pid=1608 -> WA TERKIRIM ke 085882689209 (username=basir) HTTP 200
+[2026-05-30 14:15:00] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339744},"message":"Success sent message"}
+[2026-05-30 14:15:00] PAID pid=1613 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:02] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339746},"message":"Success sent message"}
+[2026-05-30 14:15:02] PAID pid=1623 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:05] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":268339749},"message":"Success sent message"}
+[2026-05-30 14:15:05] PAID pid=1625 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-30 14:15:07] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":268339751},"message":"Success sent message"}
+[2026-05-30 14:15:07] PAID pid=1624 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-30 14:15:09] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339752},"message":"Success sent message"}
+[2026-05-30 14:15:09] PAID pid=1632 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-30 14:15:11] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339753},"message":"Success sent message"}
+[2026-05-30 14:15:11] PAID pid=1631 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:13] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339754},"message":"Success sent message"}
+[2026-05-30 14:15:13] PAID pid=1630 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:14] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339756},"message":"Success sent message"}
+[2026-05-30 14:15:14] PAID pid=1629 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:16] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339758},"message":"Success sent message"}
+[2026-05-30 14:15:16] PAID pid=1628 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:18] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339762},"message":"Success sent message"}
+[2026-05-30 14:15:18] PAID pid=1627 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:20] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339764},"message":"Success sent message"}
+[2026-05-30 14:15:20] PAID pid=1626 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-30 14:15:21] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":268339767},"message":"Success sent message"}
+[2026-05-30 14:15:21] PAID pid=1634 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-30 14:15:23] STARSENDER to=087880034645 HTTP=200 err= resp={"success":true,"data":{"message_id":268339768},"message":"Success sent message"}
+[2026-05-30 14:15:23] PAID pid=1633 -> WA TERKIRIM ke 087880034645 (username=Luckyman) HTTP 200
+[2026-05-30 14:15:25] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339770},"message":"Success sent message"}
+[2026-05-30 14:15:25] PAID pid=1636 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-30 14:15:27] STARSENDER to=081511363188 HTTP=200 err= resp={"success":true,"data":{"message_id":268339772},"message":"Success sent message"}
+[2026-05-30 14:15:27] PAID pid=1635 -> WA TERKIRIM ke 081511363188 (username=Mekacil) HTTP 200
+[2026-05-30 14:15:29] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339774},"message":"Success sent message"}
+[2026-05-30 14:15:29] PAID pid=1637 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:30] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":268339777},"message":"Success sent message"}
+[2026-05-30 14:15:30] PAID pid=1650 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-30 14:15:32] STARSENDER to=089520630437 HTTP=200 err= resp={"success":true,"data":{"message_id":268339779},"message":"Success sent message"}
+[2026-05-30 14:15:32] PAID pid=1649 -> WA TERKIRIM ke 089520630437 (username=jihan) HTTP 200
+[2026-05-30 14:15:34] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339784},"message":"Success sent message"}
+[2026-05-30 14:15:34] PAID pid=1648 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:36] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339789},"message":"Success sent message"}
+[2026-05-30 14:15:36] PAID pid=1647 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-30 14:15:37] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339792},"message":"Success sent message"}
+[2026-05-30 14:15:37] PAID pid=1655 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:39] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339797},"message":"Success sent message"}
+[2026-05-30 14:15:39] PAID pid=1654 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:41] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339799},"message":"Success sent message"}
+[2026-05-30 14:15:41] PAID pid=1653 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:43] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":268339801},"message":"Success sent message"}
+[2026-05-30 14:15:43] PAID pid=1652 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-30 14:15:45] STARSENDER to=088808761717 HTTP=200 err= resp={"success":true,"data":{"message_id":268339804},"message":"Success sent message"}
+[2026-05-30 14:15:45] PAID pid=1651 -> WA TERKIRIM ke 088808761717 (username=Gofur) HTTP 200
+[2026-05-30 14:15:46] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339805},"message":"Success sent message"}
+[2026-05-30 14:15:46] PAID pid=1657 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
+[2026-05-30 14:15:48] STARSENDER to=085863779774 HTTP=200 err= resp={"success":true,"data":{"message_id":268339828},"message":"Success sent message"}
+[2026-05-30 14:15:48] PAID pid=1656 -> WA TERKIRIM ke 085863779774 (username=ARIES) HTTP 200
+[2026-05-30 14:15:50] STARSENDER to=08161131741 HTTP=200 err= resp={"success":true,"data":{"message_id":268339829},"message":"Success sent message"}
+[2026-05-30 14:15:50] PAID pid=1658 -> WA TERKIRIM ke 08161131741 (username=Ramdani) HTTP 200
