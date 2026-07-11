@@ -14,8 +14,27 @@ import { PrismaClient } from "../generated/prisma/client";
 // timeout. Gejalanya: tombol login macet di "Memproses..." tanpa pesan error.
 // "127.0.0.1" memaksa IPv4 langsung, menghindari masalah ini sepenuhnya.
 
+function sanitizeDatabaseUrl(raw: string): string {
+  let value = raw.trim();
+
+  // Kalau nilainya ke-copy-paste termasuk "DATABASE_URL=" di depan (kesalahan
+  // umum saat isi Environment Variables di hPanel: value field diisi baris
+  // penuh dari .env, bukan cuma nilainya), buang prefix itu.
+  value = value.replace(/^DATABASE_URL\s*=\s*/i, "");
+
+  // Buang tanda kutip pembungkus (" atau ') kalau ikut ke-paste.
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
+    value = value.slice(1, -1);
+  }
+
+  return value.trim();
+}
+
 function parseDatabaseUrl(url: string) {
-  const parsed = new URL(url);
+  const parsed = new URL(sanitizeDatabaseUrl(url));
   return {
     host: parsed.hostname,
     port: parsed.port ? parseInt(parsed.port, 10) : 3306,
