@@ -5,7 +5,14 @@ import { PrismaClient } from "../generated/prisma/client";
 // (@prisma/adapter-mariadb) -- tidak butuh binary engine terpisah, cukup
 // npm install biasa. Cocok untuk hosting seperti Hostinger.
 //
-// DATABASE_URL contoh: mysql://user:password@localhost:3306/u272457353_erprealnet
+// DATABASE_URL contoh: mysql://user:password@127.0.0.1:3306/u272457353_erprealnet
+//
+// CATATAN PENTING: pakai "127.0.0.1", JANGAN "localhost". Di banyak hosting
+// (termasuk Hostinger Node.js App), "localhost" bisa ter-resolve ke IPv6 (::1)
+// dulu oleh Node -- kalau MySQL/MariaDB di server itu cuma dengar di IPv4,
+// koneksi akan menggantung lama (bukan langsung gagal) sebelum akhirnya
+// timeout. Gejalanya: tombol login macet di "Memproses..." tanpa pesan error.
+// "127.0.0.1" memaksa IPv4 langsung, menghindari masalah ini sepenuhnya.
 
 function parseDatabaseUrl(url: string) {
   const parsed = new URL(url);
@@ -30,6 +37,10 @@ function createPrismaClient() {
   const adapter = new PrismaMariaDb({
     ...parseDatabaseUrl(databaseUrl),
     connectionLimit: 5,
+    // Batas waktu koneksi 10 detik -- kalau database tidak bisa dijangkau,
+    // request akan gagal cepat dengan error jelas, bukan menggantung tanpa
+    // batas waktu (yang sebelumnya bikin tombol login macet di "Memproses...").
+    connectTimeout: 10000,
   });
   return new PrismaClient({ adapter });
 }

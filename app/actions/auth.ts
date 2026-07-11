@@ -17,10 +17,16 @@ export async function loginAction(_prev: LoginState, formData: FormData): Promis
     return { error: "Username dan password wajib diisi." };
   }
 
-  const karyawan = await prisma.hrKaryawan.findFirst({
-    where: { username },
-    select: { id: true, nama: true, divisi: true, password: true, status_aktif: true },
-  });
+  let karyawan;
+  try {
+    karyawan = await prisma.hrKaryawan.findFirst({
+      where: { username },
+      select: { id: true, nama: true, divisi: true, password: true, status_aktif: true },
+    });
+  } catch (err) {
+    console.error("loginAction: gagal konek/query ke database", err);
+    return { error: "Tidak bisa terhubung ke database. Coba lagi sebentar lagi, atau hubungi Administrator." };
+  }
 
   if (!karyawan || !verifyPassword(password, karyawan.password)) {
     return { error: "Username atau password salah." };
