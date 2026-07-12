@@ -1,9 +1,10 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useRef } from "react";
 import { FormField, TextInput, SelectInput } from "@/components/ui/form-field";
 import type { CabutFormState } from "./actions";
 import { ALLOWED_POP } from "./cabut-helpers";
+import PelangganPicker from "@/components/pelanggan-picker";
 
 export default function CabutForm({
   action,
@@ -12,6 +13,10 @@ export default function CabutForm({
 }) {
   const [state, formAction, isPending] = useActionState(action, {});
   const err = (name: string) => state?.fieldErrors?.[name];
+
+  const namaRef = useRef<HTMLInputElement>(null);
+  const waRef = useRef<HTMLInputElement>(null);
+  const alamatRef = useRef<HTMLInputElement>(null);
 
   return (
     <form action={formAction} className="space-y-4">
@@ -26,6 +31,16 @@ export default function CabutForm({
         </div>
       )}
 
+      <FormField label="Cari Pelanggan dari Master (opsional)">
+        <PelangganPicker
+          onPick={(hit) => {
+            if (namaRef.current) namaRef.current.value = hit.nama;
+            if (waRef.current) waRef.current.value = hit.telp;
+            if (alamatRef.current && hit.alamat) alamatRef.current.value = hit.alamat;
+          }}
+        />
+      </FormField>
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <FormField label="POP" required>
           <SelectInput name="pop" defaultValue={ALLOWED_POP[0]}>
@@ -37,13 +52,13 @@ export default function CabutForm({
           </SelectInput>
         </FormField>
         <FormField label="Nama Pelanggan" required error={err("nama")}>
-          <TextInput name="nama" />
+          <TextInput ref={namaRef} name="nama" />
         </FormField>
         <FormField label="No. WhatsApp" required error={err("wa")}>
-          <TextInput name="wa" placeholder="08xxxxxxxxxx" />
+          <TextInput ref={waRef} name="wa" placeholder="08xxxxxxxxxx" />
         </FormField>
         <FormField label="Alamat Lengkap" required error={err("alamat")} full>
-          <TextInput name="alamat" />
+          <TextInput ref={alamatRef} name="alamat" />
         </FormField>
         <FormField label="Alasan Cabut" required error={err("alasan")} full>
           <TextInput name="alasan" />

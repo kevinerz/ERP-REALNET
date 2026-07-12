@@ -469,3 +469,30 @@ model MitraResmi {
   updated_at DateTime?
   @@map("mitra_resmi")
 }
+
+// Master Data Pelanggan -- daftar pelanggan ringan (nama/telp/alamat/username)
+// dipakai untuk dropdown/autocomplete cari pelanggan di form Gangguan, Cabut,
+// dll (menggantikan cara lama di tiket/index.php yang query LANGSUNG ke
+// database billing terpisah "u272457353_dapel" tiap kali halaman dibuka).
+// TIDAK menyimpan data billing (paket/harga/invoice/status bayar) -- itu
+// sengaja diringkas, cukup identitas dasar untuk pencarian.
+// Diisi dari 2 sumber:
+//   1. Import sekali dari data billing lama MixRadius (CSV export
+//      Exported_Customers-ppp) -- sumber = 'mixradius_import'.
+//   2. Otomatis ke-upsert (by telp) tiap ada pelanggan baru lewat form
+//      Pelanggan/Instalasi (PSB) -- sumber = 'psb'.
+model PelangganMaster {
+  id Int @id @default(autoincrement())
+  nama String @db.VarChar(255)
+  telp String @db.VarChar(20)
+  alamat String? @db.Text
+  username String? @db.VarChar(100)
+  email String? @db.VarChar(100)
+  pop String? @db.VarChar(50)
+  sumber String @default("manual") @db.VarChar(30)
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  @@index([telp])
+  @@index([nama])
+  @@map("pelanggan_master")
+}

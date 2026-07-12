@@ -7,6 +7,8 @@
 //     <TextInput name="nama" defaultValue={d.nama} />
 //   </FormField>
 
+import { forwardRef } from "react";
+
 export const inputBaseClass =
   "w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none disabled:bg-gray-50 disabled:text-gray-400";
 
@@ -36,14 +38,16 @@ export function FormField({
 }
 
 type InputProps = React.InputHTMLAttributes<HTMLInputElement>;
-export function TextInput(props: InputProps) {
-  return <input {...props} className={`${inputBaseClass} ${props.className ?? ""}`} />;
-}
+// forwardRef supaya field ini bisa diisi otomatis secara imperatif (mis. dari
+// PelangganPicker) tanpa perlu mengubah input jadi controlled.
+export const TextInput = forwardRef<HTMLInputElement, InputProps>(function TextInput(props, ref) {
+  return <input ref={ref} {...props} className={`${inputBaseClass} ${props.className ?? ""}`} />;
+});
 
 type TextAreaProps = React.TextareaHTMLAttributes<HTMLTextAreaElement>;
-export function TextArea(props: TextAreaProps) {
-  return <textarea rows={2} {...props} className={`${inputBaseClass} ${props.className ?? ""}`} />;
-}
+export const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(function TextArea(props, ref) {
+  return <textarea ref={ref} rows={2} {...props} className={`${inputBaseClass} ${props.className ?? ""}`} />;
+});
 
 type SelectProps = React.SelectHTMLAttributes<HTMLSelectElement>;
 export function SelectInput(props: SelectProps) {

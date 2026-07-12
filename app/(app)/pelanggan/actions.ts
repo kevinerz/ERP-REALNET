@@ -4,6 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { requireSession } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { upsertPelangganMaster } from "@/lib/pelanggan-master";
 
 export type PelangganFormState = {
   error?: string;
@@ -70,6 +71,21 @@ export async function createPelanggan(
     return { error: "Gagal menyimpan data pelanggan. Coba lagi." };
   }
 
+  // Simpan juga ke Master Data Pelanggan (dicocokkan by no. telepon) supaya
+  // pelanggan baru langsung muncul di dropdown/autocomplete Gangguan, Cabut,
+  // dll -- tidak perlu import manual lagi seperti data lama MixRadius.
+  try {
+    await upsertPelangganMaster({
+      nama: data.nama,
+      telp: data.telp,
+      alamat: data.alamat,
+      pop: data.pop,
+      sumber: "psb",
+    });
+  } catch (err) {
+    console.error("upsertPelangganMaster (createPelanggan) error:", err);
+  }
+
   revalidatePath("/pelanggan");
   redirect(`/pelanggan/${newId}`);
 }
@@ -94,6 +110,19 @@ export async function updatePelanggan(
   } catch (err) {
     console.error(err);
     return { error: "Gagal menyimpan perubahan. Coba lagi." };
+  }
+
+  // Ikut perbarui Master Data Pelanggan kalau nama/alamat/telp dikoreksi di sini.
+  try {
+    await upsertPelangganMaster({
+      nama: data.nama,
+      telp: data.telp,
+      alamat: data.alamat,
+      pop: data.pop,
+      sumber: "psb",
+    });
+  } catch (err) {
+    console.error("upsertPelangganMaster (updatePelanggan) error:", err);
   }
 
   revalidatePath("/pelanggan");

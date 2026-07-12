@@ -54,6 +54,14 @@ export type NavGroup = {
 //   Logistik > AMS (Aset) -> pengajuan_aset.php
 //   Logistik > IMS (Inventory) -> dashims.php
 //   Pengaturan > POP/ODP/PAKET -> pop.php, dashodp.php, dashpaketku.php
+//   Master Data Pelanggan -> BARU (bukan migrasi 1:1) -- menggantikan cara
+//     lama di tiket/index.php yang query langsung ke database billing
+//     terpisah "u272457353_dapel" (tbl_customers) tiap kali halaman dibuka.
+//     Diisi dari import sekali data billing lama MixRadius (3.749 pelanggan,
+//     lihat import_pelanggan_master.sql) + otomatis bertambah tiap ada
+//     pelanggan baru/diedit lewat form Pelanggan/Instalasi (PSB). Dipakai
+//     sebagai sumber dropdown/autocomplete (components/pelanggan-picker.tsx)
+//     di form Gangguan & Cabut.
 
 export const NAV_GROUPS: NavGroup[] = [
   {
@@ -64,6 +72,7 @@ export const NAV_GROUPS: NavGroup[] = [
     title: "Pelanggan",
     items: [
       { label: "Pelanggan / Instalasi", href: "/pelanggan", icon: IconUsers },
+      { label: "Master Data Pelanggan", href: "/pelanggan-master", icon: IconUsers },
       { label: "Antrian Aktivasi", href: "/pelanggan/aktivasi", icon: IconTicket },
       { label: "Proses PSB", href: "/pelanggan/proses-psb", icon: IconWifi },
       { label: "Selesai PSB", href: "/pelanggan/selesai-psb", icon: IconCheck },
