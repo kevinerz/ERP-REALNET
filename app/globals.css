@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+/* ============================================================================
+   Tema visual ERP REALNET -- "korporat, tegas, gaya mobile banking"
+   (BCA mobile / Livin by Mandiri): satu warna aksen biru yang kuat, latar
+   gelap navy untuk sidebar, kartu putih dengan elevasi jelas, tipografi
+   tegas (Inter). Skala warna kustom didefinisikan di sini (Tailwind v4,
+   config berbasis CSS, bukan tailwind.config.js) supaya bisa dipakai lewat
+   utility class biasa: bg-brand-600, text-brand-700, dst.
+   ============================================================================ */
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-300: #8fc2fb;
+  --color-brand-400: #5b9bf5;
+  --color-brand-500: #2f72ef;
+  --color-brand-600: #155eeb;
+  --color-brand-700: #0f4cc4;
+  --color-brand-800: #123f9c;
+  --color-brand-900: #14357d;
+  --color-brand-950: #0b1f4d;
+}
+
+@layer utilities {
+  /* Elevasi kartu ala aplikasi mobile banking -- lebih terasa dari shadow-sm
+     bawaan Tailwind, tapi tetap halus (bukan shadow-xl yang terlalu berat). */
+  .shadow-elevated {
+    box-shadow:
+      0 1px 2px 0 rgba(15, 23, 42, 0.04),
+      0 8px 20px -6px rgba(15, 23, 42, 0.12);
+  }
+  .shadow-elevated-lg {
+    box-shadow:
+      0 2px 4px 0 rgba(15, 23, 42, 0.06),
+      0 20px 44px -14px rgba(15, 23, 42, 0.22);
+  }
+}

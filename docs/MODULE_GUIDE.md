@@ -84,6 +84,41 @@ textarea/alamat.
 - Baris kosong pakai `components/ui/empty-state.tsx`:
   `<EmptyTableRow colSpan={N} />` (atau `message="..."` custom).
 
+## Tema visual & state loading
+
+Sejak revamp UI (gaya "korporat, tegas, mbanking" -- BCA mobile/Livin by
+Mandiri), ada beberapa hal baru yang harus dipakai di modul baru:
+
+- **Warna aksen**: pakai `brand-{50..950}` (didefinisikan di
+  `app/globals.css` lewat `@theme`), BUKAN `blue-*` bawaan Tailwind, supaya
+  konsisten satu warna brand di seluruh app. Contoh: `bg-brand-600`,
+  `text-brand-700`, `focus:ring-brand-500/30`.
+- **Elevasi kartu**: pakai class `shadow-elevated` (kartu biasa) atau
+  `shadow-elevated-lg` (modal/dropdown/hero section) yang didefinisikan di
+  `app/globals.css`, bukan `shadow-sm`/`shadow-lg` bawaan Tailwind -- efeknya
+  lebih halus dan konsisten dengan kartu dashboard/sidebar.
+- **Tombol**: pakai `components/ui/button.tsx` (`<Button variant="primary"
+  isLoading={isPending} loadingText="Menyimpan...">Simpan</Button>`) untuk
+  tombol submit/aksi baru, supaya style + state loading (spinner) konsisten.
+  Form-form lama yang masih pakai `<button>` polos tidak wajib diubah
+  sekaligus, tapi modul BARU sebaiknya langsung pakai `Button`.
+- **Loading state per halaman**: setiap `page.tsx` yang fetch data server-side
+  (list/detail) WAJIB punya `loading.tsx` di folder yang sama, dipakai lewat
+  komponen skeleton bersama di `components/ui/skeleton.tsx`:
+
+  ```tsx
+  // app/(app)/<modul>/loading.tsx
+  import { ListPageSkeleton } from "@/components/ui/skeleton";
+
+  export default function ModulLoading() {
+    // statCount = jumlah kartu statistik di atas tabel (0 kalau tidak ada)
+    return <ListPageSkeleton statCount={0} cols={6} rows={8} />;
+  }
+  ```
+
+  Next.js otomatis menampilkan `loading.tsx` ini selagi `page.tsx` masih
+  fetch data (App Router streaming) -- tidak perlu Suspense manual.
+
 ## Notifikasi WhatsApp
 
 Jangan panggil API Starsender langsung dari action modul. Pakai service di
@@ -112,10 +147,12 @@ tambah/ubah grup di situ saja, satu tempat.
 2. Buat folder `app/(app)/<modul>/` dengan struktur di atas.
 3. Kalau ada dropdown/enum, taruh di `<modul>-helpers.ts` sebagai
    `const XXX_OPTIONS = [...] as const`.
-4. Form pakai primitive `components/ui/form-field.tsx`.
+4. Form pakai primitive `components/ui/form-field.tsx` + `components/ui/button.tsx`.
 5. Error unique constraint pakai `lib/db-errors.ts`.
 6. Notifikasi (kalau ada) pakai `lib/notifications/`.
-7. Verifikasi dengan `tsc --noEmit` sebelum commit (lihat catatan Prisma stub
+7. Tambah `loading.tsx` (pakai `ListPageSkeleton` dari
+   `components/ui/skeleton.tsx`) untuk setiap `page.tsx` yang fetch data.
+8. Verifikasi dengan `tsc --noEmit` sebelum commit (lihat catatan Prisma stub
    di bawah).
 
 ## Catatan verifikasi lokal (sandbox dev)
